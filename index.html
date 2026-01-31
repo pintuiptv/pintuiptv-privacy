@@ -20,9 +20,29 @@
 
   <h2>Dati trattati</h2>
   <ul>
-    <li><strong>Dati tecnici</strong> (es. log di errore, informazioni sul dispositivo) solo se necessari per funzionamento/diagnostica.</li>
-    <li><strong>Dati di utilizzo</strong> (es. preferiti, cronologia, impostazioni) salvati localmente sul dispositivo e visibili solo all'utente e non all'autore dell'applicazione.</li>
-    <li><strong>Dati forniti dall’utente</strong> (es. liste/URL/credenziali) utilizzati esclusivamente per erogare il servizio nell’applicazione e visibili solo all'utente e non all'autore dell'applicazione..</li>
+    <li><strong>Dati tecnici</strong> (es. log di errore e informazioni sul dispositivo) solo se necessari per funzionamento/diagnostica.</li>
+
+    <li><strong>Dati di utilizzo</strong> (es. preferiti, cronologia, impostazioni, progressi di visione) salvati localmente sul dispositivo.
+      Per impostazione predefinita questi dati sono visibili solo all’utente e non al titolare dell’applicazione.</li>
+
+    <li><strong>Dati forniti dall’utente</strong> (es. liste/URL/credenziali) utilizzati esclusivamente per erogare le funzionalità dell’applicazione.
+      Per impostazione predefinita restano sul dispositivo e sono visibili solo all’utente.</li>
+
+    <li><strong>Dati di sincronizzazione cloud</strong> (solo se l’utente attiva la funzione di sincronizzazione):
+      una copia di alcuni dati di utilizzo può essere caricata su cloud per consentire backup/ripristino e continuità tra dispositivi.</li>
+  </ul>
+
+  <h2>Sincronizzazione Cloud (Firebase)</h2>
+  <p>
+    Se l’utente attiva la sincronizzazione, l’app utilizza servizi :contentReference[oaicite:2]{index=2} (in particolare database :contentReference[oaicite:3]{index=3})
+    per memorizzare una copia dei dati necessari alla sincronizzazione tra dispositivi.
+  </p>
+  <ul>
+    <li><strong>Cosa può essere sincronizzato</strong> (a seconda delle funzionalità attivate nell’app):
+      preferiti, stati di visione/progresso, cronologia, impostazioni e altri dati di utilizzo.</li>
+    <li><strong>Identificatore di sincronizzazione</strong>: può essere utilizzato un codice/ID scelto o generato dall’app per collegare i dati al profilo di sync dell’utente.</li>
+    <li><strong>Finalità</strong>: backup, ripristino, continuità di utilizzo su più dispositivi.</li>
+    <li><strong>Base giuridica</strong>: consenso dell’utente, espresso tramite l’attivazione della funzione di sincronizzazione (e disattivabile in qualunque momento).</li>
   </ul>
 
   <h2>Finalità</h2>
@@ -30,16 +50,34 @@
     <li>Fornire e mantenere le funzionalità dell’app.</li>
     <li>Assistenza e risoluzione problemi.</li>
     <li>Sicurezza e prevenzione abusi.</li>
+    <li>Backup e sincronizzazione tra dispositivi (solo se attivata dall’utente).</li>
   </ul>
 
   <h2>Condivisione dei dati</h2>
-  <p>I dati non vengono trattati nè venduti. Eventuali fornitori terzi (es. analytics/crash reporting) sono utilizzati solo se attivati e secondo le rispettive informative.</p>
+  <p>
+    I dati non vengono venduti. I dati locali restano sul dispositivo dell’utente.
+    Se l’utente attiva la sincronizzazione cloud, i dati di sincronizzazione vengono trattati tramite servizi :contentReference[oaicite:4]{index=4} secondo le relative informative.
+    Eventuali altri fornitori terzi (es. crash reporting/analytics) sono utilizzati solo se presenti/attivati e secondo le rispettive informative.
+  </p>
 
   <h2>Conservazione</h2>
-  <p>I dati locali restano sul dispositivo finché l’utente non li elimina o disinstalla l’app. Eventuali dati su server terzi seguono le policy dei rispettivi fornitori.</p>
+  <ul>
+    <li><strong>Dati locali</strong>: restano sul dispositivo finché l’utente non li elimina o disinstalla l’app.</li>
+    <li><strong>Dati su cloud (Firebase)</strong>: restano disponibili per la sincronizzazione finché l’utente mantiene attiva la funzione oppure finché non richiede la cancellazione.
+      La disattivazione della sincronizzazione o la rigenerazione/azzeramento dell’ID di sync (se previsto dall’app) può interrompere l’associazione ai dati precedentemente caricati.</li>
+  </ul>
+
+  <h2>Sicurezza</h2>
+  <p>
+    I dati sono trasmessi tramite connessioni protette (HTTPS/TLS).
+    I servizi cloud utilizzati (se attivati) applicano misure di sicurezza previste dal fornitore, incluse protezioni in transito e a riposo.
+  </p>
 
   <h2>Diritti dell’utente</h2>
-  <p>L’utente può richiedere informazioni a: <a href="mailto:pintuiptv.help@outlook.com">pintuiptv.help@outlook.com</a></p>
+  <p>
+    L’utente può richiedere informazioni e assistenza sulla gestione dei dati, inclusa l’eventuale cancellazione dei dati di sincronizzazione, contattando:
+    <a href="mailto:pintuiptv.help@outlook.com">pintuiptv.help@outlook.com</a>
+  </p>
 
   <h2>Contatti</h2>
   <p>Email: <a href="mailto:pintuiptv.help@outlook.com">pintuiptv.help@outlook.com</a></p>
