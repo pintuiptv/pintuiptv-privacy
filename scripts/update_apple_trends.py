@@ -21,6 +21,41 @@ STOREFRONTS = [
         "id": "it",
         "label": "Italia",
         "language": "it-IT",
+    },
+    {
+        "id": "us",
+        "label": "Stati Uniti",
+        "language": "en-US",
+    },
+    {
+        "id": "gb",
+        "label": "Regno Unito",
+        "language": "en-GB",
+    },
+    {
+        "id": "fr",
+        "label": "Francia",
+        "language": "fr-FR",
+    },
+    {
+        "id": "de",
+        "label": "Germania",
+        "language": "de-DE",
+    },
+    {
+        "id": "es",
+        "label": "Spagna",
+        "language": "es-ES",
+    },
+    {
+        "id": "br",
+        "label": "Brasile",
+        "language": "pt-BR",
+    },
+    {
+        "id": "jp",
+        "label": "Giappone",
+        "language": "ja-JP",
     }
 ]
 
@@ -215,10 +250,12 @@ def build_section_from_chart(
     section_file_name = f"{section_id}.json"
     items_url = f"{REPO_RAW_BASE_URL}/trends/sections/{section_file_name}"
 
+    display_title = f"{chart_name} - {storefront_label}"
+    
     section_detail = {
         "version": 1,
         "id": section_id,
-        "title": chart_name,
+        "title": display_title,
         "subtitle": f"Classifica Apple Music - {storefront_label}",
         "provider": provider,
         "storefront": storefront,
@@ -230,7 +267,7 @@ def build_section_from_chart(
 
     section_index = {
         "id": section_id,
-        "title": chart_name,
+        "title": display_title,
         "subtitle": f"Classifica Apple Music - {storefront_label}",
         "provider": provider,
         "storefront": storefront,
@@ -255,6 +292,9 @@ def main() -> None:
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     SECTIONS_DIR.mkdir(parents=True, exist_ok=True)
+
+    for old_file in SECTIONS_DIR.glob("*.json"):
+    old_file.unlink()
 
     updated_at = utc_now_iso()
     sections: List[Dict[str, Any]] = []
