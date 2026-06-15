@@ -1,0 +1,47 @@
+name: Update Pintu Trends
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-trends:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests PyJWT cryptography
+
+      - name: Generate Apple Music trends
+        env:
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          APPLE_KEY_ID: ${{ secrets.APPLE_KEY_ID }}
+          APPLE_PRIVATE_KEY_BASE64: ${{ secrets.APPLE_PRIVATE_KEY_BASE64 }}
+        run: |
+          python scripts/update_apple_trends.py
+
+      - name: Commit updated trends
+        run: |
+          git config user.name "pintu-trends-bot"
+          git config user.email "pintu-trends-bot@users.noreply.github.com"
+          git add trends/index.json trends/sections/*.json
+          if git diff --cached --quiet; then
+            echo "No trends changes to commit."
+          else
+            git commit -m "Update Pintu trends"
+            git push
+          fi
