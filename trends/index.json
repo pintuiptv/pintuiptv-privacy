@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-15T17:20:05Z",
+  "sourceLabel": "Metadati classifiche Apple Music",
+  "sections": [
+    {
+      "id": "apple_music_it_songs_most-played",
+      "title": "Top brani",
+      "subtitle": "Classifica Apple Music - Italia",
+      "provider": "apple_music",
+      "storefront": "it",
+      "type": "songs",
+      "chart": "most-played",
+      "itemsUrl": "https://raw.githubusercontent.com/pintuiptv/pintuiptv-privacy/main/trends/sections/apple_music_it_songs_most-played.json",
+      "updatedAt": "2026-06-15T17:20:05Z",
+      "itemsCount": 100
+    }
+  ]
+}
