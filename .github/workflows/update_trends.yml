@@ -3,7 +3,8 @@ name: Update Pintu Trends
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 5 * * *"
+    - cron: "17 5 * * *"
+    - cron: "47 17 * * *"
 
 permissions:
   contents: write
