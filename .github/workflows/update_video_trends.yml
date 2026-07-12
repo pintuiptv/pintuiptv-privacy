@@ -3,7 +3,11 @@ name: Update Pintu Video Trends
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 5 * * *"
+    - cron: "23 6 * * *"
+    - cron: "47 10 * * *"
+    - cron: "17 14 * * *"
+    - cron: "47 16 * * *"
+    - cron: "31 20 * * *"
 
 permissions:
   contents: write
@@ -30,6 +34,21 @@ jobs:
         run: python scripts/update_trakt_video_trends.py
       - name: Validate video trends
         run: python scripts/update_trakt_video_trends.py --validate-only
+      - name: Write workflow summary
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          index = json.loads(Path("trends/video/index.json").read_text())
+          total = sum(x["itemCount"] for x in index["movies"] + index["series"])
+          print("## Pintu video trends refresh")
+          print(f"- UTC refresh: {index['lastSuccessfulRefreshAt']}")
+          print(f"- Movie sections: {index['movieSections']}")
+          print(f"- Series sections: {index['seriesSections']}")
+          print(f"- Total items: {total}")
+          print("- Validation: passed")
+          print("- lastSuccessfulRefreshAt: updated")
+          PY
       - name: Commit updated video trends
         run: |
           git config user.name "Pintu Trends Bot"
@@ -38,6 +57,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No video trend changes to commit."
           else
-            git commit -m "chore: update Pintu video trends"
+            git commit -m "chore: refresh Pintu video trends"
             git push
           fi

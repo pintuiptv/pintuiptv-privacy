@@ -20,18 +20,18 @@ import requests
 
 BASE_URL = "https://api.trakt.tv"
 SCHEMA_VERSION = 1
-GENERATOR_VERSION = "1.0.0"
+GENERATOR_VERSION = "1.1.0"
 USER_AGENT = "PintuPlayer-Trends/1.0"
 MAX_ITEMS = 100
 MIN_VOTES = 500
 OUTPUT = Path("trends/video")
-TTL = {"trending": 43200, "popular": 43200, "new_releases": 43200, "top_rated": 86400, "most_watched_weekly": 43200, "anticipated": 86400, "movies_of_the_year": 86400, "shows_of_the_moment": 43200}
-DIRECT = {"trending", "popular", "most_watched_weekly", "anticipated"}
+TTL = {"trending": 43200, "popular": 43200, "new_releases": 43200, "top_rated": 86400, "most_watched_weekly": 43200, "movies_of_the_year": 86400, "shows_of_the_moment": 43200}
+DIRECT = {"trending", "popular", "most_watched_weekly"}
 ENDPOINTS = {
     ("movie", "trending"): "/movies/trending", ("movie", "popular"): "/movies/popular",
-    ("movie", "most_watched_weekly"): "/movies/watched/weekly", ("movie", "anticipated"): "/movies/anticipated",
+    ("movie", "most_watched_weekly"): "/movies/watched/weekly",
     ("show", "trending"): "/shows/trending", ("show", "popular"): "/shows/popular",
-    ("show", "most_watched_weekly"): "/shows/watched/weekly", ("show", "anticipated"): "/shows/anticipated",
+    ("show", "most_watched_weekly"): "/shows/watched/weekly",
 }
 
 def positive_int(value: Any) -> int | None:
@@ -159,6 +159,19 @@ def validate(doc: dict[str, Any]) -> None:
     serialized = json.dumps(doc)
     if any(term in serialized for term in ("trakt-api-key", "Authorization", "TRAKT_CLIENT_ID", "client_secret", "access_token")): raise ValueError("sensitive output")
 
+def validate_index(index: dict[str, Any], now: datetime | None = None) -> None:
+    now = now or datetime.now(timezone.utc)
+    if index.get("schemaVersion") != 1 or index.get("provider") != "trakt": raise ValueError("invalid index header")
+    movies = index.get("movies"); series = index.get("series")
+    if not isinstance(movies, list) or not isinstance(series, list): raise ValueError("invalid index sections")
+    if index.get("movieSections") != len(movies) or index.get("seriesSections") != len(series): raise ValueError("invalid section counts")
+    for field_name in ("generatedAt", "lastSuccessfulRefreshAt", "lastContentUpdateAt"):
+        raw = index.get(field_name)
+        try: value = datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
+        except ValueError as exc: raise ValueError(f"invalid {field_name}") from exc
+        if value.tzinfo is None or value > now + timedelta(minutes=10): raise ValueError(f"invalid {field_name}")
+    if index["lastSuccessfulRefreshAt"] != index["generatedAt"]: raise ValueError("refresh timestamp mismatch")
+
 def build_all(client: TraktClient, now: datetime | None = None) -> dict[str, dict[str, Any]]:
     now = now or datetime.now(timezone.utc); generated = now.isoformat(timespec="seconds").replace("+00:00", "Z"); result = {}
     for media, folder in (("movie", "movies"), ("show", "series")):
@@ -170,18 +183,44 @@ def build_all(client: TraktClient, now: datetime | None = None) -> dict[str, dic
         sections["top_rated"] = (top, "bayesian_weighted_rating_v1")
         if media == "movie":
             year_items = [x for x in pool + new if x.year == now.year or str(x.released or "").startswith(str(now.year))]
-            sections["movies_of_the_year"] = (composite(dedupe(year_items), {"trending": .30, "most_watched_weekly": .25, "popular": .15, "anticipated": .10, "top_rated": .20}, "movies_of_the_year_v1"), "movies_of_the_year_v1")
+            sections["movies_of_the_year"] = (composite(dedupe(year_items), {"trending": .35, "most_watched_weekly": .25, "popular": .20, "top_rated": .20}, "movies_of_the_year_v1"), "movies_of_the_year_v1")
         else:
-            sections["shows_of_the_moment"] = (composite(pool, {"trending": .35, "most_watched_weekly": .30, "popular": .10, "anticipated": .10, "top_rated": .15}, "shows_of_the_moment_v1"), "shows_of_the_moment_v1")
+            sections["shows_of_the_moment"] = (composite(pool, {"trending": .40, "most_watched_weekly": .30, "popular": .15, "top_rated": .15}, "shows_of_the_moment_v1"), "shows_of_the_moment_v1")
         for section, (items, algorithm) in sections.items(): result[f"{folder}/{section}.json"] = document(media, section, items, generated, algorithm)
     entries = lambda folder: [{"section": path.rsplit("/", 1)[1][:-5], "path": path, "rankingType": doc["rankingType"], "ttlSeconds": doc["ttlSeconds"], "itemCount": doc["itemCount"]} for path, doc in result.items() if path.startswith(folder + "/")]
-    result["index.json"] = {"schemaVersion": 1, "generatorVersion": GENERATOR_VERSION, "provider": "trakt", "generatedAt": generated, "minimumAppSchemaVersion": 1, "movies": entries("movies"), "series": entries("series")}
+    movies = entries("movies"); series = entries("series")
+    result["index.json"] = {"schemaVersion": 1, "generatorVersion": GENERATOR_VERSION, "provider": "trakt", "movieSections": len(movies), "seriesSections": len(series), "generatedAt": generated, "lastSuccessfulRefreshAt": generated, "lastContentUpdateAt": generated, "minimumAppSchemaVersion": 1, "movies": movies, "series": series}
     for path, doc in result.items():
         if path != "index.json": validate(doc)
+    validate_index(result["index.json"], now)
     return result
 
 def publish(documents: dict[str, dict[str, Any]], output: Path = OUTPUT) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
+    index = documents["index.json"]
+    previous_index = None
+    try:
+        previous_index = json.loads((output / "index.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        pass
+
+    def logical(data: dict[str, Any]) -> dict[str, Any]:
+        ignored = {"generatedAt", "lastSuccessfulRefreshAt", "lastContentUpdateAt", "sourceUpdatedAt"}
+        return {key: value for key, value in data.items() if key not in ignored}
+
+    changed = False
+    for path, data in documents.items():
+        if path == "index.json":
+            continue
+        try:
+            previous = json.loads((output / path).read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            previous = None
+        if previous is None or logical(previous) != logical(data):
+            changed = True
+            break
+    if not changed and previous_index and previous_index.get("lastContentUpdateAt"):
+        index["lastContentUpdateAt"] = previous_index["lastContentUpdateAt"]
     with tempfile.TemporaryDirectory(prefix="video-trends-", dir=output.parent) as temp:
         root = Path(temp)
         for path, data in documents.items():
@@ -201,6 +240,7 @@ def main() -> int:
         for path in args.output_dir.rglob("*.json"):
             data = json.loads(path.read_text(encoding="utf-8"));
             if path.name != "index.json": validate(data)
+            else: validate_index(data)
         print("[VIDEO_TRENDS] validation passed"); return 0
     client_id = os.environ.get("TRAKT_CLIENT_ID", "")
     if not client_id.strip(): print("[VIDEO_TRENDS] error: TRAKT_CLIENT_ID is missing"); return 2

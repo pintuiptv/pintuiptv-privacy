@@ -34,4 +34,18 @@ class VideoTrendsTests(unittest.TestCase):
             publish({"movies/trending.json": doc, "index.json": {"schemaVersion": 1}}, output)
             self.assertEqual(json.loads((output / "movies/trending.json").read_text())["itemCount"], 1)
 
+    def test_refresh_timestamp_changes_without_content_timestamp(self):
+        item = Item("movie", "Film", 2026, {"trakt": 1})
+        old = document("movie", "trending", [item], "2026-07-12T00:00:00Z")
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp) / "video"
+            first = {"movies/trending.json": old, "index.json": {"schemaVersion": 1, "lastSuccessfulRefreshAt": "2026-07-12T00:00:00Z", "lastContentUpdateAt": "2026-07-12T00:00:00Z"}}
+            publish(first, output)
+            fresh = document("movie", "trending", [item], "2026-07-13T00:00:00Z")
+            second = {"movies/trending.json": fresh, "index.json": {"schemaVersion": 1, "lastSuccessfulRefreshAt": "2026-07-13T00:00:00Z", "lastContentUpdateAt": "2026-07-13T00:00:00Z"}}
+            publish(second, output)
+            index = json.loads((output / "index.json").read_text())
+            self.assertEqual(index["lastSuccessfulRefreshAt"], "2026-07-13T00:00:00Z")
+            self.assertEqual(index["lastContentUpdateAt"], "2026-07-12T00:00:00Z")
+
 if __name__ == "__main__": unittest.main()
