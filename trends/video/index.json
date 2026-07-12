@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "generatorVersion": "1.0.0",
+  "provider": "trakt",
+  "generatedAt": "2026-07-12T22:07:00Z",
+  "minimumAppSchemaVersion": 1,
+  "movies": [
+    {
+      "section": "trending",
+      "path": "movies/trending.json",
+      "rankingType": "trakt_official",
+      "ttlSeconds": 43200,
+      "itemCount": 100
+    },
+    {
+      "section": "most_watched_weekly",
+      "path": "movies/most_watched_weekly.json",
+      "rankingType": "trakt_official",
+      "ttlSeconds": 43200,
+      "itemCount": 100
+    },
+    {
+      "section": "popular",
+      "path": "movies/popular.json",
+      "rankingType": "trakt_official",
+      "ttlSeconds": 43200,
+      "itemCount": 100
+    },
+    {
+      "section": "anticipated",
+      "path": "movies/anticipated.json",
+      "rankingType": "trakt_official",
+      "ttlSeconds": 86400,
+      "itemCount": 100
+    },
+    {
+      "section": "new_releases",
+      "path": "movies/new_releases.json",
+      "rankingType": "pintu_composite",
+      "ttlSeconds": 43200,
+      "itemCount": 40
+    },
+    {
+      "section": "top_rated",
+      "path": "movies/top_rated.json",
+      "rankingType": "pintu_composite",
+      "ttlSeconds": 86400,
+      "itemCount": 100
+    },
+    {
+      "section": "movies_of_the_year",
+      "path": "movies/movies_of_the_year.json",
+      "rankingType": "pintu_composite",
+      "ttlSeconds": 86400,
+      "itemCount": 100
+    }
+  ],
+  "series": [
+    {
+      "section": "trending",
+      "path": "series/trending.json",
+      "rankingType": "trakt_official",
+      "ttlSeconds": 43200,
+      "itemCount": 100
+    },
+    {
+      "section": "most_watched_weekly",
+      "path": "series/most_watched_weekly.json",
+      "rankingType": "trakt_official",
+      "ttlSeconds": 43200,
+      "itemCount": 100
+    },
+    {
+      "section": "popular",
+      "path": "series/popular.json",
+      "rankingType": "trakt_official",
+      "ttlSeconds": 43200,
+      "itemCount": 100
+    },
+    {
+      "section": "anticipated",
+      "path": "series/anticipated.json",
+      "rankingType": "trakt_official",
+      "ttlSeconds": 86400,
+      "itemCount": 80
+    },
+    {
+      "section": "new_releases",
+      "path": "series/new_releases.json",
+      "rankingType": "pintu_composite",
+      "ttlSeconds": 43200,
+      "itemCount": 100
+    },
+    {
+      "section": "top_rated",
+      "path": "series/top_rated.json",
+      "rankingType": "pintu_composite",
+      "ttlSeconds": 86400,
+      "itemCount": 100
+    },
+    {
+      "section": "shows_of_the_moment",
+      "path": "series/shows_of_the_moment.json",
+      "rankingType": "pintu_composite",
+      "ttlSeconds": 43200,
+      "itemCount": 100
+    }
+  ]
+}
