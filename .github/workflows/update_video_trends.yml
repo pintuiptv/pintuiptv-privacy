@@ -3,11 +3,11 @@ name: Update Pintu Video Trends
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 6 * * *"
-    - cron: "47 10 * * *"
-    - cron: "17 14 * * *"
-    - cron: "47 16 * * *"
-    - cron: "31 20 * * *"
+    - cron: "26 6 * * *"
+    - cron: "50 10 * * *"
+    - cron: "20 14 * * *"
+    - cron: "50 16 * * *"
+    - cron: "34 20 * * *"
 
 permissions:
   contents: write
