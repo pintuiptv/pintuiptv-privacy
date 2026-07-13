@@ -6,7 +6,7 @@ from unittest.mock import Mock
 
 from datetime import datetime, timezone
 
-from scripts.update_trakt_video_trends import Item, MAX_ITEMS, TraktClient, bayesian, build_all, calendar_source, dedupe, document, filter_new_release_events, publish, subtract_calendar_months, validate
+from scripts.update_trakt_video_trends import Item, MAX_ITEMS, TraktClient, bayesian, build_all, calendar_source, dedupe, document, filter_new_release_events, parse_iso_utc, publish, subtract_calendar_months, validate
 
 class VideoTrendsTests(unittest.TestCase):
     NOW = datetime(2026, 7, 13, tzinfo=timezone.utc)
@@ -52,6 +52,44 @@ class VideoTrendsTests(unittest.TestCase):
         self.assertEqual(stats["futureExcluded"], 1)
         self.assertEqual(stats["missingReleasedExcluded"], 1)
 
+    def test_exact_utc_instant_for_series_and_movies(self):
+        now = datetime(2026, 7, 13, 7, 48, 23, tzinfo=timezone.utc)
+        rows = [
+            self.show_event(2026, "2026-07-13T02:48:23.000Z", title="Five hours before"),
+            self.show_event(2026, "2026-07-13T07:48:23Z", title="Exactly now"),
+            self.show_event(2026, "2026-07-13T12:48:23.000Z", title="Five hours after"),
+            self.show_event(2026, "2026-07-14T00:00:00Z", title="Tomorrow"),
+            self.show_event(2026, "2026-07-13T09:00:00+02:00", title="Other timezone before"),
+        ]
+        items, stats = filter_new_release_events(rows, "show", now)
+        self.assertEqual([x.title for x in items], ["Five hours before", "Exactly now", "Other timezone before"])
+        self.assertEqual(stats["futureExcluded"], 2)
+        movies, movie_stats = filter_new_release_events([
+            self.movie_event(2026, "2026-07-13", "Date only today"),
+            self.movie_event(2026, "2026-07-13T12:48:23Z", "Timestamp future"),
+        ], "movie", now)
+        self.assertEqual([x.title for x in movies], ["Date only today"])
+        self.assertEqual(movie_stats["futureExcluded"], 1)
+
+    def test_iso_parser_normalizes_aware_datetimes_to_utc(self):
+        milliseconds = parse_iso_utc("2026-07-13T07:48:23.123Z")
+        no_milliseconds = parse_iso_utc("2026-07-13T07:48:23Z")
+        offset = parse_iso_utc("2026-07-13T09:48:23+02:00")
+        self.assertEqual(milliseconds.instant.microsecond, 123000)
+        self.assertEqual(no_milliseconds.instant, offset.instant)
+        self.assertEqual(offset.instant.tzinfo, timezone.utc)
+        self.assertFalse(offset.date_only)
+
+    def test_generator_and_validator_reject_same_future_series_instant(self):
+        now = datetime(2026, 7, 13, 7, 48, 23, tzinfo=timezone.utc)
+        future_value = "2026-07-13T13:00:00.000Z"
+        generated, stats = filter_new_release_events([self.show_event(2026, future_value, title="Future premiere")], "show", now)
+        self.assertEqual(generated, [])
+        self.assertEqual(stats["futureExcluded"], 1)
+        future = Item("show", "Future premiere", 2026, {"trakt": 99}, first_aired=future_value, absolute_premiere=True, premiere_episode="S01E01")
+        doc = document("show", "new_releases", [future], "2026-07-13T07:48:23Z", "series_absolute_premieres_4_calendar_months_v2")
+        with self.assertRaises(ValueError): validate(doc, now)
+
     def test_previous_year_is_valid_when_inside_cross_year_window(self):
         january = datetime(2027, 1, 13, tzinfo=timezone.utc)
         movie_items, _ = filter_new_release_events([self.movie_event(2026, "2026-11-01", "Movie")], "movie", january)
@@ -96,7 +134,7 @@ class VideoTrendsTests(unittest.TestCase):
         self.assertEqual(direct["source"]["period"], "weekly")
         self.assertEqual(composite_doc["rankingType"], "pintu_composite")
         self.assertEqual(composite_doc["source"]["type"], "pintu_composite")
-        premiere = Item("show", "Premiere", 2026, {"trakt": 2}, first_aired="2026-06-01", absolute_premiere=True, premiere_episode="S01E01")
+        premiere = Item("show", "Premiere", 2026, {"trakt": 2}, first_aired="2026-06-01T00:00:00Z", absolute_premiere=True, premiere_episode="S01E01")
         new_doc = document("show", "new_releases", [premiere], "2026-07-13T00:00:00Z", "series_absolute_premieres_4_calendar_months_v2")
         self.assertTrue(new_doc["source"]["absolutePremiereOnly"])
         self.assertEqual(new_doc["source"]["window"]["value"], 4)

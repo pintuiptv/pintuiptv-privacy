@@ -52,6 +52,7 @@ jobs:
         run: |
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
+          from datetime import datetime, timezone
           from pathlib import Path
           index = json.loads(Path("trends/video/index.json").read_text())
           total = sum(x["itemCount"] for x in index["movies"] + index["series"])
@@ -85,6 +86,14 @@ jobs:
                   print(f"- {date_key}Max: {max(dates) if dates else 'n/a'}")
                   print(f"- yearMin: {min(years) if years else 'n/a'}")
                   print(f"- yearMax: {max(years) if years else 'n/a'}")
+                  if document["mediaType"] == "show":
+                      generated_at = datetime.fromisoformat(document["generatedAt"].replace("Z", "+00:00")).astimezone(timezone.utc)
+                      first_aired = [datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(timezone.utc) for value in dates]
+                      latest = max(first_aired) if first_aired else None
+                      print(f"- generatedAt UTC: {generated_at.isoformat().replace('+00:00', 'Z')}")
+                      print(f"- earliestFirstAired: {min(first_aired).isoformat().replace('+00:00', 'Z') if first_aired else 'n/a'}")
+                      print(f"- latestFirstAired: {latest.isoformat().replace('+00:00', 'Z') if latest else 'n/a'}")
+                      print(f"- latestFirstAired <= generatedAt: {latest <= generated_at if latest else True}")
                   print("- Trakt intervals:")
                   for interval in quality.get("traktIntervals", []): print(f"  - {interval['from']} → {interval['to']} ({interval['days']} days, {interval['fetched']} fetched)")
               else:

@@ -15,13 +15,13 @@ import time
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any
+from typing import Any, NamedTuple
 
 import requests
 
 BASE_URL = "https://api.trakt.tv"
 SCHEMA_VERSION = 1
-GENERATOR_VERSION = "1.2.0"
+GENERATOR_VERSION = "1.2.1"
 USER_AGENT = "PintuPlayer-Trends/1.0"
 MAX_ITEMS = 100
 NEW_RELEASE_LOOKBACK_MONTHS = 4
@@ -140,9 +140,23 @@ def fetch_source(client: TraktClient, media: str, section: str) -> list[Item]:
     raw = client.get(ENDPOINTS[(media, section)], {"page": 1, "limit": 100, "extended": "full"})
     return [item for i, row in enumerate(raw, 1) if (item := normalize(row, media, section, i))]
 
+class ParsedTemporal(NamedTuple):
+    instant: datetime
+    date_only: bool
+
+def parse_iso_utc(value: Any) -> ParsedTemporal | None:
+    raw = str(value or "").strip()
+    if not raw: return None
+    date_only = re.fullmatch(r"\d{4}-\d{2}-\d{2}", raw) is not None
+    try: parsed = datetime.fromisoformat(raw[:-1] + "+00:00" if raw.endswith(("Z", "z")) else raw)
+    except ValueError: return None
+    if date_only: parsed = parsed.replace(tzinfo=timezone.utc)
+    elif parsed.tzinfo is None: return None
+    return ParsedTemporal(parsed.astimezone(timezone.utc), date_only)
+
 def _utc_date(value: Any):
-    try: return datetime.fromisoformat(str(value).replace("Z", "+00:00")).date()
-    except (TypeError, ValueError): return None
+    parsed = parse_iso_utc(value)
+    return parsed.instant.date() if parsed else None
 
 def subtract_calendar_months(value, months: int = NEW_RELEASE_LOOKBACK_MONTHS):
     target_month = value.month - months
@@ -169,7 +183,7 @@ def filter_new_release_events(raw: list[Any], media: str, now: datetime, interva
         stats: dict[str, Any] = {"fetchedFromTrakt": len(raw), "deduplicatedCandidates": len(unique_rows), "missingReleasedExcluded": 0, "futureExcluded": 0, "olderThanFourMonthsExcluded": 0, "validCandidates": 0, "publishedItems": 0, "traktIntervals": intervals or []}
     else:
         stats = {"fetchedFromTrakt": len(raw), "deduplicatedCandidates": len(unique_rows), "s01e01Candidates": 0, "seriesPremieresFound": 0, "seasonPremieresExcluded": 0, "ordinaryEpisodesExcluded": 0, "oldShowsExcluded": 0, "missingFirstAiredExcluded": 0, "futureExcluded": 0, "olderThanFourMonthsExcluded": 0, "validCandidates": 0, "publishedItems": 0, "traktIntervals": intervals or []}
-    result: list[Item] = []; today = now.astimezone(timezone.utc).date(); cutoff = subtract_calendar_months(today)
+    now_utc = now.astimezone(timezone.utc); today = now_utc.date(); cutoff = subtract_calendar_months(today); result: list[Item] = []
     for position, row in enumerate(unique_rows, 1):
         missing_key = "missingReleasedExcluded" if media == "movie" else "missingFirstAiredExcluded"
         if not isinstance(row, dict): stats[missing_key] += 1; continue
@@ -186,11 +200,14 @@ def filter_new_release_events(raw: list[Any], media: str, now: datetime, interva
             event_type = str(row.get("type") or "").strip().lower()
             if event_type and event_type != "series_premiere":
                 stats["ordinaryEpisodesExcluded"] += 1; continue
-            date_value = _utc_date(obj.get("first_aired"))
+            temporal = parse_iso_utc(obj.get("first_aired"))
+            if temporal is not None and temporal.date_only: temporal = None
         else:
-            date_value = _utc_date(obj.get("released"))
-        if date_value is None: stats[missing_key] += 1; continue
-        if date_value > today: stats["futureExcluded"] += 1; continue
+            temporal = parse_iso_utc(obj.get("released"))
+        if temporal is None: stats[missing_key] += 1; continue
+        date_value = temporal.instant.date()
+        is_future = date_value > today if temporal.date_only else temporal.instant > now_utc
+        if is_future: stats["futureExcluded"] += 1; continue
         if date_value < cutoff:
             stats["olderThanFourMonthsExcluded"] += 1
             if media == "show": stats["oldShowsExcluded"] += 1
@@ -241,7 +258,9 @@ def source_metadata(media: str, section: str, algorithm: str | None, now: dateti
 def document(media: str, section: str, items: list[Item], generated: str, algorithm: str | None = None, quality: dict[str, Any] | None = None) -> dict[str, Any]:
     composite_rank = section not in DIRECT
     payload = [item_json(item, rank, composite_rank) for rank, item in enumerate(items[:MAX_ITEMS], 1)]
-    generated_now = datetime.fromisoformat(generated.replace("Z", "+00:00"))
+    generated_temporal = parse_iso_utc(generated)
+    if generated_temporal is None or generated_temporal.date_only: raise ValueError("invalid generatedAt")
+    generated_now = generated_temporal.instant
     return {"schemaVersion": SCHEMA_VERSION, "generatorVersion": GENERATOR_VERSION, "provider": "trakt", "rankingType": "pintu_composite" if composite_rank else "trakt_official", "algorithm": algorithm, "source": source_metadata(media, section, algorithm, generated_now), "quality": quality or {"candidates": len(items), "included": len(payload)}, "mediaType": media, "section": section, "generatedAt": generated, "sourceUpdatedAt": None, "ttlSeconds": TTL[section], "itemCount": len(payload), "items": payload}
 
 def validate(doc: dict[str, Any], now: datetime | None = None) -> None:
@@ -265,13 +284,18 @@ def validate(doc: dict[str, Any], now: datetime | None = None) -> None:
     if doc.get("section") == "most_watched_weekly" and doc["source"].get("period") != "weekly": raise ValueError("missing weekly period")
     if doc.get("section") == "new_releases":
         date_field = "released" if doc["mediaType"] == "movie" else "firstAired"
-        cutoff = subtract_calendar_months(now.astimezone(timezone.utc).date())
+        generated = parse_iso_utc(doc.get("generatedAt"))
+        if generated is None or generated.date_only: raise ValueError("invalid generatedAt")
+        generated_at = generated.instant; cutoff = subtract_calendar_months(generated_at.date())
         window = doc["source"].get("window") if isinstance(doc["source"].get("window"), dict) else {}
-        if window != {"unit": "calendar_month", "value": NEW_RELEASE_LOOKBACK_MONTHS, "from": cutoff.isoformat(), "to": now.astimezone(timezone.utc).date().isoformat()}: raise ValueError("invalid new release window")
+        if window != {"unit": "calendar_month", "value": NEW_RELEASE_LOOKBACK_MONTHS, "from": cutoff.isoformat(), "to": generated_at.date().isoformat()}: raise ValueError("invalid new release window")
         if doc["mediaType"] == "show" and (doc["source"].get("absolutePremiereOnly") is not True or doc["source"].get("premiereEpisode") != "S01E01"): raise ValueError("missing absolute premiere source metadata")
         for item in items:
-            value = _utc_date(item.get(date_field))
-            if value is None or value < cutoff or value > now.astimezone(timezone.utc).date() or item.get("year") != value.year: raise ValueError("semantically invalid new release")
+            temporal = parse_iso_utc(item.get(date_field))
+            if temporal is None or (doc["mediaType"] == "show" and temporal.date_only): raise ValueError("semantically invalid new release timestamp")
+            value = temporal.instant.date()
+            is_future = value > generated_at.date() if temporal.date_only else temporal.instant > generated_at
+            if value < cutoff or is_future or item.get("year") != value.year: raise ValueError("semantically invalid new release")
             if doc["mediaType"] == "show" and (item.get("absolutePremiere") is not True or item.get("premiereEpisode") != "S01E01"): raise ValueError("semantically invalid series premiere")
     if doc.get("section") == "movies_of_the_year":
         for item in items:

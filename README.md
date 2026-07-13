@@ -2,7 +2,7 @@
 
 Pintu IPTV Privacy page and public Video Trends documents.
 
-## Video Trends generator 1.2.0
+## Video Trends generator 1.2.1
 
 The generator reads public Trakt endpoints without OAuth and publishes at most
 100 real items per ranking. `trending`, `popular`, and weekly `watched` remain
@@ -17,6 +17,11 @@ and use only `show.first_aired`; event and episode dates are never substituted.
 Future, missing-date, older, season-premiere, and ordinary-episode candidates
 are excluded. `movies_of_the_year` intentionally retains its separate current
 calendar-year rule.
+
+ISO 8601 timestamps are normalized to timezone-aware UTC datetimes. Series
+premieres, and movie releases carrying a time component, must not be later
+than the exact UTC generation instant; a same-day future time is not accepted.
+Movie values containing only `YYYY-MM-DD` remain calendar dates.
 
 Generation and semantic validation complete before the output directory is
 atomically replaced, preserving the previous valid files when a run fails.
