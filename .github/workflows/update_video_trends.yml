@@ -31,7 +31,21 @@ jobs:
       - name: Generate video trends
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
-        run: python scripts/update_trakt_video_trends.py
+        run: |
+          set +e
+          python scripts/update_trakt_video_trends.py 2>&1 | tee /tmp/video-trends-generation.log
+          status=${PIPESTATUS[0]}
+          set -e
+          if [ "$status" -ne 0 ]; then
+            {
+              echo "## Pintu video trends refresh failed"
+              echo "- Existing valid JSON files were preserved."
+              echo '```text'
+              tail -n 30 /tmp/video-trends-generation.log
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit "$status"
+          fi
       - name: Validate video trends
         run: python scripts/update_trakt_video_trends.py --validate-only
       - name: Write workflow summary
@@ -58,16 +72,26 @@ jobs:
               source = document["source"]
               origin = source.get("endpoint") or ", ".join(source.get("inputs", []))
               quality = document.get("quality", {})
-              excluded = quality.get("candidates", len(items)) - quality.get("included", len(items))
-              reasons = {k: v for k, v in quality.items() if k not in ("candidates", "included") and v}
               print(f"\n#### {document['mediaType']} / {document['section']}")
               print(f"- Source: {origin}")
               print(f"- Ranking type: {document['rankingType']}")
               print(f"- Items: {len(items)}")
               print(f"- Year range: {min(years) if years else 'n/a'} – {max(years) if years else 'n/a'}")
               print(f"- Date range: {min(dates) if dates else 'n/a'} – {max(dates) if dates else 'n/a'}")
-              print(f"- Excluded: {excluded}")
-              print(f"- Exclusion reasons: {reasons or 'none'}")
+              if document["section"] == "new_releases":
+                  metric_order = (["fetchedFromTrakt", "deduplicatedCandidates", "missingReleasedExcluded", "futureExcluded", "olderThanFourMonthsExcluded", "validCandidates", "publishedItems"] if document["mediaType"] == "movie" else ["fetchedFromTrakt", "deduplicatedCandidates", "s01e01Candidates", "seriesPremieresFound", "seasonPremieresExcluded", "ordinaryEpisodesExcluded", "oldShowsExcluded", "missingFirstAiredExcluded", "futureExcluded", "olderThanFourMonthsExcluded", "validCandidates", "publishedItems"])
+                  for key in metric_order: print(f"- {key}: {quality.get(key, 0)}")
+                  print(f"- {date_key}Min: {min(dates) if dates else 'n/a'}")
+                  print(f"- {date_key}Max: {max(dates) if dates else 'n/a'}")
+                  print(f"- yearMin: {min(years) if years else 'n/a'}")
+                  print(f"- yearMax: {max(years) if years else 'n/a'}")
+                  print("- Trakt intervals:")
+                  for interval in quality.get("traktIntervals", []): print(f"  - {interval['from']} → {interval['to']} ({interval['days']} days, {interval['fetched']} fetched)")
+              else:
+                  excluded = quality.get("candidates", len(items)) - quality.get("included", len(items))
+                  reasons = {k: v for k, v in quality.items() if k not in ("candidates", "included") and v}
+                  print(f"- Excluded: {excluded}")
+                  print(f"- Exclusion reasons: {reasons or 'none'}")
           PY
       - name: Commit updated video trends
         run: |
