@@ -1,130 +1,1383 @@
 {
   "schemaVersion": 1,
-  "generatorVersion": "1.1.0",
+  "generatorVersion": "1.2.0",
   "provider": "trakt",
   "rankingType": "pintu_composite",
-  "algorithm": "recent_public_calendar_v1",
+  "algorithm": "series_absolute_premieres_4_calendar_months_v2",
+  "source": {
+    "provider": "trakt",
+    "type": "pintu_composite",
+    "inputs": [
+      "calendars/all/shows/premieres"
+    ],
+    "window": {
+      "unit": "calendar_month",
+      "value": 4,
+      "from": "2026-03-13",
+      "to": "2026-07-13"
+    },
+    "exclusionCriteria": [
+      "missing_or_invalid_date",
+      "future",
+      "older_than_window"
+    ],
+    "algorithm": "series_absolute_premieres_4_calendar_months_v2",
+    "absolutePremiereOnly": true,
+    "premiereEpisode": "S01E01"
+  },
+  "quality": {
+    "fetchedFromTrakt": 439,
+    "deduplicatedCandidates": 433,
+    "s01e01Candidates": 165,
+    "seriesPremieresFound": 164,
+    "seasonPremieresExcluded": 267,
+    "ordinaryEpisodesExcluded": 1,
+    "oldShowsExcluded": 267,
+    "missingFirstAiredExcluded": 0,
+    "futureExcluded": 1,
+    "olderThanFourMonthsExcluded": 0,
+    "validCandidates": 164,
+    "publishedItems": 100,
+    "traktIntervals": [
+      {
+        "from": "2026-03-13",
+        "to": "2026-04-12",
+        "days": 31,
+        "fetched": 152
+      },
+      {
+        "from": "2026-04-13",
+        "to": "2026-05-13",
+        "days": 31,
+        "fetched": 106
+      },
+      {
+        "from": "2026-05-14",
+        "to": "2026-06-13",
+        "days": 31,
+        "fetched": 92
+      },
+      {
+        "from": "2026-06-14",
+        "to": "2026-07-13",
+        "days": 30,
+        "fetched": 89
+      }
+    ]
+  },
   "mediaType": "show",
   "section": "new_releases",
-  "generatedAt": "2026-07-13T06:43:17Z",
+  "generatedAt": "2026-07-13T07:48:23Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 43200,
   "itemCount": 100,
   "items": [
     {
       "rank": 1,
-      "title": "Death Valley",
-      "year": 2025,
+      "title": "Dream to You",
+      "year": 2026,
       "released": null,
-      "firstAired": "2026-05-17",
+      "firstAired": "2026-07-13T13:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.072815418243408,
-      "votes": 206,
+      "rating": 0.0,
+      "votes": null,
       "score": null,
       "ids": {
-        "trakt": 240592,
-        "slug": "death-valley-2025",
-        "imdb": "tt32409123",
-        "tmdb": 254897
-      }
+        "trakt": 299875,
+        "slug": "dream-to-you",
+        "imdb": "tt39028251",
+        "tmdb": 301412
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
       "rank": 2,
-      "title": "Couples Therapy",
-      "year": 2019,
+      "title": "The Westies",
+      "year": 2026,
       "released": null,
-      "firstAired": "2026-05-17",
+      "firstAired": "2026-07-12T04:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.80476188659668,
-      "votes": 210,
+      "rating": 8.526315689086914,
+      "votes": 19,
       "score": null,
       "ids": {
-        "trakt": 151163,
-        "slug": "couples-therapy-2019",
-        "imdb": "tt10665386",
-        "tmdb": 91820
-      }
+        "trakt": 279635,
+        "slug": "the-westies",
+        "imdb": "tt31849235",
+        "tmdb": 286709
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
       "rank": 3,
-      "title": "Welcome to Wrexham",
-      "year": 2022,
+      "title": "Though I Am an Inept Villainess",
+      "year": 2026,
       "released": null,
-      "firstAired": "2026-05-15",
+      "firstAired": "2026-07-12T14:45:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.788280010223389,
-      "votes": 1587,
+      "rating": 7.833333492279053,
+      "votes": 6,
       "score": null,
       "ids": {
-        "trakt": 191775,
-        "slug": "welcome-to-wrexham",
-        "imdb": "tt14674086",
-        "tmdb": 126929
-      }
+        "trakt": 279221,
+        "slug": "though-i-am-an-inept-villainess",
+        "imdb": "tt41293157",
+        "tmdb": 286345
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
       "rank": 4,
-      "title": "The WONDERfools",
+      "title": "Little House on the Prairie",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-15",
+      "firstAired": "2026-07-09T04:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.066091537475586,
-      "votes": 696,
+      "rating": 7.789473533630371,
+      "votes": 133,
       "score": null,
       "ids": {
-        "trakt": 249676,
-        "slug": "the-wonderfools",
-        "imdb": "tt34440854",
-        "tmdb": 259837
-      }
+        "trakt": 275053,
+        "slug": "little-house-on-the-prairie-2026",
+        "imdb": "tt13829154",
+        "tmdb": 283304
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
       "rank": 5,
-      "title": "Rivals",
-      "year": 2024,
+      "title": "The Five Star Weekend",
+      "year": 2026,
       "released": null,
-      "firstAired": "2026-05-15",
+      "firstAired": "2026-07-09T10:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.845005512237549,
-      "votes": 871,
+      "rating": 7.739999771118164,
+      "votes": 50,
       "score": null,
       "ids": {
-        "trakt": 205398,
-        "slug": "rivals-2024",
-        "imdb": "tt21906238",
-        "tmdb": 208921
-      }
+        "trakt": 274938,
+        "slug": "the-five-star-weekend",
+        "imdb": "tt35587659",
+        "tmdb": 283151
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
       "rank": 6,
-      "title": "Dutton Ranch",
+      "title": "Smoking Behind the Supermarket with You",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-15",
+      "firstAired": "2026-07-09T14:45:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.787832260131836,
-      "votes": 1956,
+      "rating": 8.84117603302002,
+      "votes": 170,
       "score": null,
       "ids": {
-        "trakt": 296208,
-        "slug": "dutton-ranch",
-        "imdb": "tt34991493",
-        "tmdb": 299167
-      }
+        "trakt": 292359,
+        "slug": "smoking-behind-the-supermarket-with-you",
+        "imdb": "tt37614297",
+        "tmdb": 296286
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
       "rank": 7,
+      "title": "Tomb Raider King",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-08T16:15:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.612903118133545,
+      "votes": 31,
+      "score": null,
+      "ids": {
+        "trakt": 294328,
+        "slug": "tomb-raider-king",
+        "imdb": "tt32869308",
+        "tmdb": 297826
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 8,
+      "title": "THE GHOST IN THE SHELL",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-07T14:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.824175834655762,
+      "votes": 91,
+      "score": null,
+      "ids": {
+        "trakt": 241679,
+        "slug": "the-ghost-in-the-shell",
+        "imdb": "tt36517689",
+        "tmdb": 255358
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 9,
+      "title": "I Want to Love You Till Your Dying Day",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-07T12:30:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.300000190734863,
+      "votes": 10,
+      "score": null,
+      "ids": {
+        "trakt": 278155,
+        "slug": "i-want-to-love-you-till-your-dying-day",
+        "imdb": "tt36056731",
+        "tmdb": 285574
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 10,
+      "title": "I Became a Legend After My 10 Year-Long Last Stand",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-06T13:30:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.689655303955078,
+      "votes": 29,
+      "score": null,
+      "ids": {
+        "trakt": 301074,
+        "slug": "i-became-a-legend-after-my-10-year-long-last-stand",
+        "imdb": "tt39443204",
+        "tmdb": 302051
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 11,
+      "title": "Sparks of Tomorrow",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-05T14:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.533333778381348,
+      "votes": 45,
+      "score": null,
+      "ids": {
+        "trakt": 184947,
+        "slug": "sparks-of-tomorrow",
+        "imdb": "tt38939446",
+        "tmdb": 153217
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 12,
+      "title": "BLACK TORCH",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-04T13:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.9882354736328125,
+      "votes": 85,
+      "score": null,
+      "ids": {
+        "trakt": 278722,
+        "slug": "black-torch",
+        "imdb": "tt37532893",
+        "tmdb": 285993
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 13,
+      "title": "Jaadugar: A Witch in Mongolia",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-04T14:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.581395149230957,
+      "votes": 43,
+      "score": null,
+      "ids": {
+        "trakt": 282395,
+        "slug": "jaadugar-a-witch-in-mongolia",
+        "imdb": "tt39281887",
+        "tmdb": 288971
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 14,
+      "title": "The World Is Dancing",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-02T13:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.230769157409668,
+      "votes": 13,
+      "score": null,
+      "ids": {
+        "trakt": 314699,
+        "slug": "the-world-is-dancing",
+        "imdb": "tt41279522",
+        "tmdb": 312020
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 15,
+      "title": "Human Vapor",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-02T08:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.171428680419922,
+      "votes": 140,
+      "score": null,
+      "ids": {
+        "trakt": 239210,
+        "slug": "human-vapor",
+        "imdb": "tt33083249",
+        "tmdb": 253960
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 16,
+      "title": "Chainsmoker Cat",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-02T15:30:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.0,
+      "votes": 57,
+      "score": null,
+      "ids": {
+        "trakt": 315787,
+        "slug": "chainsmoker-cat",
+        "imdb": "tt39551330",
+        "tmdb": 312949
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 17,
+      "title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-01T15:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.730769157409668,
+      "votes": 52,
+      "score": null,
+      "ids": {
+        "trakt": 316861,
+        "slug": "from-overshadowed-to-overpowered-second-reincarnation-of-a-talentless-sage",
+        "imdb": "tt40550160",
+        "tmdb": 314554
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 18,
+      "title": "Worst Neighbor Ever",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-01T04:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.060729026794434,
+      "votes": 247,
+      "score": null,
+      "ids": {
+        "trakt": 320339,
+        "slug": "worst-neighbor-ever",
+        "imdb": "tt43476716",
+        "tmdb": 325188
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 19,
+      "title": "Elle",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-01T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.980000019073486,
+      "votes": 650,
+      "score": null,
+      "ids": {
+        "trakt": 239856,
+        "slug": "elle",
+        "imdb": "tt32020831",
+        "tmdb": 254420
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 20,
+      "title": "The Villager of Level 999",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-01T15:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.800000190734863,
+      "votes": 30,
+      "score": null,
+      "ids": {
+        "trakt": 296030,
+        "slug": "the-villager-of-level-999",
+        "imdb": "tt38262097",
+        "tmdb": 298994
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 21,
+      "title": "The Exiled Heavy Knight Knows How to Game the System",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-01T15:15:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.27450942993164,
+      "votes": 51,
+      "score": null,
+      "ids": {
+        "trakt": 254799,
+        "slug": "the-exiled-heavy-knight-knows-how-to-game-the-system",
+        "imdb": "tt33334216",
+        "tmdb": 270603
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 22,
+      "title": "Adventure Time: Side Quests",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-29T04:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.611111164093018,
+      "votes": 18,
+      "score": null,
+      "ids": {
+        "trakt": 244064,
+        "slug": "adventure-time-side-quests",
+        "imdb": "tt32603995",
+        "tmdb": 256694
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 23,
+      "title": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-27T01:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.505747318267822,
+      "votes": 87,
+      "score": null,
+      "ids": {
+        "trakt": 291193,
+        "slug": "life-larry-and-the-pursuit-of-unhappiness-an-almost-history-of-america",
+        "imdb": "tt37543147",
+        "tmdb": 295780
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 24,
+      "title": "The Cat and the Dragon",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-27T12:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.642857551574707,
+      "votes": 28,
+      "score": null,
+      "ids": {
+        "trakt": 276229,
+        "slug": "the-cat-and-the-dragon",
+        "imdb": "tt41278620",
+        "tmdb": 284029
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 25,
+      "title": "Notes from the Last Row",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-26T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.82424259185791,
+      "votes": 165,
+      "score": null,
+      "ids": {
+        "trakt": 279254,
+        "slug": "notes-from-the-last-row",
+        "imdb": "tt36270432",
+        "tmdb": 286360
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 26,
+      "title": "The Doomies",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-26T09:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.079999923706055,
+      "votes": 25,
+      "score": null,
+      "ids": {
+        "trakt": 206673,
+        "slug": "the-doomies",
+        "imdb": "tt21057046",
+        "tmdb": 204137
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 27,
+      "title": "Agent Kim Reactivated",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-26T12:45:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.699152946472168,
+      "votes": 236,
+      "score": null,
+      "ids": {
+        "trakt": 292308,
+        "slug": "agent-kim-reactivated",
+        "imdb": "tt42127457",
+        "tmdb": 296206
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 28,
+      "title": "The Prosecutor's Proposal",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-25T14:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.746031761169434,
+      "votes": 63,
+      "score": null,
+      "ids": {
+        "trakt": 320289,
+        "slug": "the-prosecutor-s-proposal",
+        "imdb": "tt43592244",
+        "tmdb": 322055
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 29,
+      "title": "The American Experiment",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-24T04:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.7906975746154785,
+      "votes": 43,
+      "score": null,
+      "ids": {
+        "trakt": 319214,
+        "slug": "the-american-experiment",
+        "imdb": "tt42605728",
+        "tmdb": 322427
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 30,
+      "title": "See You at Work Tomorrow!",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-22T11:45:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.469388008117676,
+      "votes": 98,
+      "score": null,
+      "ids": {
+        "trakt": 283560,
+        "slug": "see-you-at-work-tomorrow",
+        "imdb": "tt38960812",
+        "tmdb": 289763
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 31,
+      "title": "I Will Find You",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-18T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.040658950805664,
+      "votes": 3640,
+      "score": null,
+      "ids": {
+        "trakt": 265319,
+        "slug": "i-will-find-you",
+        "imdb": "tt34771210",
+        "tmdb": 278178
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 32,
+      "title": "Oasis",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-18T22:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.808126449584961,
+      "votes": 443,
+      "score": null,
+      "ids": {
+        "trakt": 292413,
+        "slug": "oasis-2026",
+        "imdb": "tt38734636",
+        "tmdb": 296285
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 33,
+      "title": "Never-Ending Summer",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-16T04:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 9.202702522277832,
+      "votes": 74,
+      "score": null,
+      "ids": {
+        "trakt": 282083,
+        "slug": "never-ending-summer",
+        "imdb": "tt36982964",
+        "tmdb": 288603
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 34,
+      "title": "The Polygamist",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-12T03:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.008130073547363,
+      "votes": 123,
+      "score": null,
+      "ids": {
+        "trakt": 319216,
+        "slug": "the-polygamist",
+        "imdb": "tt42543947",
+        "tmdb": 322430
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 35,
+      "title": "Proud",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-12T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.684210777282715,
+      "votes": 57,
+      "score": null,
+      "ids": {
+        "trakt": 319419,
+        "slug": "proud-2026",
+        "imdb": "tt41050785",
+        "tmdb": 315610
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 36,
+      "title": "Outlast: The Jungle",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-10T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.8138298988342285,
+      "votes": 188,
+      "score": null,
+      "ids": {
+        "trakt": 320253,
+        "slug": "outlast-the-jungle",
+        "imdb": "tt43507442",
+        "tmdb": 322803
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 37,
+      "title": "Every Year After",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-10T08:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.181387901306152,
+      "votes": 634,
+      "score": null,
+      "ids": {
+        "trakt": 250645,
+        "slug": "every-year-after",
+        "imdb": "tt33055254",
+        "tmdb": 260592
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 38,
+      "title": "Dragon Striker",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-09T10:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.115385055541992,
+      "votes": 26,
+      "score": null,
+      "ids": {
+        "trakt": 206674,
+        "slug": "dragon-striker",
+        "imdb": "tt21056976",
+        "tmdb": 204135
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 39,
+      "title": "Alice and Steve",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-08T20:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.039547920227051,
+      "votes": 177,
+      "score": null,
+      "ids": {
+        "trakt": 317988,
+        "slug": "alice-and-steve",
+        "imdb": "tt35728748",
+        "tmdb": 318203
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 40,
+      "title": "The Vampire Lestat",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-07T04:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.681034088134766,
+      "votes": 232,
+      "score": null,
+      "ids": {
+        "trakt": 320162,
+        "slug": "the-vampire-lestat",
+        "imdb": null,
+        "tmdb": 323411
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 41,
+      "title": "Teach You a Lesson",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-05T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.845354080200195,
+      "votes": 1442,
+      "score": null,
+      "ids": {
+        "trakt": 262654,
+        "slug": "teach-you-a-lesson",
+        "imdb": "tt34809853",
+        "tmdb": 276161
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 42,
+      "title": "Cape Fear",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-05T01:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.654189109802246,
+      "votes": 561,
+      "score": null,
+      "ids": {
+        "trakt": 264291,
+        "slug": "cape-fear",
+        "imdb": "tt34675596",
+        "tmdb": 277439
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 43,
+      "title": "Among Us",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-05T04:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.566666603088379,
+      "votes": 210,
+      "score": null,
+      "ids": {
+        "trakt": 206968,
+        "slug": "among-us",
+        "imdb": "tt28230655",
+        "tmdb": 229544
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 44,
+      "title": "The Witness",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-04T03:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.017857074737549,
+      "votes": 560,
+      "score": null,
+      "ids": {
+        "trakt": 271341,
+        "slug": "the-witness-2026",
+        "imdb": "tt31631015",
+        "tmdb": 280511
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 45,
+      "title": "Michael Jackson: The Verdict",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-03T04:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.769230842590332,
+      "votes": 377,
+      "score": null,
+      "ids": {
+        "trakt": 319435,
+        "slug": "michael-jackson-the-verdict",
+        "imdb": "tt42873612",
+        "tmdb": 323111
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 46,
+      "title": "Two Years Later",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-03T13:30:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.962963104248047,
+      "votes": 27,
+      "score": null,
+      "ids": {
+        "trakt": 319304,
+        "slug": "two-years-later",
+        "imdb": "tt37403273",
+        "tmdb": 322687
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 47,
+      "title": "Bring Me the Beauties: A Model Cult",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-02T01:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.7727274894714355,
+      "votes": 44,
+      "score": null,
+      "ids": {
+        "trakt": 319589,
+        "slug": "bring-me-the-beauties-a-model-cult",
+        "imdb": "tt42835175",
+        "tmdb": 322974
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 48,
+      "title": "Not Suitable for Work",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-02T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.570680618286133,
+      "votes": 382,
+      "score": null,
+      "ids": {
+        "trakt": 277120,
+        "slug": "not-suitable-for-work",
+        "imdb": "tt35823838",
+        "tmdb": 284725
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 49,
+      "title": "Doctor on the Edge",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-01T13:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.602409839630127,
+      "votes": 83,
+      "score": null,
+      "ids": {
+        "trakt": 280074,
+        "slug": "doctor-on-the-edge",
+        "imdb": "tt39184653",
+        "tmdb": 287009
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 50,
+      "title": "Tip Toe",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-31T20:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.714285850524902,
+      "votes": 133,
+      "score": null,
+      "ids": {
+        "trakt": 279574,
+        "slug": "tip-toe",
+        "imdb": "tt35768911",
+        "tmdb": 286617
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 51,
+      "title": "Reborn Rookie",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-30T13:45:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.238938331604004,
+      "votes": 113,
+      "score": null,
+      "ids": {
+        "trakt": 296663,
+        "slug": "reborn-rookie",
+        "imdb": "tt42206645",
+        "tmdb": 299365
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 52,
+      "title": "Ticket to Heaven",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-30T13:30:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 9.469136238098145,
+      "votes": 243,
+      "score": null,
+      "ids": {
+        "trakt": 265224,
+        "slug": "ticket-to-heaven",
+        "imdb": "tt34930106",
+        "tmdb": 278158
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 53,
+      "title": "Payback",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-30T16:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 9.232876777648926,
+      "votes": 73,
+      "score": null,
+      "ids": {
+        "trakt": 317403,
+        "slug": "payback-2026",
+        "imdb": "tt39380468",
+        "tmdb": 316294
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 54,
+      "title": "Star City",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-29T01:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.005504608154297,
+      "votes": 545,
+      "score": null,
+      "ids": {
+        "trakt": 235622,
+        "slug": "star-city",
+        "imdb": "tt32140872",
+        "tmdb": 252107
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 55,
+      "title": "Rafa",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-29T12:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.711999893188477,
+      "votes": 500,
+      "score": null,
+      "ids": {
+        "trakt": 270508,
+        "slug": "rafa-2026",
+        "imdb": "tt35052852",
+        "tmdb": 279884
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 56,
+      "title": "World War II with Tom Hanks",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-26T00:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.308333396911621,
+      "votes": 120,
+      "score": null,
+      "ids": {
+        "trakt": 317627,
+        "slug": "world-war-ii-with-tom-hanks",
+        "imdb": "tt40385200",
+        "tmdb": 316992
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 57,
+      "title": "My 2 Cents",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-26T22:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.802660942077637,
+      "votes": 451,
+      "score": null,
+      "ids": {
+        "trakt": 306805,
+        "slug": "my-2-cents",
+        "imdb": "tt38821531",
+        "tmdb": 304597
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 58,
+      "title": "Spider-Noir",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-25T08:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.894297122955322,
+      "votes": 4068,
+      "score": null,
+      "ids": {
+        "trakt": 202400,
+        "slug": "spider-noir",
+        "imdb": "tt30460310",
+        "tmdb": 220102
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 59,
+      "title": "Two Weeks in August",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-23T20:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.372093200683594,
+      "votes": 43,
+      "score": null,
+      "ids": {
+        "trakt": 276221,
+        "slug": "two-weeks-in-august",
+        "imdb": "tt36118374",
+        "tmdb": 284022
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 60,
+      "title": "Mating Season",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-22T04:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.446808338165283,
+      "votes": 188,
+      "score": null,
+      "ids": {
+        "trakt": 284162,
+        "slug": "mating-season",
+        "imdb": "tt14690136",
+        "tmdb": 290295
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 61,
+      "title": "The Boroughs",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-21T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.70405387878418,
+      "votes": 2220,
+      "score": null,
+      "ids": {
+        "trakt": 204528,
+        "slug": "the-boroughs",
+        "imdb": "tt27557289",
+        "tmdb": 224941
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 62,
+      "title": "Maximum Pleasure Guaranteed",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-20T01:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.849282264709473,
+      "votes": 418,
+      "score": null,
+      "ids": {
+        "trakt": 277916,
+        "slug": "maximum-pleasure-guaranteed",
+        "imdb": "tt35946742",
+        "tmdb": 285404
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 63,
+      "title": "Kylie",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-20T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.370369911193848,
+      "votes": 108,
+      "score": null,
+      "ids": {
+        "trakt": 318940,
+        "slug": "kylie",
+        "imdb": "tt41993588",
+        "tmdb": 320472
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 64,
+      "title": "Se tiene que morir mucha gente",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-20T22:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.4590163230896,
+      "votes": 1159,
+      "score": null,
+      "ids": {
+        "trakt": 287023,
+        "slug": "se-tiene-que-morir-mucha-gente",
+        "imdb": "tt37050740",
+        "tmdb": 292557
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 65,
+      "title": "You're Killing Me",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-18T04:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.1785712242126465,
+      "votes": 56,
+      "score": null,
+      "ids": {
+        "trakt": 318638,
+        "slug": "you-re-killing-me",
+        "imdb": "tt36460202",
+        "tmdb": 320430
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 66,
       "title": "Berlin and the Lady with an Ermine",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-15",
+      "firstAired": "2026-05-15T01:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 7.5928144454956055,
@@ -135,50 +1388,56 @@
         "slug": "berlin-and-the-lady-with-an-ermine",
         "imdb": "tt42178219",
         "tmdb": 308014
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 8,
-      "title": "The Hardacres",
-      "year": 2024,
-      "released": null,
-      "firstAired": "2026-05-14",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.370165824890137,
-      "votes": 181,
-      "score": null,
-      "ids": {
-        "trakt": 217104,
-        "slug": "the-hardacres",
-        "imdb": "tt28489780",
-        "tmdb": 231751
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Soul Mate",
+      "rank": 67,
+      "title": "The WONDERfools",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-14",
+      "firstAired": "2026-05-15T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.15573787689209,
-      "votes": 122,
+      "rating": 8.066091537475586,
+      "votes": 696,
       "score": null,
       "ids": {
-        "trakt": 246608,
-        "slug": "soul-mate-2026",
-        "imdb": "tt32809226",
-        "tmdb": 258063
-      }
+        "trakt": 249676,
+        "slug": "the-wonderfools",
+        "imdb": "tt34440854",
+        "tmdb": 259837
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 10,
+      "rank": 68,
+      "title": "Dutton Ranch",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-15T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.787538528442383,
+      "votes": 1958,
+      "score": null,
+      "ids": {
+        "trakt": 296208,
+        "slug": "dutton-ranch",
+        "imdb": "tt34991493",
+        "tmdb": 299167
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 69,
       "title": "Nemesis",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-14",
+      "firstAired": "2026-05-14T07:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 7.399246692657471,
@@ -189,176 +1448,56 @@
         "slug": "nemesis-2026",
         "imdb": "tt36022742",
         "tmdb": 285807
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 11,
-      "title": "LOL: Last One Laughing",
-      "year": 2021,
-      "released": null,
-      "firstAired": "2026-05-14",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.300829887390137,
-      "votes": 482,
-      "score": null,
-      "ids": {
-        "trakt": 177070,
-        "slug": "lol-last-one-laughing-2021-177070",
-        "imdb": "tt13929916",
-        "tmdb": 122241
-      }
-    },
-    {
-      "rank": 12,
-      "title": "Perfect Match",
-      "year": 2023,
-      "released": null,
-      "firstAired": "2026-05-13",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.384469509124756,
-      "votes": 528,
-      "score": null,
-      "ids": {
-        "trakt": 201739,
-        "slug": "perfect-match",
-        "imdb": "tt23731242",
-        "tmdb": 218521
-      }
-    },
-    {
-      "rank": 13,
+      "rank": 70,
       "title": "Off Campus",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-13",
+      "firstAired": "2026-05-13T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.611437797546387,
-      "votes": 3742,
+      "rating": 8.610739707946777,
+      "votes": 3743,
       "score": null,
       "ids": {
         "trakt": 258304,
         "slug": "off-campus",
         "imdb": "tt33546863",
         "tmdb": 273240
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 14,
-      "title": "Homestead Rescue",
-      "year": 2016,
+      "rank": 71,
+      "title": "Soul Mate",
+      "year": 2026,
       "released": null,
-      "firstAired": "2026-05-13",
+      "firstAired": "2026-05-13T18:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.546154022216797,
-      "votes": 130,
+      "rating": 8.15573787689209,
+      "votes": 122,
       "score": null,
       "ids": {
-        "trakt": 108296,
-        "slug": "homestead-rescue",
-        "imdb": "tt5938484",
-        "tmdb": 68975
-      }
+        "trakt": 246608,
+        "slug": "soul-mate-2026",
+        "imdb": "tt32809226",
+        "tmdb": 258063
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 15,
-      "title": "Good Omens",
-      "year": 2019,
-      "released": null,
-      "firstAired": "2026-05-13",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.8817219734191895,
-      "votes": 7736,
-      "score": null,
-      "ids": {
-        "trakt": 144119,
-        "slug": "good-omens",
-        "imdb": "tt1869454",
-        "tmdb": 71915
-      }
-    },
-    {
-      "rank": 16,
-      "title": "Full-Time Magister",
-      "year": 2016,
-      "released": null,
-      "firstAired": "2026-05-13",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.323529243469238,
-      "votes": 102,
-      "score": null,
-      "ids": {
-        "trakt": 119130,
-        "slug": "full-time-magister",
-        "imdb": "tt11317074",
-        "tmdb": 70311
-      }
-    },
-    {
-      "rank": 17,
-      "title": "Eurovision Song Contest",
-      "year": 1956,
-      "released": null,
-      "firstAired": "2026-05-12",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.59375,
-      "votes": 128,
-      "score": null,
-      "ids": {
-        "trakt": 51441,
-        "slug": "eurovision-song-contest",
-        "imdb": null,
-        "tmdb": 28032
-      }
-    },
-    {
-      "rank": 18,
-      "title": "Devil May Cry",
-      "year": 2025,
-      "released": null,
-      "firstAired": "2026-05-12",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.691145420074463,
-      "votes": 2383,
-      "score": null,
-      "ids": {
-        "trakt": 210223,
-        "slug": "devil-may-cry-2025",
-        "imdb": "tt15716776",
-        "tmdb": 235930
-      }
-    },
-    {
-      "rank": 19,
-      "title": "Tucci in Italy",
-      "year": 2025,
-      "released": null,
-      "firstAired": "2026-05-11",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.8130083084106445,
-      "votes": 123,
-      "score": null,
-      "ids": {
-        "trakt": 217664,
-        "slug": "tucci-in-italy",
-        "imdb": "tt30443317",
-        "tmdb": 241569
-      }
-    },
-    {
-      "rank": 20,
+      "rank": 72,
       "title": "The Legend of Kitchen Soldier",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-11",
+      "firstAired": "2026-05-11T11:45:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 8.552631378173828,
@@ -369,14 +1508,16 @@
         "slug": "the-legend-of-kitchen-soldier",
         "imdb": "tt38626513",
         "tmdb": 295509
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 21,
+      "rank": 73,
       "title": "Regular Show: The Lost Tapes",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-11",
+      "firstAired": "2026-05-11T20:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 8.461538314819336,
@@ -387,68 +1528,16 @@
         "slug": "regular-show-the-lost-tapes",
         "imdb": "tt32604054",
         "tmdb": 256695
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 22,
-      "title": "Everyone Is Doing Great",
-      "year": 2021,
-      "released": null,
-      "firstAired": "2026-05-11",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.88095235824585,
-      "votes": 42,
-      "score": null,
-      "ids": {
-        "trakt": 166912,
-        "slug": "everyone-is-doing-great",
-        "imdb": "tt7082442",
-        "tmdb": 116600
-      }
-    },
-    {
-      "rank": 23,
-      "title": "90 Day Fiancé",
-      "year": 2014,
-      "released": null,
-      "firstAired": "2026-05-11",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.908888816833496,
-      "votes": 450,
-      "score": null,
-      "ids": {
-        "trakt": 75268,
-        "slug": "90-day-fiance",
-        "imdb": "tt3469050",
-        "tmdb": 61575
-      }
-    },
-    {
-      "rank": 24,
-      "title": "90 Day Diaries",
-      "year": 2021,
-      "released": null,
-      "firstAired": "2026-05-11",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.0217390060424805,
-      "votes": 46,
-      "score": null,
-      "ids": {
-        "trakt": 171616,
-        "slug": "90-day-diaries",
-        "imdb": "tt13787288",
-        "tmdb": 114659
-      }
-    },
-    {
-      "rank": 25,
+      "rank": 74,
       "title": "Believe Me",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-10",
+      "firstAired": "2026-05-10T20:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 7.859375,
@@ -459,104 +1548,16 @@
         "slug": "believe-me",
         "imdb": "tt36789130",
         "tmdb": 301283
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 26,
-      "title": "Deadliest Catch",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2026-05-09",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.376774311065674,
-      "votes": 775,
-      "score": null,
-      "ids": {
-        "trakt": 2596,
-        "slug": "deadliest-catch",
-        "imdb": "tt0446809",
-        "tmdb": 2612
-      }
-    },
-    {
-      "rank": 27,
-      "title": "The Loud House",
-      "year": 2016,
-      "released": null,
-      "firstAired": "2026-05-08",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.57692289352417,
-      "votes": 234,
-      "score": null,
-      "ids": {
-        "trakt": 106798,
-        "slug": "the-loud-house",
-        "imdb": "tt4859164",
-        "tmdb": 68073
-      }
-    },
-    {
-      "rank": 28,
-      "title": "Thank You, Next",
-      "year": 2024,
-      "released": null,
-      "firstAired": "2026-05-08",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.889795780181885,
-      "votes": 245,
-      "score": null,
-      "ids": {
-        "trakt": 235382,
-        "slug": "thank-you-next",
-        "imdb": "tt28267514",
-        "tmdb": 251883
-      }
-    },
-    {
-      "rank": 29,
-      "title": "RuPaul's Drag Race All Stars: Untucked!",
-      "year": 2012,
-      "released": null,
-      "firstAired": "2026-05-08",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.461538314819336,
-      "votes": 130,
-      "score": null,
-      "ids": {
-        "trakt": 110116,
-        "slug": "rupaul-s-drag-race-all-stars-untucked",
-        "imdb": "tt9646834",
-        "tmdb": 67564
-      }
-    },
-    {
-      "rank": 30,
-      "title": "RuPaul's Drag Race All Stars",
-      "year": 2012,
-      "released": null,
-      "firstAired": "2026-05-08",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.433455467224121,
-      "votes": 819,
-      "score": null,
-      "ids": {
-        "trakt": 68093,
-        "slug": "rupaul-s-drag-race-all-stars",
-        "imdb": "tt2301351",
-        "tmdb": 67482
-      }
-    },
-    {
-      "rank": 31,
+      "rank": 75,
       "title": "My Royal Nemesis",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-08",
+      "firstAired": "2026-05-08T12:45:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 8.51558780670166,
@@ -567,86 +1568,16 @@
         "slug": "my-royal-nemesis",
         "imdb": "tt38828946",
         "tmdb": 303143
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 32,
-      "title": "The Terror: Devil in Silver",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-05-07",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.517241477966309,
-      "votes": 145,
-      "score": null,
-      "ids": {
-        "trakt": 319859,
-        "slug": "the-terror-devil-in-silver",
-        "imdb": null,
-        "tmdb": 323903
-      }
-    },
-    {
-      "rank": 33,
-      "title": "The Chestnut Man",
-      "year": 2021,
-      "released": null,
-      "firstAired": "2026-05-07",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.6044745445251465,
-      "votes": 2637,
-      "score": null,
-      "ids": {
-        "trakt": 165237,
-        "slug": "the-chestnut-man",
-        "imdb": "tt10834220",
-        "tmdb": 127865
-      }
-    },
-    {
-      "rank": 34,
-      "title": "Taskmaster AU",
-      "year": 2023,
-      "released": null,
-      "firstAired": "2026-05-07",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.73118257522583,
-      "votes": 186,
-      "score": null,
-      "ids": {
-        "trakt": 202080,
-        "slug": "taskmaster-au",
-        "imdb": "tt25523050",
-        "tmdb": 219341
-      }
-    },
-    {
-      "rank": 35,
-      "title": "M.I.A.",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-05-07",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.468164920806885,
-      "votes": 267,
-      "score": null,
-      "ids": {
-        "trakt": 253143,
-        "slug": "m-i-a",
-        "imdb": "tt33253070",
-        "tmdb": 262388
-      }
-    },
-    {
-      "rank": 36,
+      "rank": 76,
       "title": "Legends",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-07",
+      "firstAired": "2026-05-07T02:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 8.033581733703613,
@@ -657,104 +1588,56 @@
         "slug": "legends-2026",
         "imdb": "tt33265765",
         "tmdb": 262280
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 37,
-      "title": "Worst Ex Ever",
-      "year": 2024,
+      "rank": 77,
+      "title": "M.I.A.",
+      "year": 2026,
       "released": null,
-      "firstAired": "2026-05-06",
+      "firstAired": "2026-05-07T04:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.724770545959473,
-      "votes": 654,
+      "rating": 7.462686538696289,
+      "votes": 268,
       "score": null,
       "ids": {
-        "trakt": 248773,
-        "slug": "worst-ex-ever",
-        "imdb": "tt32932523",
-        "tmdb": 259259
-      }
+        "trakt": 253143,
+        "slug": "m-i-a",
+        "imdb": "tt33253070",
+        "tmdb": 262388
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 38,
-      "title": "Citadel",
-      "year": 2023,
+      "rank": 78,
+      "title": "The Terror: Devil in Silver",
+      "year": 2026,
       "released": null,
-      "firstAired": "2026-05-06",
+      "firstAired": "2026-05-07T04:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 6.707010746002197,
-      "votes": 3024,
+      "rating": 6.517241477966309,
+      "votes": 145,
       "score": null,
       "ids": {
-        "trakt": 171028,
-        "slug": "citadel",
-        "imdb": "tt9794044",
-        "tmdb": 114922
-      }
+        "trakt": 319859,
+        "slug": "the-terror-devil-in-silver",
+        "imdb": null,
+        "tmdb": 323903
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 39,
-      "title": "Amandaland",
-      "year": 2025,
-      "released": null,
-      "firstAired": "2026-05-06",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.505434989929199,
-      "votes": 184,
-      "score": null,
-      "ids": {
-        "trakt": 241810,
-        "slug": "amandaland",
-        "imdb": "tt33305711",
-        "tmdb": 255355
-      }
-    },
-    {
-      "rank": 40,
-      "title": "Snapped: Killer Couples",
-      "year": 2013,
-      "released": null,
-      "firstAired": "2026-05-03",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.0,
-      "votes": 34,
-      "score": null,
-      "ids": {
-        "trakt": 101630,
-        "slug": "snapped-killer-couples",
-        "imdb": "tt2723810",
-        "tmdb": 91932
-      }
-    },
-    {
-      "rank": 41,
-      "title": "Peppa Pig",
-      "year": 2004,
-      "released": null,
-      "firstAired": "2026-05-03",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.049875259399414,
-      "votes": 401,
-      "score": null,
-      "ids": {
-        "trakt": 12172,
-        "slug": "peppa-pig",
-        "imdb": "tt0426769",
-        "tmdb": 12225
-      }
-    },
-    {
-      "rank": 42,
+      "rank": 79,
       "title": "Enemies With Benefits",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-05-03",
+      "firstAired": "2026-05-03T13:30:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 9.502857208251953,
@@ -765,86 +1648,16 @@
         "slug": "enemies-with-benefits",
         "imdb": "tt39044698",
         "tmdb": 307432
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 43,
-      "title": "The Boss",
-      "year": 2022,
-      "released": null,
-      "firstAired": "2026-05-01",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.921765327453613,
-      "votes": 997,
-      "score": null,
-      "ids": {
-        "trakt": 198394,
-        "slug": "the-boss-2022",
-        "imdb": "tt14362262",
-        "tmdb": 128306
-      }
-    },
-    {
-      "rank": 44,
-      "title": "Sapne vs Everyone",
-      "year": 2023,
-      "released": null,
-      "firstAired": "2026-05-01",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.600000381469727,
-      "votes": 125,
-      "score": null,
-      "ids": {
-        "trakt": 217572,
-        "slug": "sapne-vs-everyone",
-        "imdb": "tt30263074",
-        "tmdb": 240983
-      }
-    },
-    {
-      "rank": 45,
-      "title": "Impure",
-      "year": 2018,
-      "released": null,
-      "firstAired": "2026-05-01",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.336206436157227,
-      "votes": 116,
-      "score": null,
-      "ids": {
-        "trakt": 139808,
-        "slug": "impure",
-        "imdb": "tt9070896",
-        "tmdb": 83295
-      }
-    },
-    {
-      "rank": 46,
-      "title": "Prisoner",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-30",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.305389404296875,
-      "votes": 334,
-      "score": null,
-      "ids": {
-        "trakt": 314606,
-        "slug": "prisoner-2026",
-        "imdb": "tt34273502",
-        "tmdb": 311858
-      }
-    },
-    {
-      "rank": 47,
+      "rank": 80,
       "title": "Man on Fire",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-04-30",
+      "firstAired": "2026-04-30T08:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 7.604265213012695,
@@ -855,68 +1668,56 @@
         "slug": "man-on-fire",
         "imdb": "tt27331527",
         "tmdb": 223386
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 48,
-      "title": "I Want You To Make a Disgusted Face and Show Me Your Underwear",
-      "year": 2018,
+      "rank": 81,
+      "title": "Prisoner",
+      "year": 2026,
       "released": null,
-      "firstAired": "2026-04-30",
+      "firstAired": "2026-04-30T20:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 5.089285850524902,
-      "votes": 56,
+      "rating": 7.305389404296875,
+      "votes": 334,
       "score": null,
       "ids": {
-        "trakt": 134140,
-        "slug": "i-want-you-to-make-a-disgusted-face-and-show-me-your-underwear",
-        "imdb": "tt13077966",
-        "tmdb": 80867
-      }
+        "trakt": 314606,
+        "slug": "prisoner-2026",
+        "imdb": "tt34273502",
+        "tmdb": 311858
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 49,
+      "rank": 82,
       "title": "Widow's Bay",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-04-29",
+      "firstAired": "2026-04-29T01:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.318171501159668,
-      "votes": 4529,
+      "rating": 8.31832218170166,
+      "votes": 4530,
       "score": null,
       "ids": {
         "trakt": 254678,
         "slug": "widow-s-bay",
         "imdb": "tt33332385",
         "tmdb": 270476
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 50,
-      "title": "The House of the Spirits",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-29",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.777777671813965,
-      "votes": 324,
-      "score": null,
-      "ids": {
-        "trakt": 249464,
-        "slug": "the-house-of-the-spirits",
-        "imdb": "tt33022938",
-        "tmdb": 259702
-      }
-    },
-    {
-      "rank": 51,
+      "rank": 83,
       "title": "Should I Marry a Murderer?",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-04-29",
+      "firstAired": "2026-04-29T02:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 7.241206169128418,
@@ -927,14 +1728,36 @@
         "slug": "should-i-marry-a-murderer",
         "imdb": "tt41082351",
         "tmdb": 318262
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 52,
+      "rank": 84,
+      "title": "The House of the Spirits",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-04-29T04:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.775384426116943,
+      "votes": 325,
+      "score": null,
+      "ids": {
+        "trakt": 249464,
+        "slug": "the-house-of-the-spirits",
+        "imdb": "tt33022938",
+        "tmdb": 259702
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 85,
       "title": "Gold Land",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-04-29",
+      "firstAired": "2026-04-29T08:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 7.4193549156188965,
@@ -945,320 +1768,16 @@
         "slug": "gold-land",
         "imdb": "tt37253311",
         "tmdb": 278113
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 53,
-      "title": "Envious",
-      "year": 2024,
-      "released": null,
-      "firstAired": "2026-04-29",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.857787609100342,
-      "votes": 443,
-      "score": null,
-      "ids": {
-        "trakt": 252095,
-        "slug": "envious",
-        "imdb": "tt29494111",
-        "tmdb": 261615
-      }
-    },
-    {
-      "rank": 54,
-      "title": "Unconditional",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-27",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.7282609939575195,
-      "votes": 92,
-      "score": null,
-      "ids": {
-        "trakt": 316966,
-        "slug": "unconditional-2026",
-        "imdb": "tt35668813",
-        "tmdb": 314916
-      }
-    },
-    {
-      "rank": 55,
-      "title": "Straight to Hell",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-27",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.480620384216309,
-      "votes": 129,
-      "score": null,
-      "ids": {
-        "trakt": 298668,
-        "slug": "straight-to-hell",
-        "imdb": "tt38337374",
-        "tmdb": 300529
-      }
-    },
-    {
-      "rank": 56,
-      "title": "Secret Service",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-27",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.359589099884033,
-      "votes": 292,
-      "score": null,
-      "ids": {
-        "trakt": 280659,
-        "slug": "secret-service-2026",
-        "imdb": "tt32477632",
-        "tmdb": 287450
-      }
-    },
-    {
-      "rank": 57,
-      "title": "Biography: WWE Legends",
-      "year": 2021,
-      "released": null,
-      "firstAired": "2026-04-27",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.179487228393555,
-      "votes": 78,
-      "score": null,
-      "ids": {
-        "trakt": 174273,
-        "slug": "biography-wwe-legends",
-        "imdb": "tt14403784",
-        "tmdb": 119985
-      }
-    },
-    {
-      "rank": 58,
-      "title": "24 in 24: Last Chef Standing",
-      "year": 2024,
-      "released": null,
-      "firstAired": "2026-04-27",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.763636589050293,
-      "votes": 55,
-      "score": null,
-      "ids": {
-        "trakt": 229152,
-        "slug": "24-in-24-last-chef-standing",
-        "imdb": "tt31976132",
-        "tmdb": 248021
-      }
-    },
-    {
-      "rank": 59,
-      "title": "The Only Way is Essex",
-      "year": 2010,
-      "released": null,
-      "firstAired": "2026-04-26",
-      "watchers": null,
-      "plays": null,
-      "rating": 4.603448390960693,
-      "votes": 58,
-      "score": null,
-      "ids": {
-        "trakt": 34137,
-        "slug": "the-only-way-is-essex",
-        "imdb": "tt1737565",
-        "tmdb": 34284
-      }
-    },
-    {
-      "rank": 60,
-      "title": "The Cage",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-26",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.828125,
-      "votes": 64,
-      "score": null,
-      "ids": {
-        "trakt": 280376,
-        "slug": "the-cage-2026",
-        "imdb": "tt33995822",
-        "tmdb": 287230
-      }
-    },
-    {
-      "rank": 61,
-      "title": "Filing for Love",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-25",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.080745697021484,
-      "votes": 161,
-      "score": null,
-      "ids": {
-        "trakt": 294054,
-        "slug": "filing-for-love",
-        "imdb": "tt39010903",
-        "tmdb": 297640
-      }
-    },
-    {
-      "rank": 62,
-      "title": "Casualty",
-      "year": 1986,
-      "released": null,
-      "firstAired": "2026-04-25",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.083333492279053,
-      "votes": 72,
-      "score": null,
-      "ids": {
-        "trakt": 1016,
-        "slug": "casualty",
-        "imdb": "tt0096555",
-        "tmdb": 1021
-      }
-    },
-    {
-      "rank": 63,
-      "title": "LOL : Qui rit, sort !",
-      "year": 2021,
-      "released": null,
-      "firstAired": "2026-04-24",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.884181022644043,
-      "votes": 354,
-      "score": null,
-      "ids": {
-        "trakt": 176980,
-        "slug": "lol-qui-rit-sort",
-        "imdb": "tt13696152",
-        "tmdb": 122228
-      }
-    },
-    {
-      "rank": 64,
-      "title": "If Wishes Could Kill",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-24",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.647682189941406,
-      "votes": 755,
-      "score": null,
-      "ids": {
-        "trakt": 278535,
-        "slug": "if-wishes-could-kill",
-        "imdb": "tt36104233",
-        "tmdb": 285838
-      }
-    },
-    {
-      "rank": 65,
-      "title": "Cangaço Novo",
-      "year": 2023,
-      "released": null,
-      "firstAired": "2026-04-24",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.057415962219238,
-      "votes": 209,
-      "score": null,
-      "ids": {
-        "trakt": 207127,
-        "slug": "cangaco-novo",
-        "imdb": "tt27208330",
-        "tmdb": 137883
-      }
-    },
-    {
-      "rank": 66,
-      "title": "The Dry",
-      "year": 2022,
-      "released": null,
-      "firstAired": "2026-04-23",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.192770957946777,
-      "votes": 83,
-      "score": null,
-      "ids": {
-        "trakt": 195230,
-        "slug": "the-dry",
-        "imdb": "tt15210882",
-        "tmdb": 201209
-      }
-    },
-    {
-      "rank": 67,
-      "title": "Stranger Things: Tales from '85",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-23",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.363265514373779,
-      "votes": 490,
-      "score": null,
-      "ids": {
-        "trakt": 204203,
-        "slug": "stranger-things-tales-from-85",
-        "imdb": "tt27486290",
-        "tmdb": 224263
-      }
-    },
-    {
-      "rank": 68,
-      "title": "Running Point",
-      "year": 2025,
-      "released": null,
-      "firstAired": "2026-04-23",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.669155597686768,
-      "votes": 2143,
-      "score": null,
-      "ids": {
-        "trakt": 221851,
-        "slug": "running-point",
-        "imdb": "tt14879018",
-        "tmdb": 244623
-      }
-    },
-    {
-      "rank": 69,
-      "title": "LOL: Chi ride è fuori",
-      "year": 2021,
-      "released": null,
-      "firstAired": "2026-04-23",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.887850284576416,
-      "votes": 321,
-      "score": null,
-      "ids": {
-        "trakt": 173019,
-        "slug": "lol-chi-ride-e-fuori",
-        "imdb": "tt13620358",
-        "tmdb": 120494
-      }
-    },
-    {
-      "rank": 70,
+      "rank": 86,
       "title": "Half Man",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-04-23",
+      "firstAired": "2026-04-28T20:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 8.125388145446777,
@@ -1269,32 +1788,156 @@
         "slug": "half-man",
         "imdb": "tt32767294",
         "tmdb": 257994
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 71,
-      "title": "This Is a Gardening Show",
+      "rank": 87,
+      "title": "Secret Service",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-04-22",
+      "firstAired": "2026-04-27T20:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.103447914123535,
-      "votes": 116,
+      "rating": 7.359589099884033,
+      "votes": 292,
       "score": null,
       "ids": {
-        "trakt": 317580,
-        "slug": "this-is-a-gardening-show",
-        "imdb": "tt40826306",
-        "tmdb": 316920
-      }
+        "trakt": 280659,
+        "slug": "secret-service-2026",
+        "imdb": "tt32477632",
+        "tmdb": 287450
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 72,
+      "rank": 88,
+      "title": "Straight to Hell",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-04-27T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.480620384216309,
+      "votes": 129,
+      "score": null,
+      "ids": {
+        "trakt": 298668,
+        "slug": "straight-to-hell",
+        "imdb": "tt38337374",
+        "tmdb": 300529
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 89,
+      "title": "Unconditional",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-04-27T18:30:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.7282609939575195,
+      "votes": 92,
+      "score": null,
+      "ids": {
+        "trakt": 316966,
+        "slug": "unconditional-2026",
+        "imdb": "tt35668813",
+        "tmdb": 314916
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 90,
+      "title": "The Cage",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-04-26T20:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.828125,
+      "votes": 64,
+      "score": null,
+      "ids": {
+        "trakt": 280376,
+        "slug": "the-cage-2026",
+        "imdb": "tt33995822",
+        "tmdb": 287230
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 91,
+      "title": "Filing for Love",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-04-25T12:15:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.080745697021484,
+      "votes": 161,
+      "score": null,
+      "ids": {
+        "trakt": 294054,
+        "slug": "filing-for-love",
+        "imdb": "tt39010903",
+        "tmdb": 297640
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 92,
+      "title": "If Wishes Could Kill",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-04-24T08:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.647682189941406,
+      "votes": 755,
+      "score": null,
+      "ids": {
+        "trakt": 278535,
+        "slug": "if-wishes-could-kill",
+        "imdb": "tt36104233",
+        "tmdb": 285838
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 93,
+      "title": "Stranger Things: Tales from '85",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-04-23T07:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.363265514373779,
+      "votes": 490,
+      "score": null,
+      "ids": {
+        "trakt": 204203,
+        "slug": "stranger-things-tales-from-85",
+        "imdb": "tt27486290",
+        "tmdb": 224263
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 94,
       "title": "Sold Out on You",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-04-22",
+      "firstAired": "2026-04-22T12:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 7.819230556488037,
@@ -1305,14 +1948,36 @@
         "slug": "sold-out-on-you",
         "imdb": "tt39387440",
         "tmdb": 287011
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 73,
+      "rank": 95,
+      "title": "This Is a Gardening Show",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-04-22T04:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.103447914123535,
+      "votes": 116,
+      "score": null,
+      "ids": {
+        "trakt": 317580,
+        "slug": "this-is-a-gardening-show",
+        "imdb": "tt40826306",
+        "tmdb": 316920
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 96,
       "title": "Hulk Hogan: Real American",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-04-22",
+      "firstAired": "2026-04-22T04:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 7.75,
@@ -1323,32 +1988,16 @@
         "slug": "hulk-hogan-real-american",
         "imdb": "tt41508977",
         "tmdb": 318880
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 74,
-      "title": "Criminal Record",
-      "year": 2024,
-      "released": null,
-      "firstAired": "2026-04-22",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.1372389793396,
-      "votes": 1246,
-      "score": null,
-      "ids": {
-        "trakt": 196417,
-        "slug": "criminal-record",
-        "imdb": "tt21088136",
-        "tmdb": 204490
-      }
-    },
-    {
-      "rank": 75,
+      "rank": 97,
       "title": "Unchosen",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-04-21",
+      "firstAired": "2026-04-21T02:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 6.691831588745117,
@@ -1359,122 +2008,16 @@
         "slug": "unchosen",
         "imdb": "tt31631142",
         "tmdb": 262848
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 76,
-      "title": "The Real Housewives of Cheshire",
-      "year": 2015,
-      "released": null,
-      "firstAired": "2026-04-21",
-      "watchers": null,
-      "plays": null,
-      "rating": 4.795454502105713,
-      "votes": 44,
-      "score": null,
-      "ids": {
-        "trakt": 94803,
-        "slug": "the-real-housewives-of-cheshire",
-        "imdb": "tt4455862",
-        "tmdb": 61868
-      }
-    },
-    {
-      "rank": 77,
-      "title": "Interior Design Masters",
-      "year": 2019,
-      "released": null,
-      "firstAired": "2026-04-21",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.612121105194092,
-      "votes": 165,
-      "score": null,
-      "ids": {
-        "trakt": 151456,
-        "slug": "interior-design-masters",
-        "imdb": "tt8367694",
-        "tmdb": 94750
-      }
-    },
-    {
-      "rank": 78,
-      "title": "The Way Home",
-      "year": 2023,
-      "released": null,
-      "firstAired": "2026-04-20",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.42771053314209,
-      "votes": 332,
-      "score": null,
-      "ids": {
-        "trakt": 199852,
-        "slug": "the-way-home-2023",
-        "imdb": "tt20221678",
-        "tmdb": 201836
-      }
-    },
-    {
-      "rank": 79,
-      "title": "The Scarecrow",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-20",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.387499809265137,
-      "votes": 80,
-      "score": null,
-      "ids": {
-        "trakt": 286484,
-        "slug": "the-scarecrow",
-        "imdb": "tt39245629",
-        "tmdb": 292121
-      }
-    },
-    {
-      "rank": 80,
-      "title": "The Freak Brothers",
-      "year": 2021,
-      "released": null,
-      "firstAired": "2026-04-20",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.148648738861084,
-      "votes": 74,
-      "score": null,
-      "ids": {
-        "trakt": 167953,
-        "slug": "the-freak-brothers",
-        "imdb": "tt10627334",
-        "tmdb": 137164
-      }
-    },
-    {
-      "rank": 81,
-      "title": "The Food That Built America",
-      "year": 2019,
-      "released": null,
-      "firstAired": "2026-04-20",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.586419582366943,
-      "votes": 162,
-      "score": null,
-      "ids": {
-        "trakt": 150565,
-        "slug": "the-food-that-built-america",
-        "imdb": "tt10098248",
-        "tmdb": 92371
-      }
-    },
-    {
-      "rank": 82,
+      "rank": 98,
       "title": "Mint",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-04-20",
+      "firstAired": "2026-04-20T20:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 6.205882549285889,
@@ -1485,32 +2028,16 @@
         "slug": "mint",
         "imdb": "tt36363511",
         "tmdb": 247032
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
-      "rank": 83,
-      "title": "MasterChef",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2026-04-20",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.60606050491333,
-      "votes": 66,
-      "score": null,
-      "ids": {
-        "trakt": 25877,
-        "slug": "masterchef-2005",
-        "imdb": "tt0805418",
-        "tmdb": 25992
-      }
-    },
-    {
-      "rank": 84,
+      "rank": 99,
       "title": "Kevin",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-04-20",
+      "firstAired": "2026-04-20T07:00:00.000Z",
       "watchers": null,
       "plays": null,
       "rating": 6.408163070678711,
@@ -1521,295 +2048,29 @@
         "slug": "kevin",
         "imdb": "tt32499838",
         "tmdb": 255760
-      }
-    },
-    {
-      "rank": 85,
-      "title": "Hollywood Demons",
-      "year": 2025,
-      "released": null,
-      "firstAired": "2026-04-20",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.757575988769531,
-      "votes": 99,
-      "score": null,
-      "ids": {
-        "trakt": 279021,
-        "slug": "hollywood-demons",
-        "imdb": "tt36041664",
-        "tmdb": 286269
-      }
-    },
-    {
-      "rank": 86,
-      "title": "MasterChef Australia",
-      "year": 2009,
-      "released": null,
-      "firstAired": "2026-04-19",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.008130073547363,
-      "votes": 492,
-      "score": null,
-      "ids": {
-        "trakt": 16325,
-        "slug": "masterchef-australia",
-        "imdb": "tt1433870",
-        "tmdb": 16395
-      }
-    },
-    {
-      "rank": 87,
-      "title": "FROM",
-      "year": 2022,
-      "released": null,
-      "firstAired": "2026-04-19",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.088930130004883,
-      "votes": 14652,
-      "score": null,
-      "ids": {
-        "trakt": 188205,
-        "slug": "from",
-        "imdb": "tt9813792",
-        "tmdb": 124364
-      }
-    },
-    {
-      "rank": 88,
-      "title": "Antiques Roadshow",
-      "year": 1978,
-      "released": null,
-      "firstAired": "2026-04-19",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.310344696044922,
-      "votes": 29,
-      "score": null,
-      "ids": {
-        "trakt": 2029,
-        "slug": "antiques-roadshow",
-        "imdb": "tt0200325",
-        "tmdb": 2042
-      }
-    },
-    {
-      "rank": 89,
-      "title": "We Are All Trying Here",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-18",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.827731132507324,
-      "votes": 238,
-      "score": null,
-      "ids": {
-        "trakt": 283140,
-        "slug": "we-are-all-trying-here",
-        "imdb": "tt36732944",
-        "tmdb": 289424
-      }
-    },
-    {
-      "rank": 90,
-      "title": "House Hunters",
-      "year": 1999,
-      "released": null,
-      "firstAired": "2026-04-18",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.563910007476807,
-      "votes": 133,
-      "score": null,
-      "ids": {
-        "trakt": 6441,
-        "slug": "house-hunters",
-        "imdb": "tt0369117",
-        "tmdb": 6480
-      }
-    },
-    {
-      "rank": 91,
-      "title": "Cyberchase",
-      "year": 2002,
-      "released": null,
-      "firstAired": "2026-04-18",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.333333492279053,
-      "votes": 81,
-      "score": null,
-      "ids": {
-        "trakt": 2959,
-        "slug": "cyberchase",
-        "imdb": "tt0309141",
-        "tmdb": 2979
-      }
-    },
-    {
-      "rank": 92,
-      "title": "Full Swing",
-      "year": 2023,
-      "released": null,
-      "firstAired": "2026-04-17",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.5625,
-      "votes": 352,
-      "score": null,
-      "ids": {
-        "trakt": 201562,
-        "slug": "full-swing",
-        "imdb": "tt17050700",
-        "tmdb": 218137
-      }
-    },
-    {
-      "rank": 93,
-      "title": "Alpha Males",
-      "year": 2022,
-      "released": null,
-      "firstAired": "2026-04-17",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.804061412811279,
-      "votes": 4629,
-      "score": null,
-      "ids": {
-        "trakt": 200074,
-        "slug": "alpha-males",
-        "imdb": "tt18482892",
-        "tmdb": 215092
-      }
-    },
-    {
-      "rank": 94,
-      "title": "Absolute Value of Romance",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-17",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.703703880310059,
-      "votes": 81,
-      "score": null,
-      "ids": {
-        "trakt": 317636,
-        "slug": "absolute-value-of-romance",
-        "imdb": "tt41090249",
-        "tmdb": 314784
-      }
-    },
-    {
-      "rank": 95,
-      "title": "Vanderpump Villa",
-      "year": 2024,
-      "released": null,
-      "firstAired": "2026-04-16",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.523809432983398,
-      "votes": 105,
-      "score": null,
-      "ids": {
-        "trakt": 223308,
-        "slug": "vanderpump-villa",
-        "imdb": "tt27999118",
-        "tmdb": 245263
-      }
-    },
-    {
-      "rank": 96,
-      "title": "On the Case With Paula Zahn",
-      "year": 2009,
-      "released": null,
-      "firstAired": "2026-04-16",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.328571319580078,
-      "votes": 70,
-      "score": null,
-      "ids": {
-        "trakt": 73240,
-        "slug": "on-the-case-with-paula-zahn",
-        "imdb": "tt1554356",
-        "tmdb": 25181
-      }
-    },
-    {
-      "rank": 97,
-      "title": "MasterChef",
-      "year": 2010,
-      "released": null,
-      "firstAired": "2026-04-16",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.824561595916748,
-      "votes": 1026,
-      "score": null,
-      "ids": {
-        "trakt": 40105,
-        "slug": "masterchef",
-        "imdb": "tt1694423",
-        "tmdb": 40290
-      }
-    },
-    {
-      "rank": 98,
-      "title": "Big Mood",
-      "year": 2024,
-      "released": null,
-      "firstAired": "2026-04-16",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.3913044929504395,
-      "votes": 115,
-      "score": null,
-      "ids": {
-        "trakt": 204761,
-        "slug": "big-mood",
-        "imdb": "tt26765082",
-        "tmdb": 225384
-      }
-    },
-    {
-      "rank": 99,
-      "title": "Bergerac",
-      "year": 2025,
-      "released": null,
-      "firstAired": "2026-04-16",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.126213550567627,
-      "votes": 103,
-      "score": null,
-      "ids": {
-        "trakt": 235145,
-        "slug": "bergerac-2025",
-        "imdb": "tt9800658",
-        "tmdb": 251750
-      }
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     },
     {
       "rank": 100,
-      "title": "BEEF",
-      "year": 2023,
+      "title": "The Scarecrow",
+      "year": 2026,
       "released": null,
-      "firstAired": "2026-04-16",
+      "firstAired": "2026-04-20T13:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.926084518432617,
-      "votes": 7698,
+      "rating": 8.387499809265137,
+      "votes": 80,
       "score": null,
       "ids": {
-        "trakt": 197667,
-        "slug": "beef",
-        "imdb": "tt14403178",
-        "tmdb": 154385
-      }
+        "trakt": 286484,
+        "slug": "the-scarecrow",
+        "imdb": "tt39245629",
+        "tmdb": 292121
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
     }
   ]
 }
