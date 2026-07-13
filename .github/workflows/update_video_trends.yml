@@ -48,6 +48,26 @@ jobs:
           print(f"- Total items: {total}")
           print("- Validation: passed")
           print("- lastSuccessfulRefreshAt: updated")
+          print("\n### Ranking quality")
+          for entry in index["movies"] + index["series"]:
+              document = json.loads((Path("trends/video") / entry["path"]).read_text())
+              items = document["items"]
+              years = [x["year"] for x in items if x.get("year")]
+              date_key = "released" if document["mediaType"] == "movie" else "firstAired"
+              dates = [x[date_key] for x in items if x.get(date_key)]
+              source = document["source"]
+              origin = source.get("endpoint") or ", ".join(source.get("inputs", []))
+              quality = document.get("quality", {})
+              excluded = quality.get("candidates", len(items)) - quality.get("included", len(items))
+              reasons = {k: v for k, v in quality.items() if k not in ("candidates", "included") and v}
+              print(f"\n#### {document['mediaType']} / {document['section']}")
+              print(f"- Source: {origin}")
+              print(f"- Ranking type: {document['rankingType']}")
+              print(f"- Items: {len(items)}")
+              print(f"- Year range: {min(years) if years else 'n/a'} – {max(years) if years else 'n/a'}")
+              print(f"- Date range: {min(dates) if dates else 'n/a'} – {max(dates) if dates else 'n/a'}")
+              print(f"- Excluded: {excluded}")
+              print(f"- Exclusion reasons: {reasons or 'none'}")
           PY
       - name: Commit updated video trends
         run: |
