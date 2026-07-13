@@ -1,44 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatorVersion": "1.0.0",
+  "generatorVersion": "1.1.0",
   "provider": "trakt",
   "rankingType": "trakt_official",
   "algorithm": null,
   "mediaType": "show",
   "section": "trending",
-  "generatedAt": "2026-07-12T22:07:00Z",
+  "generatedAt": "2026-07-13T06:43:17Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 43200,
   "itemCount": 100,
   "items": [
     {
       "rank": 1,
-      "title": "Silo",
-      "year": 2023,
-      "released": null,
-      "firstAired": "2023-05-05T01:00:00.000Z",
-      "watchers": 9871,
-      "plays": null,
-      "rating": 8.266074180603027,
-      "votes": 15195,
-      "score": null,
-      "ids": {
-        "trakt": 180770,
-        "slug": "silo",
-        "imdb": "tt14688458",
-        "tmdb": 125988
-      }
-    },
-    {
-      "rank": 2,
       "title": "House of the Dragon",
       "year": 2022,
       "released": null,
       "firstAired": "2022-08-22T01:00:00.000Z",
-      "watchers": 6779,
+      "watchers": 12876,
       "plays": null,
-      "rating": 8.216585159301758,
-      "votes": 20440,
+      "rating": 8.21839714050293,
+      "votes": 20536,
       "score": null,
       "ids": {
         "trakt": 154574,
@@ -48,33 +30,33 @@
       }
     },
     {
-      "rank": 3,
-      "title": "The Bear",
-      "year": 2022,
+      "rank": 2,
+      "title": "Silo",
+      "year": 2023,
       "released": null,
-      "firstAired": "2022-06-24T00:00:00.000Z",
-      "watchers": 4132,
+      "firstAired": "2023-05-05T01:00:00.000Z",
+      "watchers": 10618,
       "plays": null,
-      "rating": 8.356876373291016,
-      "votes": 14767,
+      "rating": 8.266456604003906,
+      "votes": 15222,
       "score": null,
       "ids": {
-        "trakt": 189717,
-        "slug": "the-bear",
-        "imdb": "tt14452776",
-        "tmdb": 136315
+        "trakt": 180770,
+        "slug": "silo",
+        "imdb": "tt14688458",
+        "tmdb": 125988
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Rick and Morty",
       "year": 2013,
       "released": null,
       "firstAired": "2013-12-03T04:00:00.000Z",
-      "watchers": 4054,
+      "watchers": 4980,
       "plays": null,
-      "rating": 8.624011993408203,
-      "votes": 25312,
+      "rating": 8.625088691711426,
+      "votes": 25342,
       "score": null,
       "ids": {
         "trakt": 69829,
@@ -84,15 +66,33 @@
       }
     },
     {
+      "rank": 4,
+      "title": "The Bear",
+      "year": 2022,
+      "released": null,
+      "firstAired": "2022-06-24T00:00:00.000Z",
+      "watchers": 4810,
+      "plays": null,
+      "rating": 8.359368324279785,
+      "votes": 14826,
+      "score": null,
+      "ids": {
+        "trakt": 189717,
+        "slug": "the-bear",
+        "imdb": "tt14452776",
+        "tmdb": 136315
+      }
+    },
+    {
       "rank": 5,
       "title": "FROM",
       "year": 2022,
       "released": null,
       "firstAired": "2022-02-21T02:00:00.000Z",
-      "watchers": 3955,
+      "watchers": 4446,
       "plays": null,
-      "rating": 8.087129592895508,
-      "votes": 14599,
+      "rating": 8.08894157409668,
+      "votes": 14650,
       "score": null,
       "ids": {
         "trakt": 188205,
@@ -107,10 +107,10 @@
       "year": 2026,
       "released": null,
       "firstAired": "2026-04-29T01:00:00.000Z",
-      "watchers": 2929,
+      "watchers": 3422,
       "plays": null,
-      "rating": 8.317573547363281,
-      "votes": 4484,
+      "rating": 8.318452835083008,
+      "votes": 4525,
       "score": null,
       "ids": {
         "trakt": 254678,
@@ -121,104 +121,14 @@
     },
     {
       "rank": 7,
-      "title": "Cape Fear",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-06-05T01:00:00.000Z",
-      "watchers": 2751,
-      "plays": null,
-      "rating": 7.653916358947754,
-      "votes": 549,
-      "score": null,
-      "ids": {
-        "trakt": 264291,
-        "slug": "cape-fear",
-        "imdb": "tt34675596",
-        "tmdb": 277439
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Dutton Ranch",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-05-15T07:00:00.000Z",
-      "watchers": 2701,
-      "plays": null,
-      "rating": 8.79817008972168,
-      "votes": 1858,
-      "score": null,
-      "ids": {
-        "trakt": 296208,
-        "slug": "dutton-ranch",
-        "imdb": "tt34991493",
-        "tmdb": 299167
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Avatar: The Last Airbender",
-      "year": 2024,
-      "released": null,
-      "firstAired": "2024-02-22T05:00:00.000Z",
-      "watchers": 2394,
-      "plays": null,
-      "rating": 7.531867504119873,
-      "votes": 5821,
-      "score": null,
-      "ids": {
-        "trakt": 136561,
-        "slug": "avatar-the-last-airbender-2024",
-        "imdb": "tt9018736",
-        "tmdb": 82452
-      }
-    },
-    {
-      "rank": 10,
-      "title": "I Will Find You",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-06-18T07:00:00.000Z",
-      "watchers": 2370,
-      "plays": null,
-      "rating": 8.036526679992676,
-      "votes": 3559,
-      "score": null,
-      "ids": {
-        "trakt": 265319,
-        "slug": "i-will-find-you",
-        "imdb": "tt34771210",
-        "tmdb": 278178
-      }
-    },
-    {
-      "rank": 11,
-      "title": "Love Island USA",
-      "year": 2019,
-      "released": null,
-      "firstAired": "2019-07-10T01:00:00.000Z",
-      "watchers": 2327,
-      "plays": null,
-      "rating": 5.868544578552246,
-      "votes": 639,
-      "score": null,
-      "ids": {
-        "trakt": 147958,
-        "slug": "love-island-usa",
-        "imdb": "tt8819906",
-        "tmdb": 90521
-      }
-    },
-    {
-      "rank": 12,
       "title": "One Piece",
       "year": 1999,
       "released": null,
       "firstAired": "1999-10-20T14:15:00.000Z",
-      "watchers": 2306,
+      "watchers": 3331,
       "plays": null,
-      "rating": 8.931458473205566,
-      "votes": 7572,
+      "rating": 8.934745788574219,
+      "votes": 7601,
       "score": null,
       "ids": {
         "trakt": 37696,
@@ -228,33 +138,15 @@
       }
     },
     {
-      "rank": 13,
-      "title": "Daemons of the Shadow Realm",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-04-04T14:30:00.000Z",
-      "watchers": 2167,
-      "plays": null,
-      "rating": 8.107142448425293,
-      "votes": 420,
-      "score": null,
-      "ids": {
-        "trakt": 250204,
-        "slug": "daemons-of-the-shadow-realm",
-        "imdb": "tt37532356",
-        "tmdb": 260463
-      }
-    },
-    {
-      "rank": 14,
+      "rank": 8,
       "title": "Mushoku Tensei: Jobless Reincarnation",
       "year": 2021,
       "released": null,
       "firstAired": "2021-01-11T11:00:00.000Z",
-      "watchers": 2097,
+      "watchers": 3330,
       "plays": null,
-      "rating": 8.269922256469727,
-      "votes": 2560,
+      "rating": 8.279069900512695,
+      "votes": 2580,
       "score": null,
       "ids": {
         "trakt": 156460,
@@ -264,15 +156,105 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 9,
+      "title": "Cape Fear",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-05T01:00:00.000Z",
+      "watchers": 3026,
+      "plays": null,
+      "rating": 7.655357360839844,
+      "votes": 560,
+      "score": null,
+      "ids": {
+        "trakt": 264291,
+        "slug": "cape-fear",
+        "imdb": "tt34675596",
+        "tmdb": 277439
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Dutton Ranch",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-15T07:00:00.000Z",
+      "watchers": 3021,
+      "plays": null,
+      "rating": 8.78915023803711,
+      "votes": 1954,
+      "score": null,
+      "ids": {
+        "trakt": 296208,
+        "slug": "dutton-ranch",
+        "imdb": "tt34991493",
+        "tmdb": 299167
+      }
+    },
+    {
+      "rank": 11,
+      "title": "I Will Find You",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-18T07:00:00.000Z",
+      "watchers": 2743,
+      "plays": null,
+      "rating": 8.041850090026855,
+      "votes": 3632,
+      "score": null,
+      "ids": {
+        "trakt": 265319,
+        "slug": "i-will-find-you",
+        "imdb": "tt34771210",
+        "tmdb": 278178
+      }
+    },
+    {
+      "rank": 12,
+      "title": "Love Island USA",
+      "year": 2019,
+      "released": null,
+      "firstAired": "2019-07-10T01:00:00.000Z",
+      "watchers": 2717,
+      "plays": null,
+      "rating": 5.884735107421875,
+      "votes": 642,
+      "score": null,
+      "ids": {
+        "trakt": 147958,
+        "slug": "love-island-usa",
+        "imdb": "tt8819906",
+        "tmdb": 90521
+      }
+    },
+    {
+      "rank": 13,
+      "title": "Avatar: The Last Airbender",
+      "year": 2024,
+      "released": null,
+      "firstAired": "2024-02-22T05:00:00.000Z",
+      "watchers": 2642,
+      "plays": null,
+      "rating": 7.536726951599121,
+      "votes": 5854,
+      "score": null,
+      "ids": {
+        "trakt": 136561,
+        "slug": "avatar-the-last-airbender-2024",
+        "imdb": "tt9018736",
+        "tmdb": 82452
+      }
+    },
+    {
+      "rank": 14,
       "title": "X-Men '97",
       "year": 2024,
       "released": null,
       "firstAired": "2024-03-20T07:00:00.000Z",
-      "watchers": 1976,
+      "watchers": 2089,
       "plays": null,
-      "rating": 8.606042861938477,
-      "votes": 3409,
+      "rating": 8.607934951782227,
+      "votes": 3428,
       "score": null,
       "ids": {
         "trakt": 191187,
@@ -282,51 +264,33 @@
       }
     },
     {
-      "rank": 16,
-      "title": "Agent Kim Reactivated",
+      "rank": 15,
+      "title": "Daemons of the Shadow Realm",
       "year": 2026,
       "released": null,
-      "firstAired": "2026-06-26T12:45:00.000Z",
-      "watchers": 1869,
+      "firstAired": "2026-04-04T14:30:00.000Z",
+      "watchers": 1980,
       "plays": null,
-      "rating": 8.691630363464355,
-      "votes": 227,
+      "rating": 8.089411735534668,
+      "votes": 425,
       "score": null,
       "ids": {
-        "trakt": 292308,
-        "slug": "agent-kim-reactivated",
-        "imdb": "tt42127457",
-        "tmdb": 296206
+        "trakt": 250204,
+        "slug": "daemons-of-the-shadow-realm",
+        "imdb": "tt37532356",
+        "tmdb": 260463
       }
     },
     {
-      "rank": 17,
-      "title": "Criminal Minds",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2005-09-22T07:00:00.000Z",
-      "watchers": 1867,
-      "plays": null,
-      "rating": 8.053426742553711,
-      "votes": 6551,
-      "score": null,
-      "ids": {
-        "trakt": 4033,
-        "slug": "criminal-minds",
-        "imdb": "tt0452046",
-        "tmdb": 4057
-      }
-    },
-    {
-      "rank": 18,
+      "rank": 16,
       "title": "Game of Thrones",
       "year": 2011,
       "released": null,
       "firstAired": "2011-04-18T01:00:00.000Z",
-      "watchers": 1807,
+      "watchers": 1973,
       "plays": null,
-      "rating": 8.884875297546387,
-      "votes": 67544,
+      "rating": 8.885327339172363,
+      "votes": 67627,
       "score": null,
       "ids": {
         "trakt": 1390,
@@ -336,15 +300,15 @@
       }
     },
     {
-      "rank": 19,
+      "rank": 17,
       "title": "The Boys",
       "year": 2019,
       "released": null,
       "firstAired": "2019-07-25T07:00:00.000Z",
-      "watchers": 1760,
+      "watchers": 1949,
       "plays": null,
-      "rating": 8.280635833740234,
-      "votes": 34739,
+      "rating": 8.281006813049316,
+      "votes": 34807,
       "score": null,
       "ids": {
         "trakt": 139960,
@@ -354,15 +318,33 @@
       }
     },
     {
-      "rank": 20,
+      "rank": 18,
+      "title": "Criminal Minds",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-09-22T07:00:00.000Z",
+      "watchers": 1903,
+      "plays": null,
+      "rating": 8.053464889526367,
+      "votes": 6565,
+      "score": null,
+      "ids": {
+        "trakt": 4033,
+        "slug": "criminal-minds",
+        "imdb": "tt0452046",
+        "tmdb": 4057
+      }
+    },
+    {
+      "rank": 19,
       "title": "The Agency",
       "year": 2024,
       "released": null,
       "firstAired": "2024-12-01T08:00:00.000Z",
-      "watchers": 1659,
+      "watchers": 1860,
       "plays": null,
-      "rating": 7.52744722366333,
-      "votes": 2605,
+      "rating": 7.52877950668335,
+      "votes": 2606,
       "score": null,
       "ids": {
         "trakt": 202341,
@@ -372,15 +354,33 @@
       }
     },
     {
+      "rank": 20,
+      "title": "Agent Kim Reactivated",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-26T12:45:00.000Z",
+      "watchers": 1721,
+      "plays": null,
+      "rating": 8.699152946472168,
+      "votes": 236,
+      "score": null,
+      "ids": {
+        "trakt": 292308,
+        "slug": "agent-kim-reactivated",
+        "imdb": "tt42127457",
+        "tmdb": 296206
+      }
+    },
+    {
       "rank": 21,
       "title": "Star City",
       "year": 2026,
       "released": null,
       "firstAired": "2026-05-29T01:00:00.000Z",
-      "watchers": 1635,
+      "watchers": 1668,
       "plays": null,
-      "rating": 8.001904487609863,
-      "votes": 525,
+      "rating": 8.003683090209961,
+      "votes": 543,
       "score": null,
       "ids": {
         "trakt": 235622,
@@ -391,32 +391,14 @@
     },
     {
       "rank": 22,
-      "title": "Sugar",
-      "year": 2024,
-      "released": null,
-      "firstAired": "2024-04-05T02:00:00.000Z",
-      "watchers": 1534,
-      "plays": null,
-      "rating": 7.381922721862793,
-      "votes": 2257,
-      "score": null,
-      "ids": {
-        "trakt": 196180,
-        "slug": "sugar-2024",
-        "imdb": "tt16418808",
-        "tmdb": 203744
-      }
-    },
-    {
-      "rank": 23,
       "title": "The Big Bang Theory",
       "year": 2007,
       "released": null,
       "firstAired": "2007-09-25T00:00:00.000Z",
-      "watchers": 1506,
+      "watchers": 1664,
       "plays": null,
-      "rating": 7.834138870239258,
-      "votes": 33938,
+      "rating": 7.835286617279053,
+      "votes": 33962,
       "score": null,
       "ids": {
         "trakt": 1409,
@@ -426,15 +408,69 @@
       }
     },
     {
+      "rank": 23,
+      "title": "Sugar",
+      "year": 2024,
+      "released": null,
+      "firstAired": "2024-04-05T02:00:00.000Z",
+      "watchers": 1621,
+      "plays": null,
+      "rating": 7.381962776184082,
+      "votes": 2262,
+      "score": null,
+      "ids": {
+        "trakt": 196180,
+        "slug": "sugar-2024",
+        "imdb": "tt16418808",
+        "tmdb": 203744
+      }
+    },
+    {
       "rank": 24,
+      "title": "My Adventures with Superman",
+      "year": 2023,
+      "released": null,
+      "firstAired": "2023-07-07T04:00:00.000Z",
+      "watchers": 1619,
+      "plays": null,
+      "rating": 7.698113441467285,
+      "votes": 901,
+      "score": null,
+      "ids": {
+        "trakt": 180751,
+        "slug": "my-adventures-with-superman",
+        "imdb": "tt14681924",
+        "tmdb": 125928
+      }
+    },
+    {
+      "rank": 25,
+      "title": "The Vampire Lestat",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-07T04:00:00.000Z",
+      "watchers": 1595,
+      "plays": null,
+      "rating": 8.675324440002441,
+      "votes": 231,
+      "score": null,
+      "ids": {
+        "trakt": 320162,
+        "slug": "the-vampire-lestat",
+        "imdb": null,
+        "tmdb": 323411
+      }
+    },
+    {
+      "rank": 26,
       "title": "Elle",
       "year": 2026,
       "released": null,
       "firstAired": "2026-07-01T07:00:00.000Z",
-      "watchers": 1439,
+      "watchers": 1581,
       "plays": null,
-      "rating": 7.969404220581055,
-      "votes": 621,
+      "rating": 7.986068248748779,
+      "votes": 646,
       "score": null,
       "ids": {
         "trakt": 239856,
@@ -444,33 +480,15 @@
       }
     },
     {
-      "rank": 25,
-      "title": "That Time I Got Reincarnated as a Slime",
-      "year": 2018,
-      "released": null,
-      "firstAired": "2018-10-02T14:00:00.000Z",
-      "watchers": 1387,
-      "plays": null,
-      "rating": 8.224406242370605,
-      "votes": 2442,
-      "score": null,
-      "ids": {
-        "trakt": 135985,
-        "slug": "that-time-i-got-reincarnated-as-a-slime",
-        "imdb": "tt9054364",
-        "tmdb": 82684
-      }
-    },
-    {
-      "rank": 26,
+      "rank": 27,
       "title": "The Rookie",
       "year": 2018,
       "released": null,
       "firstAired": "2018-10-17T02:00:00.000Z",
-      "watchers": 1334,
+      "watchers": 1409,
       "plays": null,
-      "rating": 8.116987228393555,
-      "votes": 7223,
+      "rating": 8.117532730102539,
+      "votes": 7232,
       "score": null,
       "ids": {
         "trakt": 134421,
@@ -480,15 +498,15 @@
       }
     },
     {
-      "rank": 27,
+      "rank": 28,
       "title": "Friends",
       "year": 1994,
       "released": null,
       "firstAired": "1994-09-23T00:00:00.000Z",
-      "watchers": 1298,
+      "watchers": 1401,
       "plays": null,
-      "rating": 8.404871940612793,
-      "votes": 30133,
+      "rating": 8.406439781188965,
+      "votes": 30189,
       "score": null,
       "ids": {
         "trakt": 1657,
@@ -498,15 +516,15 @@
       }
     },
     {
-      "rank": 28,
+      "rank": 29,
       "title": "Modern Family",
       "year": 2009,
       "released": null,
       "firstAired": "2009-09-24T01:00:00.000Z",
-      "watchers": 1236,
+      "watchers": 1396,
       "plays": null,
-      "rating": 8.279023170471191,
-      "votes": 18425,
+      "rating": 8.279987335205078,
+      "votes": 18458,
       "score": null,
       "ids": {
         "trakt": 1412,
@@ -516,33 +534,15 @@
       }
     },
     {
-      "rank": 29,
-      "title": "BLACK TORCH",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-07-04T13:00:00.000Z",
-      "watchers": 1227,
-      "plays": null,
-      "rating": 7.963855266571045,
-      "votes": 83,
-      "score": null,
-      "ids": {
-        "trakt": 278722,
-        "slug": "black-torch",
-        "imdb": "tt37532893",
-        "tmdb": 285993
-      }
-    },
-    {
       "rank": 30,
       "title": "The Pitt",
       "year": 2025,
       "released": null,
       "firstAired": "2025-01-10T02:00:00.000Z",
-      "watchers": 1219,
+      "watchers": 1366,
       "plays": null,
-      "rating": 8.933666229248047,
-      "votes": 10417,
+      "rating": 8.935521125793457,
+      "votes": 10453,
       "score": null,
       "ids": {
         "trakt": 232884,
@@ -553,68 +553,32 @@
     },
     {
       "rank": 31,
-      "title": "My Adventures with Superman",
-      "year": 2023,
+      "title": "That Time I Got Reincarnated as a Slime",
+      "year": 2018,
       "released": null,
-      "firstAired": "2023-07-07T04:00:00.000Z",
-      "watchers": 1167,
+      "firstAired": "2018-10-02T14:00:00.000Z",
+      "watchers": 1328,
       "plays": null,
-      "rating": 7.686450004577637,
-      "votes": 893,
+      "rating": 8.22948169708252,
+      "votes": 2449,
       "score": null,
       "ids": {
-        "trakt": 180751,
-        "slug": "my-adventures-with-superman",
-        "imdb": "tt14681924",
-        "tmdb": 125928
+        "trakt": 135985,
+        "slug": "that-time-i-got-reincarnated-as-a-slime",
+        "imdb": "tt9054364",
+        "tmdb": 82684
       }
     },
     {
       "rank": 32,
-      "title": "Supernatural",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2005-09-14T00:00:00.000Z",
-      "watchers": 1166,
-      "plays": null,
-      "rating": 8.293755531311035,
-      "votes": 15598,
-      "score": null,
-      "ids": {
-        "trakt": 1611,
-        "slug": "supernatural",
-        "imdb": "tt0460681",
-        "tmdb": 1622
-      }
-    },
-    {
-      "rank": 33,
-      "title": "The Simpsons",
-      "year": 1989,
-      "released": null,
-      "firstAired": "1989-12-18T01:00:00.000Z",
-      "watchers": 1143,
-      "plays": null,
-      "rating": 8.245615005493164,
-      "votes": 13114,
-      "score": null,
-      "ids": {
-        "trakt": 455,
-        "slug": "the-simpsons",
-        "imdb": "tt0096697",
-        "tmdb": 456
-      }
-    },
-    {
-      "rank": 34,
       "title": "Spider-Noir",
       "year": 2026,
       "released": null,
       "firstAired": "2026-05-25T08:00:00.000Z",
-      "watchers": 1139,
+      "watchers": 1311,
       "plays": null,
-      "rating": 7.890295505523682,
-      "votes": 4029,
+      "rating": 7.893454551696777,
+      "votes": 4064,
       "score": null,
       "ids": {
         "trakt": 202400,
@@ -624,15 +588,15 @@
       }
     },
     {
-      "rank": 35,
+      "rank": 33,
       "title": "The Office",
       "year": 2005,
       "released": null,
       "firstAired": "2005-03-24T22:30:00.000Z",
-      "watchers": 1116,
+      "watchers": 1267,
       "plays": null,
-      "rating": 8.668413162231445,
-      "votes": 26723,
+      "rating": 8.66909408569336,
+      "votes": 26778,
       "score": null,
       "ids": {
         "trakt": 2302,
@@ -642,87 +606,69 @@
       }
     },
     {
-      "rank": 36,
-      "title": "The Vampire Lestat",
-      "year": 2026,
+      "rank": 34,
+      "title": "Supernatural",
+      "year": 2005,
       "released": null,
-      "firstAired": "2026-06-07T04:00:00.000Z",
-      "watchers": 1097,
+      "firstAired": "2005-09-14T00:00:00.000Z",
+      "watchers": 1263,
       "plays": null,
-      "rating": 8.699999809265137,
-      "votes": 220,
+      "rating": 8.294294357299805,
+      "votes": 15634,
       "score": null,
       "ids": {
-        "trakt": 320162,
-        "slug": "the-vampire-lestat",
-        "imdb": null,
-        "tmdb": 323411
+        "trakt": 1611,
+        "slug": "supernatural",
+        "imdb": "tt0460681",
+        "tmdb": 1622
+      }
+    },
+    {
+      "rank": 35,
+      "title": "The Simpsons",
+      "year": 1989,
+      "released": null,
+      "firstAired": "1989-12-18T01:00:00.000Z",
+      "watchers": 1239,
+      "plays": null,
+      "rating": 8.245560646057129,
+      "votes": 13121,
+      "score": null,
+      "ids": {
+        "trakt": 455,
+        "slug": "the-simpsons",
+        "imdb": "tt0096697",
+        "tmdb": 456
+      }
+    },
+    {
+      "rank": 36,
+      "title": "The Westies",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-12T04:00:00.000Z",
+      "watchers": 1226,
+      "plays": null,
+      "rating": 8.44444465637207,
+      "votes": 18,
+      "score": null,
+      "ids": {
+        "trakt": 279635,
+        "slug": "the-westies",
+        "imdb": "tt31849235",
+        "tmdb": 286709
       }
     },
     {
       "rank": 37,
-      "title": "Power Book III: Raising Kanan",
-      "year": 2021,
-      "released": null,
-      "firstAired": "2021-07-19T01:00:00.000Z",
-      "watchers": 1087,
-      "plays": null,
-      "rating": 7.89453125,
-      "votes": 768,
-      "score": null,
-      "ids": {
-        "trakt": 158457,
-        "slug": "power-book-iii-raising-kanan",
-        "imdb": "tt11761176",
-        "tmdb": 124394
-      }
-    },
-    {
-      "rank": 38,
-      "title": "Breaking Bad",
-      "year": 2008,
-      "released": null,
-      "firstAired": "2008-01-21T02:00:00.000Z",
-      "watchers": 1084,
-      "plays": null,
-      "rating": 9.294657707214355,
-      "votes": 65381,
-      "score": null,
-      "ids": {
-        "trakt": 1388,
-        "slug": "breaking-bad",
-        "imdb": "tt0903747",
-        "tmdb": 1396
-      }
-    },
-    {
-      "rank": 39,
-      "title": "Family Guy",
-      "year": 1999,
-      "released": null,
-      "firstAired": "1999-02-01T01:30:00.000Z",
-      "watchers": 1079,
-      "plays": null,
-      "rating": 7.730206489562988,
-      "votes": 13666,
-      "score": null,
-      "ids": {
-        "trakt": 1425,
-        "slug": "family-guy",
-        "imdb": "tt0182576",
-        "tmdb": 1434
-      }
-    },
-    {
-      "rank": 40,
       "title": "Euphoria",
       "year": 2019,
       "released": null,
       "firstAired": "2019-06-17T01:00:00.000Z",
-      "watchers": 1073,
+      "watchers": 1191,
       "plays": null,
-      "rating": 7.862480640411377,
-      "votes": 10973,
+      "rating": 7.861366271972656,
+      "votes": 10993,
       "score": null,
       "ids": {
         "trakt": 144629,
@@ -732,51 +678,51 @@
       }
     },
     {
-      "rank": 41,
-      "title": "Stranger Things",
-      "year": 2016,
+      "rank": 38,
+      "title": "Family Guy",
+      "year": 1999,
       "released": null,
-      "firstAired": "2016-07-16T00:00:00.000Z",
-      "watchers": 1029,
+      "firstAired": "1999-02-01T01:30:00.000Z",
+      "watchers": 1189,
       "plays": null,
-      "rating": 8.399391174316406,
-      "votes": 53857,
+      "rating": 7.730257511138916,
+      "votes": 13676,
       "score": null,
       "ids": {
-        "trakt": 104439,
-        "slug": "stranger-things",
-        "imdb": "tt4574334",
-        "tmdb": 66732
+        "trakt": 1425,
+        "slug": "family-guy",
+        "imdb": "tt0182576",
+        "tmdb": 1434
       }
     },
     {
-      "rank": 42,
-      "title": "Clarkson's Farm",
-      "year": 2021,
+      "rank": 39,
+      "title": "Breaking Bad",
+      "year": 2008,
       "released": null,
-      "firstAired": "2021-06-11T02:00:00.000Z",
-      "watchers": 995,
+      "firstAired": "2008-01-21T02:00:00.000Z",
+      "watchers": 1181,
       "plays": null,
-      "rating": 8.560018539428711,
-      "votes": 4382,
+      "rating": 9.294754981994629,
+      "votes": 65468,
       "score": null,
       "ids": {
-        "trakt": 159013,
-        "slug": "clarkson-s-farm",
-        "imdb": "tt10541088",
-        "tmdb": 117648
+        "trakt": 1388,
+        "slug": "breaking-bad",
+        "imdb": "tt0903747",
+        "tmdb": 1396
       }
     },
     {
-      "rank": 43,
+      "rank": 40,
       "title": "Big Brother",
       "year": 2000,
       "released": null,
       "firstAired": "2000-07-06T00:00:00.000Z",
-      "watchers": 989,
+      "watchers": 1159,
       "plays": null,
-      "rating": 6.282285690307617,
-      "votes": 875,
+      "rating": 6.280501842498779,
+      "votes": 877,
       "score": null,
       "ids": {
         "trakt": 10111,
@@ -786,15 +732,69 @@
       }
     },
     {
+      "rank": 41,
+      "title": "Clarkson's Farm",
+      "year": 2021,
+      "released": null,
+      "firstAired": "2021-06-11T02:00:00.000Z",
+      "watchers": 1115,
+      "plays": null,
+      "rating": 8.560803413391113,
+      "votes": 4383,
+      "score": null,
+      "ids": {
+        "trakt": 159013,
+        "slug": "clarkson-s-farm",
+        "imdb": "tt10541088",
+        "tmdb": 117648
+      }
+    },
+    {
+      "rank": 42,
+      "title": "Your Friends & Neighbors",
+      "year": 2025,
+      "released": null,
+      "firstAired": "2025-04-11T01:00:00.000Z",
+      "watchers": 1097,
+      "plays": null,
+      "rating": 7.837591648101807,
+      "votes": 4501,
+      "score": null,
+      "ids": {
+        "trakt": 217691,
+        "slug": "your-friends-neighbors",
+        "imdb": "tt30459041",
+        "tmdb": 241609
+      }
+    },
+    {
+      "rank": 43,
+      "title": "For All Mankind",
+      "year": 2019,
+      "released": null,
+      "firstAired": "2019-11-02T01:00:00.000Z",
+      "watchers": 1089,
+      "plays": null,
+      "rating": 8.210458755493164,
+      "votes": 7018,
+      "score": null,
+      "ids": {
+        "trakt": 140481,
+        "slug": "for-all-mankind",
+        "imdb": "tt7772588",
+        "tmdb": 87917
+      }
+    },
+    {
       "rank": 44,
       "title": "Grey's Anatomy",
       "year": 2005,
       "released": null,
       "firstAired": "2005-03-28T03:00:00.000Z",
-      "watchers": 987,
+      "watchers": 1080,
       "plays": null,
-      "rating": 7.599273681640625,
-      "votes": 9912,
+      "rating": 7.601247787475586,
+      "votes": 9936,
       "score": null,
       "ids": {
         "trakt": 1407,
@@ -805,32 +805,50 @@
     },
     {
       "rank": 45,
-      "title": "For All Mankind",
-      "year": 2019,
+      "title": "Stranger Things",
+      "year": 2016,
       "released": null,
-      "firstAired": "2019-11-02T01:00:00.000Z",
-      "watchers": 986,
+      "firstAired": "2016-07-16T00:00:00.000Z",
+      "watchers": 1077,
       "plays": null,
-      "rating": 8.211381912231445,
-      "votes": 7011,
+      "rating": 8.399087905883789,
+      "votes": 53953,
       "score": null,
       "ids": {
-        "trakt": 140481,
-        "slug": "for-all-mankind",
-        "imdb": "tt7772588",
-        "tmdb": 87917
+        "trakt": 104439,
+        "slug": "stranger-things",
+        "imdb": "tt4574334",
+        "tmdb": 66732
       }
     },
     {
       "rank": 46,
+      "title": "Power Book III: Raising Kanan",
+      "year": 2021,
+      "released": null,
+      "firstAired": "2021-07-19T01:00:00.000Z",
+      "watchers": 1074,
+      "plays": null,
+      "rating": 7.896373271942139,
+      "votes": 772,
+      "score": null,
+      "ids": {
+        "trakt": 158457,
+        "slug": "power-book-iii-raising-kanan",
+        "imdb": "tt11761176",
+        "tmdb": 124394
+      }
+    },
+    {
+      "rank": 47,
       "title": "The Mentalist",
       "year": 2008,
       "released": null,
       "firstAired": "2008-09-24T00:00:00.000Z",
-      "watchers": 971,
+      "watchers": 1068,
       "plays": null,
-      "rating": 8.156817436218262,
-      "votes": 9036,
+      "rating": 8.158992767333984,
+      "votes": 9057,
       "score": null,
       "ids": {
         "trakt": 5882,
@@ -840,33 +858,15 @@
       }
     },
     {
-      "rank": 47,
-      "title": "Your Friends & Neighbors",
-      "year": 2025,
-      "released": null,
-      "firstAired": "2025-04-11T01:00:00.000Z",
-      "watchers": 957,
-      "plays": null,
-      "rating": 7.8374528884887695,
-      "votes": 4491,
-      "score": null,
-      "ids": {
-        "trakt": 217691,
-        "slug": "your-friends-neighbors",
-        "imdb": "tt30459041",
-        "tmdb": 241609
-      }
-    },
-    {
       "rank": 48,
       "title": "Love Island",
       "year": 2015,
       "released": null,
       "firstAired": "2015-06-07T20:00:00.000Z",
-      "watchers": 940,
+      "watchers": 1067,
       "plays": null,
-      "rating": 6.0619659423828125,
-      "votes": 468,
+      "rating": 6.070362567901611,
+      "votes": 469,
       "score": null,
       "ids": {
         "trakt": 99667,
@@ -877,32 +877,14 @@
     },
     {
       "rank": 49,
-      "title": "The Five Star Weekend",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-07-09T10:00:00.000Z",
-      "watchers": 939,
-      "plays": null,
-      "rating": 7.568181991577148,
-      "votes": 44,
-      "score": null,
-      "ids": {
-        "trakt": 274938,
-        "slug": "the-five-star-weekend",
-        "imdb": "tt35587659",
-        "tmdb": 283151
-      }
-    },
-    {
-      "rank": 50,
       "title": "Maximum Pleasure Guaranteed",
       "year": 2026,
       "released": null,
       "firstAired": "2026-05-20T01:00:00.000Z",
-      "watchers": 935,
+      "watchers": 1066,
       "plays": null,
-      "rating": 7.846715450286865,
-      "votes": 411,
+      "rating": 7.849282264709473,
+      "votes": 418,
       "score": null,
       "ids": {
         "trakt": 277916,
@@ -912,15 +894,51 @@
       }
     },
     {
+      "rank": 50,
+      "title": "BLACK TORCH",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-04T13:00:00.000Z",
+      "watchers": 1034,
+      "plays": null,
+      "rating": 7.988095283508301,
+      "votes": 84,
+      "score": null,
+      "ids": {
+        "trakt": 278722,
+        "slug": "black-torch",
+        "imdb": "tt37532893",
+        "tmdb": 285993
+      }
+    },
+    {
       "rank": 51,
+      "title": "The Five Star Weekend",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-09T10:00:00.000Z",
+      "watchers": 1026,
+      "plays": null,
+      "rating": 7.693877696990967,
+      "votes": 49,
+      "score": null,
+      "ids": {
+        "trakt": 274938,
+        "slug": "the-five-star-weekend",
+        "imdb": "tt35587659",
+        "tmdb": 283151
+      }
+    },
+    {
+      "rank": 52,
       "title": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
       "year": 2026,
       "released": null,
       "firstAired": "2026-06-27T01:00:00.000Z",
-      "watchers": 896,
+      "watchers": 972,
       "plays": null,
-      "rating": 6.5176472663879395,
-      "votes": 85,
+      "rating": 6.505747318267822,
+      "votes": 87,
       "score": null,
       "ids": {
         "trakt": 291193,
@@ -930,51 +948,15 @@
       }
     },
     {
-      "rank": 52,
-      "title": "Little House on the Prairie",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-07-09T04:00:00.000Z",
-      "watchers": 856,
-      "plays": null,
-      "rating": 7.794642925262451,
-      "votes": 112,
-      "score": null,
-      "ids": {
-        "trakt": 275053,
-        "slug": "little-house-on-the-prairie-2026",
-        "imdb": "tt13829154",
-        "tmdb": 283304
-      }
-    },
-    {
       "rank": 53,
-      "title": "Off Campus",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-05-13T07:00:00.000Z",
-      "watchers": 828,
-      "plays": null,
-      "rating": 8.609400749206543,
-      "votes": 3702,
-      "score": null,
-      "ids": {
-        "trakt": 258304,
-        "slug": "off-campus",
-        "imdb": "tt33546863",
-        "tmdb": 273240
-      }
-    },
-    {
-      "rank": 54,
       "title": "Ted Lasso",
       "year": 2020,
       "released": null,
       "firstAired": "2020-08-14T06:00:00.000Z",
-      "watchers": 827,
+      "watchers": 961,
       "plays": null,
-      "rating": 8.649956703186035,
-      "votes": 17335,
+      "rating": 8.650949478149414,
+      "votes": 17370,
       "score": null,
       "ids": {
         "trakt": 162639,
@@ -984,15 +966,51 @@
       }
     },
     {
+      "rank": 54,
+      "title": "Off Campus",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-13T07:00:00.000Z",
+      "watchers": 947,
+      "plays": null,
+      "rating": 8.612135887145996,
+      "votes": 3741,
+      "score": null,
+      "ids": {
+        "trakt": 258304,
+        "slug": "off-campus",
+        "imdb": "tt33546863",
+        "tmdb": 273240
+      }
+    },
+    {
       "rank": 55,
+      "title": "Little House on the Prairie",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-09T04:00:00.000Z",
+      "watchers": 946,
+      "plays": null,
+      "rating": 7.7890625,
+      "votes": 128,
+      "score": null,
+      "ids": {
+        "trakt": 275053,
+        "slug": "little-house-on-the-prairie-2026",
+        "imdb": "tt13829154",
+        "tmdb": 283304
+      }
+    },
+    {
+      "rank": 56,
       "title": "The Sopranos",
       "year": 1999,
       "released": null,
       "firstAired": "1999-01-11T02:00:00.000Z",
-      "watchers": 795,
+      "watchers": 866,
       "plays": null,
-      "rating": 9.103671073913574,
-      "votes": 14083,
+      "rating": 9.104228973388672,
+      "votes": 14094,
       "score": null,
       "ids": {
         "trakt": 1389,
@@ -1002,15 +1020,15 @@
       }
     },
     {
-      "rank": 56,
+      "rank": 57,
       "title": "The Walking Dead",
       "year": 2010,
       "released": null,
       "firstAired": "2010-11-01T01:00:00.000Z",
-      "watchers": 779,
+      "watchers": 836,
       "plays": null,
-      "rating": 7.798636436462402,
-      "votes": 34614,
+      "rating": 7.799394130706787,
+      "votes": 34655,
       "score": null,
       "ids": {
         "trakt": 1393,
@@ -1020,33 +1038,15 @@
       }
     },
     {
-      "rank": 57,
-      "title": "Jujutsu Kaisen",
-      "year": 2020,
-      "released": null,
-      "firstAired": "2020-10-02T15:26:00.000Z",
-      "watchers": 770,
-      "plays": null,
-      "rating": 8.543473243713379,
-      "votes": 7982,
-      "score": null,
-      "ids": {
-        "trakt": 158594,
-        "slug": "jujutsu-kaisen",
-        "imdb": "tt12343534",
-        "tmdb": 95479
-      }
-    },
-    {
       "rank": 58,
       "title": "Better Call Saul",
       "year": 2015,
       "released": null,
       "firstAired": "2015-02-09T02:00:00.000Z",
-      "watchers": 759,
+      "watchers": 832,
       "plays": null,
-      "rating": 8.859044075012207,
-      "votes": 26597,
+      "rating": 8.859244346618652,
+      "votes": 26642,
       "score": null,
       "ids": {
         "trakt": 59660,
@@ -1057,68 +1057,86 @@
     },
     {
       "rank": 59,
-      "title": "How I Met Your Mother",
-      "year": 2005,
+      "title": "Jujutsu Kaisen",
+      "year": 2020,
       "released": null,
-      "firstAired": "2005-09-20T00:00:00.000Z",
-      "watchers": 746,
+      "firstAired": "2020-10-02T15:26:00.000Z",
+      "watchers": 826,
       "plays": null,
-      "rating": 8.034086227416992,
-      "votes": 27049,
+      "rating": 8.543749809265137,
+      "votes": 8000,
       "score": null,
       "ids": {
-        "trakt": 1095,
-        "slug": "how-i-met-your-mother",
-        "imdb": "tt0460649",
-        "tmdb": 1100
+        "trakt": 158594,
+        "slug": "jujutsu-kaisen",
+        "imdb": "tt12343534",
+        "tmdb": 95479
       }
     },
     {
       "rank": 60,
-      "title": "Daredevil: Born Again",
-      "year": 2025,
+      "title": "Bob's Burgers",
+      "year": 2011,
       "released": null,
-      "firstAired": "2025-03-05T02:00:00.000Z",
-      "watchers": 745,
+      "firstAired": "2011-01-10T01:30:00.000Z",
+      "watchers": 805,
       "plays": null,
-      "rating": 8.014113426208496,
-      "votes": 7723,
+      "rating": 7.978874206542969,
+      "votes": 6201,
       "score": null,
       "ids": {
-        "trakt": 195845,
-        "slug": "daredevil-born-again",
-        "imdb": "tt18923754",
-        "tmdb": 202555
+        "trakt": 32585,
+        "slug": "bob-s-burgers",
+        "imdb": "tt1561755",
+        "tmdb": 32726
       }
     },
     {
       "rank": 61,
-      "title": "RuPaul's Drag Race All Stars",
-      "year": 2012,
+      "title": "The Legend of Vox Machina",
+      "year": 2022,
       "released": null,
-      "firstAired": "2012-10-22T07:00:00.000Z",
-      "watchers": 745,
+      "firstAired": "2022-01-27T05:00:00.000Z",
+      "watchers": 799,
       "plays": null,
-      "rating": 7.433455467224121,
-      "votes": 819,
+      "rating": 8.29682445526123,
+      "votes": 3716,
       "score": null,
       "ids": {
-        "trakt": 68093,
-        "slug": "rupaul-s-drag-race-all-stars",
-        "imdb": "tt2301351",
-        "tmdb": 67482
+        "trakt": 154904,
+        "slug": "the-legend-of-vox-machina",
+        "imdb": "tt11247158",
+        "tmdb": 135934
       }
     },
     {
       "rank": 62,
+      "title": "The Handmaid's Tale",
+      "year": 2017,
+      "released": null,
+      "firstAired": "2017-04-26T04:00:00.000Z",
+      "watchers": 798,
+      "plays": null,
+      "rating": 8.090909004211426,
+      "votes": 12364,
+      "score": null,
+      "ids": {
+        "trakt": 113938,
+        "slug": "the-handmaid-s-tale",
+        "imdb": "tt5834204",
+        "tmdb": 69478
+      }
+    },
+    {
+      "rank": 63,
       "title": "Law & Order: Special Victims Unit",
       "year": 1999,
       "released": null,
       "firstAired": "1999-09-21T01:00:00.000Z",
-      "watchers": 733,
+      "watchers": 798,
       "plays": null,
-      "rating": 7.717630386352539,
-      "votes": 3545,
+      "rating": 7.719066143035889,
+      "votes": 3556,
       "score": null,
       "ids": {
         "trakt": 2716,
@@ -1128,33 +1146,15 @@
       }
     },
     {
-      "rank": 63,
-      "title": "Lost",
-      "year": 2004,
-      "released": null,
-      "firstAired": "2004-09-23T01:00:00.000Z",
-      "watchers": 723,
-      "plays": null,
-      "rating": 8.134773254394531,
-      "votes": 24812,
-      "score": null,
-      "ids": {
-        "trakt": 4583,
-        "slug": "lost-2004",
-        "imdb": "tt0411008",
-        "tmdb": 4607
-      }
-    },
-    {
       "rank": 64,
       "title": "Yellowstone",
       "year": 2018,
       "released": null,
       "firstAired": "2018-06-21T00:00:00.000Z",
-      "watchers": 721,
+      "watchers": 797,
       "plays": null,
-      "rating": 8.407238006591797,
-      "votes": 9864,
+      "rating": 8.408340454101562,
+      "votes": 9879,
       "score": null,
       "ids": {
         "trakt": 126995,
@@ -1169,10 +1169,10 @@
       "year": 2024,
       "released": null,
       "firstAired": "2024-04-11T01:00:00.000Z",
-      "watchers": 709,
+      "watchers": 784,
       "plays": null,
-      "rating": 8.114949226379395,
-      "votes": 21279,
+      "rating": 8.115500450134277,
+      "votes": 21316,
       "score": null,
       "ids": {
         "trakt": 163965,
@@ -1183,56 +1183,56 @@
     },
     {
       "rank": 66,
-      "title": "South Park",
-      "year": 1997,
+      "title": "How I Met Your Mother",
+      "year": 2005,
       "released": null,
-      "firstAired": "1997-08-14T02:00:00.000Z",
-      "watchers": 706,
+      "firstAired": "2005-09-20T00:00:00.000Z",
+      "watchers": 782,
       "plays": null,
-      "rating": 8.392989158630371,
-      "votes": 14377,
+      "rating": 8.034924507141113,
+      "votes": 27087,
       "score": null,
       "ids": {
-        "trakt": 2177,
-        "slug": "south-park",
-        "imdb": "tt0121955",
-        "tmdb": 2190
+        "trakt": 1095,
+        "slug": "how-i-met-your-mother",
+        "imdb": "tt0460649",
+        "tmdb": 1100
       }
     },
     {
       "rank": 67,
-      "title": "The Handmaid's Tale",
-      "year": 2017,
+      "title": "Lost",
+      "year": 2004,
       "released": null,
-      "firstAired": "2017-04-26T04:00:00.000Z",
-      "watchers": 702,
+      "firstAired": "2004-09-23T01:00:00.000Z",
+      "watchers": 782,
       "plays": null,
-      "rating": 8.089722633361816,
-      "votes": 12338,
+      "rating": 8.13552188873291,
+      "votes": 24852,
       "score": null,
       "ids": {
-        "trakt": 113938,
-        "slug": "the-handmaid-s-tale",
-        "imdb": "tt5834204",
-        "tmdb": 69478
+        "trakt": 4583,
+        "slug": "lost-2004",
+        "imdb": "tt0411008",
+        "tmdb": 4607
       }
     },
     {
       "rank": 68,
-      "title": "The Legend of Vox Machina",
-      "year": 2022,
+      "title": "Daredevil: Born Again",
+      "year": 2025,
       "released": null,
-      "firstAired": "2022-01-27T05:00:00.000Z",
-      "watchers": 698,
+      "firstAired": "2025-03-05T02:00:00.000Z",
+      "watchers": 776,
       "plays": null,
-      "rating": 8.296036720275879,
-      "votes": 3709,
+      "rating": 8.014071464538574,
+      "votes": 7746,
       "score": null,
       "ids": {
-        "trakt": 154904,
-        "slug": "the-legend-of-vox-machina",
-        "imdb": "tt11247158",
-        "tmdb": 135934
+        "trakt": 195845,
+        "slug": "daredevil-born-again",
+        "imdb": "tt18923754",
+        "tmdb": 202555
       }
     },
     {
@@ -1241,10 +1241,10 @@
       "year": 2013,
       "released": null,
       "firstAired": "2013-09-18T00:00:00.000Z",
-      "watchers": 696,
+      "watchers": 769,
       "plays": null,
-      "rating": 8.37520980834961,
-      "votes": 21468,
+      "rating": 8.376470565795898,
+      "votes": 21505,
       "score": null,
       "ids": {
         "trakt": 48587,
@@ -1255,86 +1255,68 @@
     },
     {
       "rank": 70,
-      "title": "Bob's Burgers",
-      "year": 2011,
+      "title": "South Park",
+      "year": 1997,
       "released": null,
-      "firstAired": "2011-01-10T01:30:00.000Z",
-      "watchers": 692,
+      "firstAired": "1997-08-14T02:00:00.000Z",
+      "watchers": 756,
       "plays": null,
-      "rating": 7.978376865386963,
-      "votes": 6197,
+      "rating": 8.393661499023438,
+      "votes": 14388,
       "score": null,
       "ids": {
-        "trakt": 32585,
-        "slug": "bob-s-burgers",
-        "imdb": "tt1561755",
-        "tmdb": 32726
+        "trakt": 2177,
+        "slug": "south-park",
+        "imdb": "tt0121955",
+        "tmdb": 2190
       }
     },
     {
       "rank": 71,
-      "title": "Attack on Titan",
-      "year": 2013,
+      "title": "The Chi",
+      "year": 2018,
       "released": null,
-      "firstAired": "2013-04-06T15:30:00.000Z",
-      "watchers": 670,
+      "firstAired": "2018-01-07T08:00:00.000Z",
+      "watchers": 739,
       "plays": null,
-      "rating": 8.855052947998047,
-      "votes": 16882,
+      "rating": 7.722543239593506,
+      "votes": 519,
       "score": null,
       "ids": {
-        "trakt": 1420,
-        "slug": "attack-on-titan",
-        "imdb": "tt2560140",
-        "tmdb": 1429
+        "trakt": 124552,
+        "slug": "the-chi",
+        "imdb": "tt6294706",
+        "tmdb": 72071
       }
     },
     {
       "rank": 72,
-      "title": "Black Mirror",
-      "year": 2011,
+      "title": "You and I Are Polar Opposites",
+      "year": 2026,
       "released": null,
-      "firstAired": "2011-12-04T03:00:00.000Z",
-      "watchers": 662,
+      "firstAired": "2026-01-11T08:00:00.000Z",
+      "watchers": 721,
       "plays": null,
-      "rating": 8.449377059936523,
-      "votes": 28515,
+      "rating": 8.35025405883789,
+      "votes": 394,
       "score": null,
       "ids": {
-        "trakt": 41793,
-        "slug": "black-mirror",
-        "imdb": "tt2085059",
-        "tmdb": 42009
+        "trakt": 264998,
+        "slug": "you-and-i-are-polar-opposites",
+        "imdb": "tt36034547",
+        "tmdb": 278043
       }
     },
     {
       "rank": 73,
-      "title": "Bluey",
-      "year": 2018,
-      "released": null,
-      "firstAired": "2018-09-30T21:30:00.000Z",
-      "watchers": 652,
-      "plays": null,
-      "rating": 8.567761421203613,
-      "votes": 1675,
-      "score": null,
-      "ids": {
-        "trakt": 136999,
-        "slug": "bluey",
-        "imdb": "tt7678620",
-        "tmdb": 82728
-      }
-    },
-    {
-      "rank": 74,
       "title": "Money Heist",
       "year": 2017,
       "released": null,
       "firstAired": "2017-05-02T01:00:00.000Z",
-      "watchers": 645,
+      "watchers": 719,
       "plays": null,
-      "rating": 8.064408302307129,
-      "votes": 17886,
+      "rating": 8.064557075500488,
+      "votes": 17922,
       "score": null,
       "ids": {
         "trakt": 118572,
@@ -1344,15 +1326,15 @@
       }
     },
     {
-      "rank": 75,
+      "rank": 74,
       "title": "Outlander",
       "year": 2014,
       "released": null,
       "firstAired": "2014-08-10T00:00:00.000Z",
-      "watchers": 644,
+      "watchers": 710,
       "plays": null,
-      "rating": 8.15524673461914,
-      "votes": 7414,
+      "rating": 8.156867980957031,
+      "votes": 7433,
       "score": null,
       "ids": {
         "trakt": 56212,
@@ -1362,105 +1344,51 @@
       }
     },
     {
-      "rank": 76,
-      "title": "Teach You a Lesson",
-      "year": 2026,
+      "rank": 75,
+      "title": "Black Mirror",
+      "year": 2011,
       "released": null,
-      "firstAired": "2026-06-05T07:00:00.000Z",
-      "watchers": 643,
+      "firstAired": "2011-12-04T03:00:00.000Z",
+      "watchers": 708,
       "plays": null,
-      "rating": 8.84350872039795,
-      "votes": 1425,
+      "rating": 8.449159622192383,
+      "votes": 28560,
       "score": null,
       "ids": {
-        "trakt": 262654,
-        "slug": "teach-you-a-lesson",
-        "imdb": "tt34809853",
-        "tmdb": 276161
+        "trakt": 41793,
+        "slug": "black-mirror",
+        "imdb": "tt2085059",
+        "tmdb": 42009
+      }
+    },
+    {
+      "rank": 76,
+      "title": "Attack on Titan",
+      "year": 2013,
+      "released": null,
+      "firstAired": "2013-04-06T15:30:00.000Z",
+      "watchers": 705,
+      "plays": null,
+      "rating": 8.856196403503418,
+      "votes": 16912,
+      "score": null,
+      "ids": {
+        "trakt": 1420,
+        "slug": "attack-on-titan",
+        "imdb": "tt2560140",
+        "tmdb": 1429
       }
     },
     {
       "rank": 77,
-      "title": "American Dad!",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2005-02-07T03:00:00.000Z",
-      "watchers": 641,
-      "plays": null,
-      "rating": 7.348549842834473,
-      "votes": 6309,
-      "score": null,
-      "ids": {
-        "trakt": 1424,
-        "slug": "american-dad",
-        "imdb": "tt0397306",
-        "tmdb": 1433
-      }
-    },
-    {
-      "rank": 78,
-      "title": "A Knight of the Seven Kingdoms",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-01-19T03:00:00.000Z",
-      "watchers": 632,
-      "plays": null,
-      "rating": 8.364933013916016,
-      "votes": 11361,
-      "score": null,
-      "ids": {
-        "trakt": 204141,
-        "slug": "a-knight-of-the-seven-kingdoms",
-        "imdb": "tt27497448",
-        "tmdb": 224372
-      }
-    },
-    {
-      "rank": 79,
-      "title": "House",
-      "year": 2004,
-      "released": null,
-      "firstAired": "2004-11-17T02:00:00.000Z",
-      "watchers": 629,
-      "plays": null,
-      "rating": 8.498977661132812,
-      "votes": 21037,
-      "score": null,
-      "ids": {
-        "trakt": 1399,
-        "slug": "house",
-        "imdb": "tt0412142",
-        "tmdb": 1408
-      }
-    },
-    {
-      "rank": 80,
-      "title": "Dexter",
-      "year": 2006,
-      "released": null,
-      "firstAired": "2006-10-02T01:00:00.000Z",
-      "watchers": 611,
-      "plays": null,
-      "rating": 8.417210578918457,
-      "votes": 28482,
-      "score": null,
-      "ids": {
-        "trakt": 1396,
-        "slug": "dexter",
-        "imdb": "tt0773262",
-        "tmdb": 1405
-      }
-    },
-    {
-      "rank": 81,
       "title": "Shrinking",
       "year": 2023,
       "released": null,
       "firstAired": "2023-01-27T02:00:00.000Z",
-      "watchers": 608,
+      "watchers": 704,
       "plays": null,
-      "rating": 8.207097053527832,
-      "votes": 6707,
+      "rating": 8.209281921386719,
+      "votes": 6723,
       "score": null,
       "ids": {
         "trakt": 189764,
@@ -1470,15 +1398,33 @@
       }
     },
     {
-      "rank": 82,
+      "rank": 78,
+      "title": "House",
+      "year": 2004,
+      "released": null,
+      "firstAired": "2004-11-17T02:00:00.000Z",
+      "watchers": 693,
+      "plays": null,
+      "rating": 8.499762535095215,
+      "votes": 21062,
+      "score": null,
+      "ids": {
+        "trakt": 1399,
+        "slug": "house",
+        "imdb": "tt0412142",
+        "tmdb": 1408
+      }
+    },
+    {
+      "rank": 79,
       "title": "Hacks",
       "year": 2021,
       "released": null,
       "firstAired": "2021-05-14T01:00:00.000Z",
-      "watchers": 608,
+      "watchers": 693,
       "plays": null,
-      "rating": 8.3400297164917,
-      "votes": 3335,
+      "rating": 8.340413093566895,
+      "votes": 3343,
       "score": null,
       "ids": {
         "trakt": 179632,
@@ -1488,15 +1434,87 @@
       }
     },
     {
+      "rank": 80,
+      "title": "Teach You a Lesson",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-06-05T07:00:00.000Z",
+      "watchers": 688,
+      "plays": null,
+      "rating": 8.844923973083496,
+      "votes": 1438,
+      "score": null,
+      "ids": {
+        "trakt": 262654,
+        "slug": "teach-you-a-lesson",
+        "imdb": "tt34809853",
+        "tmdb": 276161
+      }
+    },
+    {
+      "rank": 81,
+      "title": "American Dad!",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-02-07T03:00:00.000Z",
+      "watchers": 686,
+      "plays": null,
+      "rating": 7.348177433013916,
+      "votes": 6310,
+      "score": null,
+      "ids": {
+        "trakt": 1424,
+        "slug": "american-dad",
+        "imdb": "tt0397306",
+        "tmdb": 1433
+      }
+    },
+    {
+      "rank": 82,
+      "title": "A Knight of the Seven Kingdoms",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-01-19T03:00:00.000Z",
+      "watchers": 671,
+      "plays": null,
+      "rating": 8.365262985229492,
+      "votes": 11400,
+      "score": null,
+      "ids": {
+        "trakt": 204141,
+        "slug": "a-knight-of-the-seven-kingdoms",
+        "imdb": "tt27497448",
+        "tmdb": 224372
+      }
+    },
+    {
       "rank": 83,
+      "title": "Dexter",
+      "year": 2006,
+      "released": null,
+      "firstAired": "2006-10-02T01:00:00.000Z",
+      "watchers": 670,
+      "plays": null,
+      "rating": 8.418098449707031,
+      "votes": 28522,
+      "score": null,
+      "ids": {
+        "trakt": 1396,
+        "slug": "dexter",
+        "imdb": "tt0773262",
+        "tmdb": 1405
+      }
+    },
+    {
+      "rank": 84,
       "title": "Tracker",
       "year": 2024,
       "released": null,
       "firstAired": "2024-02-12T02:00:00.000Z",
-      "watchers": 596,
+      "watchers": 670,
       "plays": null,
-      "rating": 7.434511661529541,
-      "votes": 2405,
+      "rating": 7.43716287612915,
+      "votes": 2411,
       "score": null,
       "ids": {
         "trakt": 198575,
@@ -1506,39 +1524,21 @@
       }
     },
     {
-      "rank": 84,
-      "title": "The Westies",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-07-12T04:00:00.000Z",
-      "watchers": 579,
-      "plays": null,
-      "rating": 8.375,
-      "votes": 8,
-      "score": null,
-      "ids": {
-        "trakt": 279635,
-        "slug": "the-westies",
-        "imdb": "tt31849235",
-        "tmdb": 286709
-      }
-    },
-    {
       "rank": 85,
-      "title": "It's Always Sunny in Philadelphia",
-      "year": 2005,
+      "title": "RuPaul's Drag Race All Stars",
+      "year": 2012,
       "released": null,
-      "firstAired": "2005-08-05T01:00:00.000Z",
-      "watchers": 577,
+      "firstAired": "2012-10-22T07:00:00.000Z",
+      "watchers": 648,
       "plays": null,
-      "rating": 8.534086227416992,
-      "votes": 8948,
+      "rating": 7.433455467224121,
+      "votes": 819,
       "score": null,
       "ids": {
-        "trakt": 2692,
-        "slug": "it-s-always-sunny-in-philadelphia",
-        "imdb": "tt0472954",
-        "tmdb": 2710
+        "trakt": 68093,
+        "slug": "rupaul-s-drag-race-all-stars",
+        "imdb": "tt2301351",
+        "tmdb": 67482
       }
     },
     {
@@ -1547,10 +1547,10 @@
       "year": 2025,
       "released": null,
       "firstAired": "2025-01-26T05:00:00.000Z",
-      "watchers": 574,
+      "watchers": 644,
       "plays": null,
-      "rating": 7.9842095375061035,
-      "votes": 6523,
+      "rating": 7.983777046203613,
+      "votes": 6534,
       "score": null,
       "ids": {
         "trakt": 225096,
@@ -1561,14 +1561,32 @@
     },
     {
       "rank": 87,
+      "title": "Bluey",
+      "year": 2018,
+      "released": null,
+      "firstAired": "2018-09-30T21:30:00.000Z",
+      "watchers": 642,
+      "plays": null,
+      "rating": 8.568615913391113,
+      "votes": 1676,
+      "score": null,
+      "ids": {
+        "trakt": 136999,
+        "slug": "bluey",
+        "imdb": "tt7678620",
+        "tmdb": 82728
+      }
+    },
+    {
+      "rank": 88,
       "title": "Invincible",
       "year": 2021,
       "released": null,
       "firstAired": "2021-03-25T08:00:00.000Z",
-      "watchers": 572,
+      "watchers": 637,
       "plays": null,
-      "rating": 8.444944381713867,
-      "votes": 14213,
+      "rating": 8.445131301879883,
+      "votes": 14234,
       "score": null,
       "ids": {
         "trakt": 172648,
@@ -1578,69 +1596,33 @@
       }
     },
     {
-      "rank": 88,
-      "title": "The Chi",
-      "year": 2018,
-      "released": null,
-      "firstAired": "2018-01-07T08:00:00.000Z",
-      "watchers": 571,
-      "plays": null,
-      "rating": 7.717601776123047,
-      "votes": 517,
-      "score": null,
-      "ids": {
-        "trakt": 124552,
-        "slug": "the-chi",
-        "imdb": "tt6294706",
-        "tmdb": 72071
-      }
-    },
-    {
       "rank": 89,
-      "title": "Wednesday",
-      "year": 2022,
+      "title": "It's Always Sunny in Philadelphia",
+      "year": 2005,
       "released": null,
-      "firstAired": "2022-11-23T08:00:00.000Z",
-      "watchers": 559,
+      "firstAired": "2005-08-05T01:00:00.000Z",
+      "watchers": 637,
       "plays": null,
-      "rating": 7.952595233917236,
-      "votes": 21559,
+      "rating": 8.533377647399902,
+      "votes": 8958,
       "score": null,
       "ids": {
-        "trakt": 173996,
-        "slug": "wednesday",
-        "imdb": "tt13443470",
-        "tmdb": 119051
+        "trakt": 2692,
+        "slug": "it-s-always-sunny-in-philadelphia",
+        "imdb": "tt0472954",
+        "tmdb": 2710
       }
     },
     {
       "rank": 90,
-      "title": "The Last of Us",
-      "year": 2023,
-      "released": null,
-      "firstAired": "2023-01-16T02:00:00.000Z",
-      "watchers": 557,
-      "plays": null,
-      "rating": 8.231348991394043,
-      "votes": 26285,
-      "score": null,
-      "ids": {
-        "trakt": 158947,
-        "slug": "the-last-of-us",
-        "imdb": "tt3581920",
-        "tmdb": 100088
-      }
-    },
-    {
-      "rank": 91,
       "title": "Parks and Recreation",
       "year": 2009,
       "released": null,
       "firstAired": "2009-04-10T00:00:00.000Z",
-      "watchers": 556,
+      "watchers": 619,
       "plays": null,
-      "rating": 8.47885799407959,
-      "votes": 13835,
+      "rating": 8.479290008544922,
+      "votes": 13858,
       "score": null,
       "ids": {
         "trakt": 8546,
@@ -1650,15 +1632,51 @@
       }
     },
     {
+      "rank": 91,
+      "title": "The Last of Us",
+      "year": 2023,
+      "released": null,
+      "firstAired": "2023-01-16T02:00:00.000Z",
+      "watchers": 610,
+      "plays": null,
+      "rating": 8.232378959655762,
+      "votes": 26332,
+      "score": null,
+      "ids": {
+        "trakt": 158947,
+        "slug": "the-last-of-us",
+        "imdb": "tt3581920",
+        "tmdb": 100088
+      }
+    },
+    {
       "rank": 92,
+      "title": "Severance",
+      "year": 2022,
+      "released": null,
+      "firstAired": "2022-02-18T02:00:00.000Z",
+      "watchers": 605,
+      "plays": null,
+      "rating": 8.648567199707031,
+      "votes": 22192,
+      "score": null,
+      "ids": {
+        "trakt": 154997,
+        "slug": "severance",
+        "imdb": "tt11280740",
+        "tmdb": 95396
+      }
+    },
+    {
+      "rank": 93,
       "title": "High Potential",
       "year": 2024,
       "released": null,
       "firstAired": "2024-09-18T01:00:00.000Z",
-      "watchers": 544,
+      "watchers": 605,
       "plays": null,
-      "rating": 7.8248748779296875,
-      "votes": 4197,
+      "rating": 7.829181671142578,
+      "votes": 4215,
       "score": null,
       "ids": {
         "trakt": 205414,
@@ -1668,33 +1686,15 @@
       }
     },
     {
-      "rank": 93,
-      "title": "Avatar: The Last Airbender",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2005-02-21T16:00:00.000Z",
-      "watchers": 536,
-      "plays": null,
-      "rating": 9.132311820983887,
-      "votes": 16703,
-      "score": null,
-      "ids": {
-        "trakt": 245,
-        "slug": "avatar-the-last-airbender",
-        "imdb": "tt0417299",
-        "tmdb": 246
-      }
-    },
-    {
       "rank": 94,
       "title": "Abbott Elementary",
       "year": 2021,
       "released": null,
       "firstAired": "2021-12-08T01:30:00.000Z",
-      "watchers": 534,
+      "watchers": 605,
       "plays": null,
-      "rating": 8.029717445373535,
-      "votes": 3466,
+      "rating": 8.030468940734863,
+      "votes": 3479,
       "score": null,
       "ids": {
         "trakt": 180675,
@@ -1705,86 +1705,50 @@
     },
     {
       "rank": 95,
-      "title": "Severance",
-      "year": 2022,
+      "title": "Peaky Blinders",
+      "year": 2013,
       "released": null,
-      "firstAired": "2022-02-18T02:00:00.000Z",
-      "watchers": 533,
+      "firstAired": "2013-09-12T20:00:00.000Z",
+      "watchers": 578,
       "plays": null,
-      "rating": 8.647560119628906,
-      "votes": 22157,
+      "rating": 8.589603424072266,
+      "votes": 19391,
       "score": null,
       "ids": {
-        "trakt": 154997,
-        "slug": "severance",
-        "imdb": "tt11280740",
-        "tmdb": 95396
+        "trakt": 60158,
+        "slug": "peaky-blinders",
+        "imdb": "tt2442560",
+        "tmdb": 60574
       }
     },
     {
       "rank": 96,
-      "title": "Suits",
-      "year": 2011,
+      "title": "The World's Strongest Rearguard",
+      "year": 2026,
       "released": null,
-      "firstAired": "2011-06-24T01:00:00.000Z",
-      "watchers": 522,
+      "firstAired": "2026-07-05T13:00:00.000Z",
+      "watchers": 576,
       "plays": null,
-      "rating": 8.237945556640625,
-      "votes": 17773,
+      "rating": 7.55555534362793,
+      "votes": 18,
       "score": null,
       "ids": {
-        "trakt": 37522,
-        "slug": "suits",
-        "imdb": "tt1632701",
-        "tmdb": 37680
+        "trakt": 298339,
+        "slug": "the-world-s-strongest-rearguard",
+        "imdb": "tt41293112",
+        "tmdb": 300267
       }
     },
     {
       "rank": 97,
-      "title": "Squid Game",
-      "year": 2021,
-      "released": null,
-      "firstAired": "2021-09-17T08:00:00.000Z",
-      "watchers": 521,
-      "plays": null,
-      "rating": 7.760184288024902,
-      "votes": 34539,
-      "score": null,
-      "ids": {
-        "trakt": 162712,
-        "slug": "squid-game",
-        "imdb": "tt10919420",
-        "tmdb": 93405
-      }
-    },
-    {
-      "rank": 98,
-      "title": "Person of Interest",
-      "year": 2011,
-      "released": null,
-      "firstAired": "2011-09-23T02:00:00.000Z",
-      "watchers": 515,
-      "plays": null,
-      "rating": 8.398408889770508,
-      "votes": 10557,
-      "score": null,
-      "ids": {
-        "trakt": 1402,
-        "slug": "person-of-interest",
-        "imdb": "tt1839578",
-        "tmdb": 1411
-      }
-    },
-    {
-      "rank": 99,
       "title": "Pluribus",
       "year": 2025,
       "released": null,
       "firstAired": "2025-11-07T02:00:00.000Z",
-      "watchers": 514,
+      "watchers": 574,
       "plays": null,
-      "rating": 8.172364234924316,
-      "votes": 12433,
+      "rating": 8.173847198486328,
+      "votes": 12465,
       "score": null,
       "ids": {
         "trakt": 206790,
@@ -1794,21 +1758,57 @@
       }
     },
     {
-      "rank": 100,
-      "title": "Peaky Blinders",
-      "year": 2013,
+      "rank": 98,
+      "title": "Sparks of Tomorrow",
+      "year": 2026,
       "released": null,
-      "firstAired": "2013-09-12T20:00:00.000Z",
-      "watchers": 513,
+      "firstAired": "2026-07-05T14:00:00.000Z",
+      "watchers": 572,
       "plays": null,
-      "rating": 8.588961601257324,
-      "votes": 19351,
+      "rating": 8.5,
+      "votes": 46,
       "score": null,
       "ids": {
-        "trakt": 60158,
-        "slug": "peaky-blinders",
-        "imdb": "tt2442560",
-        "tmdb": 60574
+        "trakt": 184947,
+        "slug": "sparks-of-tomorrow",
+        "imdb": "tt38939446",
+        "tmdb": 153217
+      }
+    },
+    {
+      "rank": 99,
+      "title": "Person of Interest",
+      "year": 2011,
+      "released": null,
+      "firstAired": "2011-09-23T02:00:00.000Z",
+      "watchers": 569,
+      "plays": null,
+      "rating": 8.398713111877441,
+      "votes": 10569,
+      "score": null,
+      "ids": {
+        "trakt": 1402,
+        "slug": "person-of-interest",
+        "imdb": "tt1839578",
+        "tmdb": 1411
+      }
+    },
+    {
+      "rank": 100,
+      "title": "Suits",
+      "year": 2011,
+      "released": null,
+      "firstAired": "2011-06-24T01:00:00.000Z",
+      "watchers": 568,
+      "plays": null,
+      "rating": 8.238566398620605,
+      "votes": 17798,
+      "score": null,
+      "ids": {
+        "trakt": 37522,
+        "slug": "suits",
+        "imdb": "tt1632701",
+        "tmdb": 37680
       }
     }
   ]
