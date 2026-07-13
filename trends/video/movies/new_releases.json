@@ -24,19 +24,19 @@
     "algorithm": "movie_new_releases_4_calendar_months_v2"
   },
   "quality": {
-    "fetchedFromTrakt": 156,
-    "deduplicatedCandidates": 156,
-    "missingReleasedExcluded": 6,
+    "fetchedFromTrakt": 159,
+    "deduplicatedCandidates": 159,
+    "missingReleasedExcluded": 5,
     "futureExcluded": 0,
     "olderThanFourMonthsExcluded": 0,
-    "validCandidates": 150,
+    "validCandidates": 154,
     "publishedItems": 100,
     "traktIntervals": [
       {
         "from": "2026-03-13",
         "to": "2026-04-12",
         "days": 31,
-        "fetched": 42
+        "fetched": 43
       },
       {
         "from": "2026-04-13",
@@ -54,13 +54,13 @@
         "from": "2026-06-14",
         "to": "2026-07-13",
         "days": 30,
-        "fetched": 34
+        "fetched": 36
       }
     ]
   },
   "mediaType": "movie",
   "section": "new_releases",
-  "generatedAt": "2026-07-13T08:01:13Z",
+  "generatedAt": "2026-07-13T13:10:56Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 43200,
   "itemCount": 100,
@@ -73,8 +73,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.569029808044434,
-      "votes": 536,
+      "rating": 7.569597244262695,
+      "votes": 546,
       "score": null,
       "ids": {
         "trakt": 891793,
@@ -91,8 +91,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.246017932891846,
-      "votes": 565,
+      "rating": 7.227194309234619,
+      "votes": 581,
       "score": null,
       "ids": {
         "trakt": 977901,
@@ -121,6 +121,24 @@
     },
     {
       "rank": 4,
+      "title": "Shipwrecked: Nightmare at Sea",
+      "year": 2026,
+      "released": "2026-07-10",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.636042594909668,
+      "votes": 283,
+      "score": null,
+      "ids": {
+        "trakt": 1376901,
+        "slug": "shipwrecked-nightmare-at-sea-2026",
+        "imdb": "tt43595399",
+        "tmdb": 1715492
+      }
+    },
+    {
+      "rank": 5,
       "title": "Saccharine",
       "year": 2026,
       "released": "2026-07-09",
@@ -138,15 +156,15 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Black Box",
       "year": 2026,
       "released": "2026-07-07",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.251908302307129,
-      "votes": 262,
+      "rating": 6.27340841293335,
+      "votes": 267,
       "score": null,
       "ids": {
         "trakt": 1080135,
@@ -156,7 +174,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Alpha",
       "year": 2026,
       "released": "2026-07-03",
@@ -174,15 +192,15 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Satluj",
       "year": 2026,
       "released": "2026-07-03",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.684782981872559,
-      "votes": 92,
+      "rating": 8.688172340393066,
+      "votes": 93,
       "score": 0.0,
       "ids": {
         "trakt": 931222,
@@ -192,7 +210,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Young Washington",
       "year": 2026,
       "released": "2026-07-03",
@@ -210,7 +228,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Man of War",
       "year": 2026,
       "released": "2026-07-03",
@@ -228,15 +246,15 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 11,
       "title": "Enola Holmes 3",
       "year": 2026,
       "released": "2026-07-01",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.972875118255615,
-      "votes": 3871,
+      "rating": 6.969309329986572,
+      "votes": 3910,
       "score": null,
       "ids": {
         "trakt": 969826,
@@ -246,15 +264,15 @@
       }
     },
     {
-      "rank": 11,
+      "rank": 12,
       "title": "Minions & Monsters",
       "year": 2026,
       "released": "2026-07-01",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.174668788909912,
-      "votes": 1208,
+      "rating": 7.170073509216309,
+      "votes": 1223,
       "score": null,
       "ids": {
         "trakt": 1075712,
@@ -264,15 +282,15 @@
       }
     },
     {
-      "rank": 12,
+      "rank": 13,
       "title": "Louis C.K.: Ridiculous",
       "year": 2026,
       "released": "2026-06-30",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.945945739746094,
-      "votes": 185,
+      "rating": 6.940860271453857,
+      "votes": 186,
       "score": 0.0,
       "ids": {
         "trakt": 1362331,
@@ -282,7 +300,7 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 14,
       "title": "Strung",
       "year": 2026,
       "released": "2026-06-26",
@@ -300,15 +318,15 @@
       }
     },
     {
-      "rank": 14,
+      "rank": 15,
       "title": "The Invite",
       "year": 2026,
       "released": "2026-06-26",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.121692657470703,
-      "votes": 378,
+      "rating": 8.136483192443848,
+      "votes": 381,
       "score": 0.0,
       "ids": {
         "trakt": 763652,
@@ -318,15 +336,15 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 16,
       "title": "Supergirl",
       "year": 2026,
       "released": "2026-06-26",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.023601055145264,
-      "votes": 4110,
+      "rating": 7.02565336227417,
+      "votes": 4132,
       "score": null,
       "ids": {
         "trakt": 868842,
@@ -336,7 +354,25 @@
       }
     },
     {
-      "rank": 16,
+      "rank": 17,
+      "title": "De Gaulle: Liberté",
+      "year": 2026,
+      "released": "2026-06-26",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.85616397857666,
+      "votes": 146,
+      "score": 0.0,
+      "ids": {
+        "trakt": 939054,
+        "slug": "de-gaulle-liberte-2026",
+        "imdb": "tt35856133",
+        "tmdb": 1165369
+      }
+    },
+    {
+      "rank": 18,
       "title": "Welcome to the Jungle",
       "year": 2026,
       "released": "2026-06-26",
@@ -354,15 +390,15 @@
       }
     },
     {
-      "rank": 17,
+      "rank": 19,
       "title": "The Get Out",
       "year": 2026,
       "released": "2026-06-26",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.140939712524414,
-      "votes": 447,
+      "rating": 7.125827789306641,
+      "votes": 453,
       "score": null,
       "ids": {
         "trakt": 1039902,
@@ -372,15 +408,15 @@
       }
     },
     {
-      "rank": 18,
+      "rank": 20,
       "title": "Little Brother",
       "year": 2026,
       "released": "2026-06-26",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.529582500457764,
-      "votes": 1724,
+      "rating": 6.529513835906982,
+      "votes": 1728,
       "score": null,
       "ids": {
         "trakt": 1142824,
@@ -390,15 +426,15 @@
       }
     },
     {
-      "rank": 19,
+      "rank": 21,
       "title": "Jackass: Best and Last",
       "year": 2026,
       "released": "2026-06-26",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.260586261749268,
-      "votes": 307,
+      "rating": 7.252427101135254,
+      "votes": 309,
       "score": 0.0,
       "ids": {
         "trakt": 1339052,
@@ -408,7 +444,7 @@
       }
     },
     {
-      "rank": 20,
+      "rank": 22,
       "title": "Batman: Knightfall Part 1: Knightfall",
       "year": 2026,
       "released": "2026-06-23",
@@ -426,7 +462,7 @@
       }
     },
     {
-      "rank": 21,
+      "rank": 23,
       "title": "LifeHack",
       "year": 2026,
       "released": "2026-06-21",
@@ -444,15 +480,15 @@
       }
     },
     {
-      "rank": 22,
+      "rank": 24,
       "title": "Voicemails for Isabelle",
       "year": 2026,
       "released": "2026-06-19",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.537034034729004,
-      "votes": 5549,
+      "rating": 8.537003517150879,
+      "votes": 5594,
       "score": null,
       "ids": {
         "trakt": 458282,
@@ -462,15 +498,15 @@
       }
     },
     {
-      "rank": 23,
+      "rank": 25,
       "title": "Toy Story 5",
       "year": 2026,
       "released": "2026-06-19",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.239301681518555,
-      "votes": 4580,
+      "rating": 8.241169929504395,
+      "votes": 4615,
       "score": null,
       "ids": {
         "trakt": 871500,
@@ -480,15 +516,15 @@
       }
     },
     {
-      "rank": 24,
+      "rank": 26,
       "title": "The Death of Robin Hood",
       "year": 2026,
       "released": "2026-06-19",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.48154354095459,
-      "votes": 596,
+      "rating": 6.479131698608398,
+      "votes": 599,
       "score": null,
       "ids": {
         "trakt": 1044784,
@@ -498,15 +534,15 @@
       }
     },
     {
-      "rank": 25,
+      "rank": 27,
       "title": "Girls Like Girls",
       "year": 2026,
       "released": "2026-06-19",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.512048244476318,
-      "votes": 166,
+      "rating": 7.473372936248779,
+      "votes": 169,
       "score": 0.0,
       "ids": {
         "trakt": 1142906,
@@ -516,15 +552,15 @@
       }
     },
     {
-      "rank": 26,
+      "rank": 28,
       "title": "Citizen Vigilante",
       "year": 2026,
       "released": "2026-06-19",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.72412109375,
-      "votes": 2077,
+      "rating": 6.72017240524292,
+      "votes": 2087,
       "score": null,
       "ids": {
         "trakt": 1156761,
@@ -534,7 +570,7 @@
       }
     },
     {
-      "rank": 27,
+      "rank": 29,
       "title": "Maddie's Secret",
       "year": 2026,
       "released": "2026-06-19",
@@ -552,7 +588,7 @@
       }
     },
     {
-      "rank": 28,
+      "rank": 30,
       "title": "Never Change!",
       "year": 2026,
       "released": "2026-06-19",
@@ -570,15 +606,15 @@
       }
     },
     {
-      "rank": 29,
+      "rank": 31,
       "title": "Husbands in Action",
       "year": 2026,
       "released": "2026-06-19",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.367149829864502,
-      "votes": 414,
+      "rating": 7.366906642913818,
+      "votes": 417,
       "score": 0.0,
       "ids": {
         "trakt": 1371290,
@@ -588,15 +624,15 @@
       }
     },
     {
-      "rank": 30,
+      "rank": 32,
       "title": "Leviticus",
       "year": 2026,
       "released": "2026-06-18",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.494999885559082,
-      "votes": 200,
+      "rating": 7.512315273284912,
+      "votes": 203,
       "score": 0.0,
       "ids": {
         "trakt": 1290816,
@@ -606,15 +642,15 @@
       }
     },
     {
-      "rank": 31,
+      "rank": 33,
       "title": "Jim Queen",
       "year": 2026,
       "released": "2026-06-17",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.702381134033203,
-      "votes": 168,
+      "rating": 8.698225021362305,
+      "votes": 169,
       "score": 0.0,
       "ids": {
         "trakt": 853982,
@@ -624,15 +660,15 @@
       }
     },
     {
-      "rank": 32,
+      "rank": 34,
       "title": "Your Fault: London",
       "year": 2026,
       "released": "2026-06-17",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.579646110534668,
-      "votes": 1130,
+      "rating": 7.568042278289795,
+      "votes": 1139,
       "score": 0.0,
       "ids": {
         "trakt": 1210814,
@@ -642,15 +678,15 @@
       }
     },
     {
-      "rank": 33,
+      "rank": 35,
       "title": "40 Dates and 40 Nights",
       "year": 2026,
       "released": "2026-06-16",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.44444465637207,
-      "votes": 90,
+      "rating": 7.450549602508545,
+      "votes": 91,
       "score": 0.0,
       "ids": {
         "trakt": 1171292,
@@ -660,15 +696,15 @@
       }
     },
     {
-      "rank": 34,
+      "rank": 36,
       "title": "Fjord",
       "year": 2026,
       "released": "2026-06-13",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.125,
-      "votes": 16,
+      "rating": 8.117647171020508,
+      "votes": 17,
       "score": 0.0,
       "ids": {
         "trakt": 1146517,
@@ -678,7 +714,7 @@
       }
     },
     {
-      "rank": 35,
+      "rank": 37,
       "title": "In the Hand of Dante",
       "year": 2026,
       "released": "2026-06-12",
@@ -696,15 +732,15 @@
       }
     },
     {
-      "rank": 36,
+      "rank": 38,
       "title": "Disclosure Day",
       "year": 2026,
       "released": "2026-06-12",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.129329681396484,
-      "votes": 5312,
+      "rating": 7.1254448890686035,
+      "votes": 5341,
       "score": null,
       "ids": {
         "trakt": 1036433,
@@ -714,7 +750,7 @@
       }
     },
     {
-      "rank": 37,
+      "rank": 39,
       "title": "Stop! That! Train!",
       "year": 2026,
       "released": "2026-06-12",
@@ -732,15 +768,15 @@
       }
     },
     {
-      "rank": 38,
+      "rank": 40,
       "title": "Maternal Instinct",
       "year": 2026,
       "released": "2026-06-12",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.919408798217773,
-      "votes": 1489,
+      "rating": 7.917001247406006,
+      "votes": 1494,
       "score": 0.0,
       "ids": {
         "trakt": 1372949,
@@ -750,15 +786,33 @@
       }
     },
     {
-      "rank": 39,
+      "rank": 41,
+      "title": "The Furious",
+      "year": 2026,
+      "released": "2026-06-11",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.830714225769043,
+      "votes": 1400,
+      "score": null,
+      "ids": {
+        "trakt": 1040684,
+        "slug": "the-furious-2026",
+        "imdb": "tt33311069",
+        "tmdb": 1280738
+      }
+    },
+    {
+      "rank": 42,
       "title": "Colors of Evil: Black",
       "year": 2026,
       "released": "2026-06-10",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.582338809967041,
-      "votes": 838,
+      "rating": 6.588374614715576,
+      "votes": 843,
       "score": 0.0,
       "ids": {
         "trakt": 1374633,
@@ -768,15 +822,15 @@
       }
     },
     {
-      "rank": 40,
+      "rank": 43,
       "title": "Masters of the Universe",
       "year": 2026,
       "released": "2026-06-05",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.261482238769531,
-      "votes": 3832,
+      "rating": 7.260395050048828,
+      "votes": 3848,
       "score": null,
       "ids": {
         "trakt": 306815,
@@ -786,7 +840,7 @@
       }
     },
     {
-      "rank": 41,
+      "rank": 44,
       "title": "Signal One",
       "year": 2026,
       "released": "2026-06-05",
@@ -804,7 +858,7 @@
       }
     },
     {
-      "rank": 42,
+      "rank": 45,
       "title": "Savage House",
       "year": 2026,
       "released": "2026-06-05",
@@ -822,15 +876,15 @@
       }
     },
     {
-      "rank": 43,
+      "rank": 46,
       "title": "Scary Movie",
       "year": 2026,
       "released": "2026-06-05",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.198695182800293,
-      "votes": 3372,
+      "rating": 6.191470623016357,
+      "votes": 3400,
       "score": null,
       "ids": {
         "trakt": 1034092,
@@ -840,15 +894,15 @@
       }
     },
     {
-      "rank": 44,
+      "rank": 47,
       "title": "Carolina Caroline",
       "year": 2026,
       "released": "2026-06-05",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.192380905151367,
-      "votes": 525,
+      "rating": 7.193181991577148,
+      "votes": 528,
       "score": 0.0,
       "ids": {
         "trakt": 1087715,
@@ -858,15 +912,15 @@
       }
     },
     {
-      "rank": 45,
+      "rank": 48,
       "title": "Office Romance",
       "year": 2026,
       "released": "2026-06-05",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.745175361633301,
-      "votes": 2798,
+      "rating": 6.74857759475708,
+      "votes": 2812,
       "score": 0.0,
       "ids": {
         "trakt": 1108471,
@@ -876,15 +930,15 @@
       }
     },
     {
-      "rank": 46,
+      "rank": 49,
       "title": "The Amazing Digital Circus: The Last Act",
       "year": 2026,
       "released": "2026-06-05",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.978891849517822,
-      "votes": 379,
+      "rating": 7.9921464920043945,
+      "votes": 382,
       "score": 0.0,
       "ids": {
         "trakt": 1363433,
@@ -894,15 +948,15 @@
       }
     },
     {
-      "rank": 47,
+      "rank": 50,
       "title": "Chum",
       "year": 2026,
       "released": "2026-06-05",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 5.09375,
-      "votes": 352,
+      "rating": 5.084985733032227,
+      "votes": 353,
       "score": 0.0,
       "ids": {
         "trakt": 1370043,
@@ -912,15 +966,15 @@
       }
     },
     {
-      "rank": 48,
+      "rank": 51,
       "title": "The Marked Woman",
       "year": 2026,
       "released": "2026-06-05",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.420413017272949,
-      "votes": 823,
+      "rating": 6.419277191162109,
+      "votes": 830,
       "score": 0.0,
       "ids": {
         "trakt": 1370764,
@@ -930,7 +984,7 @@
       }
     },
     {
-      "rank": 49,
+      "rank": 52,
       "title": "The Passenger",
       "year": 2026,
       "released": "2026-06-05",
@@ -948,15 +1002,15 @@
       }
     },
     {
-      "rank": 50,
+      "rank": 53,
       "title": "The Murder of Rachel Nickell",
       "year": 2026,
       "released": "2026-06-04",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.690366744995117,
-      "votes": 436,
+      "rating": 7.694064140319824,
+      "votes": 438,
       "score": 0.0,
       "ids": {
         "trakt": 1369505,
@@ -966,15 +1020,15 @@
       }
     },
     {
-      "rank": 51,
+      "rank": 54,
       "title": "De Gaulle: Résistance",
       "year": 2026,
       "released": "2026-06-03",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.61774730682373,
-      "votes": 293,
+      "rating": 8.620339393615723,
+      "votes": 295,
       "score": 0.0,
       "ids": {
         "trakt": 939051,
@@ -984,15 +1038,15 @@
       }
     },
     {
-      "rank": 52,
+      "rank": 55,
       "title": "Hungry",
       "year": 2026,
       "released": "2026-06-03",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.286624431610107,
-      "votes": 314,
+      "rating": 6.265822887420654,
+      "votes": 316,
       "score": 0.0,
       "ids": {
         "trakt": 1129980,
@@ -1002,15 +1056,15 @@
       }
     },
     {
-      "rank": 53,
+      "rank": 56,
       "title": "Backrooms",
       "year": 2026,
       "released": "2026-05-29",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.978604316711426,
-      "votes": 6263,
+      "rating": 6.980665683746338,
+      "votes": 6310,
       "score": null,
       "ids": {
         "trakt": 870815,
@@ -1020,7 +1074,7 @@
       }
     },
     {
-      "rank": 54,
+      "rank": 57,
       "title": "Miss You, Love You",
       "year": 2026,
       "released": "2026-05-29",
@@ -1038,15 +1092,15 @@
       }
     },
     {
-      "rank": 55,
+      "rank": 58,
       "title": "Power Ballad",
       "year": 2026,
       "released": "2026-05-29",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.041587829589844,
-      "votes": 529,
+      "rating": 7.039622783660889,
+      "votes": 530,
       "score": 0.0,
       "ids": {
         "trakt": 1044240,
@@ -1056,15 +1110,15 @@
       }
     },
     {
-      "rank": 56,
+      "rank": 59,
       "title": "Tuner",
       "year": 2026,
       "released": "2026-05-29",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.691976070404053,
-      "votes": 1857,
+      "rating": 7.687432765960693,
+      "votes": 1862,
       "score": null,
       "ids": {
         "trakt": 1096313,
@@ -1074,7 +1128,7 @@
       }
     },
     {
-      "rank": 57,
+      "rank": 60,
       "title": "The Breadwinner",
       "year": 2026,
       "released": "2026-05-29",
@@ -1092,15 +1146,15 @@
       }
     },
     {
-      "rank": 58,
+      "rank": 61,
       "title": "Blast",
       "year": 2026,
       "released": "2026-05-28",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.511111259460449,
-      "votes": 270,
+      "rating": 7.512915134429932,
+      "votes": 271,
       "score": 0.0,
       "ids": {
         "trakt": 1243584,
@@ -1110,7 +1164,7 @@
       }
     },
     {
-      "rank": 59,
+      "rank": 62,
       "title": "Propeller One-Way Night Coach",
       "year": 2026,
       "released": "2026-05-28",
@@ -1128,15 +1182,15 @@
       }
     },
     {
-      "rank": 60,
+      "rank": 63,
       "title": "I Love Boosters",
       "year": 2026,
       "released": "2026-05-22",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.728285312652588,
-      "votes": 449,
+      "rating": 6.728888988494873,
+      "votes": 450,
       "score": 0.0,
       "ids": {
         "trakt": 992486,
@@ -1146,15 +1200,15 @@
       }
     },
     {
-      "rank": 61,
+      "rank": 64,
       "title": "The Mandalorian and Grogu",
       "year": 2026,
       "released": "2026-05-22",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.389365196228027,
-      "votes": 4551,
+      "rating": 7.388243198394775,
+      "votes": 4559,
       "score": null,
       "ids": {
         "trakt": 993003,
@@ -1164,7 +1218,7 @@
       }
     },
     {
-      "rank": 62,
+      "rank": 65,
       "title": "Finding Emily",
       "year": 2026,
       "released": "2026-05-22",
@@ -1182,15 +1236,15 @@
       }
     },
     {
-      "rank": 63,
+      "rank": 66,
       "title": "Passenger",
       "year": 2026,
       "released": "2026-05-22",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.2929229736328125,
-      "votes": 1625,
+      "rating": 6.296296119689941,
+      "votes": 1647,
       "score": null,
       "ids": {
         "trakt": 1117331,
@@ -1200,15 +1254,15 @@
       }
     },
     {
-      "rank": 64,
+      "rank": 67,
       "title": "Ladies First",
       "year": 2026,
       "released": "2026-05-22",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.49669075012207,
-      "votes": 3324,
+      "rating": 6.497154712677002,
+      "votes": 3339,
       "score": null,
       "ids": {
         "trakt": 1117821,
@@ -1218,7 +1272,7 @@
       }
     },
     {
-      "rank": 65,
+      "rank": 68,
       "title": "Colony",
       "year": 2026,
       "released": "2026-05-21",
@@ -1236,15 +1290,15 @@
       }
     },
     {
-      "rank": 66,
+      "rank": 69,
       "title": "Mexico 86",
       "year": 2026,
       "released": "2026-05-21",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.8705034255981445,
-      "votes": 278,
+      "rating": 6.874551773071289,
+      "votes": 279,
       "score": 0.0,
       "ids": {
         "trakt": 1255748,
@@ -1254,15 +1308,15 @@
       }
     },
     {
-      "rank": 67,
+      "rank": 70,
       "title": "Tom Clancy's Jack Ryan: Ghost War",
       "year": 2026,
       "released": "2026-05-20",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.925164222717285,
-      "votes": 5639,
+      "rating": 6.924314975738525,
+      "votes": 5655,
       "score": null,
       "ids": {
         "trakt": 1127320,
@@ -1272,15 +1326,15 @@
       }
     },
     {
-      "rank": 68,
+      "rank": 71,
       "title": "Obsession",
       "year": 2026,
       "released": "2026-05-15",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.32970905303955,
-      "votes": 17200,
+      "rating": 8.331391334533691,
+      "votes": 17336,
       "score": null,
       "ids": {
         "trakt": 1095879,
@@ -1290,7 +1344,7 @@
       }
     },
     {
-      "rank": 69,
+      "rank": 72,
       "title": "Is God Is",
       "year": 2026,
       "released": "2026-05-15",
@@ -1308,15 +1362,15 @@
       }
     },
     {
-      "rank": 70,
+      "rank": 73,
       "title": "The Crash",
       "year": 2026,
       "released": "2026-05-15",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.330582618713379,
-      "votes": 1939,
+      "rating": 7.330071926116943,
+      "votes": 1942,
       "score": 0.0,
       "ids": {
         "trakt": 1362157,
@@ -1326,15 +1380,15 @@
       }
     },
     {
-      "rank": 71,
+      "rank": 74,
       "title": "In the Grey",
       "year": 2026,
       "released": "2026-05-13",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.176594257354736,
-      "votes": 4281,
+      "rating": 7.1770734786987305,
+      "votes": 4292,
       "score": null,
       "ids": {
         "trakt": 903398,
@@ -1344,15 +1398,15 @@
       }
     },
     {
-      "rank": 72,
+      "rank": 75,
       "title": "The Punisher: One Last Kill",
       "year": 2026,
       "released": "2026-05-12",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.504118919372559,
-      "votes": 9347,
+      "rating": 7.505808353424072,
+      "votes": 9383,
       "score": null,
       "ids": {
         "trakt": 1178309,
@@ -1362,7 +1416,7 @@
       }
     },
     {
-      "rank": 73,
+      "rank": 76,
       "title": "Marty, Life Is Short",
       "year": 2026,
       "released": "2026-05-12",
@@ -1380,15 +1434,15 @@
       }
     },
     {
-      "rank": 74,
+      "rank": 77,
       "title": "Jamie Vardy",
       "year": 2026,
       "released": "2026-05-12",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.178403854370117,
-      "votes": 213,
+      "rating": 8.18691635131836,
+      "votes": 214,
       "score": 0.0,
       "ids": {
         "trakt": 1369460,
@@ -1398,15 +1452,15 @@
       }
     },
     {
-      "rank": 75,
+      "rank": 78,
       "title": "The Roast of Kevin Hart",
       "year": 2026,
       "released": "2026-05-10",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.15620231628418,
-      "votes": 653,
+      "rating": 7.153963565826416,
+      "votes": 656,
       "score": 0.0,
       "ids": {
         "trakt": 1361127,
@@ -1416,15 +1470,15 @@
       }
     },
     {
-      "rank": 76,
+      "rank": 79,
       "title": "Mortal Kombat II",
       "year": 2026,
       "released": "2026-05-08",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.8817009925842285,
-      "votes": 8394,
+      "rating": 6.882143497467041,
+      "votes": 8417,
       "score": null,
       "ids": {
         "trakt": 746852,
@@ -1434,15 +1488,15 @@
       }
     },
     {
-      "rank": 77,
+      "rank": 80,
       "title": "The Sheep Detectives",
       "year": 2026,
       "released": "2026-05-08",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.058897018432617,
-      "votes": 7165,
+      "rating": 8.058554649353027,
+      "votes": 7224,
       "score": null,
       "ids": {
         "trakt": 1060883,
@@ -1452,15 +1506,15 @@
       }
     },
     {
-      "rank": 78,
+      "rank": 81,
       "title": "Remarkably Bright Creatures",
       "year": 2026,
       "released": "2026-05-08",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.264309883117676,
-      "votes": 3791,
+      "rating": 8.266578674316406,
+      "votes": 3800,
       "score": null,
       "ids": {
         "trakt": 1088230,
@@ -1470,7 +1524,7 @@
       }
     },
     {
-      "rank": 79,
+      "rank": 82,
       "title": "Affection",
       "year": 2026,
       "released": "2026-05-08",
@@ -1488,7 +1542,7 @@
       }
     },
     {
-      "rank": 80,
+      "rank": 83,
       "title": "Blue Film",
       "year": 2026,
       "released": "2026-05-08",
@@ -1506,15 +1560,15 @@
       }
     },
     {
-      "rank": 81,
+      "rank": 84,
       "title": "Billie Eilish - Hit Me Hard and Soft: The Tour (Live in 3D)",
       "year": 2026,
       "released": "2026-05-08",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.673684120178223,
-      "votes": 285,
+      "rating": 8.672473907470703,
+      "votes": 287,
       "score": 0.0,
       "ids": {
         "trakt": 1243746,
@@ -1524,15 +1578,15 @@
       }
     },
     {
-      "rank": 82,
+      "rank": 85,
       "title": "My Dearest Assassin",
       "year": 2026,
       "released": "2026-05-07",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.916666507720947,
-      "votes": 372,
+      "rating": 6.908847332000732,
+      "votes": 373,
       "score": 0.0,
       "ids": {
         "trakt": 1352956,
@@ -1542,15 +1596,15 @@
       }
     },
     {
-      "rank": 83,
+      "rank": 86,
       "title": "Iron Maiden: Burning Ambition",
       "year": 2026,
       "released": "2026-05-07",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.054421424865723,
-      "votes": 147,
+      "rating": 8.067113876342773,
+      "votes": 149,
       "score": 0.0,
       "ids": {
         "trakt": 1357905,
@@ -1560,15 +1614,15 @@
       }
     },
     {
-      "rank": 84,
+      "rank": 87,
       "title": "Gary",
       "year": 2026,
       "released": "2026-05-05",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.087279319763184,
-      "votes": 1077,
+      "rating": 7.081801414489746,
+      "votes": 1088,
       "score": 0.0,
       "ids": {
         "trakt": 1368105,
@@ -1578,15 +1632,15 @@
       }
     },
     {
-      "rank": 85,
+      "rank": 88,
       "title": "Swapped",
       "year": 2026,
       "released": "2026-05-01",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.335165023803711,
-      "votes": 3822,
+      "rating": 8.336543083190918,
+      "votes": 3842,
       "score": null,
       "ids": {
         "trakt": 809985,
@@ -1596,7 +1650,7 @@
       }
     },
     {
-      "rank": 86,
+      "rank": 89,
       "title": "One Spoon of Chocolate",
       "year": 2026,
       "released": "2026-05-01",
@@ -1614,15 +1668,15 @@
       }
     },
     {
-      "rank": 87,
+      "rank": 90,
       "title": "The Devil Wears Prada 2",
       "year": 2026,
       "released": "2026-05-01",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.469109058380127,
-      "votes": 9226,
+      "rating": 7.470885276794434,
+      "votes": 9308,
       "score": null,
       "ids": {
         "trakt": 1074519,
@@ -1632,15 +1686,15 @@
       }
     },
     {
-      "rank": 88,
+      "rank": 91,
       "title": "Hokum",
       "year": 2026,
       "released": "2026-05-01",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.80695104598999,
-      "votes": 3683,
+      "rating": 6.808170795440674,
+      "votes": 3696,
       "score": null,
       "ids": {
         "trakt": 1169847,
@@ -1650,15 +1704,15 @@
       }
     },
     {
-      "rank": 89,
+      "rank": 92,
       "title": "Deep Water",
       "year": 2026,
       "released": "2026-04-30",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.541960716247559,
-      "votes": 1275,
+      "rating": 6.546948432922363,
+      "votes": 1278,
       "score": null,
       "ids": {
         "trakt": 907305,
@@ -1668,7 +1722,7 @@
       }
     },
     {
-      "rank": 90,
+      "rank": 93,
       "title": "Seven Snipers",
       "year": 2026,
       "released": "2026-04-30",
@@ -1686,15 +1740,15 @@
       }
     },
     {
-      "rank": 91,
+      "rank": 94,
       "title": "Desert Warrior",
       "year": 2026,
       "released": "2026-04-24",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.320422649383545,
-      "votes": 284,
+      "rating": 6.319298267364502,
+      "votes": 285,
       "score": 0.0,
       "ids": {
         "trakt": 721012,
@@ -1704,15 +1758,15 @@
       }
     },
     {
-      "rank": 92,
+      "rank": 95,
       "title": "Michael",
       "year": 2026,
       "released": "2026-04-24",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.12796688079834,
-      "votes": 13019,
+      "rating": 8.128571510314941,
+      "votes": 13090,
       "score": null,
       "ids": {
         "trakt": 751145,
@@ -1722,15 +1776,15 @@
       }
     },
     {
-      "rank": 93,
+      "rank": 96,
       "title": "Apex",
       "year": 2026,
       "released": "2026-04-24",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.729684352874756,
-      "votes": 9574,
+      "rating": 6.729729652404785,
+      "votes": 9620,
       "score": null,
       "ids": {
         "trakt": 1077748,
@@ -1740,15 +1794,15 @@
       }
     },
     {
-      "rank": 94,
+      "rank": 97,
       "title": "Over Your Dead Body",
       "year": 2026,
       "released": "2026-04-24",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.767749786376953,
-      "votes": 4000,
+      "rating": 6.769710540771484,
+      "votes": 4008,
       "score": null,
       "ids": {
         "trakt": 1136565,
@@ -1758,7 +1812,7 @@
       }
     },
     {
-      "rank": 95,
+      "rank": 98,
       "title": "Rose of Nevada",
       "year": 2026,
       "released": "2026-04-24",
@@ -1776,15 +1830,15 @@
       }
     },
     {
-      "rank": 96,
+      "rank": 99,
       "title": "Mother Mary",
       "year": 2026,
       "released": "2026-04-17",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 5.769968032836914,
-      "votes": 626,
+      "rating": 5.770700454711914,
+      "votes": 628,
       "score": 0.0,
       "ids": {
         "trakt": 887210,
@@ -1794,75 +1848,21 @@
       }
     },
     {
-      "rank": 97,
+      "rank": 100,
       "title": "Mile End Kicks",
       "year": 2026,
       "released": "2026-04-17",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.348484992980957,
-      "votes": 132,
+      "rating": 6.358209133148193,
+      "votes": 134,
       "score": 0.0,
       "ids": {
         "trakt": 949746,
         "slug": "mile-end-kicks-2026",
         "imdb": "tt33301434",
         "tmdb": 1177767
-      }
-    },
-    {
-      "rank": 98,
-      "title": "Normal",
-      "year": 2026,
-      "released": "2026-04-17",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.972387313842773,
-      "votes": 2861,
-      "score": null,
-      "ids": {
-        "trakt": 1005706,
-        "slug": "normal-2026",
-        "imdb": "tt31195136",
-        "tmdb": 1242332
-      }
-    },
-    {
-      "rank": 99,
-      "title": "Lee Cronin's The Mummy",
-      "year": 2026,
-      "released": "2026-04-17",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.758336067199707,
-      "votes": 6658,
-      "score": null,
-      "ids": {
-        "trakt": 1063866,
-        "slug": "lee-cronin-s-the-mummy-2026",
-        "imdb": "tt32612507",
-        "tmdb": 1304313
-      }
-    },
-    {
-      "rank": 100,
-      "title": "Erupcja",
-      "year": 2026,
-      "released": "2026-04-17",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.107692241668701,
-      "votes": 65,
-      "score": 0.0,
-      "ids": {
-        "trakt": 1094025,
-        "slug": "erupcja-2026",
-        "imdb": "tt33712666",
-        "tmdb": 1337592
       }
     }
   ]
