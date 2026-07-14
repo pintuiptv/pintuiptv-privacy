@@ -26,15 +26,15 @@
     "premiereEpisode": "S01E01"
   },
   "quality": {
-    "fetchedFromTrakt": 453,
-    "deduplicatedCandidates": 441,
-    "s01e01Candidates": 167,
+    "fetchedFromTrakt": 452,
+    "deduplicatedCandidates": 440,
+    "s01e01Candidates": 166,
     "seriesPremieresFound": 165,
     "seasonPremieresExcluded": 273,
     "ordinaryEpisodesExcluded": 1,
     "oldShowsExcluded": 273,
     "missingFirstAiredExcluded": 0,
-    "futureExcluded": 2,
+    "futureExcluded": 1,
     "olderThanFourMonthsExcluded": 0,
     "validCandidates": 165,
     "publishedItems": 100,
@@ -61,13 +61,13 @@
         "from": "2026-06-15",
         "to": "2026-07-14",
         "days": 30,
-        "fetched": 98
+        "fetched": 97
       }
     ]
   },
   "mediaType": "show",
   "section": "new_releases",
-  "generatedAt": "2026-07-14T12:03:40Z",
+  "generatedAt": "2026-07-14T15:52:06Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 43200,
   "itemCount": 100,
@@ -120,8 +120,8 @@
       "firstAired": "2026-07-12T04:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.258064270019531,
-      "votes": 31,
+      "rating": 8.242424011230469,
+      "votes": 33,
       "score": null,
       "ids": {
         "trakt": 279635,
@@ -140,8 +140,8 @@
       "firstAired": "2026-07-12T14:45:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.333333015441895,
-      "votes": 9,
+      "rating": 8.199999809265137,
+      "votes": 10,
       "score": null,
       "ids": {
         "trakt": 279221,
@@ -180,8 +180,8 @@
       "firstAired": "2026-07-09T04:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.9467453956604,
-      "votes": 169,
+      "rating": 8.00564956665039,
+      "votes": 177,
       "score": null,
       "ids": {
         "trakt": 275053,
@@ -200,8 +200,8 @@
       "firstAired": "2026-07-09T10:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.723076820373535,
-      "votes": 65,
+      "rating": 7.7164177894592285,
+      "votes": 67,
       "score": null,
       "ids": {
         "trakt": 274938,
@@ -240,8 +240,8 @@
       "firstAired": "2026-07-08T16:15:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.714285850524902,
-      "votes": 35,
+      "rating": 7.777777671813965,
+      "votes": 36,
       "score": null,
       "ids": {
         "trakt": 294328,
@@ -280,8 +280,8 @@
       "firstAired": "2026-07-07T12:30:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.333333492279053,
-      "votes": 12,
+      "rating": 7.384615421295166,
+      "votes": 13,
       "score": null,
       "ids": {
         "trakt": 278155,
@@ -374,6 +374,26 @@
     },
     {
       "rank": 16,
+      "title": "The Cat and the Dragon",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-07-04T12:00:00.000Z",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.75,
+      "votes": 32,
+      "score": null,
+      "ids": {
+        "trakt": 276229,
+        "slug": "the-cat-and-the-dragon",
+        "imdb": "tt41278620",
+        "tmdb": 284029
+      },
+      "absolutePremiere": true,
+      "premiereEpisode": "S01E01"
+    },
+    {
+      "rank": 17,
       "title": "BLACK TORCH",
       "year": 2026,
       "released": null,
@@ -393,15 +413,15 @@
       "premiereEpisode": "S01E01"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "title": "Jaadugar: A Witch in Mongolia",
       "year": 2026,
       "released": null,
       "firstAired": "2026-07-04T14:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.63265323638916,
-      "votes": 49,
+      "rating": 8.692307472229004,
+      "votes": 52,
       "score": null,
       "ids": {
         "trakt": 282395,
@@ -413,7 +433,7 @@
       "premiereEpisode": "S01E01"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "title": "The World Is Dancing",
       "year": 2026,
       "released": null,
@@ -433,15 +453,15 @@
       "premiereEpisode": "S01E01"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "title": "Human Vapor",
       "year": 2026,
       "released": null,
       "firstAired": "2026-07-02T08:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.198675632476807,
-      "votes": 151,
+      "rating": 7.176470756530762,
+      "votes": 153,
       "score": null,
       "ids": {
         "trakt": 239210,
@@ -453,7 +473,7 @@
       "premiereEpisode": "S01E01"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "title": "Chainsmoker Cat",
       "year": 2026,
       "released": null,
@@ -473,7 +493,7 @@
       "premiereEpisode": "S01E01"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
       "year": 2026,
       "released": null,
@@ -493,15 +513,15 @@
       "premiereEpisode": "S01E01"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "title": "Worst Neighbor Ever",
       "year": 2026,
       "released": null,
       "firstAired": "2026-07-01T04:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.04651165008545,
-      "votes": 258,
+      "rating": 8.046692848205566,
+      "votes": 257,
       "score": null,
       "ids": {
         "trakt": 320339,
@@ -513,15 +533,15 @@
       "premiereEpisode": "S01E01"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "title": "Elle",
       "year": 2026,
       "released": null,
       "firstAired": "2026-07-01T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.957746505737305,
-      "votes": 710,
+      "rating": 7.961111068725586,
+      "votes": 720,
       "score": null,
       "ids": {
         "trakt": 239856,
@@ -533,7 +553,7 @@
       "premiereEpisode": "S01E01"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "title": "The Villager of Level 999",
       "year": 2026,
       "released": null,
@@ -553,7 +573,7 @@
       "premiereEpisode": "S01E01"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "title": "The Exiled Heavy Knight Knows How to Game the System",
       "year": 2026,
       "released": null,
@@ -573,7 +593,7 @@
       "premiereEpisode": "S01E01"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "title": "Adventure Time: Side Quests",
       "year": 2026,
       "released": null,
@@ -593,41 +613,21 @@
       "premiereEpisode": "S01E01"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "title": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
       "year": 2026,
       "released": null,
       "firstAired": "2026-06-27T01:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 6.414893627166748,
-      "votes": 94,
+      "rating": 6.458333492279053,
+      "votes": 96,
       "score": null,
       "ids": {
         "trakt": 291193,
         "slug": "life-larry-and-the-pursuit-of-unhappiness-an-almost-history-of-america",
         "imdb": "tt37543147",
         "tmdb": 295780
-      },
-      "absolutePremiere": true,
-      "premiereEpisode": "S01E01"
-    },
-    {
-      "rank": 28,
-      "title": "The Cat and the Dragon",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-06-27T12:00:00.000Z",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.77419376373291,
-      "votes": 31,
-      "score": null,
-      "ids": {
-        "trakt": 276229,
-        "slug": "the-cat-and-the-dragon",
-        "imdb": "tt41278620",
-        "tmdb": 284029
       },
       "absolutePremiere": true,
       "premiereEpisode": "S01E01"
@@ -640,8 +640,8 @@
       "firstAired": "2026-06-26T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.853801250457764,
-      "votes": 171,
+      "rating": 7.854650974273682,
+      "votes": 172,
       "score": null,
       "ids": {
         "trakt": 279254,
@@ -660,8 +660,8 @@
       "firstAired": "2026-06-26T09:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.115385055541992,
-      "votes": 26,
+      "rating": 8.11111068725586,
+      "votes": 27,
       "score": null,
       "ids": {
         "trakt": 206673,
@@ -680,8 +680,8 @@
       "firstAired": "2026-06-26T12:45:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.71259880065918,
-      "votes": 254,
+      "rating": 8.72480583190918,
+      "votes": 258,
       "score": null,
       "ids": {
         "trakt": 292308,
@@ -760,8 +760,8 @@
       "firstAired": "2026-06-18T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.038593292236328,
-      "votes": 3783,
+      "rating": 8.038663864135742,
+      "votes": 3802,
       "score": null,
       "ids": {
         "trakt": 265319,
@@ -780,8 +780,8 @@
       "firstAired": "2026-06-18T22:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 6.8264641761779785,
-      "votes": 461,
+      "rating": 6.825430870056152,
+      "votes": 464,
       "score": null,
       "ids": {
         "trakt": 292413,
@@ -800,8 +800,8 @@
       "firstAired": "2026-06-16T04:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 9.217948913574219,
-      "votes": 78,
+      "rating": 9.177215576171875,
+      "votes": 79,
       "score": null,
       "ids": {
         "trakt": 282083,
@@ -880,8 +880,8 @@
       "firstAired": "2026-06-10T08:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.168674468994141,
-      "votes": 664,
+      "rating": 7.170658588409424,
+      "votes": 668,
       "score": null,
       "ids": {
         "trakt": 250645,
@@ -920,8 +920,8 @@
       "firstAired": "2026-06-08T20:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.060439586639404,
-      "votes": 182,
+      "rating": 7.0652174949646,
+      "votes": 184,
       "score": null,
       "ids": {
         "trakt": 317988,
@@ -940,8 +940,8 @@
       "firstAired": "2026-06-07T04:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.673306465148926,
-      "votes": 251,
+      "rating": 8.675889015197754,
+      "votes": 253,
       "score": null,
       "ids": {
         "trakt": 320162,
@@ -960,8 +960,8 @@
       "firstAired": "2026-06-05T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.834671974182129,
-      "votes": 1494,
+      "rating": 8.836448669433594,
+      "votes": 1498,
       "score": null,
       "ids": {
         "trakt": 262654,
@@ -980,8 +980,8 @@
       "firstAired": "2026-06-05T01:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.636207103729248,
-      "votes": 580,
+      "rating": 7.619211196899414,
+      "votes": 583,
       "score": null,
       "ids": {
         "trakt": 264291,
@@ -1020,8 +1020,8 @@
       "firstAired": "2026-06-04T03:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.014084339141846,
-      "votes": 568,
+      "rating": 7.01578950881958,
+      "votes": 570,
       "score": null,
       "ids": {
         "trakt": 271341,
@@ -1040,8 +1040,8 @@
       "firstAired": "2026-06-03T04:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 6.7874016761779785,
-      "votes": 381,
+      "rating": 6.77545690536499,
+      "votes": 383,
       "score": null,
       "ids": {
         "trakt": 319435,
@@ -1100,8 +1100,8 @@
       "firstAired": "2026-06-02T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.585241794586182,
-      "votes": 393,
+      "rating": 7.561712741851807,
+      "votes": 397,
       "score": null,
       "ids": {
         "trakt": 277120,
@@ -1120,8 +1120,8 @@
       "firstAired": "2026-06-01T13:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.5714287757873535,
-      "votes": 91,
+      "rating": 7.5652174949646,
+      "votes": 92,
       "score": null,
       "ids": {
         "trakt": 280074,
@@ -1180,8 +1180,8 @@
       "firstAired": "2026-05-30T13:30:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 9.424710273742676,
-      "votes": 259,
+      "rating": 9.427480697631836,
+      "votes": 262,
       "score": null,
       "ids": {
         "trakt": 265224,
@@ -1220,8 +1220,8 @@
       "firstAired": "2026-05-29T01:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.030716896057129,
-      "votes": 586,
+      "rating": 8.02376937866211,
+      "votes": 589,
       "score": null,
       "ids": {
         "trakt": 235622,
@@ -1240,8 +1240,8 @@
       "firstAired": "2026-05-29T12:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.71597671508789,
-      "votes": 507,
+      "rating": 8.716535568237305,
+      "votes": 508,
       "score": null,
       "ids": {
         "trakt": 270508,
@@ -1280,8 +1280,8 @@
       "firstAired": "2026-05-26T22:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.812766075134277,
-      "votes": 470,
+      "rating": 8.802520751953125,
+      "votes": 476,
       "score": null,
       "ids": {
         "trakt": 306805,
@@ -1300,8 +1300,8 @@
       "firstAired": "2026-05-25T08:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.8925981521606445,
-      "votes": 4134,
+      "rating": 7.889344215393066,
+      "votes": 4148,
       "score": null,
       "ids": {
         "trakt": 202400,
@@ -1340,8 +1340,8 @@
       "firstAired": "2026-05-22T04:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.44444465637207,
-      "votes": 189,
+      "rating": 7.445026397705078,
+      "votes": 191,
       "score": null,
       "ids": {
         "trakt": 284162,
@@ -1360,8 +1360,8 @@
       "firstAired": "2026-05-21T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.705621719360352,
-      "votes": 2259,
+      "rating": 7.70772647857666,
+      "votes": 2265,
       "score": null,
       "ids": {
         "trakt": 204528,
@@ -1380,8 +1380,8 @@
       "firstAired": "2026-05-20T01:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.845794200897217,
-      "votes": 428,
+      "rating": 7.843822956085205,
+      "votes": 429,
       "score": null,
       "ids": {
         "trakt": 277916,
@@ -1460,8 +1460,8 @@
       "firstAired": "2026-05-15T01:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.59015417098999,
-      "votes": 1686,
+      "rating": 7.590667247772217,
+      "votes": 1693,
       "score": null,
       "ids": {
         "trakt": 310740,
@@ -1480,8 +1480,8 @@
       "firstAired": "2026-05-15T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.069209098815918,
-      "votes": 708,
+      "rating": 8.058988571166992,
+      "votes": 712,
       "score": null,
       "ids": {
         "trakt": 249676,
@@ -1500,8 +1500,8 @@
       "firstAired": "2026-05-15T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.765007019042969,
-      "votes": 2149,
+      "rating": 8.76657485961914,
+      "votes": 2172,
       "score": null,
       "ids": {
         "trakt": 296208,
@@ -1520,8 +1520,8 @@
       "firstAired": "2026-05-14T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.396678924560547,
-      "votes": 542,
+      "rating": 7.39778995513916,
+      "votes": 543,
       "score": null,
       "ids": {
         "trakt": 278494,
@@ -1540,8 +1540,8 @@
       "firstAired": "2026-05-13T07:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.619528770446777,
-      "votes": 3861,
+      "rating": 8.620511054992676,
+      "votes": 3871,
       "score": null,
       "ids": {
         "trakt": 258304,
@@ -1640,8 +1640,8 @@
       "firstAired": "2026-05-08T12:45:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.527777671813965,
-      "votes": 432,
+      "rating": 8.519539833068848,
+      "votes": 435,
       "score": null,
       "ids": {
         "trakt": 303825,
@@ -1740,8 +1740,8 @@
       "firstAired": "2026-04-30T08:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.610023498535156,
-      "votes": 1277,
+      "rating": 7.609851360321045,
+      "votes": 1279,
       "score": null,
       "ids": {
         "trakt": 203594,
@@ -1780,8 +1780,8 @@
       "firstAired": "2026-04-29T01:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 8.329315185546875,
-      "votes": 4646,
+      "rating": 8.328051567077637,
+      "votes": 4670,
       "score": null,
       "ids": {
         "trakt": 254678,
@@ -1800,8 +1800,8 @@
       "firstAired": "2026-04-29T02:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.233250617980957,
-      "votes": 403,
+      "rating": 7.227722644805908,
+      "votes": 404,
       "score": null,
       "ids": {
         "trakt": 318003,
@@ -1980,8 +1980,8 @@
       "firstAired": "2026-04-24T08:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.648825168609619,
-      "votes": 766,
+      "rating": 7.650195121765137,
+      "votes": 769,
       "score": null,
       "ids": {
         "trakt": 278535,
@@ -2020,8 +2020,8 @@
       "firstAired": "2026-04-22T12:00:00.000Z",
       "watchers": null,
       "plays": null,
-      "rating": 7.833333492279053,
-      "votes": 264,
+      "rating": 7.830188751220703,
+      "votes": 265,
       "score": null,
       "ids": {
         "trakt": 280075,
