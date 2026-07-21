@@ -4,14 +4,14 @@
   "provider": "trakt",
   "movieSections": 6,
   "seriesSections": 6,
-  "generatedAt": "2026-07-21T09:07:47Z",
-  "lastSuccessfulRefreshAt": "2026-07-21T09:07:47Z",
-  "lastContentUpdateAt": "2026-07-21T09:07:47Z",
+  "generatedAt": "2026-07-21T12:14:36Z",
+  "lastSuccessfulRefreshAt": "2026-07-21T12:14:36Z",
+  "lastContentUpdateAt": "2026-07-21T12:14:36Z",
   "minimumAppSchemaVersion": 1,
   "movies": [
     {
-      "section": "popular",
-      "path": "movies/popular.json",
+      "section": "trending",
+      "path": "movies/trending.json",
       "rankingType": "trakt_official",
       "ttlSeconds": 43200,
       "itemCount": 100
@@ -24,8 +24,8 @@
       "itemCount": 100
     },
     {
-      "section": "trending",
-      "path": "movies/trending.json",
+      "section": "popular",
+      "path": "movies/popular.json",
       "rankingType": "trakt_official",
       "ttlSeconds": 43200,
       "itemCount": 100
@@ -54,8 +54,8 @@
   ],
   "series": [
     {
-      "section": "popular",
-      "path": "series/popular.json",
+      "section": "trending",
+      "path": "series/trending.json",
       "rankingType": "trakt_official",
       "ttlSeconds": 43200,
       "itemCount": 100
@@ -68,8 +68,8 @@
       "itemCount": 100
     },
     {
-      "section": "trending",
-      "path": "series/trending.json",
+      "section": "popular",
+      "path": "series/popular.json",
       "rankingType": "trakt_official",
       "ttlSeconds": 43200,
       "itemCount": 100
