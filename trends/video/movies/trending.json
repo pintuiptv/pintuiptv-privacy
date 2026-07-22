@@ -16,7 +16,7 @@
   },
   "mediaType": "movie",
   "section": "trending",
-  "generatedAt": "2026-07-22T17:54:47Z",
+  "generatedAt": "2026-07-22T21:39:27Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 43200,
   "itemCount": 100,
@@ -27,10 +27,10 @@
       "year": 2026,
       "released": "2026-06-12",
       "firstAired": null,
-      "watchers": 4818,
+      "watchers": 5058,
       "plays": null,
-      "rating": 7.112096309661865,
-      "votes": 6878,
+      "rating": 7.111285209655762,
+      "votes": 7018,
       "score": null,
       "ids": {
         "trakt": 1036433,
@@ -45,10 +45,10 @@
       "year": 2026,
       "released": "2026-07-17",
       "firstAired": null,
-      "watchers": 2604,
+      "watchers": 2554,
       "plays": null,
-      "rating": 8.83526611328125,
-      "votes": 7242,
+      "rating": 8.837615013122559,
+      "votes": 7396,
       "score": null,
       "ids": {
         "trakt": 1117351,
@@ -63,10 +63,10 @@
       "year": 2026,
       "released": "2026-05-22",
       "firstAired": null,
-      "watchers": 2051,
+      "watchers": 2040,
       "plays": null,
-      "rating": 7.392781734466553,
-      "votes": 5680,
+      "rating": 7.390562534332275,
+      "votes": 5743,
       "score": null,
       "ids": {
         "trakt": 993003,
@@ -77,32 +77,14 @@
     },
     {
       "rank": 4,
-      "title": "Backrooms",
-      "year": 2026,
-      "released": "2026-05-29",
-      "firstAired": null,
-      "watchers": 1759,
-      "plays": null,
-      "rating": 6.8983049392700195,
-      "votes": 10738,
-      "score": null,
-      "ids": {
-        "trakt": 870815,
-        "slug": "backrooms-2026",
-        "imdb": "tt26657236",
-        "tmdb": 1083381
-      }
-    },
-    {
-      "rank": 5,
       "title": "Scary Movie",
       "year": 2026,
       "released": "2026-06-05",
       "firstAired": null,
-      "watchers": 1723,
+      "watchers": 1698,
       "plays": null,
-      "rating": 6.075717926025391,
-      "votes": 4596,
+      "rating": 6.063413619995117,
+      "votes": 4652,
       "score": null,
       "ids": {
         "trakt": 1034092,
@@ -112,15 +94,33 @@
       }
     },
     {
+      "rank": 5,
+      "title": "Backrooms",
+      "year": 2026,
+      "released": "2026-05-29",
+      "firstAired": null,
+      "watchers": 1682,
+      "plays": null,
+      "rating": 6.89487361907959,
+      "votes": 10787,
+      "score": null,
+      "ids": {
+        "trakt": 870815,
+        "slug": "backrooms-2026",
+        "imdb": "tt26657236",
+        "tmdb": 1083381
+      }
+    },
+    {
       "rank": 6,
       "title": "Obsession",
       "year": 2026,
       "released": "2026-05-15",
       "firstAired": null,
-      "watchers": 1685,
+      "watchers": 1658,
       "plays": null,
-      "rating": 8.309020042419434,
-      "votes": 22416,
+      "rating": 8.309450149536133,
+      "votes": 22498,
       "score": null,
       "ids": {
         "trakt": 1095879,
@@ -131,50 +131,14 @@
     },
     {
       "rank": 7,
-      "title": "Project Hail Mary",
-      "year": 2026,
-      "released": "2026-03-20",
-      "firstAired": null,
-      "watchers": 854,
-      "plays": null,
-      "rating": 8.767109870910645,
-      "votes": 39143,
-      "score": null,
-      "ids": {
-        "trakt": 531178,
-        "slug": "project-hail-mary-2026",
-        "imdb": "tt12042730",
-        "tmdb": 687163
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Toy Story 5",
-      "year": 2026,
-      "released": "2026-06-19",
-      "firstAired": null,
-      "watchers": 715,
-      "plays": null,
-      "rating": 8.244714736938477,
-      "votes": 5913,
-      "score": null,
-      "ids": {
-        "trakt": 871500,
-        "slug": "toy-story-5-2026",
-        "imdb": "tt29355505",
-        "tmdb": 1084244
-      }
-    },
-    {
-      "rank": 9,
       "title": "Masters of the Universe",
       "year": 2026,
       "released": "2026-06-05",
       "firstAired": null,
-      "watchers": 706,
+      "watchers": 995,
       "plays": null,
-      "rating": 7.252701282501221,
-      "votes": 4535,
+      "rating": 7.2482099533081055,
+      "votes": 4609,
       "score": null,
       "ids": {
         "trakt": 306815,
@@ -184,15 +148,51 @@
       }
     },
     {
+      "rank": 8,
+      "title": "Project Hail Mary",
+      "year": 2026,
+      "released": "2026-03-20",
+      "firstAired": null,
+      "watchers": 859,
+      "plays": null,
+      "rating": 8.767146110534668,
+      "votes": 39192,
+      "score": null,
+      "ids": {
+        "trakt": 531178,
+        "slug": "project-hail-mary-2026",
+        "imdb": "tt12042730",
+        "tmdb": 687163
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Toy Story 5",
+      "year": 2026,
+      "released": "2026-06-19",
+      "firstAired": null,
+      "watchers": 684,
+      "plays": null,
+      "rating": 8.245193481445312,
+      "votes": 5930,
+      "score": null,
+      "ids": {
+        "trakt": 871500,
+        "slug": "toy-story-5-2026",
+        "imdb": "tt29355505",
+        "tmdb": 1084244
+      }
+    },
+    {
       "rank": 10,
       "title": "The Devil Wears Prada 2",
       "year": 2026,
       "released": "2026-05-01",
       "firstAired": null,
-      "watchers": 670,
+      "watchers": 639,
       "plays": null,
-      "rating": 7.457724571228027,
-      "votes": 11153,
+      "rating": 7.456539154052734,
+      "votes": 11171,
       "score": null,
       "ids": {
         "trakt": 1074519,
@@ -207,10 +207,10 @@
       "year": 2026,
       "released": "2026-05-08",
       "firstAired": null,
-      "watchers": 570,
+      "watchers": 563,
       "plays": null,
-      "rating": 8.064173698425293,
-      "votes": 8960,
+      "rating": 8.06343936920166,
+      "votes": 8985,
       "score": null,
       "ids": {
         "trakt": 1060883,
@@ -225,10 +225,10 @@
       "year": 2026,
       "released": "2026-04-24",
       "firstAired": null,
-      "watchers": 483,
+      "watchers": 480,
       "plays": null,
-      "rating": 8.155662536621094,
-      "votes": 14904,
+      "rating": 8.156004905700684,
+      "votes": 14929,
       "score": null,
       "ids": {
         "trakt": 751145,
@@ -243,10 +243,10 @@
       "year": 2004,
       "released": "2004-05-14",
       "firstAired": null,
-      "watchers": 481,
+      "watchers": 477,
       "plays": null,
-      "rating": 7.560247898101807,
-      "votes": 15959,
+      "rating": 7.5606184005737305,
+      "votes": 15977,
       "score": null,
       "ids": {
         "trakt": 527,
@@ -261,10 +261,10 @@
       "year": 2014,
       "released": "2014-11-05",
       "firstAired": null,
-      "watchers": 436,
+      "watchers": 416,
       "plays": null,
-      "rating": 8.862510681152344,
-      "votes": 78988,
+      "rating": 8.862560272216797,
+      "votes": 79031,
       "score": null,
       "ids": {
         "trakt": 102156,
@@ -279,10 +279,10 @@
       "year": 2026,
       "released": "2026-07-01",
       "firstAired": null,
-      "watchers": 391,
+      "watchers": 381,
       "plays": null,
-      "rating": 6.949355125427246,
-      "votes": 5272,
+      "rating": 6.9502272605896,
+      "votes": 5284,
       "score": null,
       "ids": {
         "trakt": 969826,
@@ -299,8 +299,8 @@
       "firstAired": null,
       "watchers": 380,
       "plays": null,
-      "rating": 8.508011817932129,
-      "votes": 53481,
+      "rating": 8.508137702941895,
+      "votes": 53515,
       "score": null,
       "ids": {
         "trakt": 474180,
@@ -315,10 +315,10 @@
       "year": 2026,
       "released": "2026-06-11",
       "firstAired": null,
-      "watchers": 364,
+      "watchers": 359,
       "plays": null,
-      "rating": 7.750459671020508,
-      "votes": 2176,
+      "rating": 7.747479438781738,
+      "votes": 2182,
       "score": null,
       "ids": {
         "trakt": 1040684,
@@ -329,32 +329,14 @@
     },
     {
       "rank": 18,
-      "title": "Spider-Man: Homecoming",
-      "year": 2017,
-      "released": "2017-07-07",
-      "firstAired": null,
-      "watchers": 355,
-      "plays": null,
-      "rating": 7.713117599487305,
-      "votes": 45130,
-      "score": null,
-      "ids": {
-        "trakt": 196213,
-        "slug": "spider-man-homecoming-2017",
-        "imdb": "tt2250912",
-        "tmdb": 315635
-      }
-    },
-    {
-      "rank": 19,
       "title": "Heartstopper Forever",
       "year": 2026,
       "released": "2026-07-17",
       "firstAired": null,
-      "watchers": 348,
+      "watchers": 351,
       "plays": null,
-      "rating": 8.245007514953613,
-      "votes": 1302,
+      "rating": 8.2443265914917,
+      "votes": 1322,
       "score": null,
       "ids": {
         "trakt": 1203125,
@@ -364,33 +346,33 @@
       }
     },
     {
-      "rank": 20,
-      "title": "Avatar: Fire and Ash",
-      "year": 2025,
-      "released": "2025-12-19",
+      "rank": 19,
+      "title": "Spider-Man: Homecoming",
+      "year": 2017,
+      "released": "2017-07-07",
       "firstAired": null,
-      "watchers": 336,
+      "watchers": 338,
       "plays": null,
-      "rating": 7.899739742279053,
-      "votes": 20766,
+      "rating": 7.7131781578063965,
+      "votes": 45150,
       "score": null,
       "ids": {
-        "trakt": 62544,
-        "slug": "avatar-fire-and-ash-2025",
-        "imdb": "tt1757678",
-        "tmdb": 83533
+        "trakt": 196213,
+        "slug": "spider-man-homecoming-2017",
+        "imdb": "tt2250912",
+        "tmdb": 315635
       }
     },
     {
-      "rank": 21,
+      "rank": 20,
       "title": "The Super Mario Galaxy Movie",
       "year": 2026,
       "released": "2026-04-01",
       "firstAired": null,
-      "watchers": 328,
+      "watchers": 321,
       "plays": null,
-      "rating": 7.3971428871154785,
-      "votes": 10991,
+      "rating": 7.396601676940918,
+      "votes": 11006,
       "score": null,
       "ids": {
         "trakt": 991429,
@@ -400,15 +382,33 @@
       }
     },
     {
+      "rank": 21,
+      "title": "The Death of Robin Hood",
+      "year": 2026,
+      "released": "2026-06-19",
+      "firstAired": null,
+      "watchers": 319,
+      "plays": null,
+      "rating": 6.525485515594482,
+      "votes": 824,
+      "score": null,
+      "ids": {
+        "trakt": 1044784,
+        "slug": "the-death-of-robin-hood-2026",
+        "imdb": "tt32273171",
+        "tmdb": 1284465
+      }
+    },
+    {
       "rank": 22,
       "title": "Voicemails for Isabelle",
       "year": 2026,
       "released": "2026-06-19",
       "firstAired": null,
-      "watchers": 323,
+      "watchers": 316,
       "plays": null,
-      "rating": 8.547524452209473,
-      "votes": 7070,
+      "rating": 8.548778533935547,
+      "votes": 7083,
       "score": null,
       "ids": {
         "trakt": 458282,
@@ -419,20 +419,20 @@
     },
     {
       "rank": 23,
-      "title": "The Death of Robin Hood",
-      "year": 2026,
-      "released": "2026-06-19",
+      "title": "Avatar: Fire and Ash",
+      "year": 2025,
+      "released": "2025-12-19",
       "firstAired": null,
-      "watchers": 310,
+      "watchers": 315,
       "plays": null,
-      "rating": 6.5386505126953125,
-      "votes": 815,
+      "rating": 7.8993988037109375,
+      "votes": 20795,
       "score": null,
       "ids": {
-        "trakt": 1044784,
-        "slug": "the-death-of-robin-hood-2026",
-        "imdb": "tt32273171",
-        "tmdb": 1284465
+        "trakt": 62544,
+        "slug": "avatar-fire-and-ash-2025",
+        "imdb": "tt1757678",
+        "tmdb": 83533
       }
     },
     {
@@ -441,10 +441,10 @@
       "year": 2001,
       "released": "2001-11-16",
       "firstAired": null,
-      "watchers": 309,
+      "watchers": 304,
       "plays": null,
-      "rating": 8.184751510620117,
-      "votes": 48254,
+      "rating": 8.18483829498291,
+      "votes": 48280,
       "score": null,
       "ids": {
         "trakt": 545,
@@ -455,32 +455,14 @@
     },
     {
       "rank": 25,
-      "title": "Mortal Kombat II",
-      "year": 2026,
-      "released": "2026-05-08",
-      "firstAired": null,
-      "watchers": 302,
-      "plays": null,
-      "rating": 6.887421607971191,
-      "votes": 9238,
-      "score": null,
-      "ids": {
-        "trakt": 746852,
-        "slug": "mortal-kombat-ii-2026",
-        "imdb": "tt17490712",
-        "tmdb": 931285
-      }
-    },
-    {
-      "rank": 26,
       "title": "Avengers: Endgame",
       "year": 2019,
       "released": "2019-04-26",
       "firstAired": null,
-      "watchers": 296,
+      "watchers": 300,
       "plays": null,
-      "rating": 8.606867790222168,
-      "votes": 54633,
+      "rating": 8.60713005065918,
+      "votes": 54667,
       "score": null,
       "ids": {
         "trakt": 191798,
@@ -490,15 +472,33 @@
       }
     },
     {
+      "rank": 26,
+      "title": "Mortal Kombat II",
+      "year": 2026,
+      "released": "2026-05-08",
+      "firstAired": null,
+      "watchers": 291,
+      "plays": null,
+      "rating": 6.887363433837891,
+      "votes": 9251,
+      "score": null,
+      "ids": {
+        "trakt": 746852,
+        "slug": "mortal-kombat-ii-2026",
+        "imdb": "tt17490712",
+        "tmdb": 931285
+      }
+    },
+    {
       "rank": 27,
       "title": "Avengers: Infinity War",
       "year": 2018,
       "released": "2018-04-27",
       "firstAired": null,
-      "watchers": 290,
+      "watchers": 285,
       "plays": null,
-      "rating": 8.551301956176758,
-      "votes": 53653,
+      "rating": 8.551401138305664,
+      "votes": 53676,
       "score": null,
       "ids": {
         "trakt": 191797,
@@ -513,10 +513,10 @@
       "year": 2012,
       "released": "2012-05-04",
       "firstAired": null,
-      "watchers": 277,
+      "watchers": 275,
       "plays": null,
-      "rating": 8.225383758544922,
-      "votes": 52475,
+      "rating": 8.225363731384277,
+      "votes": 52493,
       "score": null,
       "ids": {
         "trakt": 14701,
@@ -531,10 +531,10 @@
       "year": 2008,
       "released": "2008-05-02",
       "firstAired": null,
-      "watchers": 274,
+      "watchers": 269,
       "plays": null,
-      "rating": 8.215126037597656,
-      "votes": 48683,
+      "rating": 8.21478271484375,
+      "votes": 48705,
       "score": null,
       "ids": {
         "trakt": 1157,
@@ -545,86 +545,14 @@
     },
     {
       "rank": 30,
-      "title": "Inception",
-      "year": 2010,
-      "released": "2010-07-16",
-      "firstAired": null,
-      "watchers": 271,
-      "plays": null,
-      "rating": 8.754182815551758,
-      "votes": 64853,
-      "score": null,
-      "ids": {
-        "trakt": 16662,
-        "slug": "inception-2010",
-        "imdb": "tt1375666",
-        "tmdb": 27205
-      }
-    },
-    {
-      "rank": 31,
-      "title": "Passenger",
-      "year": 2026,
-      "released": "2026-05-22",
-      "firstAired": null,
-      "watchers": 271,
-      "plays": null,
-      "rating": 6.285832405090332,
-      "votes": 2421,
-      "score": null,
-      "ids": {
-        "trakt": 1117331,
-        "slug": "passenger-2026",
-        "imdb": "tt33763941",
-        "tmdb": 1368314
-      }
-    },
-    {
-      "rank": 32,
-      "title": "The Dark Knight",
-      "year": 2008,
-      "released": "2008-07-18",
-      "firstAired": null,
-      "watchers": 269,
-      "plays": null,
-      "rating": 8.967597961425781,
-      "votes": 62064,
-      "score": null,
-      "ids": {
-        "trakt": 120,
-        "slug": "the-dark-knight-2008",
-        "imdb": "tt0468569",
-        "tmdb": 155
-      }
-    },
-    {
-      "rank": 33,
-      "title": "The Housemaid",
-      "year": 2025,
-      "released": "2025-12-19",
-      "firstAired": null,
-      "watchers": 269,
-      "plays": null,
-      "rating": 7.559680938720703,
-      "votes": 21439,
-      "score": null,
-      "ids": {
-        "trakt": 1117195,
-        "slug": "the-housemaid-2025",
-        "imdb": "tt27543632",
-        "tmdb": 1368166
-      }
-    },
-    {
-      "rank": 34,
       "title": "Spider-Man: Far From Home",
       "year": 2019,
       "released": "2019-07-02",
       "firstAired": null,
-      "watchers": 268,
+      "watchers": 262,
       "plays": null,
-      "rating": 7.786288261413574,
-      "votes": 40709,
+      "rating": 7.786200046539307,
+      "votes": 40739,
       "score": null,
       "ids": {
         "trakt": 273537,
@@ -634,177 +562,15 @@
       }
     },
     {
-      "rank": 35,
-      "title": "Avatar",
-      "year": 2009,
-      "released": "2009-12-18",
-      "firstAired": null,
-      "watchers": 256,
-      "plays": null,
-      "rating": 8.025144577026367,
-      "votes": 54485,
-      "score": null,
-      "ids": {
-        "trakt": 12269,
-        "slug": "avatar-2009",
-        "imdb": "tt0499549",
-        "tmdb": 19995
-      }
-    },
-    {
-      "rank": 36,
-      "title": "Spider-Man",
-      "year": 2002,
-      "released": "2002-05-03",
-      "firstAired": null,
-      "watchers": 256,
-      "plays": null,
-      "rating": 7.848141193389893,
-      "votes": 32089,
-      "score": null,
-      "ids": {
-        "trakt": 438,
-        "slug": "spider-man-2002",
-        "imdb": "tt0145487",
-        "tmdb": 557
-      }
-    },
-    {
-      "rank": 37,
-      "title": "Toy Story",
-      "year": 1995,
-      "released": "1995-11-22",
-      "firstAired": null,
-      "watchers": 253,
-      "plays": null,
-      "rating": 8.37399673461914,
-      "votes": 33749,
-      "score": null,
-      "ids": {
-        "trakt": 705,
-        "slug": "toy-story-1995",
-        "imdb": "tt0114709",
-        "tmdb": 862
-      }
-    },
-    {
-      "rank": 38,
-      "title": "The Drama",
-      "year": 2026,
-      "released": "2026-04-03",
-      "firstAired": null,
-      "watchers": 252,
-      "plays": null,
-      "rating": 7.323245048522949,
-      "votes": 9516,
-      "score": null,
-      "ids": {
-        "trakt": 1083999,
-        "slug": "the-drama-2026",
-        "imdb": "tt33071426",
-        "tmdb": 1325734
-      }
-    },
-    {
-      "rank": 39,
-      "title": "Harry Potter and the Prisoner of Azkaban",
-      "year": 2004,
-      "released": "2004-05-31",
-      "firstAired": null,
-      "watchers": 251,
-      "plays": null,
-      "rating": 8.333547592163086,
-      "votes": 40384,
-      "score": null,
-      "ids": {
-        "trakt": 547,
-        "slug": "harry-potter-and-the-prisoner-of-azkaban-2004",
-        "imdb": "tt0304141",
-        "tmdb": 673
-      }
-    },
-    {
-      "rank": 40,
-      "title": "Descendants: Wicked Wonderland",
-      "year": 2026,
-      "released": "2026-07-16",
-      "firstAired": null,
-      "watchers": 250,
-      "plays": null,
-      "rating": 7.179487228393555,
-      "votes": 351,
-      "score": null,
-      "ids": {
-        "trakt": 1077926,
-        "slug": "descendants-wicked-wonderland-2026",
-        "imdb": "tt34477910",
-        "tmdb": 1318621
-      }
-    },
-    {
-      "rank": 41,
-      "title": "Harry Potter and the Goblet of Fire",
-      "year": 2005,
-      "released": "2005-11-18",
-      "firstAired": null,
-      "watchers": 247,
-      "plays": null,
-      "rating": 8.131330490112305,
-      "votes": 38110,
-      "score": null,
-      "ids": {
-        "trakt": 548,
-        "slug": "harry-potter-and-the-goblet-of-fire-2005",
-        "imdb": "tt0330373",
-        "tmdb": 674
-      }
-    },
-    {
-      "rank": 42,
-      "title": "Harry Potter and the Half-Blood Prince",
-      "year": 2009,
-      "released": "2009-07-15",
-      "firstAired": null,
-      "watchers": 247,
-      "plays": null,
-      "rating": 8.054593086242676,
-      "votes": 34986,
-      "score": null,
-      "ids": {
-        "trakt": 610,
-        "slug": "harry-potter-and-the-half-blood-prince-2009",
-        "imdb": "tt0417741",
-        "tmdb": 767
-      }
-    },
-    {
-      "rank": 43,
-      "title": "Harry Potter and the Chamber of Secrets",
-      "year": 2002,
-      "released": "2002-11-15",
-      "firstAired": null,
-      "watchers": 244,
-      "plays": null,
-      "rating": 8.038418769836426,
-      "votes": 40761,
-      "score": null,
-      "ids": {
-        "trakt": 546,
-        "slug": "harry-potter-and-the-chamber-of-secrets-2002",
-        "imdb": "tt0295297",
-        "tmdb": 672
-      }
-    },
-    {
-      "rank": 44,
+      "rank": 31,
       "title": "Tuner",
       "year": 2026,
       "released": "2026-05-29",
       "firstAired": null,
-      "watchers": 244,
+      "watchers": 261,
       "plays": null,
-      "rating": 7.6962456703186035,
-      "votes": 2344,
+      "rating": 7.694893836975098,
+      "votes": 2350,
       "score": null,
       "ids": {
         "trakt": 1096313,
@@ -814,57 +580,291 @@
       }
     },
     {
-      "rank": 45,
-      "title": "The Punisher: One Last Kill",
+      "rank": 32,
+      "title": "Inception",
+      "year": 2010,
+      "released": "2010-07-16",
+      "firstAired": null,
+      "watchers": 258,
+      "plays": null,
+      "rating": 8.754141807556152,
+      "votes": 64883,
+      "score": null,
+      "ids": {
+        "trakt": 16662,
+        "slug": "inception-2010",
+        "imdb": "tt1375666",
+        "tmdb": 27205
+      }
+    },
+    {
+      "rank": 33,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "released": "2008-07-18",
+      "firstAired": null,
+      "watchers": 257,
+      "plays": null,
+      "rating": 8.96757698059082,
+      "votes": 62086,
+      "score": null,
+      "ids": {
+        "trakt": 120,
+        "slug": "the-dark-knight-2008",
+        "imdb": "tt0468569",
+        "tmdb": 155
+      }
+    },
+    {
+      "rank": 34,
+      "title": "The Housemaid",
+      "year": 2025,
+      "released": "2025-12-19",
+      "firstAired": null,
+      "watchers": 257,
+      "plays": null,
+      "rating": 7.560359477996826,
+      "votes": 21463,
+      "score": null,
+      "ids": {
+        "trakt": 1117195,
+        "slug": "the-housemaid-2025",
+        "imdb": "tt27543632",
+        "tmdb": 1368166
+      }
+    },
+    {
+      "rank": 35,
+      "title": "Descendants: Wicked Wonderland",
       "year": 2026,
-      "released": "2026-05-12",
+      "released": "2026-07-16",
+      "firstAired": null,
+      "watchers": 257,
+      "plays": null,
+      "rating": 7.155367374420166,
+      "votes": 354,
+      "score": null,
+      "ids": {
+        "trakt": 1077926,
+        "slug": "descendants-wicked-wonderland-2026",
+        "imdb": "tt34477910",
+        "tmdb": 1318621
+      }
+    },
+    {
+      "rank": 36,
+      "title": "Passenger",
+      "year": 2026,
+      "released": "2026-05-22",
+      "firstAired": null,
+      "watchers": 254,
+      "plays": null,
+      "rating": 6.284891128540039,
+      "votes": 2429,
+      "score": null,
+      "ids": {
+        "trakt": 1117331,
+        "slug": "passenger-2026",
+        "imdb": "tt33763941",
+        "tmdb": 1368314
+      }
+    },
+    {
+      "rank": 37,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "released": "2002-11-15",
+      "firstAired": null,
+      "watchers": 252,
+      "plays": null,
+      "rating": 8.038323402404785,
+      "votes": 40784,
+      "score": null,
+      "ids": {
+        "trakt": 546,
+        "slug": "harry-potter-and-the-chamber-of-secrets-2002",
+        "imdb": "tt0295297",
+        "tmdb": 672
+      }
+    },
+    {
+      "rank": 38,
+      "title": "Harry Potter and the Goblet of Fire",
+      "year": 2005,
+      "released": "2005-11-18",
+      "firstAired": null,
+      "watchers": 250,
+      "plays": null,
+      "rating": 8.131359100341797,
+      "votes": 38132,
+      "score": null,
+      "ids": {
+        "trakt": 548,
+        "slug": "harry-potter-and-the-goblet-of-fire-2005",
+        "imdb": "tt0330373",
+        "tmdb": 674
+      }
+    },
+    {
+      "rank": 39,
+      "title": "Spider-Man",
+      "year": 2002,
+      "released": "2002-05-03",
+      "firstAired": null,
+      "watchers": 248,
+      "plays": null,
+      "rating": 7.8483123779296875,
+      "votes": 32112,
+      "score": null,
+      "ids": {
+        "trakt": 438,
+        "slug": "spider-man-2002",
+        "imdb": "tt0145487",
+        "tmdb": 557
+      }
+    },
+    {
+      "rank": 40,
+      "title": "Avatar",
+      "year": 2009,
+      "released": "2009-12-18",
+      "firstAired": null,
+      "watchers": 245,
+      "plays": null,
+      "rating": 8.02531623840332,
+      "votes": 54510,
+      "score": null,
+      "ids": {
+        "trakt": 12269,
+        "slug": "avatar-2009",
+        "imdb": "tt0499549",
+        "tmdb": 19995
+      }
+    },
+    {
+      "rank": 41,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "year": 2004,
+      "released": "2004-05-31",
+      "firstAired": null,
+      "watchers": 244,
+      "plays": null,
+      "rating": 8.333366394042969,
+      "votes": 40406,
+      "score": null,
+      "ids": {
+        "trakt": 547,
+        "slug": "harry-potter-and-the-prisoner-of-azkaban-2004",
+        "imdb": "tt0304141",
+        "tmdb": 673
+      }
+    },
+    {
+      "rank": 42,
+      "title": "Toy Story",
+      "year": 1995,
+      "released": "1995-11-22",
       "firstAired": null,
       "watchers": 242,
       "plays": null,
-      "rating": 7.5239434242248535,
-      "votes": 10295,
+      "rating": 8.374000549316406,
+      "votes": 33770,
       "score": null,
       "ids": {
-        "trakt": 1178309,
-        "slug": "the-punisher-one-last-kill-2026",
-        "imdb": "tt36042156",
-        "tmdb": 1439930
+        "trakt": 705,
+        "slug": "toy-story-1995",
+        "imdb": "tt0114709",
+        "tmdb": 862
+      }
+    },
+    {
+      "rank": 43,
+      "title": "Tenet",
+      "year": 2020,
+      "released": "2020-09-03",
+      "firstAired": null,
+      "watchers": 238,
+      "plays": null,
+      "rating": 7.509702205657959,
+      "votes": 36590,
+      "score": null,
+      "ids": {
+        "trakt": 427989,
+        "slug": "tenet-2020",
+        "imdb": "tt6723592",
+        "tmdb": 577922
+      }
+    },
+    {
+      "rank": 44,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "released": "2001-12-19",
+      "firstAired": null,
+      "watchers": 237,
+      "plays": null,
+      "rating": 8.839625358581543,
+      "votes": 53107,
+      "score": null,
+      "ids": {
+        "trakt": 88,
+        "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring-2001",
+        "imdb": "tt0120737",
+        "tmdb": 120
+      }
+    },
+    {
+      "rank": 45,
+      "title": "Harry Potter and the Half-Blood Prince",
+      "year": 2009,
+      "released": "2009-07-15",
+      "firstAired": null,
+      "watchers": 237,
+      "plays": null,
+      "rating": 8.054586410522461,
+      "votes": 35009,
+      "score": null,
+      "ids": {
+        "trakt": 610,
+        "slug": "harry-potter-and-the-half-blood-prince-2009",
+        "imdb": "tt0417741",
+        "tmdb": 767
       }
     },
     {
       "rank": 46,
-      "title": "Supergirl",
-      "year": 2026,
-      "released": "2026-06-26",
+      "title": "Deadpool & Wolverine",
+      "year": 2024,
+      "released": "2024-07-26",
       "firstAired": null,
-      "watchers": 237,
+      "watchers": 236,
       "plays": null,
-      "rating": 7.018484115600586,
-      "votes": 4869,
+      "rating": 8.037529945373535,
+      "votes": 49294,
       "score": null,
       "ids": {
-        "trakt": 868842,
-        "slug": "supergirl-2026",
-        "imdb": "tt8814476",
-        "tmdb": 1081003
+        "trakt": 395672,
+        "slug": "deadpool-wolverine-2024",
+        "imdb": "tt6263850",
+        "tmdb": 533535
       }
     },
     {
       "rank": 47,
-      "title": "The Fantastic 4: First Steps",
-      "year": 2025,
-      "released": "2025-07-25",
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "released": "2014-08-01",
       "firstAired": null,
-      "watchers": 236,
+      "watchers": 235,
       "plays": null,
-      "rating": 7.310186386108398,
-      "votes": 29392,
+      "rating": 8.25657844543457,
+      "votes": 61486,
       "score": null,
       "ids": {
-        "trakt": 460087,
-        "slug": "the-fantastic-4-first-steps-2025",
-        "imdb": "tt10676052",
-        "tmdb": 617126
+        "trakt": 82405,
+        "slug": "guardians-of-the-galaxy-2014",
+        "imdb": "tt2015381",
+        "tmdb": 118340
       }
     },
     {
@@ -873,10 +873,10 @@
       "year": 2023,
       "released": "2023-07-21",
       "firstAired": null,
-      "watchers": 234,
+      "watchers": 235,
       "plays": null,
-      "rating": 8.386337280273438,
-      "votes": 49550,
+      "rating": 8.3866605758667,
+      "votes": 49581,
       "score": null,
       "ids": {
         "trakt": 698292,
@@ -887,158 +887,32 @@
     },
     {
       "rank": 49,
-      "title": "Guardians of the Galaxy",
-      "year": 2014,
-      "released": "2014-08-01",
+      "title": "The Drama",
+      "year": 2026,
+      "released": "2026-04-03",
       "firstAired": null,
-      "watchers": 233,
+      "watchers": 234,
       "plays": null,
-      "rating": 8.256390571594238,
-      "votes": 61457,
+      "rating": 7.323365688323975,
+      "votes": 9531,
       "score": null,
       "ids": {
-        "trakt": 82405,
-        "slug": "guardians-of-the-galaxy-2014",
-        "imdb": "tt2015381",
-        "tmdb": 118340
+        "trakt": 1083999,
+        "slug": "the-drama-2026",
+        "imdb": "tt33071426",
+        "tmdb": 1325734
       }
     },
     {
       "rank": 50,
-      "title": "Dune",
-      "year": 2021,
-      "released": "2021-10-21",
-      "firstAired": null,
-      "watchers": 233,
-      "plays": null,
-      "rating": 8.16429615020752,
-      "votes": 61036,
-      "score": null,
-      "ids": {
-        "trakt": 287071,
-        "slug": "dune-2021",
-        "imdb": "tt1160419",
-        "tmdb": 438631
-      }
-    },
-    {
-      "rank": 51,
-      "title": "Harry Potter and the Deathly Hallows: Part 1",
-      "year": 2010,
-      "released": "2010-11-19",
-      "firstAired": null,
-      "watchers": 233,
-      "plays": null,
-      "rating": 8.069911003112793,
-      "votes": 34129,
-      "score": null,
-      "ids": {
-        "trakt": 7228,
-        "slug": "harry-potter-and-the-deathly-hallows-part-1-2010",
-        "imdb": "tt0926084",
-        "tmdb": 12444
-      }
-    },
-    {
-      "rank": 52,
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "year": 2001,
-      "released": "2001-12-19",
-      "firstAired": null,
-      "watchers": 232,
-      "plays": null,
-      "rating": 8.839778900146484,
-      "votes": 53083,
-      "score": null,
-      "ids": {
-        "trakt": 88,
-        "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring-2001",
-        "imdb": "tt0120737",
-        "tmdb": 120
-      }
-    },
-    {
-      "rank": 53,
-      "title": "Harry Potter and the Order of the Phoenix",
-      "year": 2007,
-      "released": "2007-07-12",
-      "firstAired": null,
-      "watchers": 230,
-      "plays": null,
-      "rating": 8.039432525634766,
-      "votes": 36087,
-      "score": null,
-      "ids": {
-        "trakt": 549,
-        "slug": "harry-potter-and-the-order-of-the-phoenix-2007",
-        "imdb": "tt0373889",
-        "tmdb": 675
-      }
-    },
-    {
-      "rank": 54,
-      "title": "Tenet",
-      "year": 2020,
-      "released": "2020-09-03",
-      "firstAired": null,
-      "watchers": 229,
-      "plays": null,
-      "rating": 7.5094895362854,
-      "votes": 36566,
-      "score": null,
-      "ids": {
-        "trakt": 427989,
-        "slug": "tenet-2020",
-        "imdb": "tt6723592",
-        "tmdb": 577922
-      }
-    },
-    {
-      "rank": 55,
-      "title": "Deadpool & Wolverine",
-      "year": 2024,
-      "released": "2024-07-26",
-      "firstAired": null,
-      "watchers": 226,
-      "plays": null,
-      "rating": 8.03724479675293,
-      "votes": 49269,
-      "score": null,
-      "ids": {
-        "trakt": 395672,
-        "slug": "deadpool-wolverine-2024",
-        "imdb": "tt6263850",
-        "tmdb": 533535
-      }
-    },
-    {
-      "rank": 56,
-      "title": "Minions & Monsters",
-      "year": 2026,
-      "released": "2026-07-01",
-      "firstAired": null,
-      "watchers": 226,
-      "plays": null,
-      "rating": 7.164549350738525,
-      "votes": 1653,
-      "score": null,
-      "ids": {
-        "trakt": 1075712,
-        "slug": "minions-monsters-2026",
-        "imdb": "tt32890033",
-        "tmdb": 1315772
-      }
-    },
-    {
-      "rank": 57,
       "title": "Harry Potter and the Deathly Hallows: Part 2",
       "year": 2011,
       "released": "2011-07-15",
       "firstAired": null,
-      "watchers": 221,
+      "watchers": 232,
       "plays": null,
-      "rating": 8.37358570098877,
-      "votes": 36072,
+      "rating": 8.373244285583496,
+      "votes": 36097,
       "score": null,
       "ids": {
         "trakt": 7229,
@@ -1048,21 +922,147 @@
       }
     },
     {
-      "rank": 58,
-      "title": "Iron Man 2",
+      "rank": 51,
+      "title": "Harry Potter and the Order of the Phoenix",
+      "year": 2007,
+      "released": "2007-07-12",
+      "firstAired": null,
+      "watchers": 231,
+      "plays": null,
+      "rating": 8.039405822753906,
+      "votes": 36111,
+      "score": null,
+      "ids": {
+        "trakt": 549,
+        "slug": "harry-potter-and-the-order-of-the-phoenix-2007",
+        "imdb": "tt0373889",
+        "tmdb": 675
+      }
+    },
+    {
+      "rank": 52,
+      "title": "Dune",
+      "year": 2021,
+      "released": "2021-10-21",
+      "firstAired": null,
+      "watchers": 227,
+      "plays": null,
+      "rating": 8.164374351501465,
+      "votes": 61068,
+      "score": null,
+      "ids": {
+        "trakt": 287071,
+        "slug": "dune-2021",
+        "imdb": "tt1160419",
+        "tmdb": 438631
+      }
+    },
+    {
+      "rank": 53,
+      "title": "The Fantastic 4: First Steps",
+      "year": 2025,
+      "released": "2025-07-25",
+      "firstAired": null,
+      "watchers": 226,
+      "plays": null,
+      "rating": 7.310597896575928,
+      "votes": 29411,
+      "score": null,
+      "ids": {
+        "trakt": 460087,
+        "slug": "the-fantastic-4-first-steps-2025",
+        "imdb": "tt10676052",
+        "tmdb": 617126
+      }
+    },
+    {
+      "rank": 54,
+      "title": "Zootopia 2",
+      "year": 2025,
+      "released": "2025-11-26",
+      "firstAired": null,
+      "watchers": 224,
+      "plays": null,
+      "rating": 8.212642669677734,
+      "votes": 19775,
+      "score": null,
+      "ids": {
+        "trakt": 871499,
+        "slug": "zootopia-2-2025",
+        "imdb": "tt26443597",
+        "tmdb": 1084242
+      }
+    },
+    {
+      "rank": 55,
+      "title": "The Punisher: One Last Kill",
+      "year": 2026,
+      "released": "2026-05-12",
+      "firstAired": null,
+      "watchers": 223,
+      "plays": null,
+      "rating": 7.522848606109619,
+      "votes": 10307,
+      "score": null,
+      "ids": {
+        "trakt": 1178309,
+        "slug": "the-punisher-one-last-kill-2026",
+        "imdb": "tt36042156",
+        "tmdb": 1439930
+      }
+    },
+    {
+      "rank": 56,
+      "title": "Supergirl",
+      "year": 2026,
+      "released": "2026-06-26",
+      "firstAired": null,
+      "watchers": 223,
+      "plays": null,
+      "rating": 7.017838954925537,
+      "votes": 4877,
+      "score": null,
+      "ids": {
+        "trakt": 868842,
+        "slug": "supergirl-2026",
+        "imdb": "tt8814476",
+        "tmdb": 1081003
+      }
+    },
+    {
+      "rank": 57,
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
       "year": 2010,
-      "released": "2010-05-07",
+      "released": "2010-11-19",
+      "firstAired": null,
+      "watchers": 222,
+      "plays": null,
+      "rating": 8.069887161254883,
+      "votes": 34155,
+      "score": null,
+      "ids": {
+        "trakt": 7228,
+        "slug": "harry-potter-and-the-deathly-hallows-part-1-2010",
+        "imdb": "tt0926084",
+        "tmdb": 12444
+      }
+    },
+    {
+      "rank": 58,
+      "title": "Minions & Monsters",
+      "year": 2026,
+      "released": "2026-07-01",
       "firstAired": null,
       "watchers": 220,
       "plays": null,
-      "rating": 7.454113006591797,
-      "votes": 37832,
+      "rating": 7.160864353179932,
+      "votes": 1666,
       "score": null,
       "ids": {
-        "trakt": 5355,
-        "slug": "iron-man-2-2010",
-        "imdb": "tt1228705",
-        "tmdb": 10138
+        "trakt": 1075712,
+        "slug": "minions-monsters-2026",
+        "imdb": "tt32890033",
+        "tmdb": 1315772
       }
     },
     {
@@ -1071,10 +1071,10 @@
       "year": 2026,
       "released": "2026-04-17",
       "firstAired": null,
-      "watchers": 220,
+      "watchers": 218,
       "plays": null,
-      "rating": 6.760427474975586,
-      "votes": 7576,
+      "rating": 6.760542869567871,
+      "votes": 7588,
       "score": null,
       "ids": {
         "trakt": 1063866,
@@ -1085,14 +1085,32 @@
     },
     {
       "rank": 60,
+      "title": "Iron Man 2",
+      "year": 2010,
+      "released": "2010-05-07",
+      "firstAired": null,
+      "watchers": 216,
+      "plays": null,
+      "rating": 7.454240322113037,
+      "votes": 37850,
+      "score": null,
+      "ids": {
+        "trakt": 5355,
+        "slug": "iron-man-2-2010",
+        "imdb": "tt1228705",
+        "tmdb": 10138
+      }
+    },
+    {
+      "rank": 61,
       "title": "In the Grey",
       "year": 2026,
       "released": "2026-05-13",
       "firstAired": null,
-      "watchers": 219,
+      "watchers": 216,
       "plays": null,
-      "rating": 7.172654151916504,
-      "votes": 4732,
+      "rating": 7.173206806182861,
+      "votes": 4740,
       "score": null,
       "ids": {
         "trakt": 903398,
@@ -1102,15 +1120,15 @@
       }
     },
     {
-      "rank": 61,
+      "rank": 62,
       "title": "Captain America: The First Avenger",
       "year": 2011,
       "released": "2011-07-22",
       "firstAired": null,
-      "watchers": 218,
+      "watchers": 212,
       "plays": null,
-      "rating": 7.577967166900635,
-      "votes": 38933,
+      "rating": 7.5781989097595215,
+      "votes": 38952,
       "score": null,
       "ids": {
         "trakt": 1170,
@@ -1120,33 +1138,15 @@
       }
     },
     {
-      "rank": 62,
-      "title": "Zootopia 2",
-      "year": 2025,
-      "released": "2025-11-26",
-      "firstAired": null,
-      "watchers": 217,
-      "plays": null,
-      "rating": 8.211885452270508,
-      "votes": 19756,
-      "score": null,
-      "ids": {
-        "trakt": 871499,
-        "slug": "zootopia-2-2025",
-        "imdb": "tt26443597",
-        "tmdb": 1084242
-      }
-    },
-    {
       "rank": 63,
       "title": "Dune: Part Two",
       "year": 2024,
       "released": "2024-03-01",
       "firstAired": null,
-      "watchers": 215,
+      "watchers": 211,
       "plays": null,
-      "rating": 8.597539901733398,
-      "votes": 47160,
+      "rating": 8.597923278808594,
+      "votes": 47185,
       "score": null,
       "ids": {
         "trakt": 537449,
@@ -1157,38 +1157,38 @@
     },
     {
       "rank": 64,
-      "title": "Shipwrecked: Nightmare at Sea",
+      "title": "Ready or Not 2: Here I Come",
       "year": 2026,
-      "released": "2026-07-10",
+      "released": "2026-03-20",
       "firstAired": null,
-      "watchers": 212,
+      "watchers": 209,
       "plays": null,
-      "rating": 7.491183757781982,
-      "votes": 794,
+      "rating": 7.343780994415283,
+      "votes": 8040,
       "score": null,
       "ids": {
-        "trakt": 1376901,
-        "slug": "shipwrecked-nightmare-at-sea-2026",
-        "imdb": "tt43595399",
-        "tmdb": 1715492
+        "trakt": 1027747,
+        "slug": "ready-or-not-2-here-i-come-2026",
+        "imdb": "tt33978029",
+        "tmdb": 1266127
       }
     },
     {
       "rank": 65,
-      "title": "The Breadwinner",
-      "year": 2026,
-      "released": "2026-05-29",
+      "title": "Toy Story 2",
+      "year": 1999,
+      "released": "1999-11-24",
       "firstAired": null,
-      "watchers": 210,
+      "watchers": 208,
       "plays": null,
-      "rating": 6.837338447570801,
-      "votes": 541,
+      "rating": 8.031299591064453,
+      "votes": 24377,
       "score": null,
       "ids": {
-        "trakt": 1178443,
-        "slug": "the-breadwinner-2026",
-        "imdb": "tt34459219",
-        "tmdb": 1440050
+        "trakt": 706,
+        "slug": "toy-story-2-1999",
+        "imdb": "tt0120363",
+        "tmdb": 863
       }
     },
     {
@@ -1197,10 +1197,10 @@
       "year": 2015,
       "released": "2015-05-01",
       "firstAired": null,
-      "watchers": 208,
+      "watchers": 206,
       "plays": null,
-      "rating": 7.612755298614502,
-      "votes": 40814,
+      "rating": 7.612960338592529,
+      "votes": 40833,
       "score": null,
       "ids": {
         "trakt": 71938,
@@ -1211,20 +1211,20 @@
     },
     {
       "rank": 67,
-      "title": "Ready or Not 2: Here I Come",
-      "year": 2026,
-      "released": "2026-03-20",
+      "title": "Captain America: Civil War",
+      "year": 2016,
+      "released": "2016-05-06",
       "firstAired": null,
-      "watchers": 208,
+      "watchers": 203,
       "plays": null,
-      "rating": 7.343259334564209,
-      "votes": 8026,
+      "rating": 7.9610395431518555,
+      "votes": 44096,
       "score": null,
       "ids": {
-        "trakt": 1027747,
-        "slug": "ready-or-not-2-here-i-come-2026",
-        "imdb": "tt33978029",
-        "tmdb": 1266127
+        "trakt": 169105,
+        "slug": "captain-america-civil-war-2016",
+        "imdb": "tt3498820",
+        "tmdb": 271110
       }
     },
     {
@@ -1233,10 +1233,10 @@
       "year": 2003,
       "released": "2003-07-09",
       "firstAired": null,
-      "watchers": 207,
+      "watchers": 203,
       "plays": null,
-      "rating": 8.25443172454834,
-      "votes": 37739,
+      "rating": 8.254436492919922,
+      "votes": 37754,
       "score": null,
       "ids": {
         "trakt": 18,
@@ -1247,122 +1247,14 @@
     },
     {
       "rank": 69,
-      "title": "Captain America: Civil War",
-      "year": 2016,
-      "released": "2016-05-06",
-      "firstAired": null,
-      "watchers": 203,
-      "plays": null,
-      "rating": 7.960841178894043,
-      "votes": 44077,
-      "score": null,
-      "ids": {
-        "trakt": 169105,
-        "slug": "captain-america-civil-war-2016",
-        "imdb": "tt3498820",
-        "tmdb": 271110
-      }
-    },
-    {
-      "rank": 70,
-      "title": "Toy Story 2",
-      "year": 1999,
-      "released": "1999-11-24",
-      "firstAired": null,
-      "watchers": 203,
-      "plays": null,
-      "rating": 8.031158447265625,
-      "votes": 24359,
-      "score": null,
-      "ids": {
-        "trakt": 706,
-        "slug": "toy-story-2-1999",
-        "imdb": "tt0120363",
-        "tmdb": 863
-      }
-    },
-    {
-      "rank": 71,
-      "title": "The Lord of the Rings: The Two Towers",
-      "year": 2002,
-      "released": "2002-12-18",
-      "firstAired": null,
-      "watchers": 196,
-      "plays": null,
-      "rating": 8.859641075134277,
-      "votes": 44771,
-      "score": null,
-      "ids": {
-        "trakt": 89,
-        "slug": "the-lord-of-the-rings-the-two-towers-2002",
-        "imdb": "tt0167261",
-        "tmdb": 121
-      }
-    },
-    {
-      "rank": 72,
-      "title": "The Prestige",
-      "year": 2006,
-      "released": "2006-11-10",
-      "firstAired": null,
-      "watchers": 196,
-      "plays": null,
-      "rating": 8.514771461486816,
-      "votes": 33714,
-      "score": null,
-      "ids": {
-        "trakt": 851,
-        "slug": "the-prestige-2006",
-        "imdb": "tt0482571",
-        "tmdb": 1124
-      }
-    },
-    {
-      "rank": 73,
-      "title": "The Lord of the Rings: The Return of the King",
-      "year": 2003,
-      "released": "2003-12-17",
-      "firstAired": null,
-      "watchers": 195,
-      "plays": null,
-      "rating": 8.98475170135498,
-      "votes": 45579,
-      "score": null,
-      "ids": {
-        "trakt": 90,
-        "slug": "the-lord-of-the-rings-the-return-of-the-king-2003",
-        "imdb": "tt0167260",
-        "tmdb": 122
-      }
-    },
-    {
-      "rank": 74,
-      "title": "Iron Man 3",
-      "year": 2013,
-      "released": "2013-05-03",
-      "firstAired": null,
-      "watchers": 195,
-      "plays": null,
-      "rating": 7.457277297973633,
-      "votes": 35976,
-      "score": null,
-      "ids": {
-        "trakt": 50134,
-        "slug": "iron-man-3-2013",
-        "imdb": "tt1300854",
-        "tmdb": 68721
-      }
-    },
-    {
-      "rank": 75,
       "title": "Moana",
       "year": 2026,
       "released": "2026-07-10",
       "firstAired": null,
-      "watchers": 195,
+      "watchers": 201,
       "plays": null,
-      "rating": 7.449060440063477,
-      "votes": 1011,
+      "rating": 7.438235282897949,
+      "votes": 1020,
       "score": null,
       "ids": {
         "trakt": 891793,
@@ -1372,15 +1264,51 @@
       }
     },
     {
-      "rank": 76,
+      "rank": 70,
+      "title": "Guardians of the Galaxy Vol. 2",
+      "year": 2017,
+      "released": "2017-05-05",
+      "firstAired": null,
+      "watchers": 200,
+      "plays": null,
+      "rating": 7.918192386627197,
+      "votes": 46096,
+      "score": null,
+      "ids": {
+        "trakt": 181256,
+        "slug": "guardians-of-the-galaxy-vol-2-2017",
+        "imdb": "tt3896198",
+        "tmdb": 283995
+      }
+    },
+    {
+      "rank": 71,
+      "title": "The Breadwinner",
+      "year": 2026,
+      "released": "2026-05-29",
+      "firstAired": null,
+      "watchers": 200,
+      "plays": null,
+      "rating": 6.824175834655762,
+      "votes": 546,
+      "score": null,
+      "ids": {
+        "trakt": 1178443,
+        "slug": "the-breadwinner-2026",
+        "imdb": "tt34459219",
+        "tmdb": 1440050
+      }
+    },
+    {
+      "rank": 72,
       "title": "Moana",
       "year": 2016,
       "released": "2016-11-23",
       "firstAired": null,
-      "watchers": 194,
+      "watchers": 197,
       "plays": null,
-      "rating": 7.984606742858887,
-      "votes": 34885,
+      "rating": 7.984583377838135,
+      "votes": 34897,
       "score": null,
       "ids": {
         "trakt": 175475,
@@ -1390,39 +1318,111 @@
       }
     },
     {
-      "rank": 77,
-      "title": "The Matrix",
-      "year": 1999,
-      "released": "1999-03-31",
+      "rank": 73,
+      "title": "The Lord of the Rings: The Two Towers",
+      "year": 2002,
+      "released": "2002-12-18",
+      "firstAired": null,
+      "watchers": 196,
+      "plays": null,
+      "rating": 8.85970401763916,
+      "votes": 44791,
+      "score": null,
+      "ids": {
+        "trakt": 89,
+        "slug": "the-lord-of-the-rings-the-two-towers-2002",
+        "imdb": "tt0167261",
+        "tmdb": 121
+      }
+    },
+    {
+      "rank": 74,
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "released": "2003-12-17",
+      "firstAired": null,
+      "watchers": 194,
+      "plays": null,
+      "rating": 8.984540939331055,
+      "votes": 45605,
+      "score": null,
+      "ids": {
+        "trakt": 90,
+        "slug": "the-lord-of-the-rings-the-return-of-the-king-2003",
+        "imdb": "tt0167260",
+        "tmdb": 122
+      }
+    },
+    {
+      "rank": 75,
+      "title": "Iron Man 3",
+      "year": 2013,
+      "released": "2013-05-03",
+      "firstAired": null,
+      "watchers": 194,
+      "plays": null,
+      "rating": 7.457200050354004,
+      "votes": 35993,
+      "score": null,
+      "ids": {
+        "trakt": 50134,
+        "slug": "iron-man-3-2013",
+        "imdb": "tt1300854",
+        "tmdb": 68721
+      }
+    },
+    {
+      "rank": 76,
+      "title": "Finding Nemo",
+      "year": 2003,
+      "released": "2003-05-30",
       "firstAired": null,
       "watchers": 192,
       "plays": null,
-      "rating": 8.79273509979248,
-      "votes": 57207,
+      "rating": 8.202527046203613,
+      "votes": 33156,
       "score": null,
       "ids": {
-        "trakt": 481,
-        "slug": "the-matrix-1999",
-        "imdb": "tt0133093",
-        "tmdb": 603
+        "trakt": 8,
+        "slug": "finding-nemo-2003",
+        "imdb": "tt0266543",
+        "tmdb": 12
+      }
+    },
+    {
+      "rank": 77,
+      "title": "Shipwrecked: Nightmare at Sea",
+      "year": 2026,
+      "released": "2026-07-10",
+      "firstAired": null,
+      "watchers": 192,
+      "plays": null,
+      "rating": 7.4918646812438965,
+      "votes": 799,
+      "score": null,
+      "ids": {
+        "trakt": 1376901,
+        "slug": "shipwrecked-nightmare-at-sea-2026",
+        "imdb": "tt43595399",
+        "tmdb": 1715492
       }
     },
     {
       "rank": 78,
-      "title": "Spider-Man 2",
-      "year": 2004,
-      "released": "2004-06-30",
+      "title": "Toy Story 3",
+      "year": 2010,
+      "released": "2010-06-18",
       "firstAired": null,
       "watchers": 191,
       "plays": null,
-      "rating": 7.8029327392578125,
-      "votes": 27483,
+      "rating": 8.209736824035645,
+      "votes": 26457,
       "score": null,
       "ids": {
-        "trakt": 439,
-        "slug": "spider-man-2-2004",
-        "imdb": "tt0316654",
-        "tmdb": 558
+        "trakt": 5407,
+        "slug": "toy-story-3-2010",
+        "imdb": "tt0435761",
+        "tmdb": 10193
       }
     },
     {
@@ -1431,10 +1431,10 @@
       "year": 2016,
       "released": "2016-11-04",
       "firstAired": null,
-      "watchers": 190,
+      "watchers": 188,
       "plays": null,
-      "rating": 7.845449924468994,
-      "votes": 49932,
+      "rating": 7.845622539520264,
+      "votes": 49949,
       "score": null,
       "ids": {
         "trakt": 181311,
@@ -1445,104 +1445,14 @@
     },
     {
       "rank": 80,
-      "title": "Toy Story 3",
-      "year": 2010,
-      "released": "2010-06-18",
-      "firstAired": null,
-      "watchers": 190,
-      "plays": null,
-      "rating": 8.210000991821289,
-      "votes": 26438,
-      "score": null,
-      "ids": {
-        "trakt": 5407,
-        "slug": "toy-story-3-2010",
-        "imdb": "tt0435761",
-        "tmdb": 10193
-      }
-    },
-    {
-      "rank": 81,
-      "title": "Guardians of the Galaxy Vol. 2",
-      "year": 2017,
-      "released": "2017-05-05",
-      "firstAired": null,
-      "watchers": 188,
-      "plays": null,
-      "rating": 7.917769908905029,
-      "votes": 46078,
-      "score": null,
-      "ids": {
-        "trakt": 181256,
-        "slug": "guardians-of-the-galaxy-vol-2-2017",
-        "imdb": "tt3896198",
-        "tmdb": 283995
-      }
-    },
-    {
-      "rank": 82,
-      "title": "Finding Nemo",
-      "year": 2003,
-      "released": "2003-05-30",
-      "firstAired": null,
-      "watchers": 188,
-      "plays": null,
-      "rating": 8.202746391296387,
-      "votes": 33140,
-      "score": null,
-      "ids": {
-        "trakt": 8,
-        "slug": "finding-nemo-2003",
-        "imdb": "tt0266543",
-        "tmdb": 12
-      }
-    },
-    {
-      "rank": 83,
-      "title": "Black Panther",
-      "year": 2018,
-      "released": "2018-02-16",
-      "firstAired": null,
-      "watchers": 187,
-      "plays": null,
-      "rating": 7.679004192352295,
-      "votes": 42823,
-      "score": null,
-      "ids": {
-        "trakt": 181313,
-        "slug": "black-panther-2018",
-        "imdb": "tt1825683",
-        "tmdb": 284054
-      }
-    },
-    {
-      "rank": 84,
-      "title": "Batman Begins",
-      "year": 2005,
-      "released": "2005-06-15",
-      "firstAired": null,
-      "watchers": 185,
-      "plays": null,
-      "rating": 8.239564895629883,
-      "votes": 41041,
-      "score": null,
-      "ids": {
-        "trakt": 228,
-        "slug": "batman-begins-2005",
-        "imdb": "tt0372784",
-        "tmdb": 272
-      }
-    },
-    {
-      "rank": 85,
       "title": "Enola Holmes",
       "year": 2020,
       "released": "2020-09-23",
       "firstAired": null,
-      "watchers": 184,
+      "watchers": 186,
       "plays": null,
-      "rating": 7.575577735900879,
-      "votes": 24928,
+      "rating": 7.575901031494141,
+      "votes": 24947,
       "score": null,
       "ids": {
         "trakt": 344612,
@@ -1552,33 +1462,15 @@
       }
     },
     {
-      "rank": 86,
-      "title": "Monsters, Inc.",
-      "year": 2001,
-      "released": "2001-11-02",
-      "firstAired": null,
-      "watchers": 182,
-      "plays": null,
-      "rating": 8.278192520141602,
-      "votes": 32837,
-      "score": null,
-      "ids": {
-        "trakt": 464,
-        "slug": "monsters-inc-2001",
-        "imdb": "tt0198781",
-        "tmdb": 585
-      }
-    },
-    {
-      "rank": 87,
+      "rank": 81,
       "title": "The Devil Wears Prada",
       "year": 2006,
       "released": "2006-06-30",
       "firstAired": null,
-      "watchers": 182,
+      "watchers": 185,
       "plays": null,
-      "rating": 7.812119483947754,
-      "votes": 24968,
+      "rating": 7.812654972076416,
+      "votes": 24986,
       "score": null,
       "ids": {
         "trakt": 297,
@@ -1588,15 +1480,15 @@
       }
     },
     {
-      "rank": 88,
+      "rank": 82,
       "title": "Toy Story 4",
       "year": 2019,
       "released": "2019-06-21",
       "firstAired": null,
-      "watchers": 180,
+      "watchers": 185,
       "plays": null,
-      "rating": 7.778426647186279,
-      "votes": 21749,
+      "rating": 7.778196334838867,
+      "votes": 21767,
       "score": null,
       "ids": {
         "trakt": 193972,
@@ -1606,177 +1498,33 @@
       }
     },
     {
-      "rank": 89,
-      "title": "Hoppers",
-      "year": 2026,
-      "released": "2026-03-06",
+      "rank": 83,
+      "title": "The Prestige",
+      "year": 2006,
+      "released": "2006-11-10",
       "firstAired": null,
-      "watchers": 180,
+      "watchers": 183,
       "plays": null,
-      "rating": 7.960947036743164,
-      "votes": 10473,
+      "rating": 8.514898300170898,
+      "votes": 33729,
       "score": null,
       "ids": {
-        "trakt": 1085761,
-        "slug": "hoppers-2026",
-        "imdb": "tt26443616",
-        "tmdb": 1327819
+        "trakt": 851,
+        "slug": "the-prestige-2006",
+        "imdb": "tt0482571",
+        "tmdb": 1124
       }
     },
     {
-      "rank": 90,
-      "title": "Desire",
-      "year": 2026,
-      "released": "2026-05-07",
-      "firstAired": null,
-      "watchers": 180,
-      "plays": null,
-      "rating": 5.360000133514404,
-      "votes": 250,
-      "score": null,
-      "ids": {
-        "trakt": 1363745,
-        "slug": "desire-2026",
-        "imdb": "tt41617470",
-        "tmdb": 1668364
-      }
-    },
-    {
-      "rank": 91,
-      "title": "The Dark Knight Rises",
-      "year": 2012,
-      "released": "2012-07-20",
-      "firstAired": null,
-      "watchers": 179,
-      "plays": null,
-      "rating": 8.301289558410645,
-      "votes": 41422,
-      "score": null,
-      "ids": {
-        "trakt": 34073,
-        "slug": "the-dark-knight-rises-2012",
-        "imdb": "tt1345836",
-        "tmdb": 49026
-      }
-    },
-    {
-      "rank": 92,
-      "title": "Shrek",
-      "year": 2001,
-      "released": "2001-05-18",
-      "firstAired": null,
-      "watchers": 179,
-      "plays": null,
-      "rating": 8.180508613586426,
-      "votes": 32137,
-      "score": null,
-      "ids": {
-        "trakt": 651,
-        "slug": "shrek-2001",
-        "imdb": "tt0126029",
-        "tmdb": 808
-      }
-    },
-    {
-      "rank": 93,
-      "title": "How to Make a Killing",
-      "year": 2026,
-      "released": "2026-03-11",
-      "firstAired": null,
-      "watchers": 179,
-      "plays": null,
-      "rating": 6.918663501739502,
-      "votes": 4340,
-      "score": null,
-      "ids": {
-        "trakt": 315133,
-        "slug": "how-to-make-a-killing-2026",
-        "imdb": "tt4357198",
-        "tmdb": 467905
-      }
-    },
-    {
-      "rank": 94,
-      "title": "Captain America: The Winter Soldier",
-      "year": 2014,
-      "released": "2014-04-04",
-      "firstAired": null,
-      "watchers": 178,
-      "plays": null,
-      "rating": 7.986959934234619,
-      "votes": 38573,
-      "score": null,
-      "ids": {
-        "trakt": 72297,
-        "slug": "captain-america-the-winter-soldier-2014",
-        "imdb": "tt1843866",
-        "tmdb": 100402
-      }
-    },
-    {
-      "rank": 95,
-      "title": "Thor: Ragnarok",
-      "year": 2017,
-      "released": "2017-11-03",
-      "firstAired": null,
-      "watchers": 177,
-      "plays": null,
-      "rating": 7.989597320556641,
-      "votes": 44123,
-      "score": null,
-      "ids": {
-        "trakt": 181312,
-        "slug": "thor-ragnarok-2017",
-        "imdb": "tt3501632",
-        "tmdb": 284053
-      }
-    },
-    {
-      "rank": 96,
-      "title": "Zootopia",
-      "year": 2016,
-      "released": "2016-03-04",
-      "firstAired": null,
-      "watchers": 177,
-      "plays": null,
-      "rating": 8.1575345993042,
-      "votes": 38328,
-      "score": null,
-      "ids": {
-        "trakt": 167397,
-        "slug": "zootopia-2016",
-        "imdb": "tt2948356",
-        "tmdb": 269149
-      }
-    },
-    {
-      "rank": 97,
-      "title": "Ant-Man",
-      "year": 2015,
-      "released": "2015-07-17",
-      "firstAired": null,
-      "watchers": 177,
-      "plays": null,
-      "rating": 7.470582008361816,
-      "votes": 38395,
-      "score": null,
-      "ids": {
-        "trakt": 73582,
-        "slug": "ant-man-2015",
-        "imdb": "tt0478970",
-        "tmdb": 102899
-      }
-    },
-    {
-      "rank": 98,
+      "rank": 84,
       "title": "Ratatouille",
       "year": 2007,
       "released": "2007-06-29",
       "firstAired": null,
-      "watchers": 174,
+      "watchers": 183,
       "plays": null,
-      "rating": 8.208172798156738,
-      "votes": 32891,
+      "rating": 8.208192825317383,
+      "votes": 32907,
       "score": null,
       "ids": {
         "trakt": 1416,
@@ -1786,39 +1534,291 @@
       }
     },
     {
-      "rank": 99,
-      "title": "The Hunger Games",
-      "year": 2012,
-      "released": "2012-03-23",
+      "rank": 85,
+      "title": "Batman Begins",
+      "year": 2005,
+      "released": "2005-06-15",
       "firstAired": null,
-      "watchers": 173,
+      "watchers": 182,
       "plays": null,
-      "rating": 7.788330554962158,
-      "votes": 40464,
+      "rating": 8.239447593688965,
+      "votes": 41057,
       "score": null,
       "ids": {
-        "trakt": 51342,
-        "slug": "the-hunger-games-2012",
-        "imdb": "tt1392170",
-        "tmdb": 70160
+        "trakt": 228,
+        "slug": "batman-begins-2005",
+        "imdb": "tt0372784",
+        "tmdb": 272
       }
     },
     {
-      "rank": 100,
+      "rank": 86,
+      "title": "Captain America: The Winter Soldier",
+      "year": 2014,
+      "released": "2014-04-04",
+      "firstAired": null,
+      "watchers": 181,
+      "plays": null,
+      "rating": 7.986887454986572,
+      "votes": 38589,
+      "score": null,
+      "ids": {
+        "trakt": 72297,
+        "slug": "captain-america-the-winter-soldier-2014",
+        "imdb": "tt1843866",
+        "tmdb": 100402
+      }
+    },
+    {
+      "rank": 87,
+      "title": "Black Panther",
+      "year": 2018,
+      "released": "2018-02-16",
+      "firstAired": null,
+      "watchers": 180,
+      "plays": null,
+      "rating": 7.67902135848999,
+      "votes": 42844,
+      "score": null,
+      "ids": {
+        "trakt": 181313,
+        "slug": "black-panther-2018",
+        "imdb": "tt1825683",
+        "tmdb": 284054
+      }
+    },
+    {
+      "rank": 88,
+      "title": "Ant-Man",
+      "year": 2015,
+      "released": "2015-07-17",
+      "firstAired": null,
+      "watchers": 180,
+      "plays": null,
+      "rating": 7.47059440612793,
+      "votes": 38411,
+      "score": null,
+      "ids": {
+        "trakt": 73582,
+        "slug": "ant-man-2015",
+        "imdb": "tt0478970",
+        "tmdb": 102899
+      }
+    },
+    {
+      "rank": 89,
+      "title": "Spider-Man 2",
+      "year": 2004,
+      "released": "2004-06-30",
+      "firstAired": null,
+      "watchers": 180,
+      "plays": null,
+      "rating": 7.8026251792907715,
+      "votes": 27501,
+      "score": null,
+      "ids": {
+        "trakt": 439,
+        "slug": "spider-man-2-2004",
+        "imdb": "tt0316654",
+        "tmdb": 558
+      }
+    },
+    {
+      "rank": 90,
+      "title": "Guardians of the Galaxy Volume 3",
+      "year": 2023,
+      "released": "2023-05-05",
+      "firstAired": null,
+      "watchers": 179,
+      "plays": null,
+      "rating": 8.39296817779541,
+      "votes": 36578,
+      "score": null,
+      "ids": {
+        "trakt": 293990,
+        "slug": "guardians-of-the-galaxy-volume-3-2023",
+        "imdb": "tt6791350",
+        "tmdb": 447365
+      }
+    },
+    {
+      "rank": 91,
+      "title": "Shrek",
+      "year": 2001,
+      "released": "2001-05-18",
+      "firstAired": null,
+      "watchers": 178,
+      "plays": null,
+      "rating": 8.180636405944824,
+      "votes": 32153,
+      "score": null,
+      "ids": {
+        "trakt": 651,
+        "slug": "shrek-2001",
+        "imdb": "tt0126029",
+        "tmdb": 808
+      }
+    },
+    {
+      "rank": 92,
+      "title": "Fight Club",
+      "year": 1999,
+      "released": "1999-10-15",
+      "firstAired": null,
+      "watchers": 177,
+      "plays": null,
+      "rating": 8.733097076416016,
+      "votes": 52210,
+      "score": null,
+      "ids": {
+        "trakt": 432,
+        "slug": "fight-club-1999",
+        "imdb": "tt0137523",
+        "tmdb": 550
+      }
+    },
+    {
+      "rank": 93,
+      "title": "Thor: Ragnarok",
+      "year": 2017,
+      "released": "2017-11-03",
+      "firstAired": null,
+      "watchers": 177,
+      "plays": null,
+      "rating": 7.989896297454834,
+      "votes": 44143,
+      "score": null,
+      "ids": {
+        "trakt": 181312,
+        "slug": "thor-ragnarok-2017",
+        "imdb": "tt3501632",
+        "tmdb": 284053
+      }
+    },
+    {
+      "rank": 94,
+      "title": "The Matrix",
+      "year": 1999,
+      "released": "1999-03-31",
+      "firstAired": null,
+      "watchers": 176,
+      "plays": null,
+      "rating": 8.792559623718262,
+      "votes": 57231,
+      "score": null,
+      "ids": {
+        "trakt": 481,
+        "slug": "the-matrix-1999",
+        "imdb": "tt0133093",
+        "tmdb": 603
+      }
+    },
+    {
+      "rank": 95,
+      "title": "Zootopia",
+      "year": 2016,
+      "released": "2016-03-04",
+      "firstAired": null,
+      "watchers": 173,
+      "plays": null,
+      "rating": 8.157621383666992,
+      "votes": 38345,
+      "score": null,
+      "ids": {
+        "trakt": 167397,
+        "slug": "zootopia-2016",
+        "imdb": "tt2948356",
+        "tmdb": 269149
+      }
+    },
+    {
+      "rank": 96,
       "title": "Thor",
       "year": 2011,
       "released": "2011-05-06",
       "firstAired": null,
-      "watchers": 173,
+      "watchers": 172,
       "plays": null,
-      "rating": 7.304971218109131,
-      "votes": 36974,
+      "rating": 7.3048577308654785,
+      "votes": 36991,
       "score": null,
       "ids": {
         "trakt": 5408,
         "slug": "thor-2011",
         "imdb": "tt0800369",
         "tmdb": 10195
+      }
+    },
+    {
+      "rank": 97,
+      "title": "Monsters, Inc.",
+      "year": 2001,
+      "released": "2001-11-02",
+      "firstAired": null,
+      "watchers": 172,
+      "plays": null,
+      "rating": 8.278462409973145,
+      "votes": 32859,
+      "score": null,
+      "ids": {
+        "trakt": 464,
+        "slug": "monsters-inc-2001",
+        "imdb": "tt0198781",
+        "tmdb": 585
+      }
+    },
+    {
+      "rank": 98,
+      "title": "Hoppers",
+      "year": 2026,
+      "released": "2026-03-06",
+      "firstAired": null,
+      "watchers": 171,
+      "plays": null,
+      "rating": 7.960701942443848,
+      "votes": 10484,
+      "score": null,
+      "ids": {
+        "trakt": 1085761,
+        "slug": "hoppers-2026",
+        "imdb": "tt26443616",
+        "tmdb": 1327819
+      }
+    },
+    {
+      "rank": 99,
+      "title": "Pressure",
+      "year": 2026,
+      "released": "2026-09-09",
+      "firstAired": null,
+      "watchers": 170,
+      "plays": null,
+      "rating": 7.832480430603027,
+      "votes": 2149,
+      "score": null,
+      "ids": {
+        "trakt": 1077714,
+        "slug": "pressure-2026",
+        "imdb": "tt32547691",
+        "tmdb": 1318413
+      }
+    },
+    {
+      "rank": 100,
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "released": "1994-09-23",
+      "firstAired": null,
+      "watchers": 169,
+      "plays": null,
+      "rating": 9.164563179016113,
+      "votes": 44682,
+      "score": null,
+      "ids": {
+        "trakt": 234,
+        "slug": "the-shawshank-redemption-1994",
+        "imdb": "tt0111161",
+        "tmdb": 278
       }
     }
   ]
