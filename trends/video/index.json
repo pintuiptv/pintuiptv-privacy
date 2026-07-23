@@ -4,14 +4,14 @@
   "provider": "trakt",
   "movieSections": 6,
   "seriesSections": 6,
-  "generatedAt": "2026-07-23T09:05:13Z",
-  "lastSuccessfulRefreshAt": "2026-07-23T09:05:13Z",
-  "lastContentUpdateAt": "2026-07-23T09:05:13Z",
+  "generatedAt": "2026-07-23T12:15:37Z",
+  "lastSuccessfulRefreshAt": "2026-07-23T12:15:37Z",
+  "lastContentUpdateAt": "2026-07-23T12:15:37Z",
   "minimumAppSchemaVersion": 1,
   "movies": [
     {
-      "section": "trending",
-      "path": "movies/trending.json",
+      "section": "most_watched_weekly",
+      "path": "movies/most_watched_weekly.json",
       "rankingType": "trakt_official",
       "ttlSeconds": 43200,
       "itemCount": 100
@@ -24,8 +24,8 @@
       "itemCount": 100
     },
     {
-      "section": "most_watched_weekly",
-      "path": "movies/most_watched_weekly.json",
+      "section": "trending",
+      "path": "movies/trending.json",
       "rankingType": "trakt_official",
       "ttlSeconds": 43200,
       "itemCount": 100
@@ -54,8 +54,8 @@
   ],
   "series": [
     {
-      "section": "trending",
-      "path": "series/trending.json",
+      "section": "most_watched_weekly",
+      "path": "series/most_watched_weekly.json",
       "rankingType": "trakt_official",
       "ttlSeconds": 43200,
       "itemCount": 100
@@ -68,8 +68,8 @@
       "itemCount": 100
     },
     {
-      "section": "most_watched_weekly",
-      "path": "series/most_watched_weekly.json",
+      "section": "trending",
+      "path": "series/trending.json",
       "rankingType": "trakt_official",
       "ttlSeconds": 43200,
       "itemCount": 100
