@@ -64,6 +64,7 @@ class Item:
     absolute_premiere: bool | None = None
     premiere_episode: str | None = None
     aliases: list[str] = field(default_factory=list)
+    poster_path: str | None = None
 
     @property
     def key(self) -> tuple:
@@ -192,7 +193,8 @@ class TmdbRankingProvider(VideoRankingProvider):
                                    released=date_value if media == "movie" else None,
                                    first_aired=date_value if media == "show" else None,
                                    rating=number(row.get("vote_average")), votes=positive_int(row.get("vote_count")),
-                                   popularity=number(row.get("popularity")), aliases=aliases))
+                                   popularity=number(row.get("popularity")), aliases=aliases,
+                                   poster_path=str(row.get("poster_path") or "").strip() or None))
                 if len(result) == MAX_ITEMS: break
             total_pages = positive_int(data.get("total_pages")) or page
             if not rows or page >= total_pages: break
@@ -338,6 +340,7 @@ def calendar_source(client: TraktClient, media: str, now: datetime) -> tuple[lis
 def item_json(item: Item, rank: int, composite_rank: bool) -> dict[str, Any]:
     payload = {"rank": rank, "title": item.title, "year": item.year, "released": item.released, "firstAired": item.first_aired, "watchers": item.watchers, "plays": item.plays, "rating": item.rating, "votes": item.votes, "popularity": item.popularity, "score": round(item.score, 6) if composite_rank and item.score is not None else None, "ids": item.ids}
     if item.aliases: payload["aliases"] = item.aliases
+    if item.poster_path: payload["posterPath"] = item.poster_path
     if item.absolute_premiere is not None: payload.update({"absolutePremiere": item.absolute_premiere, "premiereEpisode": item.premiere_episode})
     return payload
 
