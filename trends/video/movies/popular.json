@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatorVersion": "2.0.0",
+  "generatorVersion": "2.1.0",
   "provider": "tmdb",
   "rankingType": "pintu_composite",
   "algorithm": "tmdb_official_popular_v1",
@@ -15,7 +15,7 @@
   },
   "mediaType": "movie",
   "section": "popular",
-  "generatedAt": "2026-08-18T20:52:23Z",
+  "generatedAt": "2026-08-18T21:00:37Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 43200,
   "itemCount": 100,
@@ -28,8 +28,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.878,
-      "votes": 1871,
+      "rating": 7.88,
+      "votes": 1881,
       "popularity": 1911.7361,
       "score": null,
       "ids": {
@@ -47,8 +47,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.994,
-      "votes": 2883,
+      "rating": 7.993,
+      "votes": 2896,
       "popularity": 850.2382,
       "score": null,
       "ids": {
@@ -56,7 +56,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1368337
-      }
+      },
+      "aliases": [
+        "Odissea"
+      ]
     },
     {
       "rank": 3,
@@ -67,7 +70,7 @@
       "watchers": null,
       "plays": null,
       "rating": 7.941,
-      "votes": 22728,
+      "votes": 22731,
       "popularity": 493.506,
       "score": null,
       "ids": {
@@ -79,52 +82,14 @@
     },
     {
       "rank": 4,
-      "title": "Minions & Monsters",
-      "year": 2026,
-      "released": "2026-06-24",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.491,
-      "votes": 721,
-      "popularity": 319.7902,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1315772
-      }
-    },
-    {
-      "rank": 5,
-      "title": "The Last House",
-      "year": 2026,
-      "released": "2026-08-06",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.932,
-      "votes": 831,
-      "popularity": 259.0706,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1284041
-      }
-    },
-    {
-      "rank": 6,
       "title": "Rage of Stars",
       "year": 2026,
       "released": "2026-08-06",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 4.25,
-      "votes": 4,
+      "rating": 5.4,
+      "votes": 5,
       "popularity": 321.2596,
       "score": null,
       "ids": {
@@ -135,6 +100,47 @@
       }
     },
     {
+      "rank": 5,
+      "title": "Minions & Monsters",
+      "year": 2026,
+      "released": "2026-06-24",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.498,
+      "votes": 725,
+      "popularity": 319.7902,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1315772
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Colony",
+      "year": 2026,
+      "released": "2026-05-21",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.111,
+      "votes": 531,
+      "popularity": 319.5228,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1375646
+      },
+      "aliases": [
+        "군체"
+      ]
+    },
+    {
       "rank": 7,
       "title": "Toy Story 5",
       "year": 2026,
@@ -142,8 +148,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.469,
-      "votes": 862,
+      "rating": 7.526,
+      "votes": 900,
       "popularity": 266.4324,
       "score": null,
       "ids": {
@@ -155,14 +161,33 @@
     },
     {
       "rank": 8,
+      "title": "The Last House",
+      "year": 2026,
+      "released": "2026-08-06",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.921,
+      "votes": 845,
+      "popularity": 259.0706,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1284041
+      }
+    },
+    {
+      "rank": 9,
       "title": "Obsession",
       "year": 2026,
       "released": "2026-05-13",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.226,
-      "votes": 4804,
+      "rating": 8.225,
+      "votes": 4808,
       "popularity": 248.7667,
       "score": null,
       "ids": {
@@ -173,25 +198,6 @@
       }
     },
     {
-      "rank": 9,
-      "title": "Colony",
-      "year": 2026,
-      "released": "2026-05-21",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.112,
-      "votes": 529,
-      "popularity": 319.5228,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1375646
-      }
-    },
-    {
       "rank": 10,
       "title": "The Death of Robin Hood",
       "year": 2026,
@@ -199,8 +205,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.293,
-      "votes": 225,
+      "rating": 6.27,
+      "votes": 226,
       "popularity": 231.8508,
       "score": null,
       "ids": {
@@ -208,7 +214,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1284465
-      }
+      },
+      "aliases": [
+        "Robin Hood - Il prezzo del sangue"
+      ]
     },
     {
       "rank": 11,
@@ -219,7 +228,7 @@
       "watchers": null,
       "plays": null,
       "rating": 6.682,
-      "votes": 206,
+      "votes": 217,
       "popularity": 230.9838,
       "score": null,
       "ids": {
@@ -227,18 +236,43 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1101383
-      }
+      },
+      "aliases": [
+        "La fine di Oak Street"
+      ]
     },
     {
       "rank": 12,
+      "title": "Evil Dead Burn",
+      "year": 2026,
+      "released": "2026-07-07",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.87,
+      "votes": 1159,
+      "popularity": 197.2357,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1212763
+      },
+      "aliases": [
+        "La casa - Il rogo del Male"
+      ]
+    },
+    {
+      "rank": 13,
       "title": "Moana",
       "year": 2026,
       "released": "2026-07-08",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.025,
-      "votes": 198,
+      "rating": 6.015,
+      "votes": 199,
       "popularity": 191.637,
       "score": null,
       "ids": {
@@ -246,18 +280,21 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1108427
-      }
+      },
+      "aliases": [
+        "Oceania"
+      ]
     },
     {
-      "rank": 13,
+      "rank": 14,
       "title": "Disclosure Day",
       "year": 2026,
       "released": "2026-06-10",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.455,
-      "votes": 2861,
+      "rating": 7.453,
+      "votes": 2866,
       "popularity": 188.7958,
       "score": null,
       "ids": {
@@ -268,25 +305,6 @@
       }
     },
     {
-      "rank": 14,
-      "title": "Evil Dead Burn",
-      "year": 2026,
-      "released": "2026-07-07",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.869,
-      "votes": 1156,
-      "popularity": 197.2357,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1212763
-      }
-    },
-    {
       "rank": 15,
       "title": "Supergirl",
       "year": 2026,
@@ -294,8 +312,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.745,
-      "votes": 1922,
+      "rating": 6.744,
+      "votes": 1924,
       "popularity": 153.1189,
       "score": null,
       "ids": {
@@ -314,7 +332,7 @@
       "watchers": null,
       "plays": null,
       "rating": 7.333,
-      "votes": 23673,
+      "votes": 23675,
       "popularity": 141.0317,
       "score": null,
       "ids": {
@@ -332,8 +350,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.217,
-      "votes": 189,
+      "rating": 7.161,
+      "votes": 192,
       "popularity": 140.1761,
       "score": null,
       "ids": {
@@ -345,25 +363,6 @@
     },
     {
       "rank": 18,
-      "title": "Scary Movie",
-      "year": 2026,
-      "released": "2026-06-03",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.438,
-      "votes": 1658,
-      "popularity": 136.6588,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1273221
-      }
-    },
-    {
-      "rank": 19,
       "title": "Backrooms",
       "year": 2026,
       "released": "2026-05-27",
@@ -371,7 +370,7 @@
       "watchers": null,
       "plays": null,
       "rating": 7.1,
-      "votes": 2830,
+      "votes": 2831,
       "popularity": 138.8061,
       "score": null,
       "ids": {
@@ -379,6 +378,25 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1083381
+      }
+    },
+    {
+      "rank": 19,
+      "title": "Scary Movie",
+      "year": 2026,
+      "released": "2026-06-03",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.439,
+      "votes": 1659,
+      "popularity": 136.6588,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1273221
       }
     },
     {
@@ -417,7 +435,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 687163
-      }
+      },
+      "aliases": [
+        "L'ultima missione: Project Hail Mary"
+      ]
     },
     {
       "rank": 22,
@@ -436,7 +457,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1481343
-      }
+      },
+      "aliases": [
+        "La bocca del diavolo"
+      ]
     },
     {
       "rank": 23,
@@ -455,7 +479,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 980431
-      }
+      },
+      "aliases": [
+        "Avatar Aang: L’ultimo dominatore dell’aria"
+      ]
     },
     {
       "rank": 24,
@@ -493,7 +520,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 950028
-      }
+      },
+      "aliases": [
+        "The Invite - Il piacere è tutto nostro"
+      ]
     },
     {
       "rank": 26,
@@ -569,7 +599,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1523145
-      }
+      },
+      "aliases": [
+        "Твоё сердце будет разбито"
+      ]
     },
     {
       "rank": 30,
@@ -645,7 +678,11 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1311031
-      }
+      },
+      "aliases": [
+        "Demon Slayer: Il Castello dell'Infinito - Parte 1",
+        "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来"
+      ]
     },
     {
       "rank": 34,
@@ -664,7 +701,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1599191
-      }
+      },
+      "aliases": [
+        "仙逆剧场版：弑仙之战"
+      ]
     },
     {
       "rank": 35,
@@ -702,7 +742,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1280738
-      }
+      },
+      "aliases": [
+        "火遮眼"
+      ]
     },
     {
       "rank": 37,
@@ -721,7 +764,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 83533
-      }
+      },
+      "aliases": [
+        "Avatar: Fuoco e cenere"
+      ]
     },
     {
       "rank": 38,
@@ -759,7 +805,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 278
-      }
+      },
+      "aliases": [
+        "Le ali della libertà"
+      ]
     },
     {
       "rank": 40,
@@ -816,7 +865,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1314481
-      }
+      },
+      "aliases": [
+        "Il diavolo veste Prada 2"
+      ]
     },
     {
       "rank": 43,
@@ -854,7 +906,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 429617
-      }
+      },
+      "aliases": [
+        "Spider-Man: Far from Home"
+      ]
     },
     {
       "rank": 45,
@@ -873,7 +928,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 755898
-      }
+      },
+      "aliases": [
+        "La guerra dei mondi"
+      ]
     },
     {
       "rank": 46,
@@ -892,7 +950,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1630409
-      }
+      },
+      "aliases": [
+        "คนเดือดทวงแค้น"
+      ]
     },
     {
       "rank": 47,
@@ -949,7 +1010,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1408162
-      }
+      },
+      "aliases": [
+        "விஸ்வநாத் & சன்ஸ்"
+      ]
     },
     {
       "rank": 50,
@@ -1025,7 +1089,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1127384
-      }
+      },
+      "aliases": [
+        "Deep Water - Incubo degli abissi"
+      ]
     },
     {
       "rank": 54,
@@ -1044,7 +1111,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1084242
-      }
+      },
+      "aliases": [
+        "Zootropolis 2"
+      ]
     },
     {
       "rank": 55,
@@ -1120,7 +1190,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1668364
-      }
+      },
+      "aliases": [
+        "Deseo"
+      ]
     },
     {
       "rank": 59,
@@ -1139,7 +1212,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1285366
-      }
+      },
+      "aliases": [
+        "愛のぬくもり"
+      ]
     },
     {
       "rank": 60,
@@ -1158,7 +1234,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1193950
-      }
+      },
+      "aliases": [
+        "Encantador"
+      ]
     },
     {
       "rank": 61,
@@ -1196,7 +1275,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1228710
-      }
+      },
+      "aliases": [
+        "Star Wars: The Mandalorian and Grogu"
+      ]
     },
     {
       "rank": 63,
@@ -1272,7 +1354,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 102382
-      }
+      },
+      "aliases": [
+        "The Amazing Spider-Man 2 - Il potere di Electro"
+      ]
     },
     {
       "rank": 67,
@@ -1291,7 +1376,11 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1419406
-      }
+      },
+      "aliases": [
+        "The Shadow's Edge - Colpo su colpo",
+        "捕风追影"
+      ]
     },
     {
       "rank": 68,
@@ -1367,7 +1456,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1391021
-      }
+      },
+      "aliases": [
+        "欢迎来龙餐馆"
+      ]
     },
     {
       "rank": 72,
@@ -1386,7 +1478,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1290821
-      }
+      },
+      "aliases": [
+        "Missione Shelter"
+      ]
     },
     {
       "rank": 73,
@@ -1405,7 +1500,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 155
-      }
+      },
+      "aliases": [
+        "Il cavaliere oscuro"
+      ]
     },
     {
       "rank": 74,
@@ -1424,7 +1522,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 238
-      }
+      },
+      "aliases": [
+        "Il padrino"
+      ]
     },
     {
       "rank": 75,
@@ -1443,7 +1544,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 324857
-      }
+      },
+      "aliases": [
+        "Spider-Man - Un nuovo universo"
+      ]
     },
     {
       "rank": 76,
@@ -1500,7 +1604,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1089791
-      }
+      },
+      "aliases": [
+        "La huella de unos labios"
+      ]
     },
     {
       "rank": 79,
@@ -1557,7 +1664,11 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1487864
-      }
+      },
+      "aliases": [
+        "Nando tra due mondi - Un film di Sintonia",
+        "Nando Entre Dois Mundos: Um Filme Sintonia"
+      ]
     },
     {
       "rank": 82,
@@ -1576,7 +1687,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 617126
-      }
+      },
+      "aliases": [
+        "I Fantastici 4 - Gli inizi"
+      ]
     },
     {
       "rank": 83,
@@ -1595,7 +1709,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1368166
-      }
+      },
+      "aliases": [
+        "Una di famiglia - The Housemaid"
+      ]
     },
     {
       "rank": 84,
@@ -1614,7 +1731,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1007757
-      }
+      },
+      "aliases": [
+        "Swapped - Al tuo posto"
+      ]
     },
     {
       "rank": 85,
@@ -1633,7 +1753,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1234821
-      }
+      },
+      "aliases": [
+        "Jurassic World - La rinascita"
+      ]
     },
     {
       "rank": 86,
@@ -1652,7 +1775,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1304313
-      }
+      },
+      "aliases": [
+        "Lee Cronin - La Mummia"
+      ]
     },
     {
       "rank": 87,
@@ -1690,7 +1816,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 122
-      }
+      },
+      "aliases": [
+        "Il Signore degli Anelli - Il ritorno del re"
+      ]
     },
     {
       "rank": 89,
@@ -1709,7 +1838,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 194117
-      }
+      },
+      "aliases": [
+        "La donna della luna"
+      ]
     },
     {
       "rank": 90,
@@ -1728,7 +1860,11 @@
         "slug": null,
         "imdb": null,
         "tmdb": 1589248
-      }
+      },
+      "aliases": [
+        "Io, il mio migliore amico e la sua ragazza",
+        "Mein bester Freund, seine Freundin und ich"
+      ]
     },
     {
       "rank": 91,
@@ -1861,7 +1997,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 603
-      }
+      },
+      "aliases": [
+        "Matrix"
+      ]
     },
     {
       "rank": 98,
@@ -1880,7 +2019,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 693134
-      }
+      },
+      "aliases": [
+        "Dune - Parte due"
+      ]
     },
     {
       "rank": 99,
@@ -1899,7 +2041,10 @@
         "slug": null,
         "imdb": null,
         "tmdb": 453395
-      }
+      },
+      "aliases": [
+        "Doctor Strange nel Multiverso della Follia"
+      ]
     },
     {
       "rank": 100,
