@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Generate provider-agnostic Pintu video trend documents from public Trakt data."""
+"""Generate Pintu video rankings with Trakt, TMDB, and last-valid fallback."""
 from __future__ import annotations
 
 import argparse
+from abc import ABC, abstractmethod
 import calendar
 import json
 import math
@@ -20,8 +21,9 @@ from typing import Any, NamedTuple
 import requests
 
 BASE_URL = "https://api.trakt.tv"
+TMDB_BASE_URL = "https://api.themoviedb.org/3"
 SCHEMA_VERSION = 1
-GENERATOR_VERSION = "1.2.1"
+GENERATOR_VERSION = "2.0.0"
 USER_AGENT = "PintuPlayer-Trends/1.0"
 MAX_ITEMS = 100
 NEW_RELEASE_LOOKBACK_MONTHS = 4
@@ -58,6 +60,7 @@ class Item:
     rating: float | None = None; votes: int | None = None; watchers: int | None = None
     plays: int | None = None; source_positions: dict[str, int] = field(default_factory=dict)
     score: float | None = None
+    popularity: float | None = None
     absolute_premiere: bool | None = None
     premiere_episode: str | None = None
 
@@ -107,6 +110,88 @@ class TraktClient:
             if attempt == 2: raise RuntimeError(f"Trakt request failed at {path}")
             self.sleeper(wait + random.random() / 10)
         raise AssertionError("unreachable")
+
+class TmdbClient:
+    def __init__(self, token: str, session: requests.Session | None = None, sleeper=time.sleep):
+        if not token.strip(): raise ValueError("TMDB_API_READ_ACCESS_TOKEN is missing")
+        self.session = session or requests.Session(); self.sleeper = sleeper
+        self.headers = {"Authorization": f"Bearer {token.strip()}", "Accept": "application/json", "User-Agent": USER_AGENT}
+
+    def get(self, path: str, params: dict[str, Any] | None = None) -> dict[str, Any]:
+        for attempt in range(3):
+            try:
+                response = self.session.get(TMDB_BASE_URL + path, params=params or {}, headers=self.headers, timeout=(5, 15))
+                if 200 <= response.status_code < 300:
+                    try: data = response.json()
+                    except ValueError as exc: raise RuntimeError(f"TMDB invalid JSON at {path}") from exc
+                    if not isinstance(data, dict) or not isinstance(data.get("results"), list): raise RuntimeError(f"TMDB invalid structure at {path}")
+                    return data
+                if response.status_code in (401, 403): raise RuntimeError(f"TMDB HTTP {response.status_code} at {path}")
+                if response.status_code == 429: wait = min(30, positive_int(response.headers.get("Retry-After")) or 2 ** attempt)
+                elif response.status_code >= 500: wait = 2 ** attempt
+                else: raise RuntimeError(f"TMDB HTTP {response.status_code} at {path}")
+            except (requests.Timeout, requests.ConnectionError) as exc:
+                if attempt == 2: raise RuntimeError(f"TMDB network failure at {path}") from exc
+                wait = 2 ** attempt
+            if attempt == 2: raise RuntimeError(f"TMDB request failed at {path}")
+            self.sleeper(wait + random.random() / 10)
+        raise AssertionError("unreachable")
+
+class VideoRankingProvider(ABC):
+    provider_id: str
+
+    @abstractmethod
+    def build_media(self, media: str, now: datetime) -> dict[str, dict[str, Any]]: ...
+
+class TraktRankingProvider(VideoRankingProvider):
+    provider_id = "trakt"
+
+    def __init__(self, client: TraktClient): self.client = client
+
+    def build_media(self, media: str, now: datetime) -> dict[str, dict[str, Any]]:
+        return build_trakt_media(self.client, media, now)
+
+class TmdbRankingProvider(VideoRankingProvider):
+    provider_id = "tmdb"
+    ENDPOINTS = {
+        ("movie", "trending"): "/trending/movie/day", ("movie", "popular"): "/movie/popular",
+        ("movie", "top_rated"): "/movie/top_rated", ("movie", "most_watched_weekly"): "/trending/movie/week",
+        ("show", "trending"): "/trending/tv/day", ("show", "popular"): "/tv/popular",
+        ("show", "top_rated"): "/tv/top_rated", ("show", "most_watched_weekly"): "/trending/tv/week",
+    }
+
+    def __init__(self, client: TmdbClient): self.client = client
+
+    def _items(self, media: str, section: str) -> list[Item]:
+        path = self.ENDPOINTS[(media, section)]; page = 1; result: list[Item] = []; seen = set()
+        while len(result) < MAX_ITEMS:
+            data = self.client.get(path, {"page": page}); rows = data["results"]
+            for row in rows:
+                if not isinstance(row, dict): continue
+                tmdb_id = positive_int(row.get("id"))
+                if tmdb_id is None or tmdb_id in seen: continue
+                seen.add(tmdb_id)
+                title = str(row.get("title" if media == "movie" else "name") or "").strip()
+                if not title: continue
+                date_value = str(row.get("release_date" if media == "movie" else "first_air_date") or "").strip() or None
+                year = positive_int(date_value[:4]) if date_value and re.fullmatch(r"\d{4}.*", date_value) else None
+                result.append(Item(media, title, year, {"trakt": None, "slug": None, "imdb": None, "tmdb": tmdb_id},
+                                   released=date_value if media == "movie" else None,
+                                   first_aired=date_value if media == "show" else None,
+                                   rating=number(row.get("vote_average")), votes=positive_int(row.get("vote_count")),
+                                   popularity=number(row.get("popularity"))))
+                if len(result) == MAX_ITEMS: break
+            total_pages = positive_int(data.get("total_pages")) or page
+            if not rows or page >= total_pages: break
+            page += 1
+        if not result: raise RuntimeError(f"TMDB anomalously empty section {media}/{section}")
+        return result
+
+    def build_media(self, media: str, now: datetime) -> dict[str, dict[str, Any]]:
+        generated = now.isoformat(timespec="seconds").replace("+00:00", "Z"); folder = "movies" if media == "movie" else "series"
+        return {f"{folder}/{section}.json": document(media, section, self._items(media, section), generated,
+                                                       algorithm=f"tmdb_official_{section}_v1", provider="tmdb")
+                for section in ("trending", "popular", "top_rated", "most_watched_weekly")}
 
 def dedupe(items: list[Item]) -> list[Item]:
     out: dict[tuple, Item] = {}
@@ -238,7 +323,7 @@ def calendar_source(client: TraktClient, media: str, now: datetime) -> tuple[lis
     return filter_new_release_events(raw, media, now, intervals)
 
 def item_json(item: Item, rank: int, composite_rank: bool) -> dict[str, Any]:
-    payload = {"rank": rank, "title": item.title, "year": item.year, "released": item.released, "firstAired": item.first_aired, "watchers": item.watchers, "plays": item.plays, "rating": item.rating, "votes": item.votes, "score": round(item.score, 6) if composite_rank and item.score is not None else None, "ids": item.ids}
+    payload = {"rank": rank, "title": item.title, "year": item.year, "released": item.released, "firstAired": item.first_aired, "watchers": item.watchers, "plays": item.plays, "rating": item.rating, "votes": item.votes, "popularity": item.popularity, "score": round(item.score, 6) if composite_rank and item.score is not None else None, "ids": item.ids}
     if item.absolute_premiere is not None: payload.update({"absolutePremiere": item.absolute_premiere, "premiereEpisode": item.premiere_episode})
     return payload
 
@@ -255,17 +340,19 @@ def source_metadata(media: str, section: str, algorithm: str | None, now: dateti
         return metadata
     return {"provider": "trakt", "type": "pintu_composite", "inputs": inputs, "algorithm": algorithm}
 
-def document(media: str, section: str, items: list[Item], generated: str, algorithm: str | None = None, quality: dict[str, Any] | None = None) -> dict[str, Any]:
-    composite_rank = section not in DIRECT
+def document(media: str, section: str, items: list[Item], generated: str, algorithm: str | None = None, quality: dict[str, Any] | None = None, provider: str = "trakt") -> dict[str, Any]:
+    composite_rank = section not in DIRECT or provider == "tmdb"
     payload = [item_json(item, rank, composite_rank) for rank, item in enumerate(items[:MAX_ITEMS], 1)]
     generated_temporal = parse_iso_utc(generated)
     if generated_temporal is None or generated_temporal.date_only: raise ValueError("invalid generatedAt")
     generated_now = generated_temporal.instant
-    return {"schemaVersion": SCHEMA_VERSION, "generatorVersion": GENERATOR_VERSION, "provider": "trakt", "rankingType": "pintu_composite" if composite_rank else "trakt_official", "algorithm": algorithm, "source": source_metadata(media, section, algorithm, generated_now), "quality": quality or {"candidates": len(items), "included": len(payload)}, "mediaType": media, "section": section, "generatedAt": generated, "sourceUpdatedAt": None, "ttlSeconds": TTL[section], "itemCount": len(payload), "items": payload}
+    source = source_metadata(media, section, algorithm, generated_now) if provider == "trakt" else {"provider": "tmdb", "type": "official", "endpoint": TmdbRankingProvider.ENDPOINTS[(media, section)]}
+    return {"schemaVersion": SCHEMA_VERSION, "generatorVersion": GENERATOR_VERSION, "provider": provider, "rankingType": "pintu_composite" if composite_rank else f"{provider}_official", "algorithm": algorithm, "source": source, "quality": quality or {"candidates": len(items), "included": len(payload)}, "mediaType": media, "section": section, "generatedAt": generated, "sourceUpdatedAt": None, "ttlSeconds": TTL[section], "itemCount": len(payload), "items": payload}
 
 def validate(doc: dict[str, Any], now: datetime | None = None) -> None:
     now = now or datetime.now(timezone.utc)
-    if doc.get("schemaVersion") != 1 or doc.get("provider") != "trakt" or doc.get("mediaType") not in ("movie", "show"): raise ValueError("invalid document header")
+    provider = doc.get("provider")
+    if doc.get("schemaVersion") != 1 or provider not in ("trakt", "tmdb") or doc.get("mediaType") not in ("movie", "show"): raise ValueError("invalid document header")
     items = doc.get("items");
     if not isinstance(items, list) or doc.get("itemCount") != len(items) or len(items) > 100: raise ValueError("invalid items")
     if [x.get("rank") for x in items] != list(range(1, len(items) + 1)): raise ValueError("invalid ranks")
@@ -277,11 +364,11 @@ def validate(doc: dict[str, Any], now: datetime | None = None) -> None:
         identities.append(identity or ("title", str(item.get("title") or "").casefold(), item.get("year")))
     if len(identities) != len(set(identities)): raise ValueError("duplicate items")
     if doc["rankingType"] == "pintu_composite" and not doc.get("algorithm"): raise ValueError("missing composite algorithm")
-    if not isinstance(doc.get("source"), dict) or doc["source"].get("provider") != "trakt": raise ValueError("missing source metadata")
-    expected_ranking = "trakt_official" if doc.get("section") in DIRECT else "pintu_composite"
-    expected_source_type = "official" if doc.get("section") in DIRECT else "pintu_composite"
+    if not isinstance(doc.get("source"), dict) or doc["source"].get("provider") != provider: raise ValueError("missing source metadata")
+    expected_ranking = "trakt_official" if provider == "trakt" and doc.get("section") in DIRECT else "pintu_composite"
+    expected_source_type = "official" if provider == "tmdb" or doc.get("section") in DIRECT else "pintu_composite"
     if doc.get("rankingType") != expected_ranking or doc["source"].get("type") != expected_source_type: raise ValueError("inconsistent ranking source")
-    if doc.get("section") == "most_watched_weekly" and doc["source"].get("period") != "weekly": raise ValueError("missing weekly period")
+    if provider == "trakt" and doc.get("section") == "most_watched_weekly" and doc["source"].get("period") != "weekly": raise ValueError("missing weekly period")
     if doc.get("section") == "new_releases":
         date_field = "released" if doc["mediaType"] == "movie" else "firstAired"
         generated = parse_iso_utc(doc.get("generatedAt"))
@@ -306,41 +393,46 @@ def validate(doc: dict[str, Any], now: datetime | None = None) -> None:
 
 def validate_index(index: dict[str, Any], now: datetime | None = None) -> None:
     now = now or datetime.now(timezone.utc)
-    if index.get("schemaVersion") != 1 or index.get("provider") != "trakt": raise ValueError("invalid index header")
+    if index.get("schemaVersion") != 1 or index.get("provider") not in ("trakt", "tmdb", "mixed"): raise ValueError("invalid index header")
     movies = index.get("movies"); series = index.get("series")
     if not isinstance(movies, list) or not isinstance(series, list): raise ValueError("invalid index sections")
     if index.get("movieSections") != len(movies) or index.get("seriesSections") != len(series): raise ValueError("invalid section counts")
-    for field_name in ("generatedAt", "lastSuccessfulRefreshAt", "lastContentUpdateAt"):
+    for field_name in ("generatedAt", "lastCheckedAt", "lastSuccessfulRefreshAt", "lastContentUpdateAt"):
         raw = index.get(field_name)
         try: value = datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
         except ValueError as exc: raise ValueError(f"invalid {field_name}") from exc
         if value.tzinfo is None or value > now + timedelta(minutes=10): raise ValueError(f"invalid {field_name}")
-    if index["lastSuccessfulRefreshAt"] != index["generatedAt"]: raise ValueError("refresh timestamp mismatch")
+    if index.get("movieProvider") not in (None, "trakt", "tmdb") or index.get("seriesProvider") not in (None, "trakt", "tmdb"): raise ValueError("invalid media provider")
+
+def build_trakt_media(client: TraktClient, media: str, now: datetime) -> dict[str, dict[str, Any]]:
+    generated = now.isoformat(timespec="seconds").replace("+00:00", "Z"); result = {}; folder = "movies" if media == "movie" else "series"
+    sources = {name: fetch_source(client, media, name) for name in DIRECT}
+    pool = dedupe(sum(sources.values(), [])); top = bayesian(pool)
+    new, new_quality = calendar_source(client, media, now)
+    sections: dict[str, tuple[list[Item], str | None]] = {name: (values, None) for name, values in sources.items()}
+    new_algorithm = "movie_new_releases_4_calendar_months_v2" if media == "movie" else "series_absolute_premieres_4_calendar_months_v2"
+    def new_release_order(item: Item):
+        released = item.released or item.first_aired or ""
+        position = item.source_positions.get("new_releases", 10**9)
+        weighted_rating = (item.rating or 0) * (item.votes or 0) / ((item.votes or 0) + MIN_VOTES)
+        return (-_utc_date(released).toordinal(), position, -(item.watchers or 0), -weighted_rating, item.title.casefold())
+    sections["new_releases"] = (sorted(new, key=new_release_order), new_algorithm)
+    sections["top_rated"] = (top, "bayesian_weighted_rating_v1")
+    if media == "movie":
+        year_items = [x for x in pool + new if x.year == now.year and _utc_date(x.released) is not None and datetime(now.year, 1, 1, tzinfo=timezone.utc).date() <= _utc_date(x.released) <= now.date()]
+        sections["movies_of_the_year"] = (composite(dedupe(year_items), {"trending": .35, "most_watched_weekly": .25, "popular": .20, "top_rated": .20}, "movies_of_the_year_v1"), "movies_of_the_year_v1")
+    else:
+        sections["shows_of_the_moment"] = (composite(pool, {"trending": .40, "most_watched_weekly": .30, "popular": .15, "top_rated": .15}, "shows_of_the_moment_v1"), "shows_of_the_moment_v1")
+    for section, (items, algorithm) in sections.items(): result[f"{folder}/{section}.json"] = document(media, section, items, generated, algorithm, new_quality if section == "new_releases" else None)
+    for doc in result.values(): validate(doc, now)
+    return result
 
 def build_all(client: TraktClient, now: datetime | None = None) -> dict[str, dict[str, Any]]:
     now = now or datetime.now(timezone.utc); generated = now.isoformat(timespec="seconds").replace("+00:00", "Z"); result = {}
-    for media, folder in (("movie", "movies"), ("show", "series")):
-        sources = {name: fetch_source(client, media, name) for name in DIRECT}
-        pool = dedupe(sum(sources.values(), [])); top = bayesian(pool)
-        new, new_quality = calendar_source(client, media, now)
-        sections: dict[str, tuple[list[Item], str | None]] = {name: (values, None) for name, values in sources.items()}
-        new_algorithm = "movie_new_releases_4_calendar_months_v2" if media == "movie" else "series_absolute_premieres_4_calendar_months_v2"
-        def new_release_order(item: Item):
-            released = item.released or item.first_aired or ""
-            position = item.source_positions.get("new_releases", 10**9)
-            weighted_rating = (item.rating or 0) * (item.votes or 0) / ((item.votes or 0) + MIN_VOTES)
-            return (-_utc_date(released).toordinal(), position, -(item.watchers or 0), -weighted_rating, item.title.casefold())
-        sections["new_releases"] = (sorted(new, key=new_release_order), new_algorithm)
-        sections["top_rated"] = (top, "bayesian_weighted_rating_v1")
-        if media == "movie":
-            year_items = [x for x in pool + new if x.year == now.year and _utc_date(x.released) is not None and datetime(now.year, 1, 1, tzinfo=timezone.utc).date() <= _utc_date(x.released) <= now.date()]
-            sections["movies_of_the_year"] = (composite(dedupe(year_items), {"trending": .35, "most_watched_weekly": .25, "popular": .20, "top_rated": .20}, "movies_of_the_year_v1"), "movies_of_the_year_v1")
-        else:
-            sections["shows_of_the_moment"] = (composite(pool, {"trending": .40, "most_watched_weekly": .30, "popular": .15, "top_rated": .15}, "shows_of_the_moment_v1"), "shows_of_the_moment_v1")
-        for section, (items, algorithm) in sections.items(): result[f"{folder}/{section}.json"] = document(media, section, items, generated, algorithm, new_quality if section == "new_releases" else None)
+    for media in ("movie", "show"): result.update(build_trakt_media(client, media, now))
     entries = lambda folder: [{"section": path.rsplit("/", 1)[1][:-5], "path": path, "rankingType": doc["rankingType"], "ttlSeconds": doc["ttlSeconds"], "itemCount": doc["itemCount"]} for path, doc in result.items() if path.startswith(folder + "/")]
     movies = entries("movies"); series = entries("series")
-    result["index.json"] = {"schemaVersion": 1, "generatorVersion": GENERATOR_VERSION, "provider": "trakt", "movieSections": len(movies), "seriesSections": len(series), "generatedAt": generated, "lastSuccessfulRefreshAt": generated, "lastContentUpdateAt": generated, "minimumAppSchemaVersion": 1, "movies": movies, "series": series}
+    result["index.json"] = {"schemaVersion": 1, "generatorVersion": GENERATOR_VERSION, "provider": "trakt", "movieProvider": "trakt", "seriesProvider": "trakt", "providersUsed": ["trakt"], "refreshStatus": "success", "movieSections": len(movies), "seriesSections": len(series), "generatedAt": generated, "lastCheckedAt": generated, "lastSuccessfulRefreshAt": generated, "lastContentUpdateAt": generated, "minimumAppSchemaVersion": 1, "movies": movies, "series": series}
     for path, doc in result.items():
         if path != "index.json": validate(doc, now)
     validate_index(result["index.json"], now)
@@ -356,8 +448,7 @@ def publish(documents: dict[str, dict[str, Any]], output: Path = OUTPUT) -> None
         pass
 
     def logical(data: dict[str, Any]) -> dict[str, Any]:
-        ignored = {"generatedAt", "lastSuccessfulRefreshAt", "lastContentUpdateAt", "sourceUpdatedAt"}
-        return {key: value for key, value in data.items() if key not in ignored}
+        return {key: data.get(key) for key in ("mediaType", "section", "items")}
 
     changed = False
     for path, data in documents.items():
@@ -385,6 +476,72 @@ def publish(documents: dict[str, dict[str, Any]], output: Path = OUTPUT) -> None
             raise
         if backup.exists(): shutil.rmtree(backup)
 
+def _load_existing_media(output: Path, media: str) -> dict[str, dict[str, Any]]:
+    folder = "movies" if media == "movie" else "series"; result = {}
+    for path in (output / folder).glob("*.json"):
+        data = json.loads(path.read_text(encoding="utf-8")); result[f"{folder}/{path.name}"] = data
+    required = {f"{folder}/{name}.json" for name in ("trending", "popular", "top_rated", "most_watched_weekly")}
+    if not required.issubset(result): raise ValueError(f"no complete last-valid set for {media}")
+    for path in required: validate(result[path])
+    return result
+
+def _index_for(documents: dict[str, dict[str, Any]], providers: dict[str, str], statuses: dict[str, str],
+               checked: str, previous: dict[str, Any]) -> dict[str, Any]:
+    entries = lambda folder: [{"section": path.rsplit("/", 1)[1][:-5], "path": path,
+                               "rankingType": doc["rankingType"], "provider": doc.get("provider", "trakt"),
+                               "ttlSeconds": doc["ttlSeconds"], "itemCount": doc["itemCount"]}
+                              for path, doc in documents.items() if path.startswith(folder + "/")]
+    movies, series = entries("movies"), entries("series")
+    refreshed = any(value == "success" for value in statuses.values())
+    successful = checked if refreshed else previous.get("lastSuccessfulRefreshAt") or previous.get("generatedAt")
+    if not successful: raise ValueError("no last successful refresh timestamp")
+    top_provider = providers["movie"] if providers["movie"] == providers["show"] else "mixed"
+    return {"schemaVersion": 1, "generatorVersion": GENERATOR_VERSION, "provider": top_provider,
+            "movieProvider": providers["movie"], "seriesProvider": providers["show"],
+            "providersUsed": sorted(set(providers.values())), "refreshStatus": "success" if all(x == "success" for x in statuses.values()) else "stale_cache",
+            "movieSections": len(movies), "seriesSections": len(series), "generatedAt": successful,
+            "lastCheckedAt": checked, "lastSuccessfulRefreshAt": successful,
+            "lastContentUpdateAt": checked, "minimumAppSchemaVersion": 1, "movies": movies, "series": series}
+
+def generate_with_fallback(trakt: VideoRankingProvider | None, tmdb: VideoRankingProvider | None,
+                           output: Path = OUTPUT, now: datetime | None = None) -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
+    now = now or datetime.now(timezone.utc); checked = now.isoformat(timespec="seconds").replace("+00:00", "Z")
+    try: previous = json.loads((output / "index.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError): previous = {}
+    documents: dict[str, dict[str, Any]] = {}; providers: dict[str, str] = {}; statuses: dict[str, str] = {}; attempts = {}
+    for media in ("movie", "show"):
+        primary_error = "unavailable"; attempts[media] = {"trakt": "not_configured", "tmdb": "not_attempted"}
+        if trakt is not None:
+            try:
+                media_docs = trakt.build_media(media, now)
+                documents.update(media_docs); providers[media] = "trakt"; statuses[media] = "success"; attempts[media]["trakt"] = "success"
+                print(f"[VIDEO_TRENDS][PROVIDER] media={media} primary=trakt primaryResult=success fallback=not_attempted publishedProvider=trakt")
+                continue
+            except Exception as exc:
+                primary_error = str(exc); attempts[media]["trakt"] = primary_error
+        if tmdb is not None:
+            try:
+                media_docs = tmdb.build_media(media, now)
+                try: existing = _load_existing_media(output, media)
+                except Exception: existing = {}
+                online_names = {path.rsplit("/", 1)[1] for path in media_docs}
+                media_docs.update({path: doc for path, doc in existing.items() if path.rsplit("/", 1)[1] not in online_names})
+                documents.update(media_docs); providers[media] = "tmdb"; statuses[media] = "success"; attempts[media]["tmdb"] = "success"
+                print(f"[VIDEO_TRENDS][PROVIDER] media={media} primary=trakt primaryResult={primary_error} fallback=tmdb fallbackResult=success publishedProvider=tmdb")
+                continue
+            except Exception as exc: attempts[media]["tmdb"] = str(exc)
+        try:
+            existing = _load_existing_media(output, media); documents.update(existing)
+            online = existing[f"{'movies' if media == 'movie' else 'series'}/trending.json"]
+            providers[media] = online.get("provider", "trakt"); statuses[media] = "stale_cache"
+            print(f"[VIDEO_TRENDS][PROVIDER] media={media} primary=trakt primaryResult={primary_error} fallback=tmdb fallbackResult={attempts[media]['tmdb']} publishedProvider={providers[media]} source=last_valid")
+        except Exception as exc: raise RuntimeError(f"{media}: providers failed and no last-valid set: {exc}") from exc
+    index = _index_for(documents, providers, statuses, checked, previous); documents["index.json"] = index
+    for path, doc in documents.items():
+        if path != "index.json": validate(doc, now)
+    validate_index(index, now)
+    return documents, {"providers": providers, "statuses": statuses, "attempts": attempts}
+
 def main() -> int:
     parser = argparse.ArgumentParser(); parser.add_argument("--validate-only", action="store_true"); parser.add_argument("--output-dir", type=Path, default=OUTPUT); args = parser.parse_args()
     if args.validate_only:
@@ -393,9 +550,15 @@ def main() -> int:
             if path.name != "index.json": validate(data)
             else: validate_index(data)
         print("[VIDEO_TRENDS] validation passed"); return 0
-    client_id = os.environ.get("TRAKT_CLIENT_ID", "")
-    if not client_id.strip(): print("[VIDEO_TRENDS] error: TRAKT_CLIENT_ID is missing"); return 2
-    try: documents = build_all(TraktClient(client_id)); publish(documents, args.output_dir)
+    client_id = os.environ.get("TRAKT_CLIENT_ID", "").strip(); tmdb_token = os.environ.get("TMDB_API_READ_ACCESS_TOKEN", "").strip()
+    tmdb_enabled = os.environ.get("TMDB_FALLBACK_ENABLED", "").strip().lower() == "true"
+    trakt = TraktRankingProvider(TraktClient(client_id)) if client_id else None
+    tmdb = TmdbRankingProvider(TmdbClient(tmdb_token)) if tmdb_enabled and tmdb_token else None
+    if not tmdb_enabled: print("[VIDEO_TRENDS][PROVIDER] tmdb=skipped reason=feature_disabled")
+    elif not tmdb_token: print("[VIDEO_TRENDS][PROVIDER] tmdb=skipped reason=missing_credential")
+    try:
+        documents, report = generate_with_fallback(trakt, tmdb, args.output_dir); publish(documents, args.output_dir)
+        Path("/tmp/video-trends-provider-report.json").write_text(json.dumps(report), encoding="utf-8")
     except Exception as exc: print(f"[VIDEO_TRENDS] generation failed: {exc}"); return 1
     print(f"[VIDEO_TRENDS] generated documents={len(documents)}"); return 0
 

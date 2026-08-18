@@ -6,7 +6,7 @@ from unittest.mock import Mock
 
 from datetime import datetime, timezone
 
-from scripts.update_trakt_video_trends import Item, MAX_ITEMS, TraktClient, bayesian, build_all, calendar_source, dedupe, document, filter_new_release_events, parse_iso_utc, publish, subtract_calendar_months, validate
+from scripts.update_trakt_video_trends import Item, MAX_ITEMS, TmdbRankingProvider, TraktClient, VideoRankingProvider, bayesian, build_all, calendar_source, dedupe, document, filter_new_release_events, generate_with_fallback, parse_iso_utc, publish, subtract_calendar_months, validate
 
 class VideoTrendsTests(unittest.TestCase):
     NOW = datetime(2026, 7, 13, tzinfo=timezone.utc)
@@ -204,5 +204,84 @@ class VideoTrendsTests(unittest.TestCase):
             index = json.loads((output / "index.json").read_text())
             self.assertEqual(index["lastSuccessfulRefreshAt"], "2026-07-13T00:00:00Z")
             self.assertEqual(index["lastContentUpdateAt"], "2026-07-12T00:00:00Z")
+
+class ProviderFallbackTests(unittest.TestCase):
+    NOW = datetime(2026, 8, 18, 12, tzinfo=timezone.utc)
+
+    class FakeProvider(VideoRankingProvider):
+        def __init__(self, provider_id, failures=()): self.provider_id = provider_id; self.failures = set(failures); self.calls = []
+        def build_media(self, media, now):
+            self.calls.append(media)
+            if media in self.failures: raise RuntimeError(f"{self.provider_id} HTTP 403 at {media}/trending")
+            folder = "movies" if media == "movie" else "series"; generated = now.isoformat().replace("+00:00", "Z")
+            result = {}
+            for section in ("trending", "popular", "top_rated", "most_watched_weekly"):
+                item = Item(media, f"{media} {section}", 2026, {"trakt": 1} if self.provider_id == "trakt" else {"tmdb": 1})
+                algorithm = "bayesian_weighted_rating_v1" if self.provider_id == "trakt" and section == "top_rated" else (f"tmdb_official_{section}_v1" if self.provider_id == "tmdb" else None)
+                result[f"{folder}/{section}.json"] = document(media, section, [item], generated, algorithm, provider=self.provider_id)
+            return result
+
+    def seed(self, output, provider="trakt"):
+        docs = {}; generated = "2026-08-17T12:00:00Z"
+        for media, folder in (("movie", "movies"), ("show", "series")):
+            for section in ("trending", "popular", "top_rated", "most_watched_weekly"):
+                algorithm = "bayesian_weighted_rating_v1" if provider == "trakt" and section == "top_rated" else (f"tmdb_official_{section}_v1" if provider == "tmdb" else None)
+                docs[f"{folder}/{section}.json"] = document(media, section, [Item(media, "Cached", 2026, {provider: 9})], generated, algorithm, provider=provider)
+        docs["index.json"] = {"schemaVersion": 1, "generatorVersion": "1.2.1", "provider": provider, "movieSections": 4, "seriesSections": 4,
+                              "generatedAt": generated, "lastCheckedAt": generated, "lastSuccessfulRefreshAt": generated,
+                              "lastContentUpdateAt": generated, "movies": [], "series": []}
+        publish(docs, output)
+
+    def test_trakt_success_never_calls_tmdb(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp) / "video"; self.seed(output)
+            trakt = self.FakeProvider("trakt"); tmdb = self.FakeProvider("tmdb")
+            docs, report = generate_with_fallback(trakt, tmdb, output, self.NOW)
+            self.assertEqual(trakt.calls, ["movie", "show"]); self.assertEqual(tmdb.calls, [])
+            self.assertEqual(report["providers"], {"movie": "trakt", "show": "trakt"})
+            self.assertEqual(docs["index.json"]["refreshStatus"], "success")
+
+    def test_trakt_403_falls_back_atomically_to_tmdb(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp) / "video"; self.seed(output)
+            docs, report = generate_with_fallback(self.FakeProvider("trakt", {"movie", "show"}), self.FakeProvider("tmdb"), output, self.NOW)
+            self.assertEqual(report["providers"], {"movie": "tmdb", "show": "tmdb"})
+            for path, value in docs.items():
+                if path.endswith(("trending.json", "popular.json", "top_rated.json", "most_watched_weekly.json")):
+                    self.assertEqual(value["provider"], "tmdb"); self.assertEqual(value["rankingType"], "pintu_composite")
+
+    def test_media_failures_are_isolated(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp) / "video"; self.seed(output)
+            _, report = generate_with_fallback(self.FakeProvider("trakt", {"movie"}), self.FakeProvider("tmdb"), output, self.NOW)
+            self.assertEqual(report["providers"], {"movie": "tmdb", "show": "trakt"})
+
+    def test_both_fail_preserves_last_valid_and_timestamps(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp) / "video"; self.seed(output, "tmdb")
+            docs, report = generate_with_fallback(self.FakeProvider("trakt", {"movie", "show"}), self.FakeProvider("tmdb", {"movie", "show"}), output, self.NOW)
+            publish(docs, output); docs["index.json"] = json.loads((output / "index.json").read_text())
+            self.assertEqual(report["statuses"], {"movie": "stale_cache", "show": "stale_cache"})
+            self.assertEqual(docs["index.json"]["refreshStatus"], "stale_cache")
+            self.assertEqual(docs["index.json"]["lastSuccessfulRefreshAt"], "2026-08-17T12:00:00Z")
+            self.assertEqual(docs["index.json"]["lastContentUpdateAt"], "2026-08-17T12:00:00Z")
+            self.assertEqual(docs["movies/trending.json"]["provider"], "tmdb")
+
+    def test_both_fail_without_last_valid_is_hard_failure(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(RuntimeError):
+                generate_with_fallback(self.FakeProvider("trakt", {"movie"}), self.FakeProvider("tmdb", {"movie"}), Path(tmp) / "video", self.NOW)
+
+    def test_tmdb_paginates_deduplicates_and_normalizes(self):
+        class Client:
+            def __init__(self): self.pages = []
+            def get(self, path, params=None):
+                self.pages.append(params["page"])
+                rows = [{"id": 1, "title": "Film", "release_date": "2026-07-01", "vote_average": 8.2, "vote_count": 50, "popularity": 123.4}]
+                if params["page"] == 2: rows = [{"id": 1, "title": "Duplicate"}, {"id": 2, "title": "Second", "release_date": "invalid"}]
+                return {"results": rows, "total_pages": 2}
+        client = Client(); items = TmdbRankingProvider(client)._items("movie", "popular")
+        self.assertEqual(client.pages, [1, 2]); self.assertEqual([x.ids["tmdb"] for x in items], [1, 2])
+        self.assertEqual(items[0].year, 2026); self.assertEqual(items[0].popularity, 123.4); self.assertIsNone(items[1].year)
 
 if __name__ == "__main__": unittest.main()
