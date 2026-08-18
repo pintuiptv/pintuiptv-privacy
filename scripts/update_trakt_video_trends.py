@@ -23,7 +23,7 @@ import requests
 BASE_URL = "https://api.trakt.tv"
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 SCHEMA_VERSION = 1
-GENERATOR_VERSION = "2.0.0"
+GENERATOR_VERSION = "2.1.0"
 USER_AGENT = "PintuPlayer-Trends/1.0"
 MAX_ITEMS = 100
 NEW_RELEASE_LOOKBACK_MONTHS = 4
@@ -63,6 +63,7 @@ class Item:
     popularity: float | None = None
     absolute_premiere: bool | None = None
     premiere_episode: str | None = None
+    aliases: list[str] = field(default_factory=list)
 
     @property
     def key(self) -> tuple:
@@ -166,6 +167,11 @@ class TmdbRankingProvider(VideoRankingProvider):
         path = self.ENDPOINTS[(media, section)]; page = 1; result: list[Item] = []; seen = set()
         while len(result) < MAX_ITEMS:
             data = self.client.get(path, {"page": page}); rows = data["results"]
+            localized = self.client.get(path, {"page": page, "language": "it-IT"})
+            localized_by_id = {
+                row["id"]: row for row in localized["results"]
+                if isinstance(row, dict) and positive_int(row.get("id")) is not None
+            }
             for row in rows:
                 if not isinstance(row, dict): continue
                 tmdb_id = positive_int(row.get("id"))
@@ -173,13 +179,20 @@ class TmdbRankingProvider(VideoRankingProvider):
                 seen.add(tmdb_id)
                 title = str(row.get("title" if media == "movie" else "name") or "").strip()
                 if not title: continue
+                title_key = "title" if media == "movie" else "name"
+                original_key = "original_title" if media == "movie" else "original_name"
+                localized_row = localized_by_id.get(tmdb_id, {})
+                aliases: list[str] = []
+                for candidate in (localized_row.get(title_key), row.get(original_key), localized_row.get(original_key)):
+                    alias = str(candidate or "").strip()
+                    if alias and alias != title and alias not in aliases: aliases.append(alias)
                 date_value = str(row.get("release_date" if media == "movie" else "first_air_date") or "").strip() or None
                 year = positive_int(date_value[:4]) if date_value and re.fullmatch(r"\d{4}.*", date_value) else None
                 result.append(Item(media, title, year, {"trakt": None, "slug": None, "imdb": None, "tmdb": tmdb_id},
                                    released=date_value if media == "movie" else None,
                                    first_aired=date_value if media == "show" else None,
                                    rating=number(row.get("vote_average")), votes=positive_int(row.get("vote_count")),
-                                   popularity=number(row.get("popularity"))))
+                                   popularity=number(row.get("popularity")), aliases=aliases))
                 if len(result) == MAX_ITEMS: break
             total_pages = positive_int(data.get("total_pages")) or page
             if not rows or page >= total_pages: break
@@ -324,6 +337,7 @@ def calendar_source(client: TraktClient, media: str, now: datetime) -> tuple[lis
 
 def item_json(item: Item, rank: int, composite_rank: bool) -> dict[str, Any]:
     payload = {"rank": rank, "title": item.title, "year": item.year, "released": item.released, "firstAired": item.first_aired, "watchers": item.watchers, "plays": item.plays, "rating": item.rating, "votes": item.votes, "popularity": item.popularity, "score": round(item.score, 6) if composite_rank and item.score is not None else None, "ids": item.ids}
+    if item.aliases: payload["aliases"] = item.aliases
     if item.absolute_premiere is not None: payload.update({"absolutePremiere": item.absolute_premiere, "premiereEpisode": item.premiere_episode})
     return payload
 
