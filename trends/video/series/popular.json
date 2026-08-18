@@ -15,7 +15,7 @@
   },
   "mediaType": "show",
   "section": "popular",
-  "generatedAt": "2026-08-18T17:06:32Z",
+  "generatedAt": "2026-08-18T20:52:23Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 43200,
   "itemCount": 100,
@@ -402,6 +402,25 @@
     },
     {
       "rank": 21,
+      "title": "Family Guy",
+      "year": 1999,
+      "released": null,
+      "firstAired": "1999-01-31",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.4,
+      "votes": 5070,
+      "popularity": 203.5796,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1434
+      }
+    },
+    {
+      "rank": 22,
       "title": "NCIS",
       "year": 2003,
       "released": null,
@@ -420,7 +439,7 @@
       }
     },
     {
-      "rank": 22,
+      "rank": 23,
       "title": "Supernatural",
       "year": 2005,
       "released": null,
@@ -439,140 +458,7 @@
       }
     },
     {
-      "rank": 23,
-      "title": "Secret Mission - Undercover Agents Never Back Down!",
-      "year": 2023,
-      "released": null,
-      "firstAired": "2023-10-02",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.2,
-      "votes": 26,
-      "popularity": 174.8355,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 233643
-      }
-    },
-    {
       "rank": 24,
-      "title": "Paradise Hotel",
-      "year": 2009,
-      "released": null,
-      "firstAired": "2009-03-09",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.7,
-      "votes": 10,
-      "popularity": 167.4805,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 36109
-      }
-    },
-    {
-      "rank": 25,
-      "title": "Rick and Morty",
-      "year": 2013,
-      "released": null,
-      "firstAired": "2013-12-02",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.681,
-      "votes": 11288,
-      "popularity": 183.4702,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 60625
-      }
-    },
-    {
-      "rank": 26,
-      "title": "Caressing My Hibernating Bear",
-      "year": 2022,
-      "released": null,
-      "firstAired": "2022-07-04",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.9,
-      "votes": 7,
-      "popularity": 186.2489,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 204269
-      }
-    },
-    {
-      "rank": 27,
-      "title": "Game of Thrones",
-      "year": 2011,
-      "released": null,
-      "firstAired": "2011-04-17",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.469,
-      "votes": 27537,
-      "popularity": 176.0046,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1399
-      }
-    },
-    {
-      "rank": 28,
-      "title": "FROM",
-      "year": 2022,
-      "released": null,
-      "firstAired": "2022-02-20",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.496,
-      "votes": 4169,
-      "popularity": 174.4018,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 124364
-      }
-    },
-    {
-      "rank": 29,
-      "title": "Criminal Minds",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2005-09-22",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.299,
-      "votes": 4149,
-      "popularity": 174.191,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 4057
-      }
-    },
-    {
-      "rank": 30,
       "title": "Among Friends",
       "year": 1998,
       "released": null,
@@ -591,7 +477,45 @@
       }
     },
     {
-      "rank": 31,
+      "rank": 25,
+      "title": "Caressing My Hibernating Bear",
+      "year": 2022,
+      "released": null,
+      "firstAired": "2022-07-04",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.9,
+      "votes": 7,
+      "popularity": 186.2489,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 204269
+      }
+    },
+    {
+      "rank": 26,
+      "title": "Rick and Morty",
+      "year": 2013,
+      "released": null,
+      "firstAired": "2013-12-02",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.681,
+      "votes": 11288,
+      "popularity": 183.4702,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 60625
+      }
+    },
+    {
+      "rank": 27,
       "title": "The Daily Show",
       "year": 1996,
       "released": null,
@@ -610,7 +534,121 @@
       }
     },
     {
+      "rank": 28,
+      "title": "Game of Thrones",
+      "year": 2011,
+      "released": null,
+      "firstAired": "2011-04-17",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.469,
+      "votes": 27538,
+      "popularity": 176.0046,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1399
+      }
+    },
+    {
+      "rank": 29,
+      "title": "Secret Mission - Undercover Agents Never Back Down!",
+      "year": 2023,
+      "released": null,
+      "firstAired": "2023-10-02",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.2,
+      "votes": 26,
+      "popularity": 174.8355,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 233643
+      }
+    },
+    {
+      "rank": 30,
+      "title": "FROM",
+      "year": 2022,
+      "released": null,
+      "firstAired": "2022-02-20",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.496,
+      "votes": 4169,
+      "popularity": 174.4018,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 124364
+      }
+    },
+    {
+      "rank": 31,
+      "title": "Criminal Minds",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-09-22",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.299,
+      "votes": 4150,
+      "popularity": 174.191,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 4057
+      }
+    },
+    {
       "rank": 32,
+      "title": "Binnelanders",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-10-13",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.5,
+      "votes": 111,
+      "popularity": 168.4323,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 206559
+      }
+    },
+    {
+      "rank": 33,
+      "title": "Paradise Hotel",
+      "year": 2009,
+      "released": null,
+      "firstAired": "2009-03-09",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.7,
+      "votes": 10,
+      "popularity": 167.4805,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 36109
+      }
+    },
+    {
+      "rank": 34,
       "title": "Miraculous: Tales of Ladybug & Cat Noir",
       "year": 2015,
       "released": null,
@@ -629,91 +667,72 @@
       }
     },
     {
-      "rank": 33,
-      "title": "CSI: Crime Scene Investigation",
-      "year": 2000,
-      "released": null,
-      "firstAired": "2000-10-06",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.623,
-      "votes": 1416,
-      "popularity": 139.3656,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1431
-      }
-    },
-    {
-      "rank": 34,
-      "title": "Ted Lasso",
-      "year": 2020,
-      "released": null,
-      "firstAired": "2020-08-14",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.353,
-      "votes": 2556,
-      "popularity": 147.8624,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 97546
-      }
-    },
-    {
       "rank": 35,
-      "title": "Breaking Bad",
-      "year": 2008,
+      "title": "Government Job",
+      "year": 2012,
       "released": null,
-      "firstAired": "2008-01-20",
+      "firstAired": "2012-09-24",
       "watchers": null,
       "plays": null,
-      "rating": 8.948,
-      "votes": 18412,
-      "popularity": 148.9727,
+      "rating": 7.9,
+      "votes": 11,
+      "popularity": 152.267,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1396
+        "tmdb": 46831
       }
     },
     {
       "rank": 36,
-      "title": "The Walking Dead",
-      "year": 2010,
+      "title": "Pili",
+      "year": 1988,
       "released": null,
-      "firstAired": "2010-10-31",
+      "firstAired": "1988-06-01",
       "watchers": null,
       "plays": null,
-      "rating": 8.1,
-      "votes": 18089,
-      "popularity": 139.3739,
+      "rating": 6.9,
+      "votes": 7,
+      "popularity": 151.0952,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1402
+        "tmdb": 19530
       }
     },
     {
       "rank": 37,
+      "title": "Late Night with Seth Meyers",
+      "year": 2014,
+      "released": null,
+      "firstAired": "2014-02-25",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.083,
+      "votes": 132,
+      "popularity": 150.5373,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 61818
+      }
+    },
+    {
+      "rank": 38,
       "title": "House",
       "year": 2004,
       "released": null,
       "firstAired": "2004-11-16",
       "watchers": null,
       "plays": null,
-      "rating": 8.566,
-      "votes": 7799,
+      "rating": 8.6,
+      "votes": 7800,
       "popularity": 149.6274,
       "score": null,
       "ids": {
@@ -724,824 +743,26 @@
       }
     },
     {
-      "rank": 38,
-      "title": "All Elite Wrestling: Dynamite",
-      "year": 2019,
-      "released": null,
-      "firstAired": "2019-10-02",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.0,
-      "votes": 86,
-      "popularity": 134.0632,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 91555
-      }
-    },
-    {
       "rank": 39,
-      "title": "Shameless",
-      "year": 2011,
+      "title": "Breaking Bad",
+      "year": 2008,
       "released": null,
-      "firstAired": "2011-01-09",
+      "firstAired": "2008-01-20",
       "watchers": null,
       "plays": null,
-      "rating": 8.167,
-      "votes": 3437,
-      "popularity": 143.7105,
+      "rating": 8.948,
+      "votes": 18417,
+      "popularity": 148.9727,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 34307
+        "tmdb": 1396
       }
     },
     {
       "rank": 40,
-      "title": "The Late Show with Stephen Colbert",
-      "year": 2015,
-      "released": null,
-      "firstAired": "2015-09-08",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.069,
-      "votes": 360,
-      "popularity": 145.6703,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 63770
-      }
-    },
-    {
-      "rank": 41,
-      "title": "Tony Awards",
-      "year": 1956,
-      "released": null,
-      "firstAired": "1956-04-01",
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 142.9112,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 318325
-      }
-    },
-    {
-      "rank": 42,
-      "title": "Kamen Rider",
-      "year": 1971,
-      "released": null,
-      "firstAired": "1971-04-03",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.413,
-      "votes": 104,
-      "popularity": 141.7845,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 2661
-      }
-    },
-    {
-      "rank": 43,
-      "title": "Lagnachi Bedi",
-      "year": 2022,
-      "released": null,
-      "firstAired": "2022-01-31",
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 140.6124,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 205142
-      }
-    },
-    {
-      "rank": 44,
-      "title": "Friends",
-      "year": 1994,
-      "released": null,
-      "firstAired": "1994-09-22",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.414,
-      "votes": 9298,
-      "popularity": 140.1796,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1668
-      }
-    },
-    {
-      "rank": 45,
-      "title": "March Comes In Like a Lion",
-      "year": 2016,
-      "released": null,
-      "firstAired": "2016-10-08",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.965,
-      "votes": 142,
-      "popularity": 139.9335,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 65336
-      }
-    },
-    {
-      "rank": 46,
-      "title": "Raw",
-      "year": 1993,
-      "released": null,
-      "firstAired": "1993-01-11",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.8,
-      "votes": 367,
-      "popularity": 136.9972,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 4656
-      }
-    },
-    {
-      "rank": 47,
-      "title": "Mushoku Tensei: Jobless Reincarnation",
-      "year": 2021,
-      "released": null,
-      "firstAired": "2021-01-11",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.41,
-      "votes": 1674,
-      "popularity": 136.216,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 94664
-      }
-    },
-    {
-      "rank": 48,
-      "title": "Midsomer Murders",
-      "year": 1997,
-      "released": null,
-      "firstAired": "1997-03-23",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.5,
-      "votes": 365,
-      "popularity": 135.2312,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 764
-      }
-    },
-    {
-      "rank": 49,
-      "title": "Dexter",
-      "year": 2006,
-      "released": null,
-      "firstAired": "2006-10-01",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.242,
-      "votes": 5763,
-      "popularity": 130.9023,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1405
-      }
-    },
-    {
-      "rank": 50,
-      "title": "Ascendance of a Bookworm",
-      "year": 2019,
-      "released": null,
-      "firstAired": "2019-10-03",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.078,
-      "votes": 141,
-      "popularity": 130.6513,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 91768
-      }
-    },
-    {
-      "rank": 51,
-      "title": "Doctor Who",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2005-03-26",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.618,
-      "votes": 3432,
-      "popularity": 129.4662,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 57243
-      }
-    },
-    {
-      "rank": 52,
-      "title": "Pelotón",
-      "year": 2007,
-      "released": null,
-      "firstAired": "2007-01-02",
-      "watchers": null,
-      "plays": null,
-      "rating": 9.0,
-      "votes": 1,
-      "popularity": 128.5594,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 31472
-      }
-    },
-    {
-      "rank": 53,
-      "title": "Overflow",
-      "year": 2020,
-      "released": null,
-      "firstAired": "2020-01-06",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.5,
-      "votes": 90,
-      "popularity": 128.0052,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 95897
-      }
-    },
-    {
-      "rank": 54,
-      "title": "The Boys",
-      "year": 2019,
-      "released": null,
-      "firstAired": "2019-07-25",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.437,
-      "votes": 13291,
-      "popularity": 127.1909,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 76479
-      }
-    },
-    {
-      "rank": 55,
-      "title": "1993",
-      "year": 2017,
-      "released": null,
-      "firstAired": "2017-05-16",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.0,
-      "votes": 54,
-      "popularity": 126.179,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 99688
-      }
-    },
-    {
-      "rank": 56,
-      "title": "Our Sticky Love",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-08-07",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.556,
-      "votes": 45,
-      "popularity": 124.6849,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 291496
-      }
-    },
-    {
-      "rank": 57,
-      "title": "Late Show with David Letterman",
-      "year": 1993,
-      "released": null,
-      "firstAired": "1993-08-30",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.421,
-      "votes": 170,
-      "popularity": 124.6702,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 498
-      }
-    },
-    {
-      "rank": 58,
-      "title": "Coronation Street",
-      "year": 1960,
-      "released": null,
-      "firstAired": "1960-12-09",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.373,
-      "votes": 118,
-      "popularity": 124.2227,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 291
-      }
-    },
-    {
-      "rank": 59,
-      "title": "Stranger Things",
-      "year": 2016,
-      "released": null,
-      "firstAired": "2016-07-15",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.555,
-      "votes": 21669,
-      "popularity": 123.951,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 66732
-      }
-    },
-    {
-      "rank": 60,
-      "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...",
-      "year": 2017,
-      "released": null,
-      "firstAired": "2017-04-03",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.3,
-      "votes": 14,
-      "popularity": 123.8814,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 70998
-      }
-    },
-    {
-      "rank": 61,
-      "title": "The Tonight Show Starring Johnny Carson",
-      "year": 1962,
-      "released": null,
-      "firstAired": "1962-10-01",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.538,
-      "votes": 93,
-      "popularity": 122.2148,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 2261
-      }
-    },
-    {
-      "rank": 62,
-      "title": "The Vampire Diaries",
-      "year": 2009,
-      "released": null,
-      "firstAired": "2009-09-10",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.3,
-      "votes": 9716,
-      "popularity": 120.6142,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 18165
-      }
-    },
-    {
-      "rank": 63,
-      "title": "Jornal Nacional",
-      "year": 1969,
-      "released": null,
-      "firstAired": "1969-09-01",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.0,
-      "votes": 7,
-      "popularity": 120.3249,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 16807
-      }
-    },
-    {
-      "rank": 64,
-      "title": "Majhi Manasa",
-      "year": 2022,
-      "released": null,
-      "firstAired": "2022-05-30",
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 119.6611,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 324186
-      }
-    },
-    {
-      "rank": 65,
-      "title": "Vikings",
-      "year": 2013,
-      "released": null,
-      "firstAired": "2013-03-03",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.1,
-      "votes": 7787,
-      "popularity": 119.6452,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 44217
-      }
-    },
-    {
-      "rank": 66,
-      "title": "Regular Show",
-      "year": 2010,
-      "released": null,
-      "firstAired": "2010-09-06",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.636,
-      "votes": 2298,
-      "popularity": 119.4172,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 31132
-      }
-    },
-    {
-      "rank": 67,
-      "title": "Bones",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2005-09-13",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.182,
-      "votes": 3556,
-      "popularity": 118.6759,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1911
-      }
-    },
-    {
-      "rank": 68,
-      "title": "Teen Titans Go!",
-      "year": 2013,
-      "released": null,
-      "firstAired": "2013-04-23",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.438,
-      "votes": 720,
-      "popularity": 118.1613,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 45140
-      }
-    },
-    {
-      "rank": 69,
-      "title": "Goede Tijden, Slechte Tijden",
-      "year": 1990,
-      "released": null,
-      "firstAired": "1990-10-01",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.3,
-      "votes": 21,
-      "popularity": 117.4234,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 11890
-      }
-    },
-    {
-      "rank": 70,
-      "title": "American Dad!",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2005-02-06",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.021,
-      "votes": 2422,
-      "popularity": 117.3643,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1433
-      }
-    },
-    {
-      "rank": 71,
-      "title": "Young Hearts",
-      "year": 1995,
-      "released": null,
-      "firstAired": "1995-04-24",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.3,
-      "votes": 38,
-      "popularity": 117.25,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 14424
-      }
-    },
-    {
-      "rank": 72,
-      "title": "Secret Lives",
-      "year": 1999,
-      "released": null,
-      "firstAired": "1999-01-25",
-      "watchers": null,
-      "plays": null,
-      "rating": 4.217,
-      "votes": 23,
-      "popularity": 115.9622,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 14610
-      }
-    },
-    {
-      "rank": 73,
-      "title": "Bleach",
-      "year": 2004,
-      "released": null,
-      "firstAired": "2004-10-05",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.363,
-      "votes": 2224,
-      "popularity": 115.9162,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 30984
-      }
-    },
-    {
-      "rank": 74,
-      "title": "Sesame Street",
-      "year": 1969,
-      "released": null,
-      "firstAired": "1969-11-10",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.112,
-      "votes": 289,
-      "popularity": 114.8102,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 502
-      }
-    },
-    {
-      "rank": 75,
-      "title": "The Blacklist",
-      "year": 2013,
-      "released": null,
-      "firstAired": "2013-09-23",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.632,
-      "votes": 3681,
-      "popularity": 104.3975,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 46952
-      }
-    },
-    {
-      "rank": 76,
-      "title": "NSFW Show",
-      "year": 2009,
-      "released": null,
-      "firstAired": "2009-11-24",
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 81.194,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 319191
-      }
-    },
-    {
-      "rank": 77,
-      "title": "Hawaii Five-0",
-      "year": 2010,
-      "released": null,
-      "firstAired": "2010-09-20",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.731,
-      "votes": 1894,
-      "popularity": 106.1829,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 32798
-      }
-    },
-    {
-      "rank": 78,
-      "title": "The Sopranos",
-      "year": 1999,
-      "released": null,
-      "firstAired": "1999-01-10",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.675,
-      "votes": 3617,
-      "popularity": 105.847,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1398
-      }
-    },
-    {
-      "rank": 79,
-      "title": "Futurama",
-      "year": 1999,
-      "released": null,
-      "firstAired": "1999-03-28",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.363,
-      "votes": 3855,
-      "popularity": 104.7571,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 615
-      }
-    },
-    {
-      "rank": 80,
-      "title": "One Tree Hill",
-      "year": 2003,
-      "released": null,
-      "firstAired": "2003-09-23",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.8,
-      "votes": 614,
-      "popularity": 89.2374,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 269
-      }
-    },
-    {
-      "rank": 81,
       "title": "Rote Rosen",
       "year": 2006,
       "released": null,
@@ -1560,117 +781,896 @@
       }
     },
     {
-      "rank": 82,
-      "title": "Chicago Fire",
-      "year": 2012,
+      "rank": 41,
+      "title": "Ted Lasso",
+      "year": 2020,
       "released": null,
-      "firstAired": "2012-10-10",
+      "firstAired": "2020-08-14",
       "watchers": null,
       "plays": null,
-      "rating": 8.409,
-      "votes": 2425,
-      "popularity": 103.303,
+      "rating": 8.353,
+      "votes": 2556,
+      "popularity": 147.8624,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 44006
+        "tmdb": 97546
+      }
+    },
+    {
+      "rank": 42,
+      "title": "The Late Show with Stephen Colbert",
+      "year": 2015,
+      "released": null,
+      "firstAired": "2015-09-08",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.069,
+      "votes": 360,
+      "popularity": 145.6703,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 63770
+      }
+    },
+    {
+      "rank": 43,
+      "title": "Shameless",
+      "year": 2011,
+      "released": null,
+      "firstAired": "2011-01-09",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.167,
+      "votes": 3437,
+      "popularity": 143.7105,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 34307
+      }
+    },
+    {
+      "rank": 44,
+      "title": "Tony Awards",
+      "year": 1956,
+      "released": null,
+      "firstAired": "1956-04-01",
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 142.9112,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 318325
+      }
+    },
+    {
+      "rank": 45,
+      "title": "Kamen Rider",
+      "year": 1971,
+      "released": null,
+      "firstAired": "1971-04-03",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.413,
+      "votes": 104,
+      "popularity": 141.7845,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 2661
+      }
+    },
+    {
+      "rank": 46,
+      "title": "Lagnachi Bedi",
+      "year": 2022,
+      "released": null,
+      "firstAired": "2022-01-31",
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 140.6124,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 205142
+      }
+    },
+    {
+      "rank": 47,
+      "title": "Friends",
+      "year": 1994,
+      "released": null,
+      "firstAired": "1994-09-22",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.414,
+      "votes": 9298,
+      "popularity": 140.1796,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1668
+      }
+    },
+    {
+      "rank": 48,
+      "title": "March Comes In Like a Lion",
+      "year": 2016,
+      "released": null,
+      "firstAired": "2016-10-08",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.965,
+      "votes": 142,
+      "popularity": 139.9335,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 65336
+      }
+    },
+    {
+      "rank": 49,
+      "title": "The Walking Dead",
+      "year": 2010,
+      "released": null,
+      "firstAired": "2010-10-31",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.1,
+      "votes": 18089,
+      "popularity": 139.3739,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1402
+      }
+    },
+    {
+      "rank": 50,
+      "title": "CSI: Crime Scene Investigation",
+      "year": 2000,
+      "released": null,
+      "firstAired": "2000-10-06",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.623,
+      "votes": 1416,
+      "popularity": 139.3656,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1431
+      }
+    },
+    {
+      "rank": 51,
+      "title": "Raw",
+      "year": 1993,
+      "released": null,
+      "firstAired": "1993-01-11",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.8,
+      "votes": 367,
+      "popularity": 136.9972,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 4656
+      }
+    },
+    {
+      "rank": 52,
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "year": 2021,
+      "released": null,
+      "firstAired": "2021-01-11",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.41,
+      "votes": 1674,
+      "popularity": 136.216,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 94664
+      }
+    },
+    {
+      "rank": 53,
+      "title": "Midsomer Murders",
+      "year": 1997,
+      "released": null,
+      "firstAired": "1997-03-23",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.5,
+      "votes": 365,
+      "popularity": 135.2312,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 764
+      }
+    },
+    {
+      "rank": 54,
+      "title": "All Elite Wrestling: Dynamite",
+      "year": 2019,
+      "released": null,
+      "firstAired": "2019-10-02",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.0,
+      "votes": 86,
+      "popularity": 134.0632,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 91555
+      }
+    },
+    {
+      "rank": 55,
+      "title": "Dexter",
+      "year": 2006,
+      "released": null,
+      "firstAired": "2006-10-01",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.242,
+      "votes": 5763,
+      "popularity": 130.9023,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1405
+      }
+    },
+    {
+      "rank": 56,
+      "title": "Ascendance of a Bookworm",
+      "year": 2019,
+      "released": null,
+      "firstAired": "2019-10-03",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.078,
+      "votes": 141,
+      "popularity": 130.6513,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 91768
+      }
+    },
+    {
+      "rank": 57,
+      "title": "Doctor Who",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-03-26",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.618,
+      "votes": 3432,
+      "popularity": 129.4662,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 57243
+      }
+    },
+    {
+      "rank": 58,
+      "title": "Pelotón",
+      "year": 2007,
+      "released": null,
+      "firstAired": "2007-01-02",
+      "watchers": null,
+      "plays": null,
+      "rating": 9.0,
+      "votes": 1,
+      "popularity": 128.5594,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 31472
+      }
+    },
+    {
+      "rank": 59,
+      "title": "Overflow",
+      "year": 2020,
+      "released": null,
+      "firstAired": "2020-01-06",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.5,
+      "votes": 90,
+      "popularity": 128.0052,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 95897
+      }
+    },
+    {
+      "rank": 60,
+      "title": "The Boys",
+      "year": 2019,
+      "released": null,
+      "firstAired": "2019-07-25",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.437,
+      "votes": 13291,
+      "popularity": 127.1909,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 76479
+      }
+    },
+    {
+      "rank": 61,
+      "title": "1993",
+      "year": 2017,
+      "released": null,
+      "firstAired": "2017-05-16",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.0,
+      "votes": 54,
+      "popularity": 126.179,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 99688
+      }
+    },
+    {
+      "rank": 62,
+      "title": "Our Sticky Love",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-08-07",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.574,
+      "votes": 47,
+      "popularity": 124.6849,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 291496
+      }
+    },
+    {
+      "rank": 63,
+      "title": "Late Show with David Letterman",
+      "year": 1993,
+      "released": null,
+      "firstAired": "1993-08-30",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.421,
+      "votes": 170,
+      "popularity": 124.6702,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 498
+      }
+    },
+    {
+      "rank": 64,
+      "title": "Coronation Street",
+      "year": 1960,
+      "released": null,
+      "firstAired": "1960-12-09",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.373,
+      "votes": 118,
+      "popularity": 124.2227,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 291
+      }
+    },
+    {
+      "rank": 65,
+      "title": "Stranger Things",
+      "year": 2016,
+      "released": null,
+      "firstAired": "2016-07-15",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.555,
+      "votes": 21670,
+      "popularity": 123.951,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 66732
+      }
+    },
+    {
+      "rank": 66,
+      "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...",
+      "year": 2017,
+      "released": null,
+      "firstAired": "2017-04-03",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.3,
+      "votes": 14,
+      "popularity": 123.8814,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 70998
+      }
+    },
+    {
+      "rank": 67,
+      "title": "The Tonight Show Starring Johnny Carson",
+      "year": 1962,
+      "released": null,
+      "firstAired": "1962-10-01",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.538,
+      "votes": 93,
+      "popularity": 122.2148,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 2261
+      }
+    },
+    {
+      "rank": 68,
+      "title": "The Vampire Diaries",
+      "year": 2009,
+      "released": null,
+      "firstAired": "2009-09-10",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.3,
+      "votes": 9716,
+      "popularity": 120.6142,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 18165
+      }
+    },
+    {
+      "rank": 69,
+      "title": "Jornal Nacional",
+      "year": 1969,
+      "released": null,
+      "firstAired": "1969-09-01",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.0,
+      "votes": 7,
+      "popularity": 120.3249,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 16807
+      }
+    },
+    {
+      "rank": 70,
+      "title": "Majhi Manasa",
+      "year": 2022,
+      "released": null,
+      "firstAired": "2022-05-30",
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 119.6611,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 324186
+      }
+    },
+    {
+      "rank": 71,
+      "title": "Vikings",
+      "year": 2013,
+      "released": null,
+      "firstAired": "2013-03-03",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.1,
+      "votes": 7788,
+      "popularity": 119.6452,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 44217
+      }
+    },
+    {
+      "rank": 72,
+      "title": "Regular Show",
+      "year": 2010,
+      "released": null,
+      "firstAired": "2010-09-06",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.636,
+      "votes": 2298,
+      "popularity": 119.4172,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 31132
+      }
+    },
+    {
+      "rank": 73,
+      "title": "Bones",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-09-13",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.182,
+      "votes": 3557,
+      "popularity": 118.6759,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1911
+      }
+    },
+    {
+      "rank": 74,
+      "title": "Teen Titans Go!",
+      "year": 2013,
+      "released": null,
+      "firstAired": "2013-04-23",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.438,
+      "votes": 720,
+      "popularity": 118.1613,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 45140
+      }
+    },
+    {
+      "rank": 75,
+      "title": "Goede Tijden, Slechte Tijden",
+      "year": 1990,
+      "released": null,
+      "firstAired": "1990-10-01",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.3,
+      "votes": 21,
+      "popularity": 117.4234,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 11890
+      }
+    },
+    {
+      "rank": 76,
+      "title": "American Dad!",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-02-06",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.021,
+      "votes": 2422,
+      "popularity": 117.3643,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1433
+      }
+    },
+    {
+      "rank": 77,
+      "title": "Young Hearts",
+      "year": 1995,
+      "released": null,
+      "firstAired": "1995-04-24",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.3,
+      "votes": 38,
+      "popularity": 117.25,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 14424
+      }
+    },
+    {
+      "rank": 78,
+      "title": "Secret Lives",
+      "year": 1999,
+      "released": null,
+      "firstAired": "1999-01-25",
+      "watchers": null,
+      "plays": null,
+      "rating": 4.217,
+      "votes": 23,
+      "popularity": 115.9622,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 14610
+      }
+    },
+    {
+      "rank": 79,
+      "title": "Bleach",
+      "year": 2004,
+      "released": null,
+      "firstAired": "2004-10-05",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.4,
+      "votes": 2224,
+      "popularity": 115.9162,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 30984
+      }
+    },
+    {
+      "rank": 80,
+      "title": "Sesame Street",
+      "year": 1969,
+      "released": null,
+      "firstAired": "1969-11-10",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.112,
+      "votes": 289,
+      "popularity": 114.8102,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 502
+      }
+    },
+    {
+      "rank": 81,
+      "title": "The Office",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-03-24",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.583,
+      "votes": 5389,
+      "popularity": 114.6102,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 2316
+      }
+    },
+    {
+      "rank": 82,
+      "title": "Smallville",
+      "year": 2001,
+      "released": null,
+      "firstAired": "2001-10-16",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.2,
+      "votes": 4564,
+      "popularity": 114.2562,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 4604
       }
     },
     {
       "rank": 83,
-      "title": "Lost",
-      "year": 2004,
+      "title": "Doraemon",
+      "year": 2005,
       "released": null,
-      "firstAired": "2004-09-22",
+      "firstAired": "2005-04-22",
       "watchers": null,
       "plays": null,
-      "rating": 7.962,
-      "votes": 5241,
-      "popularity": 100.7058,
+      "rating": 8.1,
+      "votes": 239,
+      "popularity": 113.7236,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 4607
+        "tmdb": 65733
       }
     },
     {
       "rank": 84,
-      "title": "Lucky",
-      "year": 2026,
+      "title": "Mais Você",
+      "year": 1999,
       "released": null,
-      "firstAired": "2026-07-14",
+      "firstAired": "1999-10-18",
       "watchers": null,
       "plays": null,
-      "rating": 7.306,
-      "votes": 147,
-      "popularity": 100.6323,
+      "rating": 6.3,
+      "votes": 3,
+      "popularity": 112.6205,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 278624
+        "tmdb": 45768
       }
     },
     {
       "rank": 85,
-      "title": "Prison Break",
-      "year": 2005,
+      "title": "Match of the Day",
+      "year": 1964,
       "released": null,
-      "firstAired": "2005-08-29",
+      "firstAired": "1964-08-22",
       "watchers": null,
       "plays": null,
-      "rating": 8.065,
-      "votes": 6101,
-      "popularity": 97.1393,
+      "rating": 7.647,
+      "votes": 51,
+      "popularity": 111.8864,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 2288
+        "tmdb": 224
       }
     },
     {
       "rank": 86,
-      "title": "PAW Patrol",
-      "year": 2013,
+      "title": "Yellowstone",
+      "year": 2018,
       "released": null,
-      "firstAired": "2013-08-12",
+      "firstAired": "2018-06-20",
       "watchers": null,
       "plays": null,
-      "rating": 6.988,
-      "votes": 816,
-      "popularity": 105.0469,
+      "rating": 8.266,
+      "votes": 3286,
+      "popularity": 111.296,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 57532
+        "tmdb": 73586
       }
     },
     {
       "rank": 87,
-      "title": "King of the Hill",
-      "year": 1997,
+      "title": "Gute Zeiten, schlechte Zeiten",
+      "year": 1992,
       "released": null,
-      "firstAired": "1997-01-12",
+      "firstAired": "1992-05-11",
       "watchers": null,
       "plays": null,
-      "rating": 7.413,
-      "votes": 687,
-      "popularity": 91.1671,
+      "rating": 5.49,
+      "votes": 49,
+      "popularity": 110.5905,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 2122
+        "tmdb": 13945
       }
     },
     {
@@ -1694,230 +1694,230 @@
     },
     {
       "rank": 89,
-      "title": "A Shop for Killers",
-      "year": 2024,
+      "title": "The Flash",
+      "year": 2014,
       "released": null,
-      "firstAired": "2024-01-17",
+      "firstAired": "2014-10-07",
       "watchers": null,
       "plays": null,
-      "rating": 8.4,
-      "votes": 220,
-      "popularity": 95.7437,
+      "rating": 7.75,
+      "votes": 11737,
+      "popularity": 108.8852,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 215072
+        "tmdb": 60735
       }
     },
     {
       "rank": 90,
-      "title": "Çarəsiz",
+      "title": "Quiet Please!",
       "year": 2025,
       "released": null,
-      "firstAired": "2025-10-27",
+      "firstAired": "2025-09-02",
       "watchers": null,
       "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 90.4322,
+      "rating": 7.688,
+      "votes": 16,
+      "popularity": 108.435,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 305222
+        "tmdb": 299989
       }
     },
     {
       "rank": 91,
-      "title": "South Park",
-      "year": 1997,
+      "title": "Entrée principale",
+      "year": 2013,
       "released": null,
-      "firstAired": "1997-08-13",
+      "firstAired": "2013-09-09",
       "watchers": null,
       "plays": null,
-      "rating": 8.337,
-      "votes": 5094,
-      "popularity": 96.9385,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 106.6804,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 2190
+        "tmdb": 85791
       }
     },
     {
       "rank": 92,
-      "title": "Rugrats",
-      "year": 1991,
+      "title": "Hawaii Five-0",
+      "year": 2010,
       "released": null,
-      "firstAired": "1991-08-11",
+      "firstAired": "2010-09-20",
       "watchers": null,
       "plays": null,
-      "rating": 7.609,
-      "votes": 764,
-      "popularity": 88.9666,
+      "rating": 7.73,
+      "votes": 1895,
+      "popularity": 106.1829,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 3022
+        "tmdb": 32798
       }
     },
     {
       "rank": 93,
-      "title": "Re:ZERO -Starting Life in Another World-",
-      "year": 2016,
+      "title": "The Good Wife",
+      "year": 2009,
       "released": null,
-      "firstAired": "2016-04-04",
+      "firstAired": "2009-09-22",
       "watchers": null,
       "plays": null,
-      "rating": 8.1,
-      "votes": 756,
-      "popularity": 96.9862,
+      "rating": 7.619,
+      "votes": 697,
+      "popularity": 106.012,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 65942
+        "tmdb": 1435
       }
     },
     {
       "rank": 94,
-      "title": "S.W.A.T.",
-      "year": 2017,
+      "title": "The Sopranos",
+      "year": 1999,
       "released": null,
-      "firstAired": "2017-11-02",
+      "firstAired": "1999-01-10",
       "watchers": null,
       "plays": null,
-      "rating": 8.04,
-      "votes": 1591,
-      "popularity": 83.3752,
+      "rating": 8.675,
+      "votes": 3618,
+      "popularity": 105.847,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 71790
+        "tmdb": 1398
       }
     },
     {
       "rank": 95,
-      "title": "Law & Order: Criminal Intent",
-      "year": 2001,
+      "title": "Altas Horas",
+      "year": 2000,
       "released": null,
-      "firstAired": "2001-09-30",
+      "firstAired": "2000-10-14",
       "watchers": null,
       "plays": null,
-      "rating": 7.6,
-      "votes": 380,
-      "popularity": 87.6301,
+      "rating": 8.0,
+      "votes": 2,
+      "popularity": 105.5257,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 4601
+        "tmdb": 123087
       }
     },
     {
       "rank": 96,
-      "title": "Kangxi Coming",
-      "year": 2004,
+      "title": "Adventure Time",
+      "year": 2010,
       "released": null,
-      "firstAired": "2004-01-05",
+      "firstAired": "2010-04-05",
       "watchers": null,
       "plays": null,
-      "rating": 7.7,
-      "votes": 3,
-      "popularity": 89.1892,
+      "rating": 8.5,
+      "votes": 3184,
+      "popularity": 105.226,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 6836
+        "tmdb": 15260
       }
     },
     {
       "rank": 97,
-      "title": "American Horror Story",
-      "year": 2011,
+      "title": "PAW Patrol",
+      "year": 2013,
       "released": null,
-      "firstAired": "2011-10-05",
+      "firstAired": "2013-08-12",
       "watchers": null,
       "plays": null,
-      "rating": 8.076,
-      "votes": 6132,
-      "popularity": 93.7985,
+      "rating": 6.988,
+      "votes": 816,
+      "popularity": 105.0469,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1413
+        "tmdb": 57532
       }
     },
     {
       "rank": 98,
-      "title": "Desperate Housewives",
-      "year": 2004,
+      "title": "Futurama",
+      "year": 1999,
       "released": null,
-      "firstAired": "2004-10-03",
+      "firstAired": "1999-03-28",
       "watchers": null,
       "plays": null,
-      "rating": 7.891,
-      "votes": 2115,
-      "popularity": 95.864,
+      "rating": 8.363,
+      "votes": 3855,
+      "popularity": 104.7571,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 693
+        "tmdb": 615
       }
     },
     {
       "rank": 99,
-      "title": "Come Home Love: Lo and Behold",
-      "year": 2017,
+      "title": "Sister-in-Law Is at Home!",
+      "year": 2015,
       "released": null,
-      "firstAired": "2017-02-20",
+      "firstAired": "2015-03-02",
       "watchers": null,
       "plays": null,
-      "rating": 5.4,
-      "votes": 46,
-      "popularity": 90.0374,
+      "rating": 5.6,
+      "votes": 8,
+      "popularity": 104.4671,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 91759
+        "tmdb": 65682
       }
     },
     {
       "rank": 100,
-      "title": "Ulice",
-      "year": 2005,
+      "title": "The Blacklist",
+      "year": 2013,
       "released": null,
-      "firstAired": "2005-09-05",
+      "firstAired": "2013-09-23",
       "watchers": null,
       "plays": null,
-      "rating": 4.8,
-      "votes": 36,
-      "popularity": 95.1791,
+      "rating": 7.632,
+      "votes": 3682,
+      "popularity": 104.3975,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 36361
+        "tmdb": 46952
       }
     }
   ]
