@@ -1,14 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatorVersion": "1.2.1",
-  "provider": "trakt",
-  "rankingType": "trakt_official",
-  "algorithm": null,
+  "generatorVersion": "2.0.0",
+  "provider": "tmdb",
+  "rankingType": "pintu_composite",
+  "algorithm": "tmdb_official_popular_v1",
   "source": {
-    "provider": "trakt",
+    "provider": "tmdb",
     "type": "official",
-    "endpoint": "movies/popular",
-    "period": null
+    "endpoint": "/movie/popular"
   },
   "quality": {
     "candidates": 100,
@@ -16,1809 +15,1909 @@
   },
   "mediaType": "movie",
   "section": "popular",
-  "generatedAt": "2026-07-30T16:01:19Z",
+  "generatedAt": "2026-08-18T14:37:18Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 43200,
   "itemCount": 100,
   "items": [
     {
       "rank": 1,
-      "title": "Project Hail Mary",
+      "title": "Spider-Man: Brand New Day",
       "year": 2026,
-      "released": "2026-03-20",
+      "released": "2026-07-29",
       "firstAired": null,
-      "watchers": 671,
+      "watchers": null,
       "plays": null,
-      "rating": 8.764227867126465,
-      "votes": 41748,
+      "rating": 7.878,
+      "votes": 1871,
+      "popularity": 1911.7361,
       "score": null,
       "ids": {
-        "trakt": 531178,
-        "slug": "project-hail-mary-2026",
-        "imdb": "tt12042730",
-        "tmdb": 687163
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 969681
       }
     },
     {
       "rank": 2,
-      "title": "Obsession",
+      "title": "The Odyssey",
       "year": 2026,
-      "released": "2026-05-15",
+      "released": "2026-07-15",
       "firstAired": null,
-      "watchers": 1011,
+      "watchers": null,
       "plays": null,
-      "rating": 8.290663719177246,
-      "votes": 25459,
+      "rating": 7.994,
+      "votes": 2883,
+      "popularity": 850.2382,
       "score": null,
       "ids": {
-        "trakt": 1095879,
-        "slug": "obsession-2026",
-        "imdb": "tt37287335",
-        "tmdb": 1339713
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1368337
       }
     },
     {
       "rank": 3,
-      "title": "The Housemaid",
-      "year": 2025,
-      "released": "2025-12-19",
+      "title": "Spider-Man: No Way Home",
+      "year": 2021,
+      "released": "2021-12-15",
       "firstAired": null,
-      "watchers": 166,
+      "watchers": null,
       "plays": null,
-      "rating": 7.558032035827637,
-      "votes": 22298,
+      "rating": 7.941,
+      "votes": 22728,
+      "popularity": 493.506,
       "score": null,
       "ids": {
-        "trakt": 1117195,
-        "slug": "the-housemaid-2025",
-        "imdb": "tt27543632",
-        "tmdb": 1368166
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 634649
       }
     },
     {
       "rank": 4,
-      "title": "Zootopia 2",
-      "year": 2025,
-      "released": "2025-11-26",
+      "title": "Minions & Monsters",
+      "year": 2026,
+      "released": "2026-06-24",
       "firstAired": null,
-      "watchers": 158,
+      "watchers": null,
       "plays": null,
-      "rating": 8.212432861328125,
-      "votes": 20397,
+      "rating": 7.491,
+      "votes": 721,
+      "popularity": 319.7902,
       "score": null,
       "ids": {
-        "trakt": 871499,
-        "slug": "zootopia-2-2025",
-        "imdb": "tt26443597",
-        "tmdb": 1084242
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1315772
       }
     },
     {
       "rank": 5,
-      "title": "Avatar: Fire and Ash",
-      "year": 2025,
-      "released": "2025-12-19",
+      "title": "The Last House",
+      "year": 2026,
+      "released": "2026-08-06",
       "firstAired": null,
-      "watchers": 185,
+      "watchers": null,
       "plays": null,
-      "rating": 7.899176597595215,
-      "votes": 21612,
+      "rating": 6.932,
+      "votes": 831,
+      "popularity": 259.0706,
       "score": null,
       "ids": {
-        "trakt": 62544,
-        "slug": "avatar-fire-and-ash-2025",
-        "imdb": "tt1757678",
-        "tmdb": 83533
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1284041
       }
     },
     {
       "rank": 6,
-      "title": "The Super Mario Galaxy Movie",
+      "title": "Rage of Stars",
       "year": 2026,
-      "released": "2026-04-01",
+      "released": "2026-08-06",
       "firstAired": null,
-      "watchers": 200,
+      "watchers": null,
       "plays": null,
-      "rating": 7.389927864074707,
-      "votes": 11497,
+      "rating": 4.25,
+      "votes": 4,
+      "popularity": 321.2596,
       "score": null,
       "ids": {
-        "trakt": 991429,
-        "slug": "the-super-mario-galaxy-movie-2026",
-        "imdb": "tt28650488",
-        "tmdb": 1226863
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1323244
       }
     },
     {
       "rank": 7,
-      "title": "Michael",
+      "title": "Toy Story 5",
       "year": 2026,
-      "released": "2026-04-24",
+      "released": "2026-06-17",
       "firstAired": null,
-      "watchers": 311,
+      "watchers": null,
       "plays": null,
-      "rating": 8.147323608398438,
-      "votes": 15863,
+      "rating": 7.469,
+      "votes": 862,
+      "popularity": 266.4324,
       "score": null,
       "ids": {
-        "trakt": 751145,
-        "slug": "michael-2026",
-        "imdb": "tt11378946",
-        "tmdb": 936075
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1084244
       }
     },
     {
       "rank": 8,
-      "title": "Predator: Badlands",
-      "year": 2025,
-      "released": "2025-11-07",
+      "title": "Obsession",
+      "year": 2026,
+      "released": "2026-05-13",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.640334606170654,
-      "votes": 17811,
+      "rating": 8.226,
+      "votes": 4804,
+      "popularity": 248.7667,
       "score": null,
       "ids": {
-        "trakt": 1006226,
-        "slug": "predator-badlands-2025",
-        "imdb": "tt31227572",
-        "tmdb": 1242898
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1339713
       }
     },
     {
       "rank": 9,
-      "title": "One Battle After Another",
-      "year": 2025,
-      "released": "2025-09-26",
+      "title": "Colony",
+      "year": 2026,
+      "released": "2026-05-21",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.564510822296143,
-      "votes": 25298,
+      "rating": 8.112,
+      "votes": 529,
+      "popularity": 319.5228,
       "score": null,
       "ids": {
-        "trakt": 848797,
-        "slug": "one-battle-after-another-2025",
-        "imdb": "tt30144839",
-        "tmdb": 1054867
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1375646
       }
     },
     {
       "rank": 10,
-      "title": "Wake Up Dead Man: A Knives Out Mystery",
-      "year": 2025,
-      "released": "2025-11-26",
+      "title": "The Death of Robin Hood",
+      "year": 2026,
+      "released": "2026-06-18",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.782643795013428,
-      "votes": 22286,
+      "rating": 6.293,
+      "votes": 225,
+      "popularity": 231.8508,
       "score": null,
       "ids": {
-        "trakt": 646497,
-        "slug": "wake-up-dead-man-a-knives-out-mystery-2025",
-        "imdb": "tt14364480",
-        "tmdb": 812583
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1284465
       }
     },
     {
       "rank": 11,
-      "title": "Weapons",
+      "title": "The End of Oak Street",
+      "year": 2026,
+      "released": "2026-08-12",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.682,
+      "votes": 206,
+      "popularity": 230.9838,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1101383
+      }
+    },
+    {
+      "rank": 12,
+      "title": "Moana",
+      "year": 2026,
+      "released": "2026-07-08",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.025,
+      "votes": 198,
+      "popularity": 191.637,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1108427
+      }
+    },
+    {
+      "rank": 13,
+      "title": "Disclosure Day",
+      "year": 2026,
+      "released": "2026-06-10",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.455,
+      "votes": 2861,
+      "popularity": 188.7958,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1275779
+      }
+    },
+    {
+      "rank": 14,
+      "title": "Evil Dead Burn",
+      "year": 2026,
+      "released": "2026-07-07",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.869,
+      "votes": 1156,
+      "popularity": 197.2357,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1212763
+      }
+    },
+    {
+      "rank": 15,
+      "title": "Supergirl",
+      "year": 2026,
+      "released": "2026-06-24",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.745,
+      "votes": 1922,
+      "popularity": 153.1189,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1081003
+      }
+    },
+    {
+      "rank": 16,
+      "title": "Spider-Man: Homecoming",
+      "year": 2017,
+      "released": "2017-07-05",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.333,
+      "votes": 23673,
+      "popularity": 141.0317,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 315635
+      }
+    },
+    {
+      "rank": 17,
+      "title": "Soulm8te",
+      "year": 2026,
+      "released": "2026-07-31",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.217,
+      "votes": 189,
+      "popularity": 140.1761,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1307118
+      }
+    },
+    {
+      "rank": 18,
+      "title": "Scary Movie",
+      "year": 2026,
+      "released": "2026-06-03",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.438,
+      "votes": 1658,
+      "popularity": 136.6588,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1273221
+      }
+    },
+    {
+      "rank": 19,
+      "title": "Backrooms",
+      "year": 2026,
+      "released": "2026-05-27",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.1,
+      "votes": 2830,
+      "popularity": 138.8061,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1083381
+      }
+    },
+    {
+      "rank": 20,
+      "title": "Hotel Desire",
+      "year": 2011,
+      "released": "2011-12-07",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.172,
+      "votes": 154,
+      "popularity": 135.6525,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 82023
+      }
+    },
+    {
+      "rank": 21,
+      "title": "The Devil's Mouth",
+      "year": 2026,
+      "released": "2026-07-29",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.61,
+      "votes": 640,
+      "popularity": 121.8589,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1481343
+      }
+    },
+    {
+      "rank": 22,
+      "title": "The Invite",
+      "year": 2026,
+      "released": "2026-06-25",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.394,
+      "votes": 260,
+      "popularity": 114.565,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 950028
+      }
+    },
+    {
+      "rank": 23,
+      "title": "Project Hail Mary",
+      "year": 2026,
+      "released": "2026-03-15",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.653,
+      "votes": 7139,
+      "popularity": 130.9531,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 687163
+      }
+    },
+    {
+      "rank": 24,
+      "title": "Avatar Aang: The Last Airbender",
+      "year": 2026,
+      "released": "2026-07-24",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 9.233,
+      "votes": 887,
+      "popularity": 119.6582,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 980431
+      }
+    },
+    {
+      "rank": 25,
+      "title": "Spider-Man",
+      "year": 2002,
+      "released": "2002-05-01",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.3,
+      "votes": 21167,
+      "popularity": 104.8337,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 557
+      }
+    },
+    {
+      "rank": 26,
+      "title": "仙逆剧场版 弑仙之战",
+      "year": null,
+      "released": null,
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 96.8994,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1599191
+      }
+    },
+    {
+      "rank": 27,
+      "title": "Masters of the Universe",
+      "year": 2026,
+      "released": "2026-06-03",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.181,
+      "votes": 1855,
+      "popularity": 111.6654,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 454639
+      }
+    },
+    {
+      "rank": 28,
+      "title": "Lucky Strike",
+      "year": 2026,
+      "released": "2026-06-26",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.333,
+      "votes": 30,
+      "popularity": 103.914,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1594914
+      }
+    },
+    {
+      "rank": 29,
+      "title": "The Odyssey",
+      "year": 2026,
+      "released": "2026-07-03",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 4.054,
+      "votes": 231,
+      "popularity": 116.2141,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1698863
+      }
+    },
+    {
+      "rank": 30,
+      "title": "Your Heart Will Be Broken",
+      "year": 2026,
+      "released": "2026-03-26",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.124,
+      "votes": 121,
+      "popularity": 107.9143,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1523145
+      }
+    },
+    {
+      "rank": 31,
+      "title": "Avengers: Doomsday",
+      "year": 2026,
+      "released": "2026-12-16",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 112.1566,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1003596
+      }
+    },
+    {
+      "rank": 32,
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "year": 2025,
+      "released": "2025-07-18",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.725,
+      "votes": 1870,
+      "popularity": 97.2507,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1311031
+      }
+    },
+    {
+      "rank": 33,
+      "title": "Leviticus",
+      "year": 2026,
+      "released": "2026-06-17",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.8,
+      "votes": 366,
+      "popularity": 102.2105,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1564614
+      }
+    },
+    {
+      "rank": 34,
+      "title": "The Furious",
+      "year": 2026,
+      "released": "2026-06-10",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.058,
+      "votes": 546,
+      "popularity": 88.5348,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1280738
+      }
+    },
+    {
+      "rank": 35,
+      "title": "Jackass: Best and Last",
+      "year": 2026,
+      "released": "2026-06-25",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.5,
+      "votes": 157,
+      "popularity": 112.7685,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1612018
+      }
+    },
+    {
+      "rank": 36,
+      "title": "Michael",
+      "year": 2026,
+      "released": "2026-04-22",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.676,
+      "votes": 4066,
+      "popularity": 87.0547,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 936075
+      }
+    },
+    {
+      "rank": 37,
+      "title": "Borderline",
+      "year": 2026,
+      "released": "2026-07-17",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 5.536,
+      "votes": 14,
+      "popularity": 85.1296,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1727780
+      }
+    },
+    {
+      "rank": 38,
+      "title": "Vixen!",
+      "year": 1968,
+      "released": "1968-10-15",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 5.486,
+      "votes": 108,
+      "popularity": 79.2167,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 5721
+      }
+    },
+    {
+      "rank": 39,
+      "title": "The Debt Collector",
+      "year": 2026,
+      "released": "2026-07-20",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.958,
+      "votes": 106,
+      "popularity": 81.4365,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1630409
+      }
+    },
+    {
+      "rank": 40,
+      "title": "The Devil Wears Prada 2",
+      "year": 2026,
+      "released": "2026-04-29",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.071,
+      "votes": 2103,
+      "popularity": 83.8753,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1314481
+      }
+    },
+    {
+      "rank": 41,
+      "title": "From Straight A's to XXX",
+      "year": 2017,
+      "released": "2017-02-11",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 5.9,
+      "votes": 167,
+      "popularity": 84.6188,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 441168
+      }
+    },
+    {
+      "rank": 42,
+      "title": "Camp Rock 3",
+      "year": 2026,
+      "released": "2026-08-13",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.276,
+      "votes": 58,
+      "popularity": 82.8828,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1493400
+      }
+    },
+    {
+      "rank": 43,
+      "title": "Spider-Man: Far From Home",
+      "year": 2019,
+      "released": "2019-06-28",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.394,
+      "votes": 17416,
+      "popularity": 75.8974,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 429617
+      }
+    },
+    {
+      "rank": 44,
+      "title": "War of the Worlds",
+      "year": 2025,
+      "released": "2025-07-29",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 4.1,
+      "votes": 1080,
+      "popularity": 81.5139,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 755898
+      }
+    },
+    {
+      "rank": 45,
+      "title": "The Amazing Spider-Man",
+      "year": 2012,
+      "released": "2012-06-23",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.753,
+      "votes": 18918,
+      "popularity": 80.0699,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1930
+      }
+    },
+    {
+      "rank": 46,
+      "title": "Vishwanath & Sons",
+      "year": 2026,
+      "released": "2026-08-14",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.7,
+      "votes": 6,
+      "popularity": 78.1235,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1408162
+      }
+    },
+    {
+      "rank": 47,
+      "title": "The Avengers",
+      "year": 2012,
+      "released": "2012-04-25",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.067,
+      "votes": 39277,
+      "popularity": 77.5842,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 24428
+      }
+    },
+    {
+      "rank": 48,
+      "title": "The Priest: Thanksgiving Massacre",
       "year": 2025,
       "released": "2025-08-08",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.399648189544678,
-      "votes": 28425,
+      "rating": 3.481,
+      "votes": 54,
+      "popularity": 77.3694,
       "score": null,
       "ids": {
-        "trakt": 867094,
-        "slug": "weapons-2025",
-        "imdb": "tt26581740",
-        "tmdb": 1078605
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1569947
       }
     },
     {
-      "rank": 12,
-      "title": "Send Help",
+      "rank": 49,
+      "title": "Kraken",
       "year": 2026,
-      "released": "2026-01-30",
+      "released": "2026-02-06",
       "firstAired": null,
-      "watchers": 1183,
+      "watchers": null,
       "plays": null,
-      "rating": 7.01846170425415,
-      "votes": 14950,
+      "rating": 6.248,
+      "votes": 278,
+      "popularity": 77.2587,
       "score": null,
       "ids": {
-        "trakt": 967810,
-        "slug": "send-help-2026",
-        "imdb": "tt8036976",
-        "tmdb": 1198994
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1110034
       }
     },
     {
-      "rank": 13,
-      "title": "Now You See Me: Now You Don't",
+      "rank": 50,
+      "title": "Deep Water",
+      "year": 2026,
+      "released": "2026-04-30",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.146,
+      "votes": 402,
+      "popularity": 76.1066,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1127384
+      }
+    },
+    {
+      "rank": 51,
+      "title": "Zootopia 2",
       "year": 2025,
-      "released": "2025-11-14",
+      "released": "2025-11-26",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.905336380004883,
-      "votes": 14504,
+      "rating": 7.683,
+      "votes": 3279,
+      "popularity": 74.8041,
       "score": null,
       "ids": {
-        "trakt": 292275,
-        "slug": "now-you-see-me-now-you-don-t-2025",
-        "imdb": "tt4712810",
-        "tmdb": 425274
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1084242
       }
     },
     {
-      "rank": 14,
-      "title": "Mortal Kombat II",
-      "year": 2026,
-      "released": "2026-05-08",
-      "firstAired": null,
-      "watchers": 386,
-      "plays": null,
-      "rating": 6.862115859985352,
-      "votes": 10313,
-      "score": null,
-      "ids": {
-        "trakt": 746852,
-        "slug": "mortal-kombat-ii-2026",
-        "imdb": "tt17490712",
-        "tmdb": 931285
-      }
-    },
-    {
-      "rank": 15,
-      "title": "War Machine",
-      "year": 2026,
-      "released": "2026-02-12",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.180199146270752,
-      "votes": 13252,
-      "score": null,
-      "ids": {
-        "trakt": 1026879,
-        "slug": "war-machine-2026",
-        "imdb": "tt15940132",
-        "tmdb": 1265609
-      }
-    },
-    {
-      "rank": 16,
-      "title": "Hoppers",
-      "year": 2026,
-      "released": "2026-03-06",
-      "firstAired": null,
-      "watchers": 1410,
-      "plays": null,
-      "rating": 7.95026159286499,
-      "votes": 10897,
-      "score": null,
-      "ids": {
-        "trakt": 1085761,
-        "slug": "hoppers-2026",
-        "imdb": "tt26443616",
-        "tmdb": 1327819
-      }
-    },
-    {
-      "rank": 17,
-      "title": "The Running Man",
-      "year": 2025,
-      "released": "2025-11-14",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.9226603507995605,
-      "votes": 13848,
-      "score": null,
-      "ids": {
-        "trakt": 633799,
-        "slug": "the-running-man-2025",
-        "imdb": "tt14107334",
-        "tmdb": 798645
-      }
-    },
-    {
-      "rank": 18,
-      "title": "Backrooms",
-      "year": 2026,
-      "released": "2026-05-29",
-      "firstAired": null,
-      "watchers": 772,
-      "plays": null,
-      "rating": 6.834722995758057,
-      "votes": 12954,
-      "score": null,
-      "ids": {
-        "trakt": 870815,
-        "slug": "backrooms-2026",
-        "imdb": "tt26657236",
-        "tmdb": 1083381
-      }
-    },
-    {
-      "rank": 19,
+      "rank": 52,
       "title": "The Punisher: One Last Kill",
       "year": 2026,
       "released": "2026-05-12",
       "firstAired": null,
-      "watchers": 290,
+      "watchers": null,
       "plays": null,
-      "rating": 7.521895885467529,
-      "votes": 10824,
+      "rating": 8.294,
+      "votes": 2080,
+      "popularity": 73.891,
       "score": null,
       "ids": {
-        "trakt": 1178309,
-        "slug": "the-punisher-one-last-kill-2026",
-        "imdb": "tt36042156",
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
         "tmdb": 1439930
       }
     },
     {
-      "rank": 20,
-      "title": "Mercy",
-      "year": 2026,
-      "released": "2026-01-23",
+      "rank": 53,
+      "title": "Country Hooker",
+      "year": 1974,
+      "released": "1974-10-04",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.082136154174805,
-      "votes": 11834,
+      "rating": 4.2,
+      "votes": 6,
+      "popularity": 73.6475,
       "score": null,
       "ids": {
-        "trakt": 1000015,
-        "slug": "mercy-2026",
-        "imdb": "tt31050594",
-        "tmdb": 1236153
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 89657
       }
     },
     {
-      "rank": 21,
-      "title": "The Devil Wears Prada 2",
-      "year": 2026,
-      "released": "2026-05-01",
+      "rank": 54,
+      "title": "Interstellar",
+      "year": 2014,
+      "released": "2014-11-05",
       "firstAired": null,
-      "watchers": 824,
+      "watchers": null,
       "plays": null,
-      "rating": 7.424561023712158,
-      "votes": 12182,
+      "rating": 8.485,
+      "votes": 40792,
+      "popularity": 71.6931,
       "score": null,
       "ids": {
-        "trakt": 1074519,
-        "slug": "the-devil-wears-prada-2-2026",
-        "imdb": "tt33612209",
-        "tmdb": 1314481
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 157336
       }
     },
     {
-      "rank": 22,
-      "title": "Frankenstein",
+      "rank": 55,
+      "title": "Desire",
+      "year": 2026,
+      "released": "2026-05-07",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.7,
+      "votes": 227,
+      "popularity": 71.0833,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1668364
+      }
+    },
+    {
+      "rank": 56,
+      "title": "Shape of My Heart",
+      "year": 2024,
+      "released": "2024-07-06",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.2,
+      "votes": 4,
+      "popularity": 69.9531,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1285366
+      }
+    },
+    {
+      "rank": 57,
+      "title": "The Dollmaker",
       "year": 2025,
-      "released": "2025-10-17",
+      "released": "2025-10-11",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.891224384307861,
-      "votes": 23314,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 69.6309,
       "score": null,
       "ids": {
-        "trakt": 854887,
-        "slug": "frankenstein-2025",
-        "imdb": "tt1312221",
-        "tmdb": 1062722
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1193950
       }
     },
     {
-      "rank": 23,
-      "title": "Disclosure Day",
-      "year": 2026,
-      "released": "2026-06-12",
-      "firstAired": null,
-      "watchers": 1741,
-      "plays": null,
-      "rating": 7.094089031219482,
-      "votes": 12350,
-      "score": null,
-      "ids": {
-        "trakt": 1036433,
-        "slug": "disclosure-day-2026",
-        "imdb": "tt15047880",
-        "tmdb": 1275779
-      }
-    },
-    {
-      "rank": 24,
-      "title": "The Rip",
-      "year": 2026,
-      "released": "2026-01-16",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.402947425842285,
-      "votes": 13096,
-      "score": null,
-      "ids": {
-        "trakt": 1065701,
-        "slug": "the-rip-2026",
-        "imdb": "tt32642706",
-        "tmdb": 1306368
-      }
-    },
-    {
-      "rank": 25,
-      "title": "Apex",
-      "year": 2026,
-      "released": "2026-04-24",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.731592655181885,
-      "votes": 10648,
-      "score": null,
-      "ids": {
-        "trakt": 1077748,
-        "slug": "apex-2026",
-        "imdb": "tt16431404",
-        "tmdb": 1318447
-      }
-    },
-    {
-      "rank": 26,
-      "title": "Bugonia",
+      "rank": 58,
+      "title": "Avatar: Fire and Ash",
       "year": 2025,
-      "released": "2025-10-24",
+      "released": "2025-12-17",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.453779220581055,
-      "votes": 15307,
+      "rating": 7.647,
+      "votes": 4148,
+      "popularity": 87.3611,
       "score": null,
       "ids": {
-        "trakt": 545111,
-        "slug": "bugonia-2025",
-        "imdb": "tt12300742",
-        "tmdb": 701387
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 83533
       }
     },
     {
-      "rank": 27,
-      "title": "Crime 101",
-      "year": 2026,
-      "released": "2026-02-11",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.072038650512695,
-      "votes": 9481,
-      "score": null,
-      "ids": {
-        "trakt": 944042,
-        "slug": "crime-101-2026",
-        "imdb": "tt32430579",
-        "tmdb": 1171145
-      }
-    },
-    {
-      "rank": 28,
-      "title": "Nobody 2",
+      "rank": 59,
+      "title": "Captain America: Brave New World",
       "year": 2025,
-      "released": "2025-08-15",
+      "released": "2025-02-12",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.986270904541016,
-      "votes": 14859,
+      "rating": 5.951,
+      "votes": 3286,
+      "popularity": 62.1233,
       "score": null,
       "ids": {
-        "trakt": 810123,
-        "slug": "nobody-2-2025",
-        "imdb": "tt28996126",
-        "tmdb": 1007734
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 822119
       }
     },
     {
-      "rank": 29,
-      "title": "Marty Supreme",
-      "year": 2025,
-      "released": "2025-12-19",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.623333930969238,
-      "votes": 12831,
-      "score": null,
-      "ids": {
-        "trakt": 1076665,
-        "slug": "marty-supreme-2025",
-        "imdb": "tt32916440",
-        "tmdb": 1317288
-      }
-    },
-    {
-      "rank": 30,
-      "title": "Shelter",
-      "year": 2026,
-      "released": "2026-01-30",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.959761142730713,
-      "votes": 7207,
-      "score": null,
-      "ids": {
-        "trakt": 1050424,
-        "slug": "shelter-2026",
-        "imdb": "tt32357218",
-        "tmdb": 1290821
-      }
-    },
-    {
-      "rank": 31,
-      "title": "Masters of the Universe",
-      "year": 2026,
-      "released": "2026-06-05",
-      "firstAired": null,
-      "watchers": 1206,
-      "plays": null,
-      "rating": 7.070819854736328,
-      "votes": 9150,
-      "score": null,
-      "ids": {
-        "trakt": 306815,
-        "slug": "masters-of-the-universe-2026",
-        "imdb": "tt0427340",
-        "tmdb": 454639
-      }
-    },
-    {
-      "rank": 32,
-      "title": "Greenland 2: Migration",
-      "year": 2026,
-      "released": "2026-01-09",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.0486555099487305,
-      "votes": 8776,
-      "score": null,
-      "ids": {
-        "trakt": 671151,
-        "slug": "greenland-2-migration-2026",
-        "imdb": "tt14850054",
-        "tmdb": 840464
-      }
-    },
-    {
-      "rank": 33,
-      "title": "Anaconda",
-      "year": 2025,
-      "released": "2025-12-25",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.022301197052002,
-      "votes": 9820,
-      "score": null,
-      "ids": {
-        "trakt": 998723,
-        "slug": "anaconda-2025",
-        "imdb": "tt33244668",
-        "tmdb": 1234731
-      }
-    },
-    {
-      "rank": 34,
-      "title": "The Wrecking Crew",
-      "year": 2026,
-      "released": "2026-01-28",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.1440863609313965,
-      "votes": 7787,
-      "score": null,
-      "ids": {
-        "trakt": 941438,
-        "slug": "the-wrecking-crew-2026",
-        "imdb": "tt33046197",
-        "tmdb": 1168190
-      }
-    },
-    {
-      "rank": 35,
-      "title": "The Naked Gun",
-      "year": 2025,
-      "released": "2025-08-01",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.443273544311523,
-      "votes": 13662,
-      "score": null,
-      "ids": {
-        "trakt": 832642,
-        "slug": "the-naked-gun-2025",
-        "imdb": "tt3402138",
-        "tmdb": 1035259
-      }
-    },
-    {
-      "rank": 36,
-      "title": "Good Luck, Have Fun, Don't Die",
-      "year": 2026,
-      "released": "2026-02-13",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.343173980712891,
-      "votes": 6402,
-      "score": null,
-      "ids": {
-        "trakt": 900786,
-        "slug": "good-luck-have-fun-don-t-die-2026",
-        "imdb": "tt1341338",
-        "tmdb": 1119449
-      }
-    },
-    {
-      "rank": 37,
-      "title": "28 Years Later: The Bone Temple",
-      "year": 2026,
-      "released": "2026-01-14",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.264847278594971,
-      "votes": 9783,
-      "score": null,
-      "ids": {
-        "trakt": 1033738,
-        "slug": "28-years-later-the-bone-temple-2026",
-        "imdb": "tt32141377",
-        "tmdb": 1272837
-      }
-    },
-    {
-      "rank": 38,
+      "rank": 60,
       "title": "The Mandalorian and Grogu",
-      "year": 2026,
-      "released": "2026-05-22",
-      "firstAired": null,
-      "watchers": 845,
-      "plays": null,
-      "rating": 7.374781608581543,
-      "votes": 8018,
-      "score": null,
-      "ids": {
-        "trakt": 993003,
-        "slug": "the-mandalorian-and-grogu-2026",
-        "imdb": "tt30825738",
-        "tmdb": 1228710
-      }
-    },
-    {
-      "rank": 39,
-      "title": "The Sheep Detectives",
-      "year": 2026,
-      "released": "2026-05-08",
-      "firstAired": null,
-      "watchers": 310,
-      "plays": null,
-      "rating": 8.061861991882324,
-      "votes": 9990,
-      "score": null,
-      "ids": {
-        "trakt": 1060883,
-        "slug": "the-sheep-detectives-2026",
-        "imdb": "tt32565993",
-        "tmdb": 1301421
-      }
-    },
-    {
-      "rank": 40,
-      "title": "The Drama",
-      "year": 2026,
-      "released": "2026-04-03",
-      "firstAired": null,
-      "watchers": 198,
-      "plays": null,
-      "rating": 7.310078144073486,
-      "votes": 10349,
-      "score": null,
-      "ids": {
-        "trakt": 1083999,
-        "slug": "the-drama-2026",
-        "imdb": "tt33071426",
-        "tmdb": 1325734
-      }
-    },
-    {
-      "rank": 41,
-      "title": "Peaky Blinders: The Immortal Man",
-      "year": 2026,
-      "released": "2026-03-06",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.324492454528809,
-      "votes": 9954,
-      "score": null,
-      "ids": {
-        "trakt": 701249,
-        "slug": "peaky-blinders-the-immortal-man-2026",
-        "imdb": "tt15574124",
-        "tmdb": 875828
-      }
-    },
-    {
-      "rank": 42,
-      "title": "Ready or Not 2: Here I Come",
-      "year": 2026,
-      "released": "2026-03-20",
-      "firstAired": null,
-      "watchers": 1374,
-      "plays": null,
-      "rating": 7.33278226852417,
-      "votes": 8468,
-      "score": null,
-      "ids": {
-        "trakt": 1027747,
-        "slug": "ready-or-not-2-here-i-come-2026",
-        "imdb": "tt33978029",
-        "tmdb": 1266127
-      }
-    },
-    {
-      "rank": 43,
-      "title": "TRON: Ares",
-      "year": 2025,
-      "released": "2025-10-10",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.516243934631348,
-      "votes": 10958,
-      "score": null,
-      "ids": {
-        "trakt": 385396,
-        "slug": "tron-ares-2025",
-        "imdb": "tt6604188",
-        "tmdb": 533533
-      }
-    },
-    {
-      "rank": 44,
-      "title": "Lee Cronin's The Mummy",
-      "year": 2026,
-      "released": "2026-04-17",
-      "firstAired": null,
-      "watchers": 129,
-      "plays": null,
-      "rating": 6.7533698081970215,
-      "votes": 8012,
-      "score": null,
-      "ids": {
-        "trakt": 1063866,
-        "slug": "lee-cronin-s-the-mummy-2026",
-        "imdb": "tt32612507",
-        "tmdb": 1304313
-      }
-    },
-    {
-      "rank": 45,
-      "title": "Nuremberg",
-      "year": 2025,
-      "released": "2025-11-07",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.911386489868164,
-      "votes": 8238,
-      "score": null,
-      "ids": {
-        "trakt": 979297,
-        "slug": "nuremberg-2025",
-        "imdb": "tt29567915",
-        "tmdb": 1214931
-      }
-    },
-    {
-      "rank": 46,
-      "title": "The Long Walk",
-      "year": 2025,
-      "released": "2025-09-12",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.989591121673584,
-      "votes": 13162,
-      "score": null,
-      "ids": {
-        "trakt": 449045,
-        "slug": "the-long-walk-2025",
-        "imdb": "tt10374610",
-        "tmdb": 604079
-      }
-    },
-    {
-      "rank": 47,
-      "title": "Tom Clancy's Jack Ryan: Ghost War",
       "year": 2026,
       "released": "2026-05-20",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.935809135437012,
-      "votes": 6247,
+      "rating": 7.507,
+      "votes": 1283,
+      "popularity": 64.8614,
       "score": null,
       "ids": {
-        "trakt": 1127320,
-        "slug": "tom-clancy-s-jack-ryan-ghost-war-2026",
-        "imdb": "tt34378301",
-        "tmdb": 1380291
-      }
-    },
-    {
-      "rank": 48,
-      "title": "Wicked: For Good",
-      "year": 2025,
-      "released": "2025-11-20",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.444698333740234,
-      "votes": 10072,
-      "score": null,
-      "ids": {
-        "trakt": 777917,
-        "slug": "wicked-for-good-2025",
-        "imdb": "tt19847976",
-        "tmdb": 967941
-      }
-    },
-    {
-      "rank": 49,
-      "title": "The Odyssey",
-      "year": 2026,
-      "released": "2026-07-17",
-      "firstAired": null,
-      "watchers": 1536,
-      "plays": null,
-      "rating": 8.856505393981934,
-      "votes": 14565,
-      "score": null,
-      "ids": {
-        "trakt": 1117351,
-        "slug": "the-odyssey-2026",
-        "imdb": "tt33764258",
-        "tmdb": 1368337
-      }
-    },
-    {
-      "rank": 50,
-      "title": "The Conjuring: Last Rites",
-      "year": 2025,
-      "released": "2025-09-05",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.930490493774414,
-      "votes": 11912,
-      "score": null,
-      "ids": {
-        "trakt": 835215,
-        "slug": "the-conjuring-last-rites-2025",
-        "imdb": "tt22898462",
-        "tmdb": 1038392
-      }
-    },
-    {
-      "rank": 51,
-      "title": "Eternity",
-      "year": 2025,
-      "released": "2025-11-26",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.552090167999268,
-      "votes": 7631,
-      "score": null,
-      "ids": {
-        "trakt": 1020977,
-        "slug": "eternity-2025",
-        "imdb": "tt24950660",
-        "tmdb": 1259102
-      }
-    },
-    {
-      "rank": 52,
-      "title": "In the Grey",
-      "year": 2026,
-      "released": "2026-05-13",
-      "firstAired": null,
-      "watchers": 127,
-      "plays": null,
-      "rating": 7.172896385192871,
-      "votes": 5003,
-      "score": null,
-      "ids": {
-        "trakt": 903398,
-        "slug": "in-the-grey-2026",
-        "imdb": "tt27681354",
-        "tmdb": 1122573
-      }
-    },
-    {
-      "rank": 53,
-      "title": "Toy Story 5",
-      "year": 2026,
-      "released": "2026-06-19",
-      "firstAired": null,
-      "watchers": 390,
-      "plays": null,
-      "rating": 8.228673934936523,
-      "votes": 6682,
-      "score": null,
-      "ids": {
-        "trakt": 871500,
-        "slug": "toy-story-5-2026",
-        "imdb": "tt29355505",
-        "tmdb": 1084244
-      }
-    },
-    {
-      "rank": 54,
-      "title": "GOAT",
-      "year": 2026,
-      "released": "2026-02-13",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.625543117523193,
-      "votes": 4604,
-      "score": null,
-      "ids": {
-        "trakt": 1057839,
-        "slug": "goat-2026",
-        "imdb": "tt27613895",
-        "tmdb": 1297842
-      }
-    },
-    {
-      "rank": 55,
-      "title": "Roofman",
-      "year": 2025,
-      "released": "2025-10-10",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.223597049713135,
-      "votes": 7840,
-      "score": null,
-      "ids": {
-        "trakt": 1005789,
-        "slug": "roofman-2025",
-        "imdb": "tt4627382",
-        "tmdb": 1242419
-      }
-    },
-    {
-      "rank": 56,
-      "title": "Scream 7",
-      "year": 2026,
-      "released": "2026-02-27",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.15625,
-      "votes": 7328,
-      "score": null,
-      "ids": {
-        "trakt": 934134,
-        "slug": "scream-7-2026",
-        "imdb": "tt27047903",
-        "tmdb": 1159559
-      }
-    },
-    {
-      "rank": 57,
-      "title": "Scary Movie",
-      "year": 2026,
-      "released": "2026-06-05",
-      "firstAired": null,
-      "watchers": 482,
-      "plays": null,
-      "rating": 5.9081220626831055,
-      "votes": 6476,
-      "score": null,
-      "ids": {
-        "trakt": 1034092,
-        "slug": "scary-movie-2026",
-        "imdb": "tt32093575",
-        "tmdb": 1273221
-      }
-    },
-    {
-      "rank": 58,
-      "title": "Voicemails for Isabelle",
-      "year": 2026,
-      "released": "2026-06-19",
-      "firstAired": null,
-      "watchers": 178,
-      "plays": null,
-      "rating": 8.528669357299805,
-      "votes": 7761,
-      "score": null,
-      "ids": {
-        "trakt": 458282,
-        "slug": "voicemails-for-isabelle-2026",
-        "imdb": "tt10375624",
-        "tmdb": 614945
-      }
-    },
-    {
-      "rank": 59,
-      "title": "\"Wuthering Heights\"",
-      "year": 2026,
-      "released": "2026-02-13",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.504565238952637,
-      "votes": 7119,
-      "score": null,
-      "ids": {
-        "trakt": 1077273,
-        "slug": "wuthering-heights-2026",
-        "imdb": "tt32897959",
-        "tmdb": 1316092
-      }
-    },
-    {
-      "rank": 60,
-      "title": "Supergirl",
-      "year": 2026,
-      "released": "2026-06-26",
-      "firstAired": null,
-      "watchers": 2934,
-      "plays": null,
-      "rating": 6.859629154205322,
-      "votes": 6953,
-      "score": null,
-      "ids": {
-        "trakt": 868842,
-        "slug": "supergirl-2026",
-        "imdb": "tt8814476",
-        "tmdb": 1081003
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1228710
       }
     },
     {
       "rank": 61,
-      "title": "The Thursday Murder Club",
-      "year": 2025,
-      "released": "2025-08-28",
+      "title": "Spider-Man 3",
+      "year": 2007,
+      "released": "2007-05-01",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.273571014404297,
-      "votes": 10341,
+      "rating": 6.474,
+      "votes": 15590,
+      "popularity": 66.0188,
       "score": null,
       "ids": {
-        "trakt": 585381,
-        "slug": "the-thursday-murder-club-2025",
-        "imdb": "tt12001534",
-        "tmdb": 744653
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 559
       }
     },
     {
       "rank": 62,
-      "title": "They Will Kill You",
-      "year": 2026,
-      "released": "2026-03-27",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "year": 2023,
+      "released": "2023-05-31",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.725276470184326,
-      "votes": 6148,
+      "rating": 8.344,
+      "votes": 9035,
+      "popularity": 65.4607,
       "score": null,
       "ids": {
-        "trakt": 1052083,
-        "slug": "they-will-kill-you-2026",
-        "imdb": "tt31728330",
-        "tmdb": 1292695
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 569094
       }
     },
     {
       "rank": 63,
-      "title": "Hokum",
+      "title": "Don't Say Good Luck",
       "year": 2026,
-      "released": "2026-05-01",
+      "released": "2026-08-13",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.810538291931152,
-      "votes": 4365,
+      "rating": 7.1,
+      "votes": 29,
+      "popularity": 66.2789,
       "score": null,
       "ids": {
-        "trakt": 1169847,
-        "slug": "hokum-2026",
-        "imdb": "tt35672862",
-        "tmdb": 1430077
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1504358
       }
     },
     {
       "rank": 64,
-      "title": "Rental Family",
-      "year": 2025,
-      "released": "2025-11-21",
+      "title": "The Amazing Spider-Man 2",
+      "year": 2014,
+      "released": "2014-04-16",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.068395614624023,
-      "votes": 6901,
+      "rating": 6.556,
+      "votes": 14589,
+      "popularity": 60.5032,
       "score": null,
       "ids": {
-        "trakt": 972436,
-        "slug": "rental-family-2025",
-        "imdb": "tt14142060",
-        "tmdb": 1208348
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 102382
       }
     },
     {
       "rank": 65,
-      "title": "How to Make a Killing",
-      "year": 2026,
-      "released": "2026-03-11",
+      "title": "The Shadow's Edge",
+      "year": 2025,
+      "released": "2025-08-16",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.9081010818481445,
-      "votes": 4592,
+      "rating": 8.11,
+      "votes": 1214,
+      "popularity": 64.1516,
       "score": null,
       "ids": {
-        "trakt": 315133,
-        "slug": "how-to-make-a-killing-2026",
-        "imdb": "tt4357198",
-        "tmdb": 467905
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1419406
       }
     },
     {
       "rank": 66,
-      "title": "Mike & Nick & Nick & Alice",
-      "year": 2026,
-      "released": "2026-03-27",
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "released": "2019-04-24",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.724534034729004,
-      "votes": 3917,
+      "rating": 8.239,
+      "votes": 28347,
+      "popularity": 63.8663,
       "score": null,
       "ids": {
-        "trakt": 897563,
-        "slug": "mike-nick-nick-alice-2026",
-        "imdb": "tt27552099",
-        "tmdb": 1115544
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 299534
       }
     },
     {
       "rank": 67,
-      "title": "A House of Dynamite",
-      "year": 2025,
-      "released": "2025-10-10",
+      "title": "The Isolate Thief",
+      "year": 2026,
+      "released": "2026-07-10",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.526557445526123,
-      "votes": 10242,
+      "rating": 7.4,
+      "votes": 16,
+      "popularity": 60.0484,
       "score": null,
       "ids": {
-        "trakt": 1049823,
-        "slug": "a-house-of-dynamite-2025",
-        "imdb": "tt32376165",
-        "tmdb": 1290159
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1404304
       }
     },
     {
       "rank": 68,
-      "title": "Hamnet",
-      "year": 2025,
-      "released": "2025-11-26",
+      "title": "Inception",
+      "year": 2010,
+      "released": "2010-07-15",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.23781967163086,
-      "votes": 9154,
+      "rating": 8.372,
+      "votes": 39913,
+      "popularity": 63.385,
       "score": null,
       "ids": {
-        "trakt": 686060,
-        "slug": "hamnet-2025",
-        "imdb": "tt14905854",
-        "tmdb": 858024
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 27205
       }
     },
     {
       "rank": 69,
-      "title": "People We Meet on Vacation",
+      "title": "Once Upon a Time in the Middle East",
       "year": 2026,
-      "released": "2026-01-09",
+      "released": "2026-08-08",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.653546333312988,
-      "votes": 7444,
+      "rating": 9.25,
+      "votes": 16,
+      "popularity": 58.8606,
       "score": null,
       "ids": {
-        "trakt": 832181,
-        "slug": "people-we-meet-on-vacation-2026",
-        "imdb": "tt22740896",
-        "tmdb": 1034716
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1391021
       }
     },
     {
       "rank": 70,
-      "title": "Good Fortune",
-      "year": 2025,
-      "released": "2025-10-17",
+      "title": "Shelter",
+      "year": 2026,
+      "released": "2026-01-28",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.834596633911133,
-      "votes": 5937,
+      "rating": 7.781,
+      "votes": 1708,
+      "popularity": 59.3956,
       "score": null,
       "ids": {
-        "trakt": 897095,
-        "slug": "good-fortune-2025",
-        "imdb": "tt27543578",
-        "tmdb": 1114967
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1290821
       }
     },
     {
       "rank": 71,
-      "title": "Over Your Dead Body",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "released": "2008-07-16",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.534,
+      "votes": 36421,
+      "popularity": 63.5235,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 155
+      }
+    },
+    {
+      "rank": 72,
+      "title": "Hoppers",
+      "year": 2026,
+      "released": "2026-03-04",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.171,
+      "votes": 2195,
+      "popularity": 56.541,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1327819
+      }
+    },
+    {
+      "rank": 73,
+      "title": "The Godfather",
+      "year": 1972,
+      "released": "1972-03-14",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.686,
+      "votes": 23368,
+      "popularity": 59.0925,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 238
+      }
+    },
+    {
+      "rank": 74,
+      "title": "Spider-Man: Into the Spider-Verse",
+      "year": 2018,
+      "released": "2018-12-06",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.395,
+      "votes": 17650,
+      "popularity": 57.4875,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 324857
+      }
+    },
+    {
+      "rank": 75,
+      "title": "The Wild Robot",
+      "year": 2024,
+      "released": "2024-09-12",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.308,
+      "votes": 6445,
+      "popularity": 57.2691,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1184918
+      }
+    },
+    {
+      "rank": 76,
+      "title": "The Housemaid",
+      "year": 2025,
+      "released": "2025-12-18",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.273,
+      "votes": 2878,
+      "popularity": 51.4063,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1368166
+      }
+    },
+    {
+      "rank": 77,
+      "title": "Deadpool & Wolverine",
+      "year": 2024,
+      "released": "2024-07-24",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.585,
+      "votes": 9198,
+      "popularity": 53.7065,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 533535
+      }
+    },
+    {
+      "rank": 78,
+      "title": "Captain America: Civil War",
+      "year": 2016,
+      "released": "2016-04-27",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.451,
+      "votes": 24375,
+      "popularity": 52.7166,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 271110
+      }
+    },
+    {
+      "rank": 79,
+      "title": "Immortal Combat",
       "year": 2026,
       "released": "2026-04-24",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.738105773925781,
-      "votes": 4582,
+      "rating": 4.7,
+      "votes": 19,
+      "popularity": 49.5895,
       "score": null,
       "ids": {
-        "trakt": 1136565,
-        "slug": "over-your-dead-body-2026",
-        "imdb": "tt34685692",
-        "tmdb": 1390300
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1656061
       }
     },
     {
-      "rank": 72,
-      "title": "Enola Holmes 3",
+      "rank": 80,
+      "title": "Lee Cronin's The Mummy",
       "year": 2026,
-      "released": "2026-07-01",
+      "released": "2026-04-15",
       "firstAired": null,
-      "watchers": 192,
+      "watchers": null,
       "plays": null,
-      "rating": 6.937774658203125,
-      "votes": 5914,
+      "rating": 7.906,
+      "votes": 2520,
+      "popularity": 50.7879,
       "score": null,
       "ids": {
-        "trakt": 969826,
-        "slug": "enola-holmes-3-2026",
-        "imdb": "tt32278481",
-        "tmdb": 1202033
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1304313
       }
     },
     {
-      "rank": 73,
+      "rank": 81,
+      "title": "Nando Between Two Worlds - A Sintonia Film",
+      "year": 2026,
+      "released": "2026-08-12",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 5.25,
+      "votes": 12,
+      "popularity": 51.9514,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1487864
+      }
+    },
+    {
+      "rank": 82,
+      "title": "Siping",
+      "year": 2026,
+      "released": "2026-07-10",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 4.6,
+      "votes": 4,
+      "popularity": 52.0787,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1728704
+      }
+    },
+    {
+      "rank": 83,
+      "title": "The Fantastic 4: First Steps",
+      "year": 2025,
+      "released": "2025-07-23",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.947,
+      "votes": 3709,
+      "popularity": 51.5637,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 617126
+      }
+    },
+    {
+      "rank": 84,
+      "title": "KPop Demon Hunters",
+      "year": 2025,
+      "released": "2025-06-20",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.003,
+      "votes": 3111,
+      "popularity": 48.0665,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 803796
+      }
+    },
+    {
+      "rank": 85,
       "title": "Swapped",
       "year": 2026,
       "released": "2026-05-01",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.384614944458008,
-      "votes": 4563,
+      "rating": 8.88,
+      "votes": 2110,
+      "popularity": 51.1576,
       "score": null,
       "ids": {
-        "trakt": 809985,
-        "slug": "swapped-2026",
-        "imdb": "tt29552248",
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
         "tmdb": 1007757
       }
     },
     {
-      "rank": 74,
-      "title": "Five Nights at Freddy's 2",
-      "year": 2025,
-      "released": "2025-12-05",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.238131523132324,
-      "votes": 5245,
-      "score": null,
-      "ids": {
-        "trakt": 992825,
-        "slug": "five-nights-at-freddy-s-2-2025",
-        "imdb": "tt30274401",
-        "tmdb": 1228246
-      }
-    },
-    {
-      "rank": 75,
-      "title": "Sisu: Road to Revenge",
-      "year": 2025,
-      "released": "2025-10-21",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.178084850311279,
-      "votes": 5357,
-      "score": null,
-      "ids": {
-        "trakt": 988284,
-        "slug": "sisu-road-to-revenge-2025",
-        "imdb": "tt31844586",
-        "tmdb": 1223601
-      }
-    },
-    {
-      "rank": 76,
-      "title": "Cold Storage",
-      "year": 2026,
-      "released": "2026-02-13",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.526370048522949,
-      "votes": 3887,
-      "score": null,
-      "ids": {
-        "trakt": 540330,
-        "slug": "cold-storage-2026",
-        "imdb": "tt8879928",
-        "tmdb": 696393
-      }
-    },
-    {
-      "rank": 77,
-      "title": "Normal",
-      "year": 2026,
-      "released": "2026-04-17",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.951627254486084,
-      "votes": 3411,
-      "score": null,
-      "ids": {
-        "trakt": 1005706,
-        "slug": "normal-2026",
-        "imdb": "tt31195136",
-        "tmdb": 1242332
-      }
-    },
-    {
-      "rank": 78,
-      "title": "Black Phone 2",
-      "year": 2025,
-      "released": "2025-10-17",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.636853218078613,
-      "votes": 7245,
-      "score": null,
-      "ids": {
-        "trakt": 965839,
-        "slug": "black-phone-2-2025",
-        "imdb": "tt29644189",
-        "tmdb": 1197137
-      }
-    },
-    {
-      "rank": 79,
-      "title": "The Family Plan 2",
-      "year": 2025,
-      "released": "2025-11-20",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.6565070152282715,
-      "votes": 4987,
-      "score": null,
-      "ids": {
-        "trakt": 1112909,
-        "slug": "the-family-plan-2-2025",
-        "imdb": "tt34276058",
-        "tmdb": 1363123
-      }
-    },
-    {
-      "rank": 80,
-      "title": "Dracula",
-      "year": 2025,
-      "released": "2025-07-30",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.915608882904053,
-      "votes": 5830,
-      "score": null,
-      "ids": {
-        "trakt": 1009185,
-        "slug": "dracula-2025",
-        "imdb": "tt31434030",
-        "tmdb": 1246049
-      }
-    },
-    {
-      "rank": 81,
-      "title": "The Bad Guys 2",
-      "year": 2025,
-      "released": "2025-08-01",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.803794860839844,
-      "votes": 4954,
-      "score": null,
-      "ids": {
-        "trakt": 948183,
-        "slug": "the-bad-guys-2-2025",
-        "imdb": "tt30017619",
-        "tmdb": 1175942
-      }
-    },
-    {
-      "rank": 82,
-      "title": "Remarkably Bright Creatures",
-      "year": 2026,
-      "released": "2026-05-08",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.294050216674805,
-      "votes": 4370,
-      "score": null,
-      "ids": {
-        "trakt": 1088230,
-        "slug": "remarkably-bright-creatures-2026",
-        "imdb": "tt33100314",
-        "tmdb": 1330021
-      }
-    },
-    {
-      "rank": 83,
-      "title": "The Lost Bus",
-      "year": 2025,
-      "released": "2025-09-19",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.387842655181885,
-      "votes": 6531,
-      "score": null,
-      "ids": {
-        "trakt": 1000306,
-        "slug": "the-lost-bus-2025",
-        "imdb": "tt21103218",
-        "tmdb": 1236470
-      }
-    },
-    {
-      "rank": 84,
-      "title": "Together",
-      "year": 2025,
-      "released": "2025-07-30",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.864645004272461,
-      "votes": 7255,
-      "score": null,
-      "ids": {
-        "trakt": 1005421,
-        "slug": "together-2025",
-        "imdb": "tt31184028",
-        "tmdb": 1242011
-      }
-    },
-    {
-      "rank": 85,
-      "title": "Citizen Vigilante",
-      "year": 2026,
-      "released": "2026-06-19",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.565506458282471,
-      "votes": 2557,
-      "score": null,
-      "ids": {
-        "trakt": 1156761,
-        "slug": "citizen-vigilante-2026",
-        "imdb": "tt35309713",
-        "tmdb": 1413976
-      }
-    },
-    {
       "rank": 86,
-      "title": "Playdate",
-      "year": 2025,
-      "released": "2025-11-12",
+      "title": "The Novices",
+      "year": 1970,
+      "released": "1970-04-01",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.2942070960998535,
-      "votes": 5265,
+      "rating": 4.8,
+      "votes": 13,
+      "popularity": 41.5099,
       "score": null,
       "ids": {
-        "trakt": 1010850,
-        "slug": "playdate-2025",
-        "imdb": "tt31425731",
-        "tmdb": 1248226
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 82976
       }
     },
     {
       "rank": 87,
-      "title": "The Woman in Cabin 10",
-      "year": 2025,
-      "released": "2025-10-10",
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "released": "2003-12-17",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.57337760925293,
-      "votes": 8136,
+      "rating": 8.504,
+      "votes": 27108,
+      "popularity": 49.5289,
       "score": null,
       "ids": {
-        "trakt": 1050468,
-        "slug": "the-woman-in-cabin-10-2025",
-        "imdb": "tt7130300",
-        "tmdb": 1290879
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 122
       }
     },
     {
       "rank": 88,
-      "title": "Chainsaw Man - The Movie: Reze Arc",
+      "title": "Jurassic World Rebirth",
       "year": 2025,
-      "released": "2025-09-19",
+      "released": "2025-06-23",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.73979377746582,
-      "votes": 6883,
+      "rating": 6.261,
+      "votes": 3659,
+      "popularity": 51.1227,
       "score": null,
       "ids": {
-        "trakt": 983519,
-        "slug": "chainsaw-man-the-movie-reze-arc-2025",
-        "imdb": "tt30472557",
-        "tmdb": 1218925
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1234821
       }
     },
     {
       "rank": 89,
-      "title": "Tuner",
+      "title": "Young Washington",
       "year": 2026,
-      "released": "2026-05-29",
+      "released": "2026-07-02",
       "firstAired": null,
-      "watchers": 153,
+      "watchers": null,
       "plays": null,
-      "rating": 7.702322006225586,
-      "votes": 2627,
+      "rating": 7.911,
+      "votes": 73,
+      "popularity": 46.9784,
       "score": null,
       "ids": {
-        "trakt": 1096313,
-        "slug": "tuner-2026",
-        "imdb": "tt33296751",
-        "tmdb": 1340206
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1308767
       }
     },
     {
       "rank": 90,
-      "title": "Caught Stealing",
-      "year": 2025,
-      "released": "2025-08-29",
+      "title": "Troy",
+      "year": 2004,
+      "released": "2004-05-13",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.02248477935791,
-      "votes": 7116,
+      "rating": 7.187,
+      "votes": 11386,
+      "popularity": 47.3006,
       "score": null,
       "ids": {
-        "trakt": 1009138,
-        "slug": "caught-stealing-2025",
-        "imdb": "tt1493274",
-        "tmdb": 1245993
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 652
       }
     },
     {
       "rank": 91,
-      "title": "Primate",
-      "year": 2026,
-      "released": "2026-01-09",
+      "title": "Top Gun: Maverick",
+      "year": 2022,
+      "released": "2022-05-21",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.202805042266846,
-      "votes": 4492,
+      "rating": 8.16,
+      "votes": 11370,
+      "popularity": 45.9424,
       "score": null,
       "ids": {
-        "trakt": 1075286,
-        "slug": "primate-2026",
-        "imdb": "tt33028778",
-        "tmdb": 1315303
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 361743
       }
     },
     {
       "rank": 92,
-      "title": "Thrash",
-      "year": 2026,
-      "released": "2026-04-10",
+      "title": "The Matrix",
+      "year": 1999,
+      "released": "1999-03-31",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 5.763644218444824,
-      "votes": 4599,
+      "rating": 8.255,
+      "votes": 28483,
+      "popularity": 45.9397,
       "score": null,
       "ids": {
-        "trakt": 1050053,
-        "slug": "thrash-2026",
-        "imdb": "tt32362890",
-        "tmdb": 1290417
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 603
       }
     },
     {
       "rank": 93,
-      "title": "Play Dirty",
-      "year": 2025,
-      "released": "2025-10-01",
+      "title": "My Best Friend, His Girlfriend and Me",
+      "year": 2026,
+      "released": "2026-08-14",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.667988300323486,
-      "votes": 4792,
+      "rating": 3.458,
+      "votes": 12,
+      "popularity": 48.7296,
       "score": null,
       "ids": {
-        "trakt": 755536,
-        "slug": "play-dirty-2025-10-01",
-        "imdb": "tt18392014",
-        "tmdb": 941109
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1589248
       }
     },
     {
       "rank": 94,
-      "title": "Freakier Friday",
-      "year": 2025,
-      "released": "2025-08-08",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "year": 2001,
+      "released": "2001-11-16",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.40503454208374,
-      "votes": 6118,
+      "rating": 7.903,
+      "votes": 30031,
+      "popularity": 40.2884,
       "score": null,
       "ids": {
-        "trakt": 905524,
-        "slug": "freakier-friday-2025",
-        "imdb": "tt31956415",
-        "tmdb": 1125257
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 671
       }
     },
     {
       "rank": 95,
-      "title": "Ladies First",
-      "year": 2026,
-      "released": "2026-05-22",
+      "title": "Thunderbolts*",
+      "year": 2025,
+      "released": "2025-04-30",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.531882286071777,
-      "votes": 3905,
+      "rating": 7.301,
+      "votes": 3891,
+      "popularity": 44.2638,
       "score": null,
       "ids": {
-        "trakt": 1117821,
-        "slug": "ladies-first-2026",
-        "imdb": "tt34611082",
-        "tmdb": 1368881
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 986056
       }
     },
     {
       "rank": 96,
-      "title": "Train Dreams",
-      "year": 2025,
-      "released": "2025-11-07",
+      "title": "Oppenheimer",
+      "year": 2023,
+      "released": "2023-07-19",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.708365440368652,
-      "votes": 6443,
+      "rating": 8.022,
+      "votes": 12257,
+      "popularity": 46.2786,
       "score": null,
       "ids": {
-        "trakt": 1005401,
-        "slug": "train-dreams-2025",
-        "imdb": "tt29768334",
-        "tmdb": 1241983
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 872585
       }
     },
     {
       "rank": 97,
-      "title": "The Roses",
-      "year": 2025,
-      "released": "2025-08-29",
+      "title": "Dune: Part Two",
+      "year": 2024,
+      "released": "2024-02-27",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.133748531341553,
-      "votes": 5944,
+      "rating": 8.132,
+      "votes": 8377,
+      "popularity": 45.2569,
       "score": null,
       "ids": {
-        "trakt": 1029272,
-        "slug": "the-roses-2025",
-        "imdb": "tt31973693",
-        "tmdb": 1267905
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 693134
       }
     },
     {
       "rank": 98,
-      "title": "Office Romance",
-      "year": 2026,
-      "released": "2026-06-05",
+      "title": "Woman in the Moon",
+      "year": 1988,
+      "released": "1988-03-31",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.735294342041016,
-      "votes": 3332,
+      "rating": 5.6,
+      "votes": 8,
+      "popularity": 49.4649,
       "score": null,
       "ids": {
-        "trakt": 1108471,
-        "slug": "office-romance-2026",
-        "imdb": "tt33397980",
-        "tmdb": 1358005
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 194117
       }
     },
     {
       "rank": 99,
-      "title": "The Crash",
+      "title": "Greenland 2: Migration",
       "year": 2026,
-      "released": "2026-05-15",
+      "released": "2026-01-07",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.363304615020752,
-      "votes": 2191,
+      "rating": 6.402,
+      "votes": 1458,
+      "popularity": 44.8559,
       "score": null,
       "ids": {
-        "trakt": 1362157,
-        "slug": "the-crash-2026",
-        "imdb": "tt40792117",
-        "tmdb": 1662317
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 840464
       }
     },
     {
       "rank": 100,
-      "title": "The Bluff",
-      "year": 2026,
-      "released": "2026-02-25",
+      "title": "Iron Man",
+      "year": 2008,
+      "released": "2008-04-30",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.551072120666504,
-      "votes": 3544,
+      "rating": 7.664,
+      "votes": 28590,
+      "popularity": 38.9673,
       "score": null,
       "ids": {
-        "trakt": 634944,
-        "slug": "the-bluff-2026",
-        "imdb": "tt14181714",
-        "tmdb": 799882
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1726
       }
     }
   ]
