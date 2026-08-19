@@ -26,6 +26,13 @@ SCHEMA_VERSION = 1
 GENERATOR_VERSION = "2.1.0"
 USER_AGENT = "PintuPlayer-Trends/1.0"
 MAX_ITEMS = 100
+TMDB_CURATED_ALIASES = {
+    617126: ["I Fantastici Quattro - Gli inizi"],
+    1084242: ["Zootropolis 2"],
+    1226863: ["Super Mario Galaxy Il Film", "Super Mario Galaxy - Il film"],
+    1228710: ["Star Wars: The Mandalorian and Grogu"],
+    1314481: ["Il diavolo veste Prada 2"],
+}
 NEW_RELEASE_LOOKBACK_MONTHS = 4
 TRAKT_CALENDAR_CHUNK_DAYS = 31
 MIN_VOTES = 500
@@ -187,6 +194,8 @@ class TmdbRankingProvider(VideoRankingProvider):
                 for candidate in (localized_row.get(title_key), row.get(original_key), localized_row.get(original_key)):
                     alias = str(candidate or "").strip()
                     if alias and alias != title and alias not in aliases: aliases.append(alias)
+                for alias in TMDB_CURATED_ALIASES.get(tmdb_id, []):
+                    if alias != title and alias not in aliases: aliases.append(alias)
                 date_value = str(row.get("release_date" if media == "movie" else "first_air_date") or "").strip() or None
                 year = positive_int(date_value[:4]) if date_value and re.fullmatch(r"\d{4}.*", date_value) else None
                 result.append(Item(media, title, year, {"trakt": None, "slug": None, "imdb": None, "tmdb": tmdb_id},

@@ -277,11 +277,12 @@ class ProviderFallbackTests(unittest.TestCase):
             def __init__(self): self.pages = []
             def get(self, path, params=None):
                 self.pages.append(params["page"])
-                rows = [{"id": 1, "title": "Film", "release_date": "2026-07-01", "vote_average": 8.2, "vote_count": 50, "popularity": 123.4}]
-                if params["page"] == 2: rows = [{"id": 1, "title": "Duplicate"}, {"id": 2, "title": "Second", "release_date": "invalid"}]
+                rows = [{"id": 1228710, "title": "Film", "release_date": "2026-07-01", "vote_average": 8.2, "vote_count": 50, "popularity": 123.4}]
+                if params["page"] == 2: rows = [{"id": 1228710, "title": "Duplicate"}, {"id": 2, "title": "Second", "release_date": "invalid"}]
                 return {"results": rows, "total_pages": 2}
         client = Client(); items = TmdbRankingProvider(client)._items("movie", "popular")
-        self.assertEqual(client.pages, [1, 2]); self.assertEqual([x.ids["tmdb"] for x in items], [1, 2])
+        self.assertEqual(client.pages, [1, 2]); self.assertEqual([x.ids["tmdb"] for x in items], [1228710, 2])
         self.assertEqual(items[0].year, 2026); self.assertEqual(items[0].popularity, 123.4); self.assertIsNone(items[1].year)
+        self.assertIn("Star Wars: The Mandalorian and Grogu", items[0].aliases)
 
 if __name__ == "__main__": unittest.main()
