@@ -27,10 +27,13 @@ GENERATOR_VERSION = "2.1.0"
 USER_AGENT = "PintuPlayer-Trends/1.0"
 MAX_ITEMS = 100
 TMDB_CURATED_ALIASES = {
+    83533: ["Avatar: Fuoco e cenere"],
     617126: ["I Fantastici Quattro - Gli inizi"],
     1084242: ["Zootropolis 2"],
     1226863: ["Super Mario Galaxy Il Film", "Super Mario Galaxy - Il film"],
     1228710: ["Star Wars: The Mandalorian and Grogu"],
+    1266127: ["Finché morte non ci separi 2"],
+    1327819: ["Jumpers - Un salto tra gli animali"],
     1314481: ["Il diavolo veste Prada 2"],
 }
 NEW_RELEASE_LOOKBACK_MONTHS = 4
