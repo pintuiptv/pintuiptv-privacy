@@ -7,22 +7,10 @@
   "storefront": "it",
   "type": "songs",
   "chart": "most-played",
-  "updatedAt": "2026-08-31T14:04:17Z",
+  "updatedAt": "2026-08-31T17:42:40Z",
   "items": [
     {
       "rank": 1,
-      "title": "LA TESTA GIRA",
-      "artist": "Fred De Palma, Anitta & Emis Killa",
-      "album": "LA TESTA GIRA - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/03/de/8f03de9b-65ce-7af2-7e57-3373f0f6bd76/5026854946573.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1887266912",
-      "sourceUrl": "https://music.apple.com/it/album/la-testa-gira/1887266899?i=1887266912",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/6e/61/4f6e61bc-4080-8fde-bb7b-d9814a86c894/mzaf_5381663762086261341.plus.aac.p.m4a"
-    },
-    {
-      "rank": 2,
       "title": "Bugie",
       "artist": "Shiva",
       "album": "Bugie - Single",
@@ -32,6 +20,18 @@
       "providerTrackId": "6803971415",
       "sourceUrl": "https://music.apple.com/it/album/bugie/6803971068?i=6803971415",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/9d/79/979d7958-c556-34f1-b171-c7bb6a0b1149/mzaf_15768114876832162331.plus.aac.p.m4a"
+    },
+    {
+      "rank": 2,
+      "title": "LA TESTA GIRA",
+      "artist": "Fred De Palma, Anitta & Emis Killa",
+      "album": "LA TESTA GIRA - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/03/de/8f03de9b-65ce-7af2-7e57-3373f0f6bd76/5026854946573.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1887266912",
+      "sourceUrl": "https://music.apple.com/it/album/la-testa-gira/1887266899?i=1887266912",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/6e/61/4f6e61bc-4080-8fde-bb7b-d9814a86c894/mzaf_5381663762086261341.plus.aac.p.m4a"
     },
     {
       "rank": 3,
@@ -143,6 +143,18 @@
     },
     {
       "rank": 12,
+      "title": "WHITE GIRL WASTED",
+      "artist": "ANNA",
+      "album": "WHITE GIRL WASTED - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/85/6d/2e856d0d-3589-543a-c18e-495e6fc354a3/26UMGIM75779.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "6780847784",
+      "sourceUrl": "https://music.apple.com/it/album/white-girl-wasted/6780847521?i=6780847784",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/98/cd/4198cd64-403d-85d4-5ba4-747279b3fee4/mzaf_3737458701510175748.plus.aac.p.m4a"
+    },
+    {
+      "rank": 13,
       "title": "AL MIO PAESE",
       "artist": "Serena Brancale, Levante & DELIA",
       "album": "AL MIO PAESE - Single",
@@ -154,7 +166,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8f/85/07/8f850783-b464-156a-e81d-dd08a32f8857/mzaf_14031615082838530666.plus.aac.p.m4a"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "title": "OSSESSIONE",
       "artist": "Samurai Jay",
       "album": "OSSESSIONE - Single",
@@ -164,18 +176,6 @@
       "providerTrackId": "1878078755",
       "sourceUrl": "https://music.apple.com/it/album/ossessione/1878078754?i=1878078755",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/db/f8/1bdbf87b-0ffd-ae8a-fd10-49ed088d3b5e/mzaf_12936907110872154144.plus.aac.p.m4a"
-    },
-    {
-      "rank": 14,
-      "title": "WHITE GIRL WASTED",
-      "artist": "ANNA",
-      "album": "WHITE GIRL WASTED - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/85/6d/2e856d0d-3589-543a-c18e-495e6fc354a3/26UMGIM75779.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "6780847784",
-      "sourceUrl": "https://music.apple.com/it/album/white-girl-wasted/6780847521?i=6780847784",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/98/cd/4198cd64-403d-85d4-5ba4-747279b3fee4/mzaf_3737458701510175748.plus.aac.p.m4a"
     },
     {
       "rank": 15,
@@ -335,15 +335,15 @@
     },
     {
       "rank": 28,
-      "title": "PARTENOPE (feat. Serena Brancale, The Kolors)",
-      "artist": "Merk & Kremont",
-      "album": "PARTENOPE (feat. Serena Brancale, The Kolors) - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8b/93/8a/8b938aa8-a692-6811-1ae7-66083b4b0f02/1200214197032.jpg/600x600bb.jpg",
+      "title": "Obsessed",
+      "artist": "Shiva & ANNA",
+      "album": "Vangelo",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/ea/96/98ea96e6-0491-53e6-d04a-91159127bd2f/196874139097.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "6773354953",
-      "sourceUrl": "https://music.apple.com/it/album/partenope-feat-serena-brancale-the-kolors/6773354855?i=6773354953",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/1d/6f/cb1d6f4d-3190-a966-4f16-ac3d6aa4331c/mzaf_3716862743682270851.plus.aac.p.m4a"
+      "providerTrackId": "1891320358",
+      "sourceUrl": "https://music.apple.com/it/album/obsessed/1891320348?i=1891320358",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/a7/cc/08a7cc80-0e2d-3f9e-4836-005a369bb7c3/mzaf_13708492079295562605.plus.aac.p.m4a"
     },
     {
       "rank": 29,
@@ -359,15 +359,15 @@
     },
     {
       "rank": 30,
-      "title": "Obsessed",
-      "artist": "Shiva & ANNA",
-      "album": "Vangelo",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/ea/96/98ea96e6-0491-53e6-d04a-91159127bd2f/196874139097.jpg/600x600bb.jpg",
+      "title": "PARTENOPE (feat. Serena Brancale, The Kolors)",
+      "artist": "Merk & Kremont",
+      "album": "PARTENOPE (feat. Serena Brancale, The Kolors) - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8b/93/8a/8b938aa8-a692-6811-1ae7-66083b4b0f02/1200214197032.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1891320358",
-      "sourceUrl": "https://music.apple.com/it/album/obsessed/1891320348?i=1891320358",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/a7/cc/08a7cc80-0e2d-3f9e-4836-005a369bb7c3/mzaf_13708492079295562605.plus.aac.p.m4a"
+      "providerTrackId": "6773354953",
+      "sourceUrl": "https://music.apple.com/it/album/partenope-feat-serena-brancale-the-kolors/6773354855?i=6773354953",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/1d/6f/cb1d6f4d-3190-a966-4f16-ac3d6aa4331c/mzaf_3716862743682270851.plus.aac.p.m4a"
     },
     {
       "rank": 31,
@@ -455,15 +455,15 @@
     },
     {
       "rank": 38,
-      "title": "Balorda nostalgia",
-      "artist": "Olly",
-      "album": "Balorda nostalgia - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/ff/d2/e2ffd2af-080b-fcf2-32dd-c56c585ef0a2/196872867770.jpg/600x600bb.jpg",
+      "title": "BOP BOP",
+      "artist": "Artie 5ive",
+      "album": "BOP BOP - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/40/8f/9e/408f9e13-e9a2-4f55-6307-6c906425a2c6/1200214494292.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1794347276",
-      "sourceUrl": "https://music.apple.com/it/album/balorda-nostalgia/1794347275?i=1794347276",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/49/7c/84497c48-abff-00b6-d17e-b97735d02014/mzaf_13286524329917527865.plus.aac.p.m4a"
+      "providerTrackId": "6788006639",
+      "sourceUrl": "https://music.apple.com/it/album/bop-bop/6788006373?i=6788006639",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/a2/25/a5a225c7-cec3-a13d-7095-9b40b3480b8a/mzaf_11585904215834734638.plus.aac.p.m4a"
     },
     {
       "rank": 39,
@@ -479,30 +479,18 @@
     },
     {
       "rank": 40,
-      "title": "BOP BOP",
-      "artist": "Artie 5ive",
-      "album": "BOP BOP - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/40/8f/9e/408f9e13-e9a2-4f55-6307-6c906425a2c6/1200214494292.jpg/600x600bb.jpg",
+      "title": "Balorda nostalgia",
+      "artist": "Olly",
+      "album": "Balorda nostalgia - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/ff/d2/e2ffd2af-080b-fcf2-32dd-c56c585ef0a2/196872867770.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "6788006639",
-      "sourceUrl": "https://music.apple.com/it/album/bop-bop/6788006373?i=6788006639",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/a2/25/a5a225c7-cec3-a13d-7095-9b40b3480b8a/mzaf_11585904215834734638.plus.aac.p.m4a"
+      "providerTrackId": "1794347276",
+      "sourceUrl": "https://music.apple.com/it/album/balorda-nostalgia/1794347275?i=1794347276",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/49/7c/84497c48-abff-00b6-d17e-b97735d02014/mzaf_13286524329917527865.plus.aac.p.m4a"
     },
     {
       "rank": 41,
-      "title": "Brivido (feat. Marracash)",
-      "artist": "Guè",
-      "album": "Bravo ragazzo (Royal Edition)",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/ae/18/0eae18ea-6010-47a8-9ab6-d2399a6a8467/00602537643424.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1443282981",
-      "sourceUrl": "https://music.apple.com/it/album/brivido-feat-marracash/1443282250?i=1443282981",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/cd/0f/31cd0f9c-b1de-43ec-bc74-590325e2b902/mzaf_11522448888451499161.plus.aac.p.m4a"
-    },
-    {
-      "rank": 42,
       "title": "Mayday",
       "artist": "Shiva, Lazza & Sfera Ebbasta",
       "album": "Vangelo",
@@ -514,16 +502,28 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/eb/c1/09ebc1f4-1f85-eec9-5046-ee8b9c0dc057/mzaf_14084770620719277315.plus.aac.p.m4a"
     },
     {
-      "rank": 43,
-      "title": "STELLE",
-      "artist": "Geolier",
-      "album": "TUTTO È POSSIBILE",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/2e/d6/072ed60d-2f1c-8ddf-2cf4-ea6a600c5b60/5026854336220.jpg/600x600bb.jpg",
+      "rank": 42,
+      "title": "Brivido (feat. Marracash)",
+      "artist": "Guè",
+      "album": "Bravo ragazzo (Royal Edition)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/ae/18/0eae18ea-6010-47a8-9ab6-d2399a6a8467/00602537643424.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1861451987",
-      "sourceUrl": "https://music.apple.com/it/album/stelle/1861451633?i=1861451987",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/60/36/33/603633bf-d126-e71d-d13a-b496f40316d6/mzaf_12897820774567185676.plus.aac.p.m4a"
+      "providerTrackId": "1443282981",
+      "sourceUrl": "https://music.apple.com/it/album/brivido-feat-marracash/1443282250?i=1443282981",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/cd/0f/31cd0f9c-b1de-43ec-bc74-590325e2b902/mzaf_11522448888451499161.plus.aac.p.m4a"
+    },
+    {
+      "rank": 43,
+      "title": "PIENXA EN MI",
+      "artist": "Feid & Sfera Ebbasta",
+      "album": "EL MOCO VERDE - EP",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/09/08/90090855-c97a-2dc0-45a3-ff3ae7b55a72/26UMGIM76710.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "6779441611",
+      "sourceUrl": "https://music.apple.com/it/album/pienxa-en-mi/6779441610?i=6779441611",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/17/41/5a1741f0-2ecc-8762-0954-39534bc7758a/mzaf_8314685944739097951.plus.aac.p.m4a"
     },
     {
       "rank": 44,
@@ -539,30 +539,18 @@
     },
     {
       "rank": 45,
-      "title": "PIENXA EN MI",
-      "artist": "Feid & Sfera Ebbasta",
-      "album": "EL MOCO VERDE - EP",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/09/08/90090855-c97a-2dc0-45a3-ff3ae7b55a72/26UMGIM76710.rgb.jpg/600x600bb.jpg",
+      "title": "STELLE",
+      "artist": "Geolier",
+      "album": "TUTTO È POSSIBILE",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/2e/d6/072ed60d-2f1c-8ddf-2cf4-ea6a600c5b60/5026854336220.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "6779441611",
-      "sourceUrl": "https://music.apple.com/it/album/pienxa-en-mi/6779441610?i=6779441611",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/17/41/5a1741f0-2ecc-8762-0954-39534bc7758a/mzaf_8314685944739097951.plus.aac.p.m4a"
+      "providerTrackId": "1861451987",
+      "sourceUrl": "https://music.apple.com/it/album/stelle/1861451633?i=1861451987",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/60/36/33/603633bf-d126-e71d-d13a-b496f40316d6/mzaf_12897820774567185676.plus.aac.p.m4a"
     },
     {
       "rank": 46,
-      "title": "Tu cosa fai questa sera",
-      "artist": "Noemi & Vito Salamanca",
-      "album": "Tu cosa fai questa sera - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/63/5a/f2635a87-7e0c-322f-f56a-f64af3fb54fe/196874423363.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "6771044262",
-      "sourceUrl": "https://music.apple.com/it/album/tu-cosa-fai-questa-sera/6771044261?i=6771044262",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/65/b1/0265b167-8234-d0c7-fd7a-9086ab53da84/mzaf_12932592207210918006.plus.aac.p.m4a"
-    },
-    {
-      "rank": 47,
       "title": "Questa domenica",
       "artist": "Olly & Juli",
       "album": "Questa domenica - Single",
@@ -574,7 +562,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/35/57/94/355794ad-860b-0e9d-c3b1-3d989a78dbe1/mzaf_14785995045796337265.plus.aac.p.m4a"
     },
     {
-      "rank": 48,
+      "rank": 47,
       "title": "Free Your Mind",
       "artist": "Prospa & Cloonee",
       "album": "Free Your Mind",
@@ -586,19 +574,19 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/8c/64/1f8c64ea-a711-12b1-9bfd-a24e909a75c0/mzaf_16510898991127196512.plus.aac.p.m4a"
     },
     {
-      "rank": 49,
-      "title": "Che Bella Vita (con Angelina Mango)",
-      "artist": "ARIETE",
-      "album": "Che Bella Vita (con Angelina Mango) - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8a/c7/09/8ac709af-e30a-de5a-a1d1-0e2feff07bfa/1200214717513.jpg/600x600bb.jpg",
+      "rank": 48,
+      "title": "Tu cosa fai questa sera",
+      "artist": "Noemi & Vito Salamanca",
+      "album": "Tu cosa fai questa sera - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/63/5a/f2635a87-7e0c-322f-f56a-f64af3fb54fe/196874423363.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "6796008144",
-      "sourceUrl": "https://music.apple.com/it/album/che-bella-vita-con-angelina-mango/6796007786?i=6796008144",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/6e/91/bd6e913f-fefa-6271-7847-caf0261ac13a/mzaf_497444594632196436.plus.aac.p.m4a"
+      "providerTrackId": "6771044262",
+      "sourceUrl": "https://music.apple.com/it/album/tu-cosa-fai-questa-sera/6771044261?i=6771044262",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/65/b1/0265b167-8234-d0c7-fd7a-9086ab53da84/mzaf_12932592207210918006.plus.aac.p.m4a"
     },
     {
-      "rank": 50,
+      "rank": 49,
       "title": "Maladie",
       "artist": "Mauvais Djo",
       "album": "Maladie - Single",
@@ -608,6 +596,18 @@
       "providerTrackId": "6773272827",
       "sourceUrl": "https://music.apple.com/it/album/maladie/6773272824?i=6773272827",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/99/7a/89997ada-36a0-7c6b-fddf-22dce5cf14ac/mzaf_634779919347679742.plus.aac.p.m4a"
+    },
+    {
+      "rank": 50,
+      "title": "Che Bella Vita (con Angelina Mango)",
+      "artist": "ARIETE",
+      "album": "Che Bella Vita (con Angelina Mango) - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8a/c7/09/8ac709af-e30a-de5a-a1d1-0e2feff07bfa/1200214717513.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "6796008144",
+      "sourceUrl": "https://music.apple.com/it/album/che-bella-vita-con-angelina-mango/6796007786?i=6796008144",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/6e/91/bd6e913f-fefa-6271-7847-caf0261ac13a/mzaf_497444594632196436.plus.aac.p.m4a"
     },
     {
       "rank": 51,
@@ -683,30 +683,6 @@
     },
     {
       "rank": 57,
-      "title": "RAFFAELLA FICO",
-      "artist": "Le-one & HIGASHI",
-      "album": "RAFFAELLA FICO - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/88/ba/e188ba53-5704-5db1-c92b-e63064e4b857/196874558058.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "6786254820",
-      "sourceUrl": "https://music.apple.com/it/album/raffaella-fico/6786254544?i=6786254820",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/26/a7/5826a733-c09c-e33d-4358-47c14f582115/mzaf_16583963294219475522.plus.aac.p.m4a"
-    },
-    {
-      "rank": 58,
-      "title": "L'amore non mi basta",
-      "artist": "Emma",
-      "album": "Schiena",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/51/a9/d2/51a9d282-8176-1a8e-c40b-3810a4638de6/13UAEIM08552.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1440862324",
-      "sourceUrl": "https://music.apple.com/it/album/lamore-non-mi-basta/1440862210?i=1440862324",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/04/38/8b043814-5329-c6ff-4765-a03714879254/mzaf_12814297366211490328.plus.aac.p.m4a"
-    },
-    {
-      "rank": 59,
       "title": "Vorrei (feat. Lazza)",
       "artist": "Shiva",
       "album": "Milano Demons",
@@ -718,16 +694,40 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/7e/f5/027ef549-e1d4-fdf3-8597-d42fc737275e/mzaf_6341754022835004126.plus.aac.p.m4a"
     },
     {
-      "rank": 60,
-      "title": "M'AMA NON M'AMA",
-      "artist": "Madame",
-      "album": "M'AMA NON M'AMA - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/27/25/99272500-9f6e-e61f-476f-10ef810380ce/26UMGIM77064.rgb.jpg/600x600bb.jpg",
+      "rank": 58,
+      "title": "RAFFAELLA FICO",
+      "artist": "Le-one & HIGASHI",
+      "album": "RAFFAELLA FICO - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/88/ba/e188ba53-5704-5db1-c92b-e63064e4b857/196874558058.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "6780425932",
-      "sourceUrl": "https://music.apple.com/it/album/mama-non-mama/6780425931?i=6780425932",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/a7/3f/cca73f4e-e3f0-fb3e-aea9-f24999dde0d8/mzaf_8237717949797432427.plus.aac.p.m4a"
+      "providerTrackId": "6786254820",
+      "sourceUrl": "https://music.apple.com/it/album/raffaella-fico/6786254544?i=6786254820",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/26/a7/5826a733-c09c-e33d-4358-47c14f582115/mzaf_16583963294219475522.plus.aac.p.m4a"
+    },
+    {
+      "rank": 59,
+      "title": "Zero stare sereno",
+      "artist": "Thegiornalisti",
+      "album": "LOVE",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/39/07/e8/3907e865-74ea-1bee-a211-fabf0ccabc32/8034125848454.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1434744839",
+      "sourceUrl": "https://music.apple.com/it/album/zero-stare-sereno/1434744825?i=1434744839",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c1/0a/59/c10a5942-cd84-1516-3fb0-7422c74f63a6/mzaf_8780226545165098832.plus.aac.p.m4a"
+    },
+    {
+      "rank": 60,
+      "title": "L'amore non mi basta",
+      "artist": "Emma",
+      "album": "Schiena",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/51/a9/d2/51a9d282-8176-1a8e-c40b-3810a4638de6/13UAEIM08552.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1440862324",
+      "sourceUrl": "https://music.apple.com/it/album/lamore-non-mi-basta/1440862210?i=1440862324",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/04/38/8b043814-5329-c6ff-4765-a03714879254/mzaf_12814297366211490328.plus.aac.p.m4a"
     },
     {
       "rank": 61,
@@ -743,30 +743,18 @@
     },
     {
       "rank": 62,
-      "title": "Un Altro Show (feat. Geolier)",
-      "artist": "Shiva",
-      "album": "Milano Demons",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cd/c2/c7/cdc2c7b9-36ce-1a4f-218d-772800111912/196589625250.jpg/600x600bb.jpg",
+      "title": "M'AMA NON M'AMA",
+      "artist": "Madame",
+      "album": "M'AMA NON M'AMA - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/27/25/99272500-9f6e-e61f-476f-10ef810380ce/26UMGIM77064.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1654188262",
-      "sourceUrl": "https://music.apple.com/it/album/un-altro-show-feat-geolier/1654187943?i=1654188262",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/4f/38/9f4f38a9-20ef-05a2-7723-783d49b74a3d/mzaf_4172151382971232506.plus.aac.p.m4a"
+      "providerTrackId": "6780425932",
+      "sourceUrl": "https://music.apple.com/it/album/mama-non-mama/6780425931?i=6780425932",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/a7/3f/cca73f4e-e3f0-fb3e-aea9-f24999dde0d8/mzaf_8237717949797432427.plus.aac.p.m4a"
     },
     {
       "rank": 63,
-      "title": "Zero stare sereno",
-      "artist": "Thegiornalisti",
-      "album": "LOVE",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/39/07/e8/3907e865-74ea-1bee-a211-fabf0ccabc32/8034125848454.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1434744839",
-      "sourceUrl": "https://music.apple.com/it/album/zero-stare-sereno/1434744825?i=1434744839",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c1/0a/59/c10a5942-cd84-1516-3fb0-7422c74f63a6/mzaf_8780226545165098832.plus.aac.p.m4a"
-    },
-    {
-      "rank": 64,
       "title": "Training Season",
       "artist": "Dua Lipa",
       "album": "Training Season - Single",
@@ -776,6 +764,18 @@
       "providerTrackId": "1727526894",
       "sourceUrl": "https://music.apple.com/it/album/training-season/1727526670?i=1727526894",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/87/16/a88716e2-9474-ec4e-06d6-d3a9a3ba96c8/mzaf_6258558385119267725.plus.aac.p.m4a"
+    },
+    {
+      "rank": 64,
+      "title": "Un Altro Show (feat. Geolier)",
+      "artist": "Shiva",
+      "album": "Milano Demons",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cd/c2/c7/cdc2c7b9-36ce-1a4f-218d-772800111912/196589625250.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1654188262",
+      "sourceUrl": "https://music.apple.com/it/album/un-altro-show-feat-geolier/1654187943?i=1654188262",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/4f/38/9f4f38a9-20ef-05a2-7723-783d49b74a3d/mzaf_4172151382971232506.plus.aac.p.m4a"
     },
     {
       "rank": 65,
@@ -791,30 +791,6 @@
     },
     {
       "rank": 66,
-      "title": "petal",
-      "artist": "Ariana Grande",
-      "album": "petal",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "6763656878",
-      "sourceUrl": "https://music.apple.com/it/album/petal/1895420989?i=6763656878",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/60/0e/87/600e8738-24b3-4ef3-a983-fc40f7e0198e/mzaf_4874676909030226747.plus.aac.p.m4a"
-    },
-    {
-      "rank": 67,
-      "title": "Capri Sun",
-      "artist": "Capo Plaza",
-      "album": "Hustle Mixtape",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/60/68/21/60682127-99c3-b563-c797-1ab48753b73a/5054197174667.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1624134050",
-      "sourceUrl": "https://music.apple.com/it/album/capri-sun/1624133787?i=1624134050",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/51/b1/bd51b1be-3ab7-f084-b265-aa7c312aaeef/mzaf_15315582827404014173.plus.aac.p.m4a"
-    },
-    {
-      "rank": 68,
       "title": "Yonaguni",
       "artist": "Bad Bunny",
       "album": "Yonaguni - Single",
@@ -826,31 +802,31 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/b9/6b/49b96b1c-aeee-7e22-ce0a-be17bab4a864/mzaf_5470366028981689473.plus.aac.p.m4a"
     },
     {
+      "rank": 67,
+      "title": "petal",
+      "artist": "Ariana Grande",
+      "album": "petal",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "6763656878",
+      "sourceUrl": "https://music.apple.com/it/album/petal/1895420989?i=6763656878",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/60/0e/87/600e8738-24b3-4ef3-a983-fc40f7e0198e/mzaf_4874676909030226747.plus.aac.p.m4a"
+    },
+    {
+      "rank": 68,
+      "title": "Capri Sun",
+      "artist": "Capo Plaza",
+      "album": "Hustle Mixtape",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/60/68/21/60682127-99c3-b563-c797-1ab48753b73a/5054197174667.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1624134050",
+      "sourceUrl": "https://music.apple.com/it/album/capri-sun/1624133787?i=1624134050",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/51/b1/bd51b1be-3ab7-f084-b265-aa7c312aaeef/mzaf_15315582827404014173.plus.aac.p.m4a"
+    },
+    {
       "rank": 69,
-      "title": "Tran Tran",
-      "artist": "Sfera Ebbasta",
-      "album": "Tran Tran - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d9/10/61/d9106153-7c9d-3295-b3b7-4c8330fc2eb9/00602557756296.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1444620963",
-      "sourceUrl": "https://music.apple.com/it/album/tran-tran/1444620960?i=1444620963",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/53/67/ea/5367ea44-bb7d-d677-f235-19bb49441ac7/mzaf_10470730757467367740.plus.aac.p.m4a"
-    },
-    {
-      "rank": 70,
-      "title": "Gotham (feat. Kid Yugi)",
-      "artist": "Shiva",
-      "album": "Milano Angels",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/e5/ba/afe5babf-3102-8ee2-9ecb-3375b9d0938b/196872118391.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1765543358",
-      "sourceUrl": "https://music.apple.com/it/album/gotham-feat-kid-yugi/1765543345?i=1765543358",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/85/1e/43851ed8-4a5b-567b-f092-44f70894db52/mzaf_17985204908232049839.plus.aac.p.m4a"
-    },
-    {
-      "rank": 71,
       "title": "TU MI PIACI TANTO",
       "artist": "Sayf",
       "album": "TU MI PIACI TANTO - Single",
@@ -862,31 +838,43 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/0c/9f/190c9fc7-411d-7d14-e537-ce69fed7f1a3/mzaf_17980492027234992274.plus.aac.p.m4a"
     },
     {
-      "rank": 72,
-      "title": "Bossa Nostra",
-      "artist": "GAIA",
-      "album": "Bossa Nostra - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/e3/99/1de39993-70e9-3084-c39f-f23feb267a23/196874325162.jpg/600x600bb.jpg",
+      "rank": 70,
+      "title": "MILLION DOLLAR BABE",
+      "artist": "ANNA",
+      "album": "MILLION DOLLAR BABE",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/71/24/1e712472-21d6-1ff0-e3cf-3b723b7969e9/26UMGIM74291.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "6763084827",
-      "sourceUrl": "https://music.apple.com/it/album/bossa-nostra/1895154863?i=6763084827",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/d7/56/9ad756c9-1801-5902-43a3-c8c0229d5d25/mzaf_15803928786911726646.plus.aac.p.m4a"
+      "providerTrackId": "6787217383",
+      "sourceUrl": "https://music.apple.com/it/album/million-dollar-babe/6787217382?i=6787217383",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/a1/db/05a1dbea-ed10-8a82-7b09-9ec1577d6791/mzaf_10516273316009326026.plus.aac.p.m4a"
+    },
+    {
+      "rank": 71,
+      "title": "Tran Tran",
+      "artist": "Sfera Ebbasta",
+      "album": "Tran Tran - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d9/10/61/d9106153-7c9d-3295-b3b7-4c8330fc2eb9/00602557756296.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1444620963",
+      "sourceUrl": "https://music.apple.com/it/album/tran-tran/1444620960?i=1444620963",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/53/67/ea/5367ea44-bb7d-d677-f235-19bb49441ac7/mzaf_10470730757467367740.plus.aac.p.m4a"
+    },
+    {
+      "rank": 72,
+      "title": "Gotham (feat. Kid Yugi)",
+      "artist": "Shiva",
+      "album": "Milano Angels",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/e5/ba/afe5babf-3102-8ee2-9ecb-3375b9d0938b/196872118391.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1765543358",
+      "sourceUrl": "https://music.apple.com/it/album/gotham-feat-kid-yugi/1765543345?i=1765543358",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/85/1e/43851ed8-4a5b-567b-f092-44f70894db52/mzaf_17985204908232049839.plus.aac.p.m4a"
     },
     {
       "rank": 73,
-      "title": "Devastante",
-      "artist": "Olly & Juli",
-      "album": "Devastante - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/55/b5/7b55b518-010e-0521-69a8-019955da95e6/196871898737.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1733644090",
-      "sourceUrl": "https://music.apple.com/it/album/devastante/1733644088?i=1733644090",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/7d/1f/797d1ff7-6da5-d4b4-d1cf-85c4d623e9cc/mzaf_5212827153554195869.plus.aac.p.m4a"
-    },
-    {
-      "rank": 74,
       "title": "Ora che non ho più te",
       "artist": "Cesare Cremonini",
       "album": "Ora che non ho più te - Single",
@@ -898,16 +886,28 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bb/44/17/bb4417f7-91fb-a65b-840d-6e68af11ada5/mzaf_17898450858846175806.plus.aac.p.m4a"
     },
     {
-      "rank": 75,
-      "title": "CENERE",
-      "artist": "Lazza",
-      "album": "CENERE - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/76/3f/15/763f1580-ee5a-26f2-103c-977d86b4c8d7/23UMGIM07806.rgb.jpg/600x600bb.jpg",
+      "rank": 74,
+      "title": "QUANTO FORTE TI PENSAVO",
+      "artist": "Madame",
+      "album": "L'AMORE",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/15/79/ca/1579ca36-6187-2a6e-8ead-3492c758d8c1/23UMGIM24035.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1668997871",
-      "sourceUrl": "https://music.apple.com/it/album/cenere/1668997865?i=1668997871",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/9e/43/ff9e4358-c857-4193-2cf7-4b00614482f8/mzaf_10422515596236696142.plus.aac.p.m4a"
+      "providerTrackId": "1677650811",
+      "sourceUrl": "https://music.apple.com/it/album/quanto-forte-ti-pensavo/1677650182?i=1677650811",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/21/2a/d6212a5e-8232-0331-eccc-dd988e062427/mzaf_9451667184805567355.plus.aac.p.m4a"
+    },
+    {
+      "rank": 75,
+      "title": "Bossa Nostra",
+      "artist": "GAIA",
+      "album": "Bossa Nostra - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/e3/99/1de39993-70e9-3084-c39f-f23feb267a23/196874325162.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "6763084827",
+      "sourceUrl": "https://music.apple.com/it/album/bossa-nostra/1895154863?i=6763084827",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/d7/56/9ad756c9-1801-5902-43a3-c8c0229d5d25/mzaf_15803928786911726646.plus.aac.p.m4a"
     },
     {
       "rank": 76,
@@ -923,42 +923,6 @@
     },
     {
       "rank": 77,
-      "title": "QUANTO FORTE TI PENSAVO",
-      "artist": "Madame",
-      "album": "L'AMORE",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/15/79/ca/1579ca36-6187-2a6e-8ead-3492c758d8c1/23UMGIM24035.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1677650811",
-      "sourceUrl": "https://music.apple.com/it/album/quanto-forte-ti-pensavo/1677650182?i=1677650811",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/21/2a/d6212a5e-8232-0331-eccc-dd988e062427/mzaf_9451667184805567355.plus.aac.p.m4a"
-    },
-    {
-      "rank": 78,
-      "title": "MILLION DOLLAR BABE",
-      "artist": "ANNA",
-      "album": "MILLION DOLLAR BABE",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/71/24/1e712472-21d6-1ff0-e3cf-3b723b7969e9/26UMGIM74291.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "6787217383",
-      "sourceUrl": "https://music.apple.com/it/album/million-dollar-babe/6787217382?i=6787217383",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/a1/db/05a1dbea-ed10-8a82-7b09-9ec1577d6791/mzaf_10516273316009326026.plus.aac.p.m4a"
-    },
-    {
-      "rank": 79,
-      "title": "HIPPY YA YO (PERÒ ANCHE NO)",
-      "artist": "J-Ax",
-      "album": "HIPPY YA YO (PERÒ ANCHE NO) - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/52/8e/59/528e5928-37ec-adbd-1ccc-ec68e7e8b8ae/196874423455.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "6771276566",
-      "sourceUrl": "https://music.apple.com/it/album/hippy-ya-yo-per%C3%B2-anche-no/6771276205?i=6771276566",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8f/df/79/8fdf790b-b954-502e-8200-897f41cfe81f/mzaf_1532459606808025536.plus.aac.p.m4a"
-    },
-    {
-      "rank": 80,
       "title": "hate that i made you love me",
       "artist": "Ariana Grande",
       "album": "petal",
@@ -968,6 +932,42 @@
       "providerTrackId": "6763656876",
       "sourceUrl": "https://music.apple.com/it/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/41/f3/0241f307-2ec2-f817-3953-78df5f80f63d/mzaf_525670659940588152.plus.aac.p.m4a"
+    },
+    {
+      "rank": 78,
+      "title": "Devastante",
+      "artist": "Olly & Juli",
+      "album": "Devastante - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/55/b5/7b55b518-010e-0521-69a8-019955da95e6/196871898737.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1733644090",
+      "sourceUrl": "https://music.apple.com/it/album/devastante/1733644088?i=1733644090",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/7d/1f/797d1ff7-6da5-d4b4-d1cf-85c4d623e9cc/mzaf_5212827153554195869.plus.aac.p.m4a"
+    },
+    {
+      "rank": 79,
+      "title": "SONO IO IL PASS",
+      "artist": "ANNA & Lazza",
+      "album": "MILLION DOLLAR BABE",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/71/24/1e712472-21d6-1ff0-e3cf-3b723b7969e9/26UMGIM74291.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "6787217388",
+      "sourceUrl": "https://music.apple.com/it/album/sono-io-il-pass/6787217382?i=6787217388",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/82/e8/7d/82e87d77-49f1-646e-b0f4-98ce2cee9c68/mzaf_426038450875917658.plus.aac.p.m4a"
+    },
+    {
+      "rank": 80,
+      "title": "CENERE",
+      "artist": "Lazza",
+      "album": "CENERE - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/76/3f/15/763f1580-ee5a-26f2-103c-977d86b4c8d7/23UMGIM07806.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1668997871",
+      "sourceUrl": "https://music.apple.com/it/album/cenere/1668997865?i=1668997871",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/9e/43/ff9e4358-c857-4193-2cf7-4b00614482f8/mzaf_10422515596236696142.plus.aac.p.m4a"
     },
     {
       "rank": 81,
@@ -983,27 +983,27 @@
     },
     {
       "rank": 82,
-      "title": "SONO IO IL PASS",
-      "artist": "ANNA & Lazza",
-      "album": "MILLION DOLLAR BABE",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/71/24/1e712472-21d6-1ff0-e3cf-3b723b7969e9/26UMGIM74291.rgb.jpg/600x600bb.jpg",
+      "title": "Las mas bonitas son p#tas",
+      "artist": "Anuel AA",
+      "album": "Las mas bonitas son p#tas - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "6787217388",
-      "sourceUrl": "https://music.apple.com/it/album/sono-io-il-pass/6787217382?i=6787217388",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/82/e8/7d/82e87d77-49f1-646e-b0f4-98ce2cee9c68/mzaf_426038450875917658.plus.aac.p.m4a"
+      "providerTrackId": "6784402416",
+      "sourceUrl": "https://music.apple.com/it/album/las-mas-bonitas-son-p-tas/6784402197?i=6784402416",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/aa/e4/e4/aae4e4b5-1ce0-e3b3-a7c2-e26b985d2bc0/mzaf_3158363351849326481.plus.aac.p.m4a"
     },
     {
       "rank": 83,
-      "title": "Serenamente",
-      "artist": "Juli & Bresh",
-      "album": "SOLITO CINEMA",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/89/98/3b/89983b32-da6f-856f-f0a7-ce36f89df042/196874289594.jpg/600x600bb.jpg",
+      "title": "HIPPY YA YO (PERÒ ANCHE NO)",
+      "artist": "J-Ax",
+      "album": "HIPPY YA YO (PERÒ ANCHE NO) - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/52/8e/59/528e5928-37ec-adbd-1ccc-ec68e7e8b8ae/196874423455.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1891967900",
-      "sourceUrl": "https://music.apple.com/it/album/serenamente/1891967893?i=1891967900",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/43/f1/5443f1b6-1bc6-cc56-e2ff-0a7d7a7a878c/mzaf_17024402697932727903.plus.aac.p.m4a"
+      "providerTrackId": "6771276566",
+      "sourceUrl": "https://music.apple.com/it/album/hippy-ya-yo-per%C3%B2-anche-no/6771276205?i=6771276566",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8f/df/79/8fdf790b-b954-502e-8200-897f41cfe81f/mzaf_1532459606808025536.plus.aac.p.m4a"
     },
     {
       "rank": 84,
@@ -1019,54 +1019,18 @@
     },
     {
       "rank": 85,
-      "title": "VDLC",
-      "artist": "Sfera Ebbasta",
-      "album": "X2VR",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/e6/9b/d3e69bb1-cecd-eb1d-a445-1d1fe33da0be/23UM1IM47617.rgb.jpg/600x600bb.jpg",
+      "title": "Serenamente",
+      "artist": "Juli & Bresh",
+      "album": "SOLITO CINEMA",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/89/98/3b/89983b32-da6f-856f-f0a7-ce36f89df042/196874289594.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1716339919",
-      "sourceUrl": "https://music.apple.com/it/album/vdlc/1716339602?i=1716339919",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/ff/ba/26ffbad7-b388-74c0-6b35-c34957a6ff37/mzaf_16486160893529080802.plus.aac.p.m4a"
+      "providerTrackId": "1891967900",
+      "sourceUrl": "https://music.apple.com/it/album/serenamente/1891967893?i=1891967900",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/43/f1/5443f1b6-1bc6-cc56-e2ff-0a7d7a7a878c/mzaf_17024402697932727903.plus.aac.p.m4a"
     },
     {
       "rank": 86,
-      "title": "Businessman",
-      "artist": "ditonellapiaga",
-      "album": "Miss Italia",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d8/8d/b6/d88db69b-dae8-ce22-4911-9e965708ce8d/4099964270693.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "6773368840",
-      "sourceUrl": "https://music.apple.com/it/album/businessman/6773368592?i=6773368840",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/22/7f/38227fd1-658a-d18b-a3a6-03c481f52e45/mzaf_2011875793846631468.plus.aac.p.m4a"
-    },
-    {
-      "rank": 87,
-      "title": "Las mas bonitas son p#tas",
-      "artist": "Anuel AA",
-      "album": "Las mas bonitas son p#tas - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f2/82/46f28288-8e3d-d4cb-e73f-00863da4603b/820233902649.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "6784402416",
-      "sourceUrl": "https://music.apple.com/it/album/las-mas-bonitas-son-p-tas/6784402197?i=6784402416",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/aa/e4/e4/aae4e4b5-1ce0-e3b3-a7c2-e26b985d2bc0/mzaf_3158363351849326481.plus.aac.p.m4a"
-    },
-    {
-      "rank": 88,
-      "title": "Pastello Bianco",
-      "artist": "Pinguini Tattici Nucleari",
-      "album": "AHIA!",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/48/19/ce48195d-cd65-dc67-2d09-4f59a1ebb144/886448890591.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1538819205",
-      "sourceUrl": "https://music.apple.com/it/album/pastello-bianco/1538818956?i=1538819205",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/d8/48/79d84890-d173-2c49-68ad-b790cc87e1fe/mzaf_7232352355232016258.plus.aac.p.m4a"
-    },
-    {
-      "rank": 89,
       "title": "Gelosa (feat. Shiva, Sfera Ebbasta & Guè)",
       "artist": "Finesse",
       "album": "Gelosa (feat. Shiva, Sfera Ebbasta & Guè) - Single",
@@ -1078,7 +1042,19 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a4/a6/07/a4a60792-ae3e-6776-d0a9-535498919cf4/mzaf_100636618272118686.plus.aac.p.m4a"
     },
     {
-      "rank": 90,
+      "rank": 87,
+      "title": "VDLC",
+      "artist": "Sfera Ebbasta",
+      "album": "X2VR",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/e6/9b/d3e69bb1-cecd-eb1d-a445-1d1fe33da0be/23UM1IM47617.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1716339919",
+      "sourceUrl": "https://music.apple.com/it/album/vdlc/1716339602?i=1716339919",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/ff/ba/26ffbad7-b388-74c0-6b35-c34957a6ff37/mzaf_16486160893529080802.plus.aac.p.m4a"
+    },
+    {
+      "rank": 88,
       "title": "Cuore rotto",
       "artist": "Tony Boy",
       "album": "Cuore rotto - Single",
@@ -1090,7 +1066,19 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/d2/13/19d213a4-239b-8948-0210-af5801fe62ea/mzaf_4830214326709233476.plus.aac.p.m4a"
     },
     {
-      "rank": 91,
+      "rank": 89,
+      "title": "Pastello Bianco",
+      "artist": "Pinguini Tattici Nucleari",
+      "album": "AHIA!",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/48/19/ce48195d-cd65-dc67-2d09-4f59a1ebb144/886448890591.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1538819205",
+      "sourceUrl": "https://music.apple.com/it/album/pastello-bianco/1538818956?i=1538819205",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/d8/48/79d84890-d173-2c49-68ad-b790cc87e1fe/mzaf_7232352355232016258.plus.aac.p.m4a"
+    },
+    {
+      "rank": 90,
       "title": "MUCHACHA",
       "artist": "Aissa, Rvfv & Kreamly",
       "album": "MUCHACHA - Single",
@@ -1102,55 +1090,19 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/22/74/42227440-c598-49ea-6495-5e6aa7fe8764/mzaf_12895870215404936810.plus.aac.p.m4a"
     },
     {
-      "rank": 92,
-      "title": "Menomale che c'è il mare",
-      "artist": "Olly & Juli",
-      "album": "Gira, il mondo gira",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0e/44/23/0e4423c6-801a-4c39-5560-d5c139532f01/196871475730.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1707873369",
-      "sourceUrl": "https://music.apple.com/it/album/menomale-che-c%C3%A8-il-mare/1707872993?i=1707873369",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/84/22/2c8422f9-2774-fa1d-f40a-1ef5692eef9e/mzaf_4940127792275848267.plus.aac.p.m4a"
-    },
-    {
-      "rank": 93,
-      "title": "Che fastidio!",
+      "rank": 91,
+      "title": "Businessman",
       "artist": "ditonellapiaga",
-      "album": "Che fastidio! - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/70/cd/8970cd02-0ead-d41e-3790-05f6a4d8a2a6/4099964239461.jpg/600x600bb.jpg",
+      "album": "Miss Italia",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d8/8d/b6/d88db69b-dae8-ce22-4911-9e965708ce8d/4099964270693.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1875215024",
-      "sourceUrl": "https://music.apple.com/it/album/che-fastidio/1875215012?i=1875215024",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ff/65/78/ff65784f-a3e4-d598-2f81-8a3ce234cc22/mzaf_1566819658239994552.plus.aac.p.m4a"
+      "providerTrackId": "6773368840",
+      "sourceUrl": "https://music.apple.com/it/album/businessman/6773368592?i=6773368840",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/22/7f/38227fd1-658a-d18b-a3a6-03c481f52e45/mzaf_2011875793846631468.plus.aac.p.m4a"
     },
     {
-      "rank": 94,
-      "title": "Bam Bam Bambina",
-      "artist": "Elettra Lamborghini",
-      "album": "Bam Bam Bambina - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/7f/79/1a7f798b-49f6-5284-722d-dbe19fd48399/26UMGIM55729.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "6766538305",
-      "sourceUrl": "https://music.apple.com/it/album/bam-bam-bambina/6766537972?i=6766538305",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/ed/c6/f3edc6f9-bd8e-5544-8c9a-681fc65ec050/mzaf_9732094463412918927.plus.aac.p.m4a"
-    },
-    {
-      "rank": 95,
-      "title": "PARLAR D’AMORE (feat. Bresh)",
-      "artist": "Sayf",
-      "album": "SANTISSIMO",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/d1/bd/f8d1bd8e-9a3f-dbf1-68dc-a750ccad837f/827568017581.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "6766257105",
-      "sourceUrl": "https://music.apple.com/it/album/parlar-damore-feat-bresh/1896255400?i=6766257105",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/6e/ae/e66eaec4-1aea-e7d4-b54c-e851910b4ecf/mzaf_12267469839720519737.plus.aac.p.m4a"
-    },
-    {
-      "rank": 96,
+      "rank": 92,
       "title": "RMB (Ring My Bell)",
       "artist": "Aitch",
       "album": "RMB (Ring My Bell) - Single",
@@ -1162,19 +1114,43 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/2f/7c/dc2f7c25-8d5c-b650-2d2a-1f0ea45da44e/mzaf_9665042189081518274.plus.aac.p.m4a"
     },
     {
-      "rank": 97,
-      "title": "LA COSTIERA AMALFITANA (feat. Arisa, Nino D'Angelo)",
-      "artist": "Fabio Rovazzi",
-      "album": "LA COSTIERA AMALFITANA (feat. Arisa, Nino D'Angelo) - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/94/19/84941986-43c1-a30a-082e-1f0397f32598/1200214443566.jpg/600x600bb.jpg",
+      "rank": 93,
+      "title": "Menomale che c'è il mare",
+      "artist": "Olly & Juli",
+      "album": "Gira, il mondo gira",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0e/44/23/0e4423c6-801a-4c39-5560-d5c139532f01/196871475730.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "6784644488",
-      "sourceUrl": "https://music.apple.com/it/album/la-costiera-amalfitana-feat-arisa-nino-dangelo/6784644486?i=6784644488",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/ce/0b/a8ce0b21-f4fe-4f84-c7cd-65952fb551b5/mzaf_13498661344894705701.plus.aac.p.m4a"
+      "providerTrackId": "1707873369",
+      "sourceUrl": "https://music.apple.com/it/album/menomale-che-c%C3%A8-il-mare/1707872993?i=1707873369",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/84/22/2c8422f9-2774-fa1d-f40a-1ef5692eef9e/mzaf_4940127792275848267.plus.aac.p.m4a"
     },
     {
-      "rank": 98,
+      "rank": 94,
+      "title": "PARLAR D’AMORE (feat. Bresh)",
+      "artist": "Sayf",
+      "album": "SANTISSIMO",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/d1/bd/f8d1bd8e-9a3f-dbf1-68dc-a750ccad837f/827568017581.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "6766257105",
+      "sourceUrl": "https://music.apple.com/it/album/parlar-damore-feat-bresh/1896255400?i=6766257105",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/6e/ae/e66eaec4-1aea-e7d4-b54c-e851910b4ecf/mzaf_12267469839720519737.plus.aac.p.m4a"
+    },
+    {
+      "rank": 95,
+      "title": "Che fastidio!",
+      "artist": "ditonellapiaga",
+      "album": "Che fastidio! - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/70/cd/8970cd02-0ead-d41e-3790-05f6a4d8a2a6/4099964239461.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1875215024",
+      "sourceUrl": "https://music.apple.com/it/album/che-fastidio/1875215012?i=1875215024",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ff/65/78/ff65784f-a3e4-d598-2f81-8a3ce234cc22/mzaf_1566819658239994552.plus.aac.p.m4a"
+    },
+    {
+      "rank": 96,
       "title": "CRUDELIA - I nervi",
       "artist": "Marracash",
       "album": "Persona",
@@ -1186,16 +1162,40 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/14/5c/e1145c0d-e911-56f5-9957-aa0635715f08/mzaf_9574115080504748412.plus.aac.p.m4a"
     },
     {
-      "rank": 99,
-      "title": "VOLEVO CAPIRE",
-      "artist": "Madame & Marracash",
-      "album": "DISINCANTO",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/87/1b/03871b88-2650-e430-1a97-4ad2a5694b22/26UMGIM23344.rgb.jpg/600x600bb.jpg",
+      "rank": 97,
+      "title": "Syrup",
+      "artist": "Shiva",
+      "album": "Syrup - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/23/3c/b9/233cb9ee-0a5d-8ecc-dac2-4c71166429a3/196871459174.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1891283842",
-      "sourceUrl": "https://music.apple.com/it/album/volevo-capire/1891283838?i=1891283842",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/a4/dc/f6a4dce0-4e09-7522-310a-2b9534b62c51/mzaf_4402855184670429661.plus.aac.p.m4a"
+      "providerTrackId": "1706522139",
+      "sourceUrl": "https://music.apple.com/it/album/syrup/1706522124?i=1706522139",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/18/0a/4d/180a4d75-67c1-88cd-060f-e23698aca3aa/mzaf_992018614377655791.plus.aac.p.m4a"
+    },
+    {
+      "rank": 98,
+      "title": "LA COSTIERA AMALFITANA (feat. Arisa, Nino D'Angelo)",
+      "artist": "Fabio Rovazzi",
+      "album": "LA COSTIERA AMALFITANA (feat. Arisa, Nino D'Angelo) - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/94/19/84941986-43c1-a30a-082e-1f0397f32598/1200214443566.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "6784644488",
+      "sourceUrl": "https://music.apple.com/it/album/la-costiera-amalfitana-feat-arisa-nino-dangelo/6784644486?i=6784644488",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/ce/0b/a8ce0b21-f4fe-4f84-c7cd-65952fb551b5/mzaf_13498661344894705701.plus.aac.p.m4a"
+    },
+    {
+      "rank": 99,
+      "title": "Bam Bam Bambina",
+      "artist": "Elettra Lamborghini",
+      "album": "Bam Bam Bambina - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/7f/79/1a7f798b-49f6-5284-722d-dbe19fd48399/26UMGIM55729.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "6766538305",
+      "sourceUrl": "https://music.apple.com/it/album/bam-bam-bambina/6766537972?i=6766538305",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/ed/c6/f3edc6f9-bd8e-5544-8c9a-681fc65ec050/mzaf_9732094463412918927.plus.aac.p.m4a"
     },
     {
       "rank": 100,
