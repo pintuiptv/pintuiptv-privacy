@@ -15,7 +15,7 @@
   },
   "mediaType": "show",
   "section": "top_rated",
-  "generatedAt": "2026-09-03T17:54:08Z",
+  "generatedAt": "2026-09-03T19:27:42Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 86400,
   "itemCount": 100,
@@ -1815,8 +1815,8 @@
       "firstAired": "2014-11-03",
       "watchers": null,
       "plays": null,
-      "rating": 8.569,
-      "votes": 1808,
+      "rating": 8.57,
+      "votes": 1809,
       "popularity": 12.9225,
       "score": null,
       "ids": {
@@ -1882,7 +1882,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.565,
-      "votes": 7849,
+      "votes": 7848,
       "popularity": 160.0817,
       "score": null,
       "ids": {
@@ -1904,8 +1904,8 @@
       "firstAired": "2022-04-22",
       "watchers": null,
       "plays": null,
-      "rating": 8.564,
-      "votes": 1765,
+      "rating": 8.565,
+      "votes": 1766,
       "popularity": 16.8406,
       "score": null,
       "ids": {
@@ -2051,6 +2051,29 @@
     },
     {
       "rank": 93,
+      "title": "Digimon Tamers",
+      "year": 2001,
+      "released": null,
+      "firstAired": "2001-04-01",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.556,
+      "votes": 384,
+      "popularity": 9.8596,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 9302
+      },
+      "aliases": [
+        "デジモンテイマーズ"
+      ],
+      "posterPath": "/r8MYNECZkwprDATctOc8rDFQ8at.jpg"
+    },
+    {
+      "rank": 94,
       "title": "Villainous",
       "year": 2017,
       "released": null,
@@ -2073,14 +2096,14 @@
       "posterPath": "/uKtxJqOeB74Lm6ZNCyEqMaFlXbp.jpg"
     },
     {
-      "rank": 94,
+      "rank": 95,
       "title": "Stranger Things",
       "year": 2016,
       "released": null,
       "firstAired": "2016-07-15",
       "watchers": null,
       "plays": null,
-      "rating": 8.553,
+      "rating": 8.6,
       "votes": 21761,
       "popularity": 112.117,
       "score": null,
@@ -2091,29 +2114,6 @@
         "tmdb": 66732
       },
       "posterPath": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
-    },
-    {
-      "rank": 95,
-      "title": "Digimon Tamers",
-      "year": 2001,
-      "released": null,
-      "firstAired": "2001-04-01",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.556,
-      "votes": 384,
-      "popularity": 9.8596,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 9302
-      },
-      "aliases": [
-        "デジモンテイマーズ"
-      ],
-      "posterPath": "/r8MYNECZkwprDATctOc8rDFQ8at.jpg"
     },
     {
       "rank": 96,
@@ -2168,7 +2168,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.543,
-      "votes": 1776,
+      "votes": 1777,
       "popularity": 12.6927,
       "score": null,
       "ids": {
@@ -2185,26 +2185,6 @@
     },
     {
       "rank": 99,
-      "title": "The Rookie",
-      "year": 2018,
-      "released": null,
-      "firstAired": "2018-10-16",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.542,
-      "votes": 3497,
-      "popularity": 234.4226,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 79744
-      },
-      "posterPath": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg"
-    },
-    {
-      "rank": 100,
       "title": "Les Contes de la rue Broca",
       "year": 1996,
       "released": null,
@@ -2222,6 +2202,26 @@
         "tmdb": 73488
       },
       "posterPath": "/mhuHrLGcWyqetfDjBkbebgw0mUI.jpg"
+    },
+    {
+      "rank": 100,
+      "title": "The Rookie",
+      "year": 2018,
+      "released": null,
+      "firstAired": "2018-10-16",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.542,
+      "votes": 3498,
+      "popularity": 234.4226,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 79744
+      },
+      "posterPath": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg"
     }
   ]
 }
