@@ -7,7 +7,7 @@
   "storefront": "de",
   "type": "songs",
   "chart": "most-played",
-  "updatedAt": "2026-09-07T16:05:25Z",
+  "updatedAt": "2026-09-07T18:43:04Z",
   "items": [
     {
       "rank": 1,
@@ -179,18 +179,6 @@
     },
     {
       "rank": 15,
-      "title": "Billie Jean",
-      "artist": "Michael Jackson",
-      "album": "Thriller",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "269573364",
-      "sourceUrl": "https://music.apple.com/de/album/billie-jean/269572838?i=269573364",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dc/bc/8a/dcbc8a3e-4ce1-c00d-cc02-eda2212053c7/mzaf_8347559338388601510.plus.aac.p.m4a"
-    },
-    {
-      "rank": 16,
       "title": "Bass Persuades",
       "artist": "Miley Cyrus",
       "album": "Bass Persuades",
@@ -200,6 +188,18 @@
       "providerTrackId": "6807197459",
       "sourceUrl": "https://music.apple.com/de/album/bass-persuades/6807197456?i=6807197459",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/27/07/7627072f-b432-ce36-ee0c-dee186ac0531/mzaf_17788989910598622554.plus.aac.p.m4a"
+    },
+    {
+      "rank": 16,
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "269573364",
+      "sourceUrl": "https://music.apple.com/de/album/billie-jean/269572838?i=269573364",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dc/bc/8a/dcbc8a3e-4ce1-c00d-cc02-eda2212053c7/mzaf_8347559338388601510.plus.aac.p.m4a"
     },
     {
       "rank": 17,
@@ -347,18 +347,6 @@
     },
     {
       "rank": 29,
-      "title": "Talk To You (feat. 54 Ultra)",
-      "artist": "ANOTR",
-      "album": "Talk To You (feat. 54 Ultra) - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/77/f9/6a77f93a-9286-60d8-3a0b-7d01a4b222cf/5665.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "1870514330",
-      "sourceUrl": "https://music.apple.com/de/album/talk-to-you-feat-54-ultra/1870514329?i=1870514330",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/c0/52/aac05210-37d4-0d74-5013-48156d87d74c/mzaf_573344203389765709.plus.aac.p.m4a"
-    },
-    {
-      "rank": 30,
       "title": "Wonderwall (Remastered)",
       "artist": "Oasis",
       "album": "(What's The Story) Morning Glory? [Deluxe Remastered Edition]",
@@ -370,7 +358,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/3c/97/863c9741-2dbd-7ca2-3c88-67e87d504343/mzaf_13259566290948941960.plus.aac.p.m4a"
     },
     {
-      "rank": 31,
+      "rank": 30,
       "title": "In the End",
       "artist": "LINKIN PARK",
       "album": "Hybrid Theory (Deluxe Edition)",
@@ -380,6 +368,18 @@
       "providerTrackId": "590431785",
       "sourceUrl": "https://music.apple.com/de/album/in-the-end/590431776?i=590431785",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/33/34/d933341d-ba95-dc3b-11a3-34d6632dd62e/mzaf_10942671303595386057.plus.aac.p.m4a"
+    },
+    {
+      "rank": 31,
+      "title": "Talk To You (feat. 54 Ultra)",
+      "artist": "ANOTR",
+      "album": "Talk To You (feat. 54 Ultra) - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/77/f9/6a77f93a-9286-60d8-3a0b-7d01a4b222cf/5665.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "1870514330",
+      "sourceUrl": "https://music.apple.com/de/album/talk-to-you-feat-54-ultra/1870514329?i=1870514330",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/c0/52/aac05210-37d4-0d74-5013-48156d87d74c/mzaf_573344203389765709.plus.aac.p.m4a"
     },
     {
       "rank": 32,
@@ -431,15 +431,15 @@
     },
     {
       "rank": 36,
-      "title": "S&M",
-      "artist": "Rihanna",
-      "album": "Loud (Deluxe)",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c6/b1/6c/c6b16cd1-5580-a214-8745-c4f6faa490d6/16UMGIM59220.rgb.jpg/600x600bb.jpg",
+      "title": "AKON",
+      "artist": "Jazeek",
+      "album": "MOST VALUABLE PLAYA",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/69/54/55695499-5002-434a-6db2-8b076d1b4103/25UMGIM32592.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "de",
-      "providerTrackId": "1440895995",
-      "sourceUrl": "https://music.apple.com/de/album/s-m/1440895867?i=1440895995",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/fa/b4/49fab458-b2ae-6173-f3a3-8af195a83cd4/mzaf_3548245907157804135.plus.aac.p.m4a"
+      "providerTrackId": "1797785856",
+      "sourceUrl": "https://music.apple.com/de/album/akon/1797785848?i=1797785856",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/91/46/9a9146c0-17af-c5a5-c4e9-a06cc2365b84/mzaf_9490879014067528540.plus.aac.p.m4a"
     },
     {
       "rank": 37,
@@ -455,30 +455,18 @@
     },
     {
       "rank": 38,
-      "title": "AKON",
-      "artist": "Jazeek",
-      "album": "MOST VALUABLE PLAYA",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/69/54/55695499-5002-434a-6db2-8b076d1b4103/25UMGIM32592.rgb.jpg/600x600bb.jpg",
+      "title": "S&M",
+      "artist": "Rihanna",
+      "album": "Loud (Deluxe)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c6/b1/6c/c6b16cd1-5580-a214-8745-c4f6faa490d6/16UMGIM59220.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "de",
-      "providerTrackId": "1797785856",
-      "sourceUrl": "https://music.apple.com/de/album/akon/1797785848?i=1797785856",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/91/46/9a9146c0-17af-c5a5-c4e9-a06cc2365b84/mzaf_9490879014067528540.plus.aac.p.m4a"
+      "providerTrackId": "1440895995",
+      "sourceUrl": "https://music.apple.com/de/album/s-m/1440895867?i=1440895995",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/fa/b4/49fab458-b2ae-6173-f3a3-8af195a83cd4/mzaf_3548245907157804135.plus.aac.p.m4a"
     },
     {
       "rank": 39,
-      "title": "bloodstream",
-      "artist": "Alyssa Grace",
-      "album": "spilling my guts",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/a7/ef/7fa7ef61-6e22-f30f-441c-e89e7ff4a79a/093624817147.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "6783576167",
-      "sourceUrl": "https://music.apple.com/de/album/bloodstream/6783576156?i=6783576167",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/69/5d/df695db5-f5c3-5197-2bff-5585a3496082/mzaf_3209381326302749040.plus.aac.p.m4a"
-    },
-    {
-      "rank": 40,
       "title": "Janice STFU",
       "artist": "Drake",
       "album": "ICEMAN",
@@ -488,6 +476,18 @@
       "providerTrackId": "6769568596",
       "sourceUrl": "https://music.apple.com/de/album/janice-stfu/6769568449?i=6769568596",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/a3/18/a2a31893-76db-627e-0985-6c720be140b4/mzaf_4732841734320991384.plus.aac.p.m4a"
+    },
+    {
+      "rank": 40,
+      "title": "bloodstream",
+      "artist": "Alyssa Grace",
+      "album": "spilling my guts",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/a7/ef/7fa7ef61-6e22-f30f-441c-e89e7ff4a79a/093624817147.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "6783576167",
+      "sourceUrl": "https://music.apple.com/de/album/bloodstream/6783576156?i=6783576167",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/69/5d/df695db5-f5c3-5197-2bff-5585a3496082/mzaf_3209381326302749040.plus.aac.p.m4a"
     },
     {
       "rank": 41,
@@ -515,18 +515,6 @@
     },
     {
       "rank": 43,
-      "title": "FEVER DREAM",
-      "artist": "Alex Warren",
-      "album": "FEVER DREAM - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/f7/65/bef765dc-cf56-c979-976e-2e133040793f/075679588937.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "1879983789",
-      "sourceUrl": "https://music.apple.com/de/album/fever-dream/1879983782?i=1879983789",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/6a/13/d56a1388-9b6a-94a4-4c34-3bb70ec0ab72/mzaf_1396857457479337489.plus.aac.p.m4a"
-    },
-    {
-      "rank": 44,
       "title": "Dracula (with JENNIE)",
       "artist": "Tame Impala",
       "album": "Dracula (with JENNIE) - Single",
@@ -536,6 +524,18 @@
       "providerTrackId": "1874125269",
       "sourceUrl": "https://music.apple.com/de/album/dracula-with-jennie/1874125260?i=1874125269",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/43/5e/2a435e79-4a38-30fc-c0a1-465c98487c5b/mzaf_17235703890805792941.plus.aac.p.m4a"
+    },
+    {
+      "rank": 44,
+      "title": "FEVER DREAM",
+      "artist": "Alex Warren",
+      "album": "FEVER DREAM - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/f7/65/bef765dc-cf56-c979-976e-2e133040793f/075679588937.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "1879983789",
+      "sourceUrl": "https://music.apple.com/de/album/fever-dream/1879983782?i=1879983789",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/6a/13/d56a1388-9b6a-94a4-4c34-3bb70ec0ab72/mzaf_1396857457479337489.plus.aac.p.m4a"
     },
     {
       "rank": 45,
@@ -599,18 +599,6 @@
     },
     {
       "rank": 50,
-      "title": "American Girls",
-      "artist": "Harry Styles",
-      "album": "Kiss All The Time. Disco, Occasionally.",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "1870984036",
-      "sourceUrl": "https://music.apple.com/de/album/american-girls/1870984032?i=1870984036",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/41/ca/2541ca67-332b-8491-2110-a8d1f6645640/mzaf_3738225504365022653.plus.aac.p.m4a"
-    },
-    {
-      "rank": 51,
       "title": "Babydoll",
       "artist": "Dominic Fike",
       "album": "Don't Forget About Me, Demos - EP",
@@ -620,6 +608,18 @@
       "providerTrackId": "1438243880",
       "sourceUrl": "https://music.apple.com/de/album/babydoll/1438243719?i=1438243880",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/bb/88/1ebb8866-ba1f-1a8b-8e82-90bc9ba0c1ed/mzaf_10828213515596552720.plus.aac.p.m4a"
+    },
+    {
+      "rank": 51,
+      "title": "American Girls",
+      "artist": "Harry Styles",
+      "album": "Kiss All The Time. Disco, Occasionally.",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "1870984036",
+      "sourceUrl": "https://music.apple.com/de/album/american-girls/1870984032?i=1870984036",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/41/ca/2541ca67-332b-8491-2110-a8d1f6645640/mzaf_3738225504365022653.plus.aac.p.m4a"
     },
     {
       "rank": 52,
@@ -659,18 +659,6 @@
     },
     {
       "rank": 55,
-      "title": "End of Beginning",
-      "artist": "Djo",
-      "album": "DECIDE",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/94/31/e59431de-7591-58e6-c4d4-105b6373ad6a/5056494917336_1.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "1632448108",
-      "sourceUrl": "https://music.apple.com/de/album/end-of-beginning/1632447652?i=1632448108",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/df/af/6edfaf58-f901-e9b5-840b-9ac9e37f34b7/mzaf_8465065510938624101.plus.aac.p.m4a"
-    },
-    {
-      "rank": 56,
       "title": "DtMF",
       "artist": "Bad Bunny",
       "album": "DeBÍ TiRAR MáS FOToS",
@@ -680,6 +668,18 @@
       "providerTrackId": "1787023936",
       "sourceUrl": "https://music.apple.com/de/album/dtmf/1787022393?i=1787023936",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/ea/9c/d9ea9c1c-4b31-c448-0882-f9bae822e1fd/mzaf_3206041669449949150.plus.aac.p.m4a"
+    },
+    {
+      "rank": 56,
+      "title": "End of Beginning",
+      "artist": "Djo",
+      "album": "DECIDE",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/94/31/e59431de-7591-58e6-c4d4-105b6373ad6a/5056494917336_1.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "1632448108",
+      "sourceUrl": "https://music.apple.com/de/album/end-of-beginning/1632447652?i=1632448108",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/df/af/6edfaf58-f901-e9b5-840b-9ac9e37f34b7/mzaf_8465065510938624101.plus.aac.p.m4a"
     },
     {
       "rank": 57,
@@ -695,15 +695,15 @@
     },
     {
       "rank": 58,
-      "title": "12 to 12",
-      "artist": "sombr",
-      "album": "12 to 12 - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/e4/44/19e44489-7f7b-3ca7-660f-98d44664bc3f/054391229144.jpg/600x600bb.jpg",
+      "title": "Kein Kokain",
+      "artist": "Drunken Masters & Ikkimel",
+      "album": "Ikkimel die Geile EP",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/20/8e/75/208e751a-99ac-6b94-aa8b-ef9bba00d0e0/196874582206.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "de",
-      "providerTrackId": "1828036635",
-      "sourceUrl": "https://music.apple.com/de/album/12-to-12/1828036634?i=1828036635",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/92/f8/2592f877-b63b-0be5-0fa1-0dd9eeea65dd/mzaf_3915303685698195795.plus.aac.p.m4a"
+      "providerTrackId": "6788531972",
+      "sourceUrl": "https://music.apple.com/de/album/kein-kokain/6788531889?i=6788531972",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/17/99/4517996e-bc66-d59b-b287-432338aab42f/mzaf_4986578435865384683.plus.aac.p.m4a"
     },
     {
       "rank": 59,
@@ -719,30 +719,18 @@
     },
     {
       "rank": 60,
-      "title": "Kein Kokain",
-      "artist": "Drunken Masters & Ikkimel",
-      "album": "Ikkimel die Geile EP",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/20/8e/75/208e751a-99ac-6b94-aa8b-ef9bba00d0e0/196874582206.jpg/600x600bb.jpg",
+      "title": "12 to 12",
+      "artist": "sombr",
+      "album": "12 to 12 - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/e4/44/19e44489-7f7b-3ca7-660f-98d44664bc3f/054391229144.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "de",
-      "providerTrackId": "6788531972",
-      "sourceUrl": "https://music.apple.com/de/album/kein-kokain/6788531889?i=6788531972",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/17/99/4517996e-bc66-d59b-b287-432338aab42f/mzaf_4986578435865384683.plus.aac.p.m4a"
+      "providerTrackId": "1828036635",
+      "sourceUrl": "https://music.apple.com/de/album/12-to-12/1828036634?i=1828036635",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/92/f8/2592f877-b63b-0be5-0fa1-0dd9eeea65dd/mzaf_3915303685698195795.plus.aac.p.m4a"
     },
     {
       "rank": 61,
-      "title": "Shape of You",
-      "artist": "Ed Sheeran",
-      "album": "÷ (Deluxe)",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/03/4c/20034cdb-b2b1-74a7-2ec0-521ccf471bbd/190295851286.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "1193700923",
-      "sourceUrl": "https://music.apple.com/de/album/shape-of-you/1193700802?i=1193700923",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/a1/35/c8a1354a-28aa-639f-0d5a-ff843069a4b7/mzaf_7018698804833750599.plus.aac.p.m4a"
-    },
-    {
-      "rank": 62,
       "title": "Just Keep Watching",
       "artist": "Tate McRae",
       "album": "F1 The Album",
@@ -752,6 +740,18 @@
       "providerTrackId": "1810796703",
       "sourceUrl": "https://music.apple.com/de/album/just-keep-watching/1810796698?i=1810796703",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/29/27/f129275c-b8e8-e313-f3cd-a93ae234a6b5/mzaf_9933112702187355547.plus.aac.p.m4a"
+    },
+    {
+      "rank": 62,
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "album": "÷ (Deluxe)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/03/4c/20034cdb-b2b1-74a7-2ec0-521ccf471bbd/190295851286.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "1193700923",
+      "sourceUrl": "https://music.apple.com/de/album/shape-of-you/1193700802?i=1193700923",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/a1/35/c8a1354a-28aa-639f-0d5a-ff843069a4b7/mzaf_7018698804833750599.plus.aac.p.m4a"
     },
     {
       "rank": 63,
@@ -767,6 +767,18 @@
     },
     {
       "rank": 64,
+      "title": "Berlin calling",
+      "artist": "Pashanim",
+      "album": "Lounge Musik",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/af/31/f8af31d4-dfcd-e49d-bfae-780ea62eda47/26UMGIM91750.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "6792912908",
+      "sourceUrl": "https://music.apple.com/de/album/berlin-calling/6792912736?i=6792912908",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/30/c6/fb30c6ca-fe73-7761-e972-3075c0ad62bf/mzaf_14203767949237518262.plus.aac.p.m4a"
+    },
+    {
+      "rank": 65,
       "title": "Man I Need",
       "artist": "Olivia Dean",
       "album": "The Art of Loving",
@@ -778,7 +790,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/bb/5b/42bb5b21-2550-6205-bf3c-334b0e7d6199/mzaf_17462928687872215879.plus.aac.p.m4a"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "title": "Treat You Better",
       "artist": "Shawn Mendes",
       "album": "Illuminate (Deluxe)",
@@ -788,18 +800,6 @@
       "providerTrackId": "1440892713",
       "sourceUrl": "https://music.apple.com/de/album/treat-you-better/1440892227?i=1440892713",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/01/6a/55016ae7-ea0f-46b9-b1e9-bdcd2a2e43a6/mzaf_8546251326492891284.plus.aac.p.m4a"
-    },
-    {
-      "rank": 66,
-      "title": "Berlin calling",
-      "artist": "Pashanim",
-      "album": "Lounge Musik",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/af/31/f8af31d4-dfcd-e49d-bfae-780ea62eda47/26UMGIM91750.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "6792912908",
-      "sourceUrl": "https://music.apple.com/de/album/berlin-calling/6792912736?i=6792912908",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/30/c6/fb30c6ca-fe73-7761-e972-3075c0ad62bf/mzaf_14203767949237518262.plus.aac.p.m4a"
     },
     {
       "rank": 67,
@@ -971,18 +971,6 @@
     },
     {
       "rank": 81,
-      "title": "Into You",
-      "artist": "Ariana Grande",
-      "album": "Dangerous Woman (Video Album)",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/70/0f/3f700f55-1c91-c890-8cb7-b8886f87b7f6/16UMGIM30042.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "1545270163",
-      "sourceUrl": "https://music.apple.com/de/album/into-you/1545270092?i=1545270163",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/f4/8f/e5f48f1b-ddc9-0c4c-5e15-94da4bef0d3f/mzaf_9147219823908813446.plus.aac.p.m4a"
-    },
-    {
-      "rank": 82,
       "title": "Sunflower (Spider-Man: Into the Spider-Verse)",
       "artist": "Post Malone & Swae Lee",
       "album": "Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)",
@@ -992,6 +980,18 @@
       "providerTrackId": "1445949267",
       "sourceUrl": "https://music.apple.com/de/album/sunflower-spider-man-into-the-spider-verse/1445949265?i=1445949267",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/f0/d6/98f0d67e-f8bf-762d-cac7-1c6b3b6b35dd/mzaf_4543283896248560946.plus.aac.p.m4a"
+    },
+    {
+      "rank": 82,
+      "title": "Into You",
+      "artist": "Ariana Grande",
+      "album": "Dangerous Woman (Video Album)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/70/0f/3f700f55-1c91-c890-8cb7-b8886f87b7f6/16UMGIM30042.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "1545270163",
+      "sourceUrl": "https://music.apple.com/de/album/into-you/1545270092?i=1545270163",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/f4/8f/e5f48f1b-ddc9-0c4c-5e15-94da4bef0d3f/mzaf_9147219823908813446.plus.aac.p.m4a"
     },
     {
       "rank": 83,
@@ -1007,18 +1007,6 @@
     },
     {
       "rank": 84,
-      "title": "Danza Kuduro (feat. Lucenzo)",
-      "artist": "Don Omar",
-      "album": "Latinx Heritage",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/89/7a/45/897a45e5-ff4e-0b55-143f-222794960e73/21UMGIM80096.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "1582910596",
-      "sourceUrl": "https://music.apple.com/de/album/danza-kuduro-feat-lucenzo/1582909764?i=1582910596",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8f/61/d5/8f61d52f-df50-2f0d-fd57-c60f26423e45/mzaf_17237019511232701013.plus.aac.p.m4a"
-    },
-    {
-      "rank": 85,
       "title": "Beautiful Things",
       "artist": "Benson Boone",
       "album": "Beautiful Things - Single",
@@ -1028,6 +1016,18 @@
       "providerTrackId": "1724488124",
       "sourceUrl": "https://music.apple.com/de/album/beautiful-things/1724488123?i=1724488124",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/d5/00/4dd5006f-ee02-c3f1-94db-0ed4b8dd68f1/mzaf_14250561294796027079.plus.aac.p.m4a"
+    },
+    {
+      "rank": 85,
+      "title": "Danza Kuduro (feat. Lucenzo)",
+      "artist": "Don Omar",
+      "album": "Latinx Heritage",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/89/7a/45/897a45e5-ff4e-0b55-143f-222794960e73/21UMGIM80096.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "1582910596",
+      "sourceUrl": "https://music.apple.com/de/album/danza-kuduro-feat-lucenzo/1582909764?i=1582910596",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8f/61/d5/8f61d52f-df50-2f0d-fd57-c60f26423e45/mzaf_17237019511232701013.plus.aac.p.m4a"
     },
     {
       "rank": 86,
@@ -1043,18 +1043,6 @@
     },
     {
       "rank": 87,
-      "title": "Viva La Vida",
-      "artist": "Coldplay",
-      "album": "Viva La Vida or Death and All His Friends",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/aa/85/52aa851f-15b7-6322-f91f-df84b15b7b19/190295978044.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "1122773680",
-      "sourceUrl": "https://music.apple.com/de/album/viva-la-vida/1122773394?i=1122773680",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/19/60/b0196060-7786-24c0-8c56-8f628fe89f52/mzaf_12479456646715449366.plus.aac.p.m4a"
-    },
-    {
-      "rank": 88,
       "title": "Magnetic",
       "artist": "The Bausa",
       "album": "Magnetic / Addicted To Your Love - Single",
@@ -1066,7 +1054,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/f7/2a/0ef72a1f-15c3-899e-38ed-bc2c28f8cbb6/mzaf_15779976494493637314.plus.aac.p.m4a"
     },
     {
-      "rank": 89,
+      "rank": 88,
       "title": "Perfect",
       "artist": "Ed Sheeran",
       "album": "÷ (Deluxe)",
@@ -1076,6 +1064,18 @@
       "providerTrackId": "1193700926",
       "sourceUrl": "https://music.apple.com/de/album/perfect/1193700802?i=1193700926",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/66/82/516682ee-7f6c-65d3-9dcf-3b4010bfd84d/mzaf_17833660519500156871.plus.aac.p.m4a"
+    },
+    {
+      "rank": 89,
+      "title": "Viva La Vida",
+      "artist": "Coldplay",
+      "album": "Viva La Vida or Death and All His Friends",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/aa/85/52aa851f-15b7-6322-f91f-df84b15b7b19/190295978044.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "1122773680",
+      "sourceUrl": "https://music.apple.com/de/album/viva-la-vida/1122773394?i=1122773680",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/19/60/b0196060-7786-24c0-8c56-8f628fe89f52/mzaf_12479456646715449366.plus.aac.p.m4a"
     },
     {
       "rank": 90,
@@ -1103,18 +1103,6 @@
     },
     {
       "rank": 92,
-      "title": "greedy",
-      "artist": "Tate McRae",
-      "album": "greedy - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/23/07/92/23079247-25be-3098-ef53-78e7d0fe7406/196871341653.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "de",
-      "providerTrackId": "1706381103",
-      "sourceUrl": "https://music.apple.com/de/album/greedy/1706381100?i=1706381103",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/ec/ed/0aecedcb-8568-a566-d893-98b3eac41e53/mzaf_5496368318146307516.plus.aac.p.m4a"
-    },
-    {
-      "rank": 93,
       "title": "I Adore You (feat. Daecolm)",
       "artist": "HUGEL, Topic & Arash",
       "album": "I Adore You (feat. Daecolm) - Single",
@@ -1124,6 +1112,18 @@
       "providerTrackId": "1756335935",
       "sourceUrl": "https://music.apple.com/de/album/i-adore-you-feat-daecolm/1756335923?i=1756335935",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/df/2a/2c/df2a2c93-6791-0fda-489b-db3a34ff905b/mzaf_17631038804195239156.plus.aac.p.m4a"
+    },
+    {
+      "rank": 93,
+      "title": "greedy",
+      "artist": "Tate McRae",
+      "album": "greedy - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/23/07/92/23079247-25be-3098-ef53-78e7d0fe7406/196871341653.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "de",
+      "providerTrackId": "1706381103",
+      "sourceUrl": "https://music.apple.com/de/album/greedy/1706381100?i=1706381103",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/ec/ed/0aecedcb-8568-a566-d893-98b3eac41e53/mzaf_5496368318146307516.plus.aac.p.m4a"
     },
     {
       "rank": 94,
