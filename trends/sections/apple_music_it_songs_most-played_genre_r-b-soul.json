@@ -7,24 +7,12 @@
   "storefront": "it",
   "type": "songs",
   "chart": "most-played",
-  "updatedAt": "2026-09-11T19:18:54Z",
+  "updatedAt": "2026-09-12T10:55:56Z",
   "genre": "R&B/Soul",
   "genreId": "15",
   "items": [
     {
       "rank": 1,
-      "title": "Blinding Lights",
-      "artist": "The Weeknd",
-      "album": "Blinding Lights - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/6e/bf/a66ebf79-5008-8948-b352-a790fc87446b/19UM1IM04638.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1488408568",
-      "sourceUrl": "https://music.apple.com/it/album/blinding-lights/1488408555?i=1488408568",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/b4/8f/17b48f9a-0b93-6bb8-fe1d-3a16623c2cfb/mzaf_9560252727299052414.plus.aac.p.m4a"
-    },
-    {
-      "rank": 2,
       "title": "Don't Stop The Music",
       "artist": "Rihanna",
       "album": "Good Girl Gone Bad: Reloaded",
@@ -34,6 +22,18 @@
       "providerTrackId": "1441154439",
       "sourceUrl": "https://music.apple.com/it/album/dont-stop-the-music/1441154435?i=1441154439",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/5b/0d/f65b0d9e-ad88-c617-94a8-de4cf6579dff/mzaf_4611312496171288825.plus.aac.p.m4a"
+    },
+    {
+      "rank": 2,
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "album": "Blinding Lights - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/6e/bf/a66ebf79-5008-8948-b352-a790fc87446b/19UM1IM04638.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1488408568",
+      "sourceUrl": "https://music.apple.com/it/album/blinding-lights/1488408555?i=1488408568",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/b4/8f/17b48f9a-0b93-6bb8-fe1d-3a16623c2cfb/mzaf_9560252727299052414.plus.aac.p.m4a"
     },
     {
       "rank": 3,
@@ -85,42 +85,6 @@
     },
     {
       "rank": 7,
-      "title": "No Scrubs",
-      "artist": "TLC",
-      "album": "FanMail",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2d/19/0c/2d190ce6-a157-6364-b5b4-e9b00265d313/mzi.ucefobwj.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "309066884",
-      "sourceUrl": "https://music.apple.com/it/album/no-scrubs/309066782?i=309066884",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/64/38/c964385e-f18a-fd99-638c-76d4f9bdd4e2/mzaf_4744709234124158764.plus.aac.p.m4a"
-    },
-    {
-      "rank": 8,
-      "title": "São Paulo",
-      "artist": "The Weeknd & Anitta",
-      "album": "São Paulo - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/33/6a/dd336ac3-a74a-87df-660a-49270b8c5fb3/24UM1IM21420.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1776914757",
-      "sourceUrl": "https://music.apple.com/it/album/s%C3%A3o-paulo/1776914756?i=1776914757",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/c1/a8/5bc1a807-ab4d-fb04-0ad5-b3b47232ff92/mzaf_7370234574629031144.plus.aac.p.m4a"
-    },
-    {
-      "rank": 9,
-      "title": "Love Me Not",
-      "artist": "Ravyn Lenae",
-      "album": "Bird's Eye",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/8c/6c/078c6c94-d38d-0451-d57b-23e957b569f8/075679660893.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1743852427",
-      "sourceUrl": "https://music.apple.com/it/album/love-me-not/1743852410?i=1743852427",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/56/cd/e456cd7c-d289-553a-9c39-98ca08ca0b4b/mzaf_14810478461288819548.plus.aac.p.m4a"
-    },
-    {
-      "rank": 10,
       "title": "Call Out My Name",
       "artist": "The Weeknd",
       "album": "My Dear Melancholy,",
@@ -132,7 +96,19 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/2f/3d/d12f3d43-a2e2-eba4-8db5-91f3f3c13f5a/mzaf_8470584399239689698.plus.aac.p.m4a"
     },
     {
-      "rank": 11,
+      "rank": 8,
+      "title": "No Scrubs",
+      "artist": "TLC",
+      "album": "FanMail",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2d/19/0c/2d190ce6-a157-6364-b5b4-e9b00265d313/mzi.ucefobwj.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "309066884",
+      "sourceUrl": "https://music.apple.com/it/album/no-scrubs/309066782?i=309066884",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/64/38/c964385e-f18a-fd99-638c-76d4f9bdd4e2/mzaf_4744709234124158764.plus.aac.p.m4a"
+    },
+    {
+      "rank": 9,
       "title": "Cry For Me",
       "artist": "The Weeknd",
       "album": "Hurry Up Tomorrow",
@@ -142,6 +118,30 @@
       "providerTrackId": "1793654350",
       "sourceUrl": "https://music.apple.com/it/album/cry-for-me/1793654348?i=1793654350",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/25/12/a02512c3-6ecd-9d0a-5983-966fd59f9460/mzaf_8803940864628903622.plus.aac.p.m4a"
+    },
+    {
+      "rank": 10,
+      "title": "Love Me Not",
+      "artist": "Ravyn Lenae",
+      "album": "Bird's Eye",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/8c/6c/078c6c94-d38d-0451-d57b-23e957b569f8/075679660893.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1743852427",
+      "sourceUrl": "https://music.apple.com/it/album/love-me-not/1743852410?i=1743852427",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/56/cd/e456cd7c-d289-553a-9c39-98ca08ca0b4b/mzaf_14810478461288819548.plus.aac.p.m4a"
+    },
+    {
+      "rank": 11,
+      "title": "São Paulo",
+      "artist": "The Weeknd & Anitta",
+      "album": "São Paulo - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/33/6a/dd336ac3-a74a-87df-660a-49270b8c5fb3/24UM1IM21420.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1776914757",
+      "sourceUrl": "https://music.apple.com/it/album/s%C3%A3o-paulo/1776914756?i=1776914757",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/c1/a8/5bc1a807-ab4d-fb04-0ad5-b3b47232ff92/mzaf_7370234574629031144.plus.aac.p.m4a"
     },
     {
       "rank": 12,
@@ -157,15 +157,15 @@
     },
     {
       "rank": 13,
-      "title": "After Hours",
+      "title": "Can't Feel My Face",
       "artist": "The Weeknd",
-      "album": "After Hours",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/600x600bb.jpg",
+      "album": "Beauty Behind the Madness",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e57-a63a-3acc-4b30-42568293f5f7/15UMGIM36514.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1499378615",
-      "sourceUrl": "https://music.apple.com/it/album/after-hours/1499378108?i=1499378615",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/2b/61/542b6133-80f7-f30f-4dcf-059490db9d84/mzaf_1539067797902127760.plus.aac.p.m4a"
+      "providerTrackId": "1440858500",
+      "sourceUrl": "https://music.apple.com/it/album/cant-feel-my-face/1440858094?i=1440858500",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/4d/65/e04d6546-d5ae-28bf-51fa-e4e54d737c2f/mzaf_17329746342766146939.plus.aac.p.m4a"
     },
     {
       "rank": 14,
@@ -193,15 +193,15 @@
     },
     {
       "rank": 16,
-      "title": "Can't Feel My Face",
+      "title": "After Hours",
       "artist": "The Weeknd",
-      "album": "Beauty Behind the Madness",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e57-a63a-3acc-4b30-42568293f5f7/15UMGIM36514.rgb.jpg/600x600bb.jpg",
+      "album": "After Hours",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1440858500",
-      "sourceUrl": "https://music.apple.com/it/album/cant-feel-my-face/1440858094?i=1440858500",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/4d/65/e04d6546-d5ae-28bf-51fa-e4e54d737c2f/mzaf_17329746342766146939.plus.aac.p.m4a"
+      "providerTrackId": "1499378615",
+      "sourceUrl": "https://music.apple.com/it/album/after-hours/1499378108?i=1499378615",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/2b/61/542b6133-80f7-f30f-4dcf-059490db9d84/mzaf_1539067797902127760.plus.aac.p.m4a"
     },
     {
       "rank": 17,
@@ -217,18 +217,6 @@
     },
     {
       "rank": 18,
-      "title": "I Feel It Coming (feat. Daft Punk)",
-      "artist": "The Weeknd",
-      "album": "Starboy",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1440872309",
-      "sourceUrl": "https://music.apple.com/it/album/i-feel-it-coming-feat-daft-punk/1440871397?i=1440872309",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/af/e0/71afe07f-aae7-c4f0-db02-c05be07591d2/mzaf_5960554915698764959.plus.aac.p.m4a"
-    },
-    {
-      "rank": 19,
       "title": "Back To Black",
       "artist": "Amy Winehouse",
       "album": "Back To Black",
@@ -240,7 +228,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/9f/24/739f24b0-91ae-c5b6-ba60-d0aa99b945b6/mzaf_17946551512137195283.plus.aac.p.m4a"
     },
     {
-      "rank": 20,
+      "rank": 19,
       "title": "All of Me",
       "artist": "John Legend",
       "album": "Love in the Future (Expanded Edition)",
@@ -250,6 +238,18 @@
       "providerTrackId": "1441844542",
       "sourceUrl": "https://music.apple.com/it/album/all-of-me/1441844369?i=1441844542",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/94/6c/ff946ca7-e49a-fdf8-ea5b-11e6f56a0417/mzaf_17369156110722174773.plus.aac.p.m4a"
+    },
+    {
+      "rank": 20,
+      "title": "I Feel It Coming (feat. Daft Punk)",
+      "artist": "The Weeknd",
+      "album": "Starboy",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1440872309",
+      "sourceUrl": "https://music.apple.com/it/album/i-feel-it-coming-feat-daft-punk/1440871397?i=1440872309",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/af/e0/71afe07f-aae7-c4f0-db02-c05be07591d2/mzaf_5960554915698764959.plus.aac.p.m4a"
     },
     {
       "rank": 21,
@@ -265,18 +265,6 @@
     },
     {
       "rank": 22,
-      "title": "In the Night",
-      "artist": "The Weeknd",
-      "album": "Beauty Behind the Madness",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1440826580",
-      "sourceUrl": "https://music.apple.com/it/album/in-the-night/1440826239?i=1440826580",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/6e/37/df6e37e9-7ee4-0bb3-76ac-7e86f563b8d5/mzaf_9812619205883125540.plus.aac.p.m4a"
-    },
-    {
-      "rank": 23,
       "title": "Die For You",
       "artist": "The Weeknd",
       "album": "Starboy",
@@ -286,6 +274,18 @@
       "providerTrackId": "1440872304",
       "sourceUrl": "https://music.apple.com/it/album/die-for-you/1440871397?i=1440872304",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/50/1a/50501a86-bd74-e90d-8a56-68c9b5e6e7d6/mzaf_4588197682084244913.plus.aac.p.m4a"
+    },
+    {
+      "rank": 23,
+      "title": "In the Night",
+      "artist": "The Weeknd",
+      "album": "Beauty Behind the Madness",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1440826580",
+      "sourceUrl": "https://music.apple.com/it/album/in-the-night/1440826239?i=1440826580",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/6e/37/df6e37e9-7ee4-0bb3-76ac-7e86f563b8d5/mzaf_9812619205883125540.plus.aac.p.m4a"
     },
     {
       "rank": 24,
@@ -301,18 +301,6 @@
     },
     {
       "rank": 25,
-      "title": "Ain't No Mountain High Enough",
-      "artist": "Marvin Gaye & Tammi Terrell",
-      "album": "United",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8d/69/0b/8d690bbb-5711-bfe9-7ae3-b0079e16ac19/14UMGIM55268.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1469575663",
-      "sourceUrl": "https://music.apple.com/it/album/aint-no-mountain-high-enough/1469575128?i=1469575663",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/67/32/81673294-d60a-5538-3373-0d20e661d606/mzaf_14870705510932042101.plus.aac.p.m4a"
-    },
-    {
-      "rank": 26,
       "title": "Closer",
       "artist": "Ne-Yo",
       "album": "Year of the Gentleman (Deluxe Edition)",
@@ -324,7 +312,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/4a/d3/314ad383-916e-7701-db82-d71da443b036/mzaf_18162176900343861462.plus.aac.p.m4a"
     },
     {
-      "rank": 27,
+      "rank": 26,
       "title": "Disturbia",
       "artist": "Rihanna",
       "album": "Good Girl Gone Bad: Reloaded",
@@ -336,19 +324,19 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/10/48/a510486f-6ae2-63be-86cb-25e1be8125b2/mzaf_16451062589614299862.plus.aac.p.m4a"
     },
     {
-      "rank": 28,
-      "title": "DJ Got Us Fallin' in Love (feat. Pitbull)",
-      "artist": "USHER",
-      "album": "Raymond v Raymond (Expanded Edition)",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/20/74/2d/20742d10-aae0-7a0c-0509-e8f611be5787/884977705362.jpg/600x600bb.jpg",
+      "rank": 27,
+      "title": "Ain't No Mountain High Enough",
+      "artist": "Marvin Gaye & Tammi Terrell",
+      "album": "United",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8d/69/0b/8d690bbb-5711-bfe9-7ae3-b0079e16ac19/14UMGIM55268.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "923691611",
-      "sourceUrl": "https://music.apple.com/it/album/dj-got-us-fallin-in-love-feat-pitbull/923691585?i=923691611",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/b4/f0/3ab4f0c4-8c32-d4ee-249e-3d8667b9d123/mzaf_3758309532058682733.plus.aac.p.m4a"
+      "providerTrackId": "1469575663",
+      "sourceUrl": "https://music.apple.com/it/album/aint-no-mountain-high-enough/1469575128?i=1469575663",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/67/32/81673294-d60a-5538-3373-0d20e661d606/mzaf_14870705510932042101.plus.aac.p.m4a"
     },
     {
-      "rank": 29,
+      "rank": 28,
       "title": "American Boy (feat. Kanye West)",
       "artist": "Estelle",
       "album": "Shine",
@@ -360,19 +348,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/ca/01/29ca0198-b5da-929a-491b-7d6e27e1ca0f/mzaf_16762597895061325186.plus.aac.p.m4a"
     },
     {
-      "rank": 30,
-      "title": "Lonely (Dirty) [Old Version]",
-      "artist": "Akon",
-      "album": "Trouble",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/3e/69/813e69cc-7f31-e132-b0b1-224de9ffc61e/06UMGIM22294.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1440731466",
-      "sourceUrl": "https://music.apple.com/it/album/lonely-dirty-old-version/1440731129?i=1440731466",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/35/03/6535036a-9cc3-68b4-ed87-419888243874/mzaf_12675312482554182487.plus.aac.p.m4a"
-    },
-    {
-      "rank": 31,
+      "rank": 29,
       "title": "Where Is The Love?",
       "artist": "Black Eyed Peas",
       "album": "Elephunk",
@@ -384,16 +360,40 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/ed/6e/59ed6e29-eef4-1ada-6e4a-1a60fa1e7d30/mzaf_6832991249166311292.plus.aac.p.m4a"
     },
     {
-      "rank": 32,
-      "title": "Breakin' Dishes",
-      "artist": "Rihanna",
-      "album": "Good Girl Gone Bad: Reloaded",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/c0/81/2bc081c8-25f0-ba43-d451-587a54613778/16UMGIM59202.rgb.jpg/600x600bb.jpg",
+      "rank": 30,
+      "title": "DJ Got Us Fallin' in Love (feat. Pitbull)",
+      "artist": "USHER",
+      "album": "Raymond v Raymond (Expanded Edition)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/20/74/2d/20742d10-aae0-7a0c-0509-e8f611be5787/884977705362.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1441154440",
-      "sourceUrl": "https://music.apple.com/it/album/breakin-dishes/1441154435?i=1441154440",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/f3/50/cdf350d8-e174-12c2-752e-50b938dedbcc/mzaf_7360164779899759096.plus.aac.p.m4a"
+      "providerTrackId": "923691611",
+      "sourceUrl": "https://music.apple.com/it/album/dj-got-us-fallin-in-love-feat-pitbull/923691585?i=923691611",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/b4/f0/3ab4f0c4-8c32-d4ee-249e-3d8667b9d123/mzaf_3758309532058682733.plus.aac.p.m4a"
+    },
+    {
+      "rank": 31,
+      "title": "Lonely (Dirty) [Old Version]",
+      "artist": "Akon",
+      "album": "Trouble",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/3e/69/813e69cc-7f31-e132-b0b1-224de9ffc61e/06UMGIM22294.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1440731466",
+      "sourceUrl": "https://music.apple.com/it/album/lonely-dirty-old-version/1440731129?i=1440731466",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/35/03/6535036a-9cc3-68b4-ed87-419888243874/mzaf_12675312482554182487.plus.aac.p.m4a"
+    },
+    {
+      "rank": 32,
+      "title": "Family Affair",
+      "artist": "Mary J. Blige",
+      "album": "No More Drama (Version 2)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/d2/80/cfd2802e-9369-5b3e-5232-3abb3a4363ce/15UMGIM00598.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1442964068",
+      "sourceUrl": "https://music.apple.com/it/album/family-affair/1442964062?i=1442964068",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/b4/a1/1db4a1c1-3052-bbc2-f94b-cf85f05e8ceb/mzaf_5597565720171979084.plus.aac.p.m4a"
     },
     {
       "rank": 33,
@@ -409,18 +409,6 @@
     },
     {
       "rank": 34,
-      "title": "Family Affair",
-      "artist": "Mary J. Blige",
-      "album": "No More Drama (Version 2)",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/d2/80/cfd2802e-9369-5b3e-5232-3abb3a4363ce/15UMGIM00598.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1442964068",
-      "sourceUrl": "https://music.apple.com/it/album/family-affair/1442964062?i=1442964068",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/b4/a1/1db4a1c1-3052-bbc2-f94b-cf85f05e8ceb/mzaf_5597565720171979084.plus.aac.p.m4a"
-    },
-    {
-      "rank": 35,
       "title": "The Abyss",
       "artist": "The Weeknd & Lana Del Rey",
       "album": "Hurry Up Tomorrow",
@@ -432,7 +420,31 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/60/94/fe609404-245c-c4c4-6614-f6df66728b73/mzaf_3828883311165693506.plus.aac.p.m4a"
     },
     {
+      "rank": 35,
+      "title": "Breakin' Dishes",
+      "artist": "Rihanna",
+      "album": "Good Girl Gone Bad: Reloaded",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/c0/81/2bc081c8-25f0-ba43-d451-587a54613778/16UMGIM59202.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1441154440",
+      "sourceUrl": "https://music.apple.com/it/album/breakin-dishes/1441154435?i=1441154440",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/f3/50/cdf350d8-e174-12c2-752e-50b938dedbcc/mzaf_7360164779899759096.plus.aac.p.m4a"
+    },
+    {
       "rank": 36,
+      "title": "Let Me Love You",
+      "artist": "Mario",
+      "album": "Turning Point",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6b/77/72/6b777276-1f3d-8ecf-d9d2-06733e3d7dd3/828766188523.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "257524515",
+      "sourceUrl": "https://music.apple.com/it/album/let-me-love-you/257524479?i=257524515",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/94/30/f694308c-af1b-144b-ec68-6d97982e3a03/mzaf_14747022170193841577.plus.aac.p.m4a"
+    },
+    {
+      "rank": 37,
       "title": "Save Your Tears (Remix)",
       "artist": "The Weeknd & Ariana Grande",
       "album": "Save Your Tears (Remix) - Single",
@@ -444,7 +456,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/df/e7/f9dfe78a-be4e-8e94-3043-9b5b3b15d7e0/mzaf_631836417436183085.plus.aac.p.m4a"
     },
     {
-      "rank": 37,
+      "rank": 38,
       "title": "September",
       "artist": "Earth, Wind & Fire",
       "album": "Greatest Hits",
@@ -454,18 +466,6 @@
       "providerTrackId": "1456444818",
       "sourceUrl": "https://music.apple.com/it/album/september/1456444801?i=1456444818",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/93/c4/7793c4f4-a834-97f0-ec38-685e2d3d95d3/mzaf_4969122594945994096.plus.aac.p.m4a"
-    },
-    {
-      "rank": 38,
-      "title": "DIE TRYING",
-      "artist": "PARTYNEXTDOOR, Drake & Yebba",
-      "album": "$ome $exy $ongs 4 U",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/10/1e/34101e1f-f4b9-907a-ce47-3fba5b3ee5e8/50222.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1796127376",
-      "sourceUrl": "https://music.apple.com/it/album/die-trying/1796127242?i=1796127376",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/06/e6/dd06e6db-3b9b-1a6f-8659-6b79ce804f62/mzaf_412220171283375870.plus.aac.p.m4a"
     },
     {
       "rank": 39,
@@ -481,30 +481,18 @@
     },
     {
       "rank": 40,
-      "title": "Let Me Love You",
-      "artist": "Mario",
-      "album": "Turning Point",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6b/77/72/6b777276-1f3d-8ecf-d9d2-06733e3d7dd3/828766188523.jpg/600x600bb.jpg",
+      "title": "DIE TRYING",
+      "artist": "PARTYNEXTDOOR, Drake & Yebba",
+      "album": "$ome $exy $ongs 4 U",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/10/1e/34101e1f-f4b9-907a-ce47-3fba5b3ee5e8/50222.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "257524515",
-      "sourceUrl": "https://music.apple.com/it/album/let-me-love-you/257524479?i=257524515",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/94/30/f694308c-af1b-144b-ec68-6d97982e3a03/mzaf_14747022170193841577.plus.aac.p.m4a"
+      "providerTrackId": "1796127376",
+      "sourceUrl": "https://music.apple.com/it/album/die-trying/1796127242?i=1796127376",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/06/e6/dd06e6db-3b9b-1a6f-8659-6b79ce804f62/mzaf_412220171283375870.plus.aac.p.m4a"
     },
     {
       "rank": 41,
-      "title": "No One",
-      "artist": "Alicia Keys",
-      "album": "As I Am (Expanded Edition)",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c7/88/df/c788dffe-d06f-8923-ad61-a6194daf6616/888880809919.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "294461792",
-      "sourceUrl": "https://music.apple.com/it/album/no-one/294461785?i=294461792",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ef/30/f2/ef30f2cf-b3bf-752f-5809-cadaf1a15fe3/mzaf_18259142165614061591.plus.aac.p.m4a"
-    },
-    {
-      "rank": 42,
       "title": "House Of Balloons / Glass Table Girls",
       "artist": "The Weeknd",
       "album": "Trilogy",
@@ -514,6 +502,18 @@
       "providerTrackId": "1714908982",
       "sourceUrl": "https://music.apple.com/it/album/house-of-balloons-glass-table-girls/1714908584?i=1714908982",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/5f/3c/305f3c2b-2b93-01c7-ef7f-9a98d71dc1be/mzaf_2885209521831486811.plus.aac.p.m4a"
+    },
+    {
+      "rank": 42,
+      "title": "Yeah! (feat. Lil Jon & Ludacris)",
+      "artist": "USHER",
+      "album": "Confessions (Expanded Edition)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/02/c6/e1/02c6e1cd-8d57-97b4-6ef1-77d2be004509/mzi.sjrqsmrq.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "386153478",
+      "sourceUrl": "https://music.apple.com/it/album/yeah-feat-lil-jon-ludacris/386153476?i=386153478",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/52/3c/94523c88-f5f9-16f4-dbd7-f284ca168048/mzaf_7184891920196479048.plus.aac.p.m4a"
     },
     {
       "rank": 43,
@@ -529,15 +529,15 @@
     },
     {
       "rank": 44,
-      "title": "Yeah! (feat. Lil Jon & Ludacris)",
-      "artist": "USHER",
-      "album": "Confessions (Expanded Edition)",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/02/c6/e1/02c6e1cd-8d57-97b4-6ef1-77d2be004509/mzi.sjrqsmrq.jpg/600x600bb.jpg",
+      "title": "No One",
+      "artist": "Alicia Keys",
+      "album": "As I Am (Expanded Edition)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c7/88/df/c788dffe-d06f-8923-ad61-a6194daf6616/888880809919.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "386153478",
-      "sourceUrl": "https://music.apple.com/it/album/yeah-feat-lil-jon-ludacris/386153476?i=386153478",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/52/3c/94523c88-f5f9-16f4-dbd7-f284ca168048/mzaf_7184891920196479048.plus.aac.p.m4a"
+      "providerTrackId": "294461792",
+      "sourceUrl": "https://music.apple.com/it/album/no-one/294461785?i=294461792",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ef/30/f2/ef30f2cf-b3bf-752f-5809-cadaf1a15fe3/mzaf_18259142165614061591.plus.aac.p.m4a"
     },
     {
       "rank": 45,
@@ -577,15 +577,15 @@
     },
     {
       "rank": 48,
-      "title": "If I Ain't Got You",
+      "title": "Empire State of Mind, Pt. 2",
       "artist": "Alicia Keys",
-      "album": "The Diary of Alicia Keys",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/07/c6/c207c6ee-e3f1-cad2-1259-69a3ebd08b5c/828765571227.jpg/600x600bb.jpg",
+      "album": "The Element of Freedom",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b7/77/66/b77766d8-c73f-8a5d-376d-926db33475f7/884977002508.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "255343130",
-      "sourceUrl": "https://music.apple.com/it/album/if-i-aint-got-you/255342344?i=255343130",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/9a/1a/6e9a1a17-c620-b047-91bb-d4ef4d28aac2/mzaf_5457671003416994461.plus.aac.p.m4a"
+      "providerTrackId": "341321703",
+      "sourceUrl": "https://music.apple.com/it/album/empire-state-of-mind-pt-2/341321353?i=341321703",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/ca/55/2fca55a2-ca85-4d7c-4565-8dbcdcbf5c76/mzaf_2283598682877847189.plus.aac.p.m4a"
     },
     {
       "rank": 49,
@@ -601,18 +601,30 @@
     },
     {
       "rank": 50,
-      "title": "Party Monster",
-      "artist": "The Weeknd",
-      "album": "Starboy",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/600x600bb.jpg",
+      "title": "If I Ain't Got You",
+      "artist": "Alicia Keys",
+      "album": "The Diary of Alicia Keys",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/07/c6/c207c6ee-e3f1-cad2-1259-69a3ebd08b5c/828765571227.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1440871694",
-      "sourceUrl": "https://music.apple.com/it/album/party-monster/1440871397?i=1440871694",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/08/2c/3b082c06-5bac-6c4e-b19f-568d66583a6b/mzaf_10516694741874869697.plus.aac.p.m4a"
+      "providerTrackId": "255343130",
+      "sourceUrl": "https://music.apple.com/it/album/if-i-aint-got-you/255342344?i=255343130",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/9a/1a/6e9a1a17-c620-b047-91bb-d4ef4d28aac2/mzaf_5457671003416994461.plus.aac.p.m4a"
     },
     {
       "rank": 51,
+      "title": "Ain't No Sunshine",
+      "artist": "Bill Withers",
+      "album": "Just As I Am",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1b/b9/16/1bb9167c-e0eb-5418-960d-e9adb61d0fdd/mzi.kqpazwnw.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "293521573",
+      "sourceUrl": "https://music.apple.com/it/album/aint-no-sunshine/293521570?i=293521573",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c1/97/a5/c197a504-bc13-0709-3f6f-904026c782dd/mzaf_11719507637175591282.plus.aac.p.m4a"
+    },
+    {
+      "rank": 52,
       "title": "In Your Eyes",
       "artist": "The Weeknd",
       "album": "After Hours",
@@ -622,18 +634,6 @@
       "providerTrackId": "1499378612",
       "sourceUrl": "https://music.apple.com/it/album/in-your-eyes/1499378108?i=1499378612",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/82/11/1882111a-79d3-5f79-593e-6511ad4788cd/mzaf_8486135305449676903.plus.aac.p.m4a"
-    },
-    {
-      "rank": 52,
-      "title": "Irreplaceable",
-      "artist": "Beyoncé",
-      "album": "B'Day Deluxe Edition",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/b2/b2/47b2b26b-5abd-0953-6688-7dfff80508ec/mzi.sozuruch.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "261707067",
-      "sourceUrl": "https://music.apple.com/it/album/irreplaceable/261707051?i=261707067",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/59/85/7d598542-e9af-9206-5ef2-117617bf9953/mzaf_14722310347690084981.plus.aac.p.m4a"
     },
     {
       "rank": 53,
@@ -649,18 +649,6 @@
     },
     {
       "rank": 54,
-      "title": "Leave The Door Open",
-      "artist": "Silk Sonic, Bruno Mars & Anderson .Paak",
-      "album": "An Evening With Silk Sonic",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/33/dc/c533dc8e-2baa-94f9-22be-e6e28945f932/075679754134.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1612867242",
-      "sourceUrl": "https://music.apple.com/it/album/leave-the-door-open/1612867237?i=1612867242",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/43/f5/ba43f52f-2bb0-4cde-a5d0-89fc01ec14d7/mzaf_1992637601291938921.plus.aac.p.m4a"
-    },
-    {
-      "rank": 55,
       "title": "Miss Independent",
       "artist": "Ne-Yo",
       "album": "Year of the Gentleman (Deluxe Edition)",
@@ -672,43 +660,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/bf/99/aebf998d-6439-3c52-052e-7d689284bb64/mzaf_285579272471741150.plus.aac.p.m4a"
     },
     {
-      "rank": 56,
-      "title": "Empire State of Mind, Pt. 2",
-      "artist": "Alicia Keys",
-      "album": "The Element of Freedom",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b7/77/66/b77766d8-c73f-8a5d-376d-926db33475f7/884977002508.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "341321703",
-      "sourceUrl": "https://music.apple.com/it/album/empire-state-of-mind-pt-2/341321353?i=341321703",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/ca/55/2fca55a2-ca85-4d7c-4565-8dbcdcbf5c76/mzaf_2283598682877847189.plus.aac.p.m4a"
-    },
-    {
-      "rank": 57,
-      "title": "Ain't No Sunshine",
-      "artist": "Bill Withers",
-      "album": "Just As I Am",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1b/b9/16/1bb9167c-e0eb-5418-960d-e9adb61d0fdd/mzi.kqpazwnw.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "293521573",
-      "sourceUrl": "https://music.apple.com/it/album/aint-no-sunshine/293521570?i=293521573",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c1/97/a5/c197a504-bc13-0709-3f6f-904026c782dd/mzaf_11719507637175591282.plus.aac.p.m4a"
-    },
-    {
-      "rank": 58,
-      "title": "Call Me",
-      "artist": "Blondie",
-      "album": "Call Me - EP",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/72/73/8f/72738f62-d8a1-f1f9-e84d-244ff697d1db/13UABIM56926.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "716231650",
-      "sourceUrl": "https://music.apple.com/it/album/call-me/716231242?i=716231650",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/13/b5/b113b569-8639-b071-9199-3c8f8fb0d3a9/mzaf_2541938402474802623.plus.aac.p.m4a"
-    },
-    {
-      "rank": 59,
+      "rank": 55,
       "title": "Pookie (feat. Capo Plaza) [Remix]",
       "artist": "Aya Nakamura",
       "album": "Pookie (feat. Capo Plaza) [Remix] - Single",
@@ -720,19 +672,31 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/9d/56/3d9d56e4-8713-3d0b-c636-d3686f009905/mzaf_17178527677512420869.plus.aac.p.m4a"
     },
     {
-      "rank": 60,
-      "title": "Snooze",
-      "artist": "SZA",
-      "album": "SOS",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/600x600bb.jpg",
+      "rank": 56,
+      "title": "Leave The Door Open",
+      "artist": "Silk Sonic, Bruno Mars & Anderson .Paak",
+      "album": "An Evening With Silk Sonic",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/33/dc/c533dc8e-2baa-94f9-22be-e6e28945f932/075679754134.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1657869492",
-      "sourceUrl": "https://music.apple.com/it/album/snooze/1657869377?i=1657869492",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/a7/8e/5ca78e4e-245f-5021-858c-45a8057eb296/mzaf_4277583948632043282.plus.aac.p.m4a"
+      "providerTrackId": "1612867242",
+      "sourceUrl": "https://music.apple.com/it/album/leave-the-door-open/1612867237?i=1612867242",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/43/f5/ba43f52f-2bb0-4cde-a5d0-89fc01ec14d7/mzaf_1992637601291938921.plus.aac.p.m4a"
     },
     {
-      "rank": 61,
+      "rank": 57,
+      "title": "Irreplaceable",
+      "artist": "Beyoncé",
+      "album": "B'Day Deluxe Edition",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/b2/b2/47b2b26b-5abd-0953-6688-7dfff80508ec/mzi.sozuruch.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "261707067",
+      "sourceUrl": "https://music.apple.com/it/album/irreplaceable/261707051?i=261707067",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/53/95/4653953c-6eb2-50a7-2126-c19be876de38/mzaf_14304340183842995989.plus.aac.p.m4a"
+    },
+    {
+      "rank": 58,
       "title": "Shut Up",
       "artist": "Black Eyed Peas",
       "album": "Elephunk",
@@ -744,31 +708,31 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/bd/53/0abd53b6-5f7f-2c95-f1e8-a3935426a7ed/mzaf_14771601599618964785.plus.aac.p.m4a"
     },
     {
-      "rank": 62,
-      "title": "Deja Vu (feat. JAŸ-Z)",
-      "artist": "Beyoncé",
-      "album": "B'Day Deluxe Edition",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/b2/b2/47b2b26b-5abd-0953-6688-7dfff80508ec/mzi.sozuruch.jpg/600x600bb.jpg",
+      "rank": 59,
+      "title": "Call Me",
+      "artist": "Blondie",
+      "album": "Call Me - EP",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/72/73/8f/72738f62-d8a1-f1f9-e84d-244ff697d1db/13UABIM56926.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "261707248",
-      "sourceUrl": "https://music.apple.com/it/album/deja-vu-feat-ja%C3%BF-z/261707051?i=261707248",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/0c/b0/4c0cb08b-cd08-865a-91c2-feccd1e0c290/mzaf_6053954002626545507.plus.aac.p.m4a"
+      "providerTrackId": "716231650",
+      "sourceUrl": "https://music.apple.com/it/album/call-me/716231242?i=716231650",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/13/b5/b113b569-8639-b071-9199-3c8f8fb0d3a9/mzaf_2541938402474802623.plus.aac.p.m4a"
     },
     {
-      "rank": 63,
-      "title": "Scared To Live",
-      "artist": "The Weeknd",
-      "album": "After Hours",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/600x600bb.jpg",
+      "rank": 60,
+      "title": "Daylight",
+      "artist": "John Legend",
+      "album": "Muse",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/93/4f/ef934f79-8c75-8153-ace7-cf2de0bb4b7e/26UM1IM12676.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1499378135",
-      "sourceUrl": "https://music.apple.com/it/album/scared-to-live/1499378108?i=1499378135",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/d3/c8/b7d3c863-1aea-7500-eff3-b02442ac9cfb/mzaf_7312285710708647985.plus.aac.p.m4a"
+      "providerTrackId": "6808409900",
+      "sourceUrl": "https://music.apple.com/it/album/daylight/6808409890?i=6808409900",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/7b/3d/117b3d08-fc4a-d0d5-9ef5-4a9afe9b2574/mzaf_14520914649809183801.plus.aac.p.m4a"
     },
     {
-      "rank": 64,
+      "rank": 61,
       "title": "Boogie Wonderland (feat. The Emotions)",
       "artist": "Earth, Wind & Fire",
       "album": "I Am",
@@ -778,6 +742,42 @@
       "providerTrackId": "523223725",
       "sourceUrl": "https://music.apple.com/it/album/boogie-wonderland-feat-the-emotions/523223720?i=523223725",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/0b/98/b70b9825-ae86-85b0-3ed0-b8cefb9fe7e8/mzaf_3286029532135755043.plus.aac.p.m4a"
+    },
+    {
+      "rank": 62,
+      "title": "Snooze",
+      "artist": "SZA",
+      "album": "SOS",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3b/a9/bd3ba9fb-9609-144f-bcfe-ead67b5f6ab3/196589564931.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1657869492",
+      "sourceUrl": "https://music.apple.com/it/album/snooze/1657869377?i=1657869492",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/a7/8e/5ca78e4e-245f-5021-858c-45a8057eb296/mzaf_4277583948632043282.plus.aac.p.m4a"
+    },
+    {
+      "rank": 63,
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "album": "Talking Book",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/62/61/61/626161c0-f4d7-e6ff-8586-768340ef278f/00602537002382.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1440808985",
+      "sourceUrl": "https://music.apple.com/it/album/superstition/1440808973?i=1440808985",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/4b/88/594b880c-4744-0510-775c-73d8b06567e8/mzaf_14855748840810986812.plus.aac.p.m4a"
+    },
+    {
+      "rank": 64,
+      "title": "Under the Influence",
+      "artist": "Chris Brown",
+      "album": "Indigo (Extended)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/1b/c9/961bc949-7e03-2670-f612-72c34ece6a22/886447924464.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1481623864",
+      "sourceUrl": "https://music.apple.com/it/album/under-the-influence/1481623861?i=1481623864",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/fe/a4/87fea4f3-6cac-582f-9c4e-f396850c8548/mzaf_15989362272985688952.plus.aac.p.m4a"
     },
     {
       "rank": 65,
@@ -793,66 +793,6 @@
     },
     {
       "rank": 66,
-      "title": "Superstition",
-      "artist": "Stevie Wonder",
-      "album": "Talking Book",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/62/61/61/626161c0-f4d7-e6ff-8586-768340ef278f/00602537002382.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1440808985",
-      "sourceUrl": "https://music.apple.com/it/album/superstition/1440808973?i=1440808985",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/4b/88/594b880c-4744-0510-775c-73d8b06567e8/mzaf_14855748840810986812.plus.aac.p.m4a"
-    },
-    {
-      "rank": 67,
-      "title": "Good Days",
-      "artist": "SZA",
-      "album": "Good Days - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ef/09/cf/ef09cf1f-a057-6039-00d3-7b5d14c7eba1/886449006717.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1546390051",
-      "sourceUrl": "https://music.apple.com/it/album/good-days/1546390050?i=1546390051",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/c3/d7/e4c3d7e2-f2ef-ff93-741d-016796c9165b/mzaf_6565547752011119032.plus.aac.p.m4a"
-    },
-    {
-      "rank": 68,
-      "title": "Under the Influence",
-      "artist": "Chris Brown",
-      "album": "Indigo (Extended)",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/1b/c9/961bc949-7e03-2670-f612-72c34ece6a22/886447924464.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1481623864",
-      "sourceUrl": "https://music.apple.com/it/album/under-the-influence/1481623861?i=1481623864",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/fe/a4/87fea4f3-6cac-582f-9c4e-f396850c8548/mzaf_15989362272985688952.plus.aac.p.m4a"
-    },
-    {
-      "rank": 69,
-      "title": "Daylight",
-      "artist": "John Legend",
-      "album": "Muse",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/93/4f/ef934f79-8c75-8153-ace7-cf2de0bb4b7e/26UM1IM12676.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "6808409900",
-      "sourceUrl": "https://music.apple.com/it/album/daylight/6808409890?i=6808409900",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/7b/3d/117b3d08-fc4a-d0d5-9ef5-4a9afe9b2574/mzaf_14520914649809183801.plus.aac.p.m4a"
-    },
-    {
-      "rank": 70,
-      "title": "NOKIA",
-      "artist": "Drake",
-      "album": "$ome $exy $ongs 4 U",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/10/1e/34101e1f-f4b9-907a-ce47-3fba5b3ee5e8/50222.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1796127375",
-      "sourceUrl": "https://music.apple.com/it/album/nokia/1796127242?i=1796127375",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/9b/5c/3d9b5ca8-00ca-3279-ecd7-0c63bb5b088b/mzaf_1981580556231779964.plus.aac.p.m4a"
-    },
-    {
-      "rank": 71,
       "title": "I Was Never There",
       "artist": "The Weeknd & Gesaffelstein",
       "album": "My Dear Melancholy,",
@@ -864,55 +804,55 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/af/de/f5afde85-49ec-d07a-94b8-561d6fd0695f/mzaf_1634234024178578725.plus.aac.p.m4a"
     },
     {
-      "rank": 72,
-      "title": "30 For 30 (with Kendrick Lamar)",
+      "rank": 67,
+      "title": "Party Monster",
+      "artist": "The Weeknd",
+      "album": "Starboy",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1440871694",
+      "sourceUrl": "https://music.apple.com/it/album/party-monster/1440871397?i=1440871694",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/08/2c/3b082c06-5bac-6c4e-b19f-568d66583a6b/mzaf_10516694741874869697.plus.aac.p.m4a"
+    },
+    {
+      "rank": 68,
+      "title": "Good Days",
       "artist": "SZA",
-      "album": "SOS Deluxe: LANA",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/bd/88/97bd8804-7d3e-e6c8-0532-ff22877b931c/196871766890.jpg/600x600bb.jpg",
+      "album": "Good Days - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ef/09/cf/ef09cf1f-a057-6039-00d3-7b5d14c7eba1/886449006717.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1786643047",
-      "sourceUrl": "https://music.apple.com/it/album/30-for-30-with-kendrick-lamar/1786643044?i=1786643047",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/29/1c/94291c66-5795-b643-5e32-990d1a2b532b/mzaf_15969080754804720090.plus.aac.p.m4a"
+      "providerTrackId": "1546390051",
+      "sourceUrl": "https://music.apple.com/it/album/good-days/1546390050?i=1546390051",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/c3/d7/e4c3d7e2-f2ef-ff93-741d-016796c9165b/mzaf_6565547752011119032.plus.aac.p.m4a"
     },
     {
-      "rank": 73,
-      "title": "One In A Million",
-      "artist": "Ne-Yo",
-      "album": "Libra Scale",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/1b/6d/081b6d26-b442-4e51-dc10-6d4020ffe244/10UMGIM26331.rgb.jpg/600x600bb.jpg",
+      "rank": 69,
+      "title": "Often",
+      "artist": "The Weeknd",
+      "album": "Beauty Behind the Madness",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1445699908",
-      "sourceUrl": "https://music.apple.com/it/album/one-in-a-million/1445699900?i=1445699908",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fa/30/67/fa3067c3-c263-8808-336d-08e3b85f16ff/mzaf_4229785282756065879.plus.aac.p.m4a"
+      "providerTrackId": "1440826380",
+      "sourceUrl": "https://music.apple.com/it/album/often/1440826239?i=1440826380",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/74/96/867496b7-6a58-20e2-10ec-c3392632232b/mzaf_4605202725979000134.plus.aac.p.m4a"
     },
     {
-      "rank": 74,
-      "title": "Rehab",
-      "artist": "Rihanna",
-      "album": "Good Girl Gone Bad: Reloaded",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/c0/81/2bc081c8-25f0-ba43-d451-587a54613778/16UMGIM59202.rgb.jpg/600x600bb.jpg",
+      "rank": 70,
+      "title": "Casanova",
+      "artist": "Soolking & Gazo",
+      "album": "Casanova - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/10/19/83/10198394-5f8a-228d-3915-680821fb9427/23UMGIM76651.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1441154568",
-      "sourceUrl": "https://music.apple.com/it/album/rehab/1441154435?i=1441154568",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b9/26/9a/b9269ac5-8c9a-4686-7903-40897737e028/mzaf_11024078486761399051.plus.aac.p.m4a"
+      "providerTrackId": "1695579109",
+      "sourceUrl": "https://music.apple.com/it/album/casanova/1695579038?i=1695579109",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/de/61/f2de6185-06f0-0b24-e31d-638388548a74/mzaf_978111458217636083.plus.aac.p.m4a"
     },
     {
-      "rank": 75,
-      "title": "No Ordinary Love",
-      "artist": "Sade",
-      "album": "Love Deluxe",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/c8/d7/18c8d7bc-8491-09e6-df0d-6e0a83ead680/mzi.wsikzifg.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "158796562",
-      "sourceUrl": "https://music.apple.com/it/album/no-ordinary-love/158796559?i=158796562",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/ba/4b/deba4b91-edf0-1b06-6e19-ea4e07ae8070/mzaf_14195090635642668997.plus.aac.p.m4a"
-    },
-    {
-      "rank": 76,
+      "rank": 71,
       "title": "Right Now (Na Na Na)",
       "artist": "Akon",
       "album": "Freedom",
@@ -924,19 +864,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/dc/6b/88dc6b19-9479-b013-f5a2-eed44b4088a5/mzaf_7381786338578188222.plus.aac.p.m4a"
     },
     {
-      "rank": 77,
-      "title": "Paradise",
-      "artist": "Sade",
-      "album": "The Best of Sade",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "604770779",
-      "sourceUrl": "https://music.apple.com/it/album/paradise/604770232?i=604770779",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/07/fc/ab07fc55-b991-faf5-93d6-f5a1df92448a/mzaf_12283016280239904498.plus.aac.p.m4a"
-    },
-    {
-      "rank": 78,
+      "rank": 72,
       "title": "Upside Down",
       "artist": "Diana Ross",
       "album": "Diana",
@@ -946,6 +874,78 @@
       "providerTrackId": "1443160098",
       "sourceUrl": "https://music.apple.com/it/album/upside-down/1443159760?i=1443160098",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/cb/49/48cb4975-c3ae-b0e0-b551-5567e7ac9a50/mzaf_2390243677994410284.plus.aac.p.m4a"
+    },
+    {
+      "rank": 73,
+      "title": "Let's Groove",
+      "artist": "Earth, Wind & Fire",
+      "album": "Raise!",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/ca/f8/29/caf82937-caba-e739-79b1-fe53a673dd53/dj.vikfvxxi.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "523229275",
+      "sourceUrl": "https://music.apple.com/it/album/lets-groove/523229261?i=523229275",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/23/e3/7623e32f-d6c5-e92f-9460-9bb4cceeb02f/mzaf_6972883878085351196.plus.aac.p.m4a"
+    },
+    {
+      "rank": 74,
+      "title": "One In A Million",
+      "artist": "Ne-Yo",
+      "album": "Libra Scale",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/1b/6d/081b6d26-b442-4e51-dc10-6d4020ffe244/10UMGIM26331.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1445699908",
+      "sourceUrl": "https://music.apple.com/it/album/one-in-a-million/1445699900?i=1445699908",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fa/30/67/fa3067c3-c263-8808-336d-08e3b85f16ff/mzaf_4229785282756065879.plus.aac.p.m4a"
+    },
+    {
+      "rank": 75,
+      "title": "Rehab",
+      "artist": "Rihanna",
+      "album": "Good Girl Gone Bad: Reloaded",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/c0/81/2bc081c8-25f0-ba43-d451-587a54613778/16UMGIM59202.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1441154568",
+      "sourceUrl": "https://music.apple.com/it/album/rehab/1441154435?i=1441154568",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b9/26/9a/b9269ac5-8c9a-4686-7903-40897737e028/mzaf_11024078486761399051.plus.aac.p.m4a"
+    },
+    {
+      "rank": 76,
+      "title": "NOKIA",
+      "artist": "Drake",
+      "album": "$ome $exy $ongs 4 U",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/10/1e/34101e1f-f4b9-907a-ce47-3fba5b3ee5e8/50222.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1796127375",
+      "sourceUrl": "https://music.apple.com/it/album/nokia/1796127242?i=1796127375",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/9b/5c/3d9b5ca8-00ca-3279-ecd7-0c63bb5b088b/mzaf_1981580556231779964.plus.aac.p.m4a"
+    },
+    {
+      "rank": 77,
+      "title": "No Ordinary Love",
+      "artist": "Sade",
+      "album": "Love Deluxe",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/c8/d7/18c8d7bc-8491-09e6-df0d-6e0a83ead680/mzi.wsikzifg.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "158796562",
+      "sourceUrl": "https://music.apple.com/it/album/no-ordinary-love/158796559?i=158796562",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/ba/4b/deba4b91-edf0-1b06-6e19-ea4e07ae8070/mzaf_14195090635642668997.plus.aac.p.m4a"
+    },
+    {
+      "rank": 78,
+      "title": "Deja Vu (feat. JAŸ-Z)",
+      "artist": "Beyoncé",
+      "album": "B'Day Deluxe Edition",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/b2/b2/47b2b26b-5abd-0953-6688-7dfff80508ec/mzi.sozuruch.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "261707248",
+      "sourceUrl": "https://music.apple.com/it/album/deja-vu-feat-ja%C3%BF-z/261707051?i=261707248",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/1c/da/a81cda61-cf92-5b42-8f45-f79ad0cdad68/mzaf_1276013886947763650.plus.aac.p.m4a"
     },
     {
       "rank": 79,
@@ -961,30 +961,18 @@
     },
     {
       "rank": 80,
-      "title": "Often",
-      "artist": "The Weeknd",
-      "album": "Beauty Behind the Madness",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/600x600bb.jpg",
+      "title": "Paradise",
+      "artist": "Sade",
+      "album": "The Best of Sade",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1440826380",
-      "sourceUrl": "https://music.apple.com/it/album/often/1440826239?i=1440826380",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/74/96/867496b7-6a58-20e2-10ec-c3392632232b/mzaf_4605202725979000134.plus.aac.p.m4a"
+      "providerTrackId": "604770779",
+      "sourceUrl": "https://music.apple.com/it/album/paradise/604770232?i=604770779",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/07/fc/ab07fc55-b991-faf5-93d6-f5a1df92448a/mzaf_12283016280239904498.plus.aac.p.m4a"
     },
     {
       "rank": 81,
-      "title": "Let's Groove",
-      "artist": "Earth, Wind & Fire",
-      "album": "Raise!",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/ca/f8/29/caf82937-caba-e739-79b1-fe53a673dd53/dj.vikfvxxi.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "523229275",
-      "sourceUrl": "https://music.apple.com/it/album/lets-groove/523229261?i=523229275",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/23/e3/7623e32f-d6c5-e92f-9460-9bb4cceeb02f/mzaf_6972883878085351196.plus.aac.p.m4a"
-    },
-    {
-      "rank": 82,
       "title": "MON BÉBÉ",
       "artist": "RnBoi",
       "album": "MON BÉBÉ - Single",
@@ -996,55 +984,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/1e/b7/5e1eb7b5-4976-a236-d681-182e84a7817f/mzaf_7476569415804546819.plus.aac.p.m4a"
     },
     {
-      "rank": 83,
-      "title": "Casanova",
-      "artist": "Soolking & Gazo",
-      "album": "Casanova - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/10/19/83/10198394-5f8a-228d-3915-680821fb9427/23UMGIM76651.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1695579109",
-      "sourceUrl": "https://music.apple.com/it/album/casanova/1695579038?i=1695579109",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/de/61/f2de6185-06f0-0b24-e31d-638388548a74/mzaf_978111458217636083.plus.aac.p.m4a"
-    },
-    {
-      "rank": 84,
-      "title": "I Just Called to Say I Love You (Single Version)",
-      "artist": "Stevie Wonder",
-      "album": "The Definitive Collection",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/29/3a/92/293a9224-329d-3ede-ed4c-caba1c045e97/00602547215086.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1446743353",
-      "sourceUrl": "https://music.apple.com/it/album/i-just-called-to-say-i-love-you-single-version/1446742602?i=1446743353",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/e0/8b/a7e08ba4-683d-08eb-fb2f-c739aeb97b8d/mzaf_2611392445438035747.plus.aac.p.m4a"
-    },
-    {
-      "rank": 85,
-      "title": "Reminder",
-      "artist": "The Weeknd",
-      "album": "Starboy",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1440871703",
-      "sourceUrl": "https://music.apple.com/it/album/reminder/1440871397?i=1440871703",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/b7/6c/2ab76cc6-8e8b-0f5d-a195-999e2d2c1161/mzaf_7752147891075556157.plus.aac.p.m4a"
-    },
-    {
-      "rank": 86,
-      "title": "Work Out",
-      "artist": "J. Cole",
-      "album": "Cole World: The Sideline Story",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3c/4e/6c/3c4e6c35-c1cf-49f9-8cbb-524b1db743f5/18UMGIM69899.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1438893095",
-      "sourceUrl": "https://music.apple.com/it/album/work-out/1438892581?i=1438893095",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/51/d0/cf51d016-ba8b-80a2-d765-da699081bc72/mzaf_11352286812082108332.plus.aac.p.m4a"
-    },
-    {
-      "rank": 87,
+      "rank": 82,
       "title": "Djadja",
       "artist": "Aya Nakamura",
       "album": "NAKAMURA",
@@ -1056,31 +996,19 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/f8/73/7bf87378-e84b-471a-3729-8d1d0546ee9a/mzaf_16949123873725847595.plus.aac.p.m4a"
     },
     {
-      "rank": 88,
-      "title": "Me & U",
-      "artist": "Tems",
-      "album": "Me & U - Single",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/21/8a/f8218a85-c9a5-e611-3187-62ee68447ca7/196871461238.jpg/600x600bb.jpg",
+      "rank": 83,
+      "title": "30 For 30 (with Kendrick Lamar)",
+      "artist": "SZA",
+      "album": "SOS Deluxe: LANA",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/bd/88/97bd8804-7d3e-e6c8-0532-ff22877b931c/196871766890.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1710052037",
-      "sourceUrl": "https://music.apple.com/it/album/me-u/1710052036?i=1710052037",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/cf/08/f4cf0810-d04a-92a5-c5b0-6484675049ed/mzaf_10320350567553802949.plus.aac.p.m4a"
+      "providerTrackId": "1786643047",
+      "sourceUrl": "https://music.apple.com/it/album/30-for-30-with-kendrick-lamar/1786643044?i=1786643047",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/29/1c/94291c66-5795-b643-5e32-990d1a2b532b/mzaf_15969080754804720090.plus.aac.p.m4a"
     },
     {
-      "rank": 89,
-      "title": "You Can Buy Everything",
-      "artist": "SoMo",
-      "album": "My Life II",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4b/7f/af/4b7faf9a-119a-0899-d3c6-11058bcc03e6/15UMGIM47981.rgb.jpg/600x600bb.jpg",
-      "provider": "apple_music",
-      "storefront": "it",
-      "providerTrackId": "1440852600",
-      "sourceUrl": "https://music.apple.com/it/album/you-can-buy-everything/1440852195?i=1440852600",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/55/b0/7555b0d5-bd0a-308d-208e-ad71064cf1a6/mzaf_12428000358494051148.plus.aac.p.m4a"
-    },
-    {
-      "rank": 90,
+      "rank": 84,
       "title": "I Say a Little Prayer",
       "artist": "Aretha Franklin",
       "album": "Aretha Now",
@@ -1092,43 +1020,67 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/8c/1e/598c1e08-482f-3f6b-ee7a-f17c518c0a32/mzaf_12522818040322918362.plus.aac.p.m4a"
     },
     {
-      "rank": 91,
-      "title": "Tienaté",
-      "artist": "Nu Genea",
-      "album": "Bar Mediterraneo",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b3/69/14/b3691457-bd69-e9b5-b471-b0c5c14ae878/8053307091778.jpg/600x600bb.jpg",
+      "rank": 85,
+      "title": "Work Out",
+      "artist": "J. Cole",
+      "album": "Cole World: The Sideline Story",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3c/4e/6c/3c4e6c35-c1cf-49f9-8cbb-524b1db743f5/18UMGIM69899.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1621918397",
-      "sourceUrl": "https://music.apple.com/it/album/tienat%C3%A9/1621918389?i=1621918397",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/77/fa/0677fa1c-c037-347d-58e3-4a9c46cf6855/mzaf_13537115988694246238.plus.aac.p.m4a"
+      "providerTrackId": "1438893095",
+      "sourceUrl": "https://music.apple.com/it/album/work-out/1438892581?i=1438893095",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/51/d0/cf51d016-ba8b-80a2-d765-da699081bc72/mzaf_11352286812082108332.plus.aac.p.m4a"
     },
     {
-      "rank": 92,
-      "title": "So Sick",
-      "artist": "Ne-Yo",
-      "album": "In My Own Words",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/37/c5/f137c5cc-c6c0-cdf3-909f-6800c3e4e31c/06UMGIM17731.rgb.jpg/600x600bb.jpg",
+      "rank": 86,
+      "title": "I Just Called to Say I Love You (Single Version)",
+      "artist": "Stevie Wonder",
+      "album": "The Definitive Collection",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/29/3a/92/293a9224-329d-3ede-ed4c-caba1c045e97/00602547215086.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1440783502",
-      "sourceUrl": "https://music.apple.com/it/album/so-sick/1440783129?i=1440783502",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/c4/f6/49c4f6d2-dd60-d191-dfc9-e9e35c53fbbe/mzaf_9590657713580154224.plus.aac.p.m4a"
+      "providerTrackId": "1446743353",
+      "sourceUrl": "https://music.apple.com/it/album/i-just-called-to-say-i-love-you-single-version/1446742602?i=1446743353",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/e0/8b/a7e08ba4-683d-08eb-fb2f-c739aeb97b8d/mzaf_2611392445438035747.plus.aac.p.m4a"
     },
     {
-      "rank": 93,
-      "title": "Like a Tattoo",
-      "artist": "Sade",
-      "album": "Love Deluxe",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/c8/d7/18c8d7bc-8491-09e6-df0d-6e0a83ead680/mzi.wsikzifg.jpg/600x600bb.jpg",
+      "rank": 87,
+      "title": "Me & U",
+      "artist": "Tems",
+      "album": "Me & U - Single",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/21/8a/f8218a85-c9a5-e611-3187-62ee68447ca7/196871461238.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "158796590",
-      "sourceUrl": "https://music.apple.com/it/album/like-a-tattoo/158796559?i=158796590",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/31/fb/5431fba7-f8e2-78a3-680b-29f53f19f326/mzaf_4568317637618415745.plus.aac.p.m4a"
+      "providerTrackId": "1710052037",
+      "sourceUrl": "https://music.apple.com/it/album/me-u/1710052036?i=1710052037",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/cf/08/f4cf0810-d04a-92a5-c5b0-6484675049ed/mzaf_10320350567553802949.plus.aac.p.m4a"
     },
     {
-      "rank": 94,
+      "rank": 88,
+      "title": "So Good (feat. Kendrick Lamar)",
+      "artist": "Jhené Aiko",
+      "album": "Westside Whimsy",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "6810716062",
+      "sourceUrl": "https://music.apple.com/it/album/so-good-feat-kendrick-lamar/6810715695?i=6810716062",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/78/dd/2078ddf0-de7d-f534-a4fd-476382ae012b/mzaf_13935165721871139669.plus.aac.p.m4a"
+    },
+    {
+      "rank": 89,
+      "title": "Reminder",
+      "artist": "The Weeknd",
+      "album": "Starboy",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1440871703",
+      "sourceUrl": "https://music.apple.com/it/album/reminder/1440871397?i=1440871703",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/b7/6c/2ab76cc6-8e8b-0f5d-a195-999e2d2c1161/mzaf_7752147891075556157.plus.aac.p.m4a"
+    },
+    {
+      "rank": 90,
       "title": "Due ali",
       "artist": "Frah Quintale",
       "album": "Banzai (Lato blu)",
@@ -1140,7 +1092,7 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b9/59/d0/b959d0a9-8f13-a7f9-5f26-f8875eea1eff/mzaf_15998431866628271352.plus.aac.p.m4a"
     },
     {
-      "rank": 95,
+      "rank": 91,
       "title": "Earned It (Fifty Shades Of Grey)",
       "artist": "The Weeknd",
       "album": "The Highlights (Deluxe Video Album)",
@@ -1152,16 +1104,64 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/85/bc/0f85bcf2-d750-cfda-d9c1-156aaca82ab7/mzaf_10205749156111109865.plus.aac.p.m4a"
     },
     {
-      "rank": 96,
-      "title": "Take My Breath",
-      "artist": "The Weeknd",
-      "album": "Dawn FM",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2f/22/a9/2f22a9a6-5af1-5846-a44e-ba016724ed69/21UM1IM58860.rgb.jpg/600x600bb.jpg",
+      "rank": 92,
+      "title": "Like a Tattoo",
+      "artist": "Sade",
+      "album": "Love Deluxe",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/c8/d7/18c8d7bc-8491-09e6-df0d-6e0a83ead680/mzi.wsikzifg.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1603171531",
-      "sourceUrl": "https://music.apple.com/it/album/take-my-breath/1603171516?i=1603171531",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/72/81/597281de-ddb3-a3b0-b839-fb3ea1262271/mzaf_15057665083856473917.plus.aac.p.m4a"
+      "providerTrackId": "158796590",
+      "sourceUrl": "https://music.apple.com/it/album/like-a-tattoo/158796559?i=158796590",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/31/fb/5431fba7-f8e2-78a3-680b-29f53f19f326/mzaf_4568317637618415745.plus.aac.p.m4a"
+    },
+    {
+      "rank": 93,
+      "title": "Tienaté",
+      "artist": "Nu Genea",
+      "album": "Bar Mediterraneo",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b3/69/14/b3691457-bd69-e9b5-b471-b0c5c14ae878/8053307091778.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1621918397",
+      "sourceUrl": "https://music.apple.com/it/album/tienat%C3%A9/1621918389?i=1621918397",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/77/fa/0677fa1c-c037-347d-58e3-4a9c46cf6855/mzaf_13537115988694246238.plus.aac.p.m4a"
+    },
+    {
+      "rank": 94,
+      "title": "Baptized In Fear",
+      "artist": "The Weeknd",
+      "album": "Hurry Up Tomorrow",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/9b/6e/499b6e2d-648f-1a4e-31b8-fb7f06a8123c/25UMGIM09490.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1793654357",
+      "sourceUrl": "https://music.apple.com/it/album/baptized-in-fear/1793654348?i=1793654357",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/55/47/a2554790-550f-6596-032e-0b3798b1e568/mzaf_13705300379672259796.plus.aac.p.m4a"
+    },
+    {
+      "rank": 95,
+      "title": "You Can Buy Everything",
+      "artist": "SoMo",
+      "album": "My Life II",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4b/7f/af/4b7faf9a-119a-0899-d3c6-11058bcc03e6/15UMGIM47981.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1440852600",
+      "sourceUrl": "https://music.apple.com/it/album/you-can-buy-everything/1440852195?i=1440852600",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/55/b0/7555b0d5-bd0a-308d-208e-ad71064cf1a6/mzaf_12428000358494051148.plus.aac.p.m4a"
+    },
+    {
+      "rank": 96,
+      "title": "So Sick",
+      "artist": "Ne-Yo",
+      "album": "In My Own Words",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/37/c5/f137c5cc-c6c0-cdf3-909f-6800c3e4e31c/06UMGIM17731.rgb.jpg/600x600bb.jpg",
+      "provider": "apple_music",
+      "storefront": "it",
+      "providerTrackId": "1440783502",
+      "sourceUrl": "https://music.apple.com/it/album/so-sick/1440783129?i=1440783502",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/c4/f6/49c4f6d2-dd60-d191-dfc9-e9e35c53fbbe/mzaf_9590657713580154224.plus.aac.p.m4a"
     },
     {
       "rank": 97,
@@ -1173,7 +1173,7 @@
       "storefront": "it",
       "providerTrackId": "261707058",
       "sourceUrl": "https://music.apple.com/it/album/beautiful-liar/261707051?i=261707058",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/fc/b7/95fcb7e9-a0b8-998f-d35b-475841034245/mzaf_8083705188502126836.plus.aac.p.m4a"
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/3e/d6/6d3ed60a-237e-dbc9-6ae3-48b3290d7a8f/mzaf_265596976878523593.plus.aac.p.m4a"
     },
     {
       "rank": 98,
@@ -1189,27 +1189,27 @@
     },
     {
       "rank": 99,
-      "title": "Until I Bleed Out",
-      "artist": "The Weeknd",
-      "album": "After Hours",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/600x600bb.jpg",
+      "title": "M a k e  I t  T o  T h e  M o r n i n g",
+      "artist": "PARTYNEXTDOOR",
+      "album": "PARTYNEXTDOOR 4 (P4)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/de/c5/0ddec5e3-42f6-c550-6227-55dcd7d6b89a/39029.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1499378860",
-      "sourceUrl": "https://music.apple.com/it/album/until-i-bleed-out/1499378108?i=1499378860",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c1/b1/89/c1b189bf-7ac2-296e-fd9b-5ec84fca24b5/mzaf_14168932187729410447.plus.aac.p.m4a"
+      "providerTrackId": "1738702855",
+      "sourceUrl": "https://music.apple.com/it/album/m-a-k-e-i-t-t-o-t-h-e-m-o-r-n-i-n-g/1738702582?i=1738702855",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/fb/93/63fb93f2-314a-2019-8af2-beef3a7f4e6d/mzaf_1456350346092561125.plus.aac.p.m4a"
     },
     {
       "rank": 100,
-      "title": "Baptized In Fear",
-      "artist": "The Weeknd",
-      "album": "Hurry Up Tomorrow",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/9b/6e/499b6e2d-648f-1a4e-31b8-fb7f06a8123c/25UMGIM09490.rgb.jpg/600x600bb.jpg",
+      "title": "Down (feat. Lil Wayne)",
+      "artist": "Jay Sean",
+      "album": "All or Nothing (Bonus Track Version)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/45/01/f34501c4-abc1-a635-7ebb-a62058eaf64b/09UMGIM40549.rgb.jpg/600x600bb.jpg",
       "provider": "apple_music",
       "storefront": "it",
-      "providerTrackId": "1793654357",
-      "sourceUrl": "https://music.apple.com/it/album/baptized-in-fear/1793654348?i=1793654357",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/55/47/a2554790-550f-6596-032e-0b3798b1e568/mzaf_13705300379672259796.plus.aac.p.m4a"
+      "providerTrackId": "1443085141",
+      "sourceUrl": "https://music.apple.com/it/album/down-feat-lil-wayne/1443084848?i=1443085141",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/81/44/488144a6-2866-906f-1fe2-2493fab5b996/mzaf_782099756025679034.plus.aac.p.m4a"
     }
   ]
 }
