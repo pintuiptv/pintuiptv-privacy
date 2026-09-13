@@ -15,7 +15,7 @@
   },
   "mediaType": "movie",
   "section": "trending",
-  "generatedAt": "2026-09-13T12:10:07Z",
+  "generatedAt": "2026-09-13T14:42:45Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 43200,
   "itemCount": 100,
@@ -28,8 +28,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.109,
-      "votes": 564,
+      "rating": 7.111,
+      "votes": 565,
       "popularity": 326.2097,
       "score": null,
       "ids": {
@@ -45,14 +45,34 @@
     },
     {
       "rank": 2,
+      "title": "Mayday",
+      "year": 2026,
+      "released": "2026-09-03",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.9,
+      "votes": 510,
+      "popularity": 205.8726,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1137844
+      },
+      "posterPath": "/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg"
+    },
+    {
+      "rank": 3,
       "title": "The Odyssey",
       "year": 2026,
       "released": "2026-07-15",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.004,
-      "votes": 3648,
+      "rating": 8.005,
+      "votes": 3652,
       "popularity": 408.5067,
       "score": null,
       "ids": {
@@ -67,26 +87,6 @@
       "posterPath": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg"
     },
     {
-      "rank": 3,
-      "title": "Mayday",
-      "year": 2026,
-      "released": "2026-09-03",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.927,
-      "votes": 509,
-      "popularity": 205.8726,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1137844
-      },
-      "posterPath": "/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg"
-    },
-    {
       "rank": 4,
       "title": "Spider-Man: Brand New Day",
       "year": 2026,
@@ -95,7 +95,7 @@
       "watchers": null,
       "plays": null,
       "rating": 7.844,
-      "votes": 2637,
+      "votes": 2641,
       "popularity": 756.7679,
       "score": null,
       "ids": {
@@ -114,8 +114,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.2,
-      "votes": 5464,
+      "rating": 8.192,
+      "votes": 5465,
       "popularity": 151.0084,
       "score": null,
       "ids": {
@@ -152,37 +152,14 @@
     },
     {
       "rank": 7,
-      "title": "Hope",
-      "year": 2026,
-      "released": "2026-07-15",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.796,
-      "votes": 49,
-      "popularity": 75.8337,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1058424
-      },
-      "aliases": [
-        "호프"
-      ],
-      "posterPath": "/h39KOfADZB5I7JzNh9ih9GbZdoK.jpg"
-    },
-    {
-      "rank": 8,
       "title": "Drawn Together",
       "year": 2026,
       "released": "2026-09-09",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.324,
-      "votes": 51,
+      "rating": 6.387,
+      "votes": 53,
       "popularity": 240.8506,
       "score": null,
       "ids": {
@@ -198,15 +175,61 @@
       "posterPath": "/6rpvddXbaQPOi0fB2HKWbZ3uUSg.jpg"
     },
     {
+      "rank": 8,
+      "title": "Hope",
+      "year": 2026,
+      "released": "2026-07-15",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.8,
+      "votes": 49,
+      "popularity": 75.8337,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1058424
+      },
+      "aliases": [
+        "호프"
+      ],
+      "posterPath": "/h39KOfADZB5I7JzNh9ih9GbZdoK.jpg"
+    },
+    {
       "rank": 9,
+      "title": "Mutiny",
+      "year": 2026,
+      "released": "2026-08-19",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.432,
+      "votes": 375,
+      "popularity": 342.3873,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1288445
+      },
+      "aliases": [
+        "Mutiny - Inverti la rotta"
+      ],
+      "posterPath": "/pu2VxGlpGwffOx292w18b1tv96j.jpg"
+    },
+    {
+      "rank": 10,
       "title": "One Night Only",
       "year": 2026,
       "released": "2026-08-06",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.719,
-      "votes": 114,
+      "rating": 6.713,
+      "votes": 115,
       "popularity": 84.0502,
       "score": null,
       "ids": {
@@ -221,26 +244,6 @@
       "posterPath": "/46q8z1TbbVcF8uhRHsvt5s0h2SH.jpg"
     },
     {
-      "rank": 10,
-      "title": "The Runner",
-      "year": 2026,
-      "released": "2026-09-03",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.739,
-      "votes": 418,
-      "popularity": 195.5425,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1386315
-      },
-      "posterPath": "/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg"
-    },
-    {
       "rank": 11,
       "title": "Call My Agent! The Movie",
       "year": 2026,
@@ -248,8 +251,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.0,
-      "votes": 27,
+      "rating": 6.052,
+      "votes": 29,
       "popularity": 48.9394,
       "score": null,
       "ids": {
@@ -272,8 +275,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.3,
-      "votes": 30,
+      "rating": 6.4,
+      "votes": 31,
       "popularity": 80.4382,
       "score": null,
       "ids": {
@@ -289,6 +292,26 @@
     },
     {
       "rank": 13,
+      "title": "The Runner",
+      "year": 2026,
+      "released": "2026-09-03",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.736,
+      "votes": 420,
+      "popularity": 195.5425,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1386315
+      },
+      "posterPath": "/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg"
+    },
+    {
+      "rank": 14,
       "title": "Runner",
       "year": 2026,
       "released": "2026-09-07",
@@ -308,58 +331,15 @@
       "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg"
     },
     {
-      "rank": 14,
-      "title": "Mutiny",
-      "year": 2026,
-      "released": "2026-08-19",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.426,
-      "votes": 373,
-      "popularity": 342.3873,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1288445
-      },
-      "aliases": [
-        "Mutiny - Inverti la rotta"
-      ],
-      "posterPath": "/pu2VxGlpGwffOx292w18b1tv96j.jpg"
-    },
-    {
       "rank": 15,
-      "title": "Backrooms",
-      "year": 2026,
-      "released": "2026-05-27",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.1,
-      "votes": 3247,
-      "popularity": 86.4387,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1083381
-      },
-      "posterPath": "/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg"
-    },
-    {
-      "rank": 16,
       "title": "Coyote vs. Acme",
       "year": 2026,
       "released": "2026-08-20",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.632,
-      "votes": 338,
+      "rating": 7.637,
+      "votes": 342,
       "popularity": 590.1793,
       "score": null,
       "ids": {
@@ -369,6 +349,26 @@
         "tmdb": 1204680
       },
       "posterPath": "/vhv7lBWYM0DUuNU2a0V7Rhq21dD.jpg"
+    },
+    {
+      "rank": 16,
+      "title": "Backrooms",
+      "year": 2026,
+      "released": "2026-05-27",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.053,
+      "votes": 3248,
+      "popularity": 86.4387,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1083381
+      },
+      "posterPath": "/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg"
     },
     {
       "rank": 17,
@@ -392,29 +392,6 @@
     },
     {
       "rank": 18,
-      "title": "PAW Patrol: The Dino Movie",
-      "year": 2026,
-      "released": "2026-07-23",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.299,
-      "votes": 82,
-      "popularity": 75.217,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1185806
-      },
-      "aliases": [
-        "PAW Patrol - Missione Dinosauri"
-      ],
-      "posterPath": "/qnin56Syy5rbG7KCaxWY7SPuy6p.jpg"
-    },
-    {
-      "rank": 19,
       "title": "Project Hail Mary",
       "year": 2026,
       "released": "2026-03-15",
@@ -422,7 +399,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.642,
-      "votes": 7710,
+      "votes": 7711,
       "popularity": 89.6056,
       "score": null,
       "ids": {
@@ -437,15 +414,15 @@
       "posterPath": "/yihdXomYb5kTeSivtFndMy5iDmf.jpg"
     },
     {
-      "rank": 20,
+      "rank": 19,
       "title": "Toy Story 5",
       "year": 2026,
       "released": "2026-06-17",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.35,
-      "votes": 2106,
+      "rating": 8.348,
+      "votes": 2110,
       "popularity": 147.7164,
       "score": null,
       "ids": {
@@ -457,7 +434,50 @@
       "posterPath": "/sfQtVlIHljToOwYjhe21KPGzZWK.jpg"
     },
     {
+      "rank": 20,
+      "title": "Why Did I Get Married Again?",
+      "year": 2026,
+      "released": "2026-09-08",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.1,
+      "votes": 17,
+      "popularity": 48.8643,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1522689
+      },
+      "posterPath": "/rwaxLuOkJ5mMvJU5juNaPcKADOW.jpg"
+    },
+    {
       "rank": 21,
+      "title": "Vishwanath & Sons",
+      "year": 2026,
+      "released": "2026-08-14",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.3,
+      "votes": 15,
+      "popularity": 114.1509,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1408162
+      },
+      "aliases": [
+        "விஸ்வநாத் & சன்ஸ்"
+      ],
+      "posterPath": "/mLsvCffzpxxDwC7yVLJSLLjgzoq.jpg"
+    },
+    {
+      "rank": 22,
       "title": "Little Lorraine",
       "year": 2026,
       "released": "2026-04-17",
@@ -477,7 +497,90 @@
       "posterPath": "/rUzBqWq7idfMTBLCWs55Hkt9lpq.jpg"
     },
     {
-      "rank": 22,
+      "rank": 23,
+      "title": "Drive Through Fire",
+      "year": 2026,
+      "released": "2026-09-11",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.333,
+      "votes": 3,
+      "popularity": 5.4755,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1378742
+      },
+      "posterPath": "/jCZ9cJR8DY0sxSuwUX0tDQBtDAS.jpg"
+    },
+    {
+      "rank": 24,
+      "title": "PAW Patrol: The Dino Movie",
+      "year": 2026,
+      "released": "2026-07-23",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.331,
+      "votes": 83,
+      "popularity": 75.217,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1185806
+      },
+      "aliases": [
+        "PAW Patrol - Missione Dinosauri"
+      ],
+      "posterPath": "/qnin56Syy5rbG7KCaxWY7SPuy6p.jpg"
+    },
+    {
+      "rank": 25,
+      "title": "Minions & Monsters",
+      "year": 2026,
+      "released": "2026-06-24",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.554,
+      "votes": 1091,
+      "popularity": 123.8709,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1315772
+      },
+      "posterPath": "/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg"
+    },
+    {
+      "rank": 26,
+      "title": "Buddy",
+      "year": 2026,
+      "released": "2026-08-27",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.018,
+      "votes": 55,
+      "popularity": 37.6409,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1514026
+      },
+      "posterPath": "/6Lh4ZlsAISFQFVfLZ90sE9ycVnN.jpg"
+    },
+    {
+      "rank": 27,
       "title": "Parallel Tales",
       "year": 2026,
       "released": "2026-05-14",
@@ -501,78 +604,58 @@
       "posterPath": "/aAfeSQIVohqStw6s6xcEFaKfjzu.jpg"
     },
     {
-      "rank": 23,
-      "title": "Buddy",
+      "rank": 28,
+      "title": "Tuner",
       "year": 2026,
-      "released": "2026-08-27",
+      "released": "2026-05-21",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.018,
-      "votes": 55,
-      "popularity": 37.6409,
+      "rating": 7.598,
+      "votes": 419,
+      "popularity": 19.4399,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1514026
-      },
-      "posterPath": "/6Lh4ZlsAISFQFVfLZ90sE9ycVnN.jpg"
-    },
-    {
-      "rank": 24,
-      "title": "La Vénus électrique",
-      "year": 2026,
-      "released": "2026-05-12",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.27,
-      "votes": 89,
-      "popularity": 8.9652,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1442669
-      },
-      "posterPath": "/AggflwFPVo6RL7HDLUVnDmJZxCC.jpg"
-    },
-    {
-      "rank": 25,
-      "title": "Vishwanath & Sons",
-      "year": 2026,
-      "released": "2026-08-14",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.3,
-      "votes": 15,
-      "popularity": 114.1509,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1408162
+        "tmdb": 1340206
       },
       "aliases": [
-        "விஸ்வநாத் & சன்ஸ்"
+        "Tuner - L’accordatore"
       ],
-      "posterPath": "/mLsvCffzpxxDwC7yVLJSLLjgzoq.jpg"
+      "posterPath": "/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg"
     },
     {
-      "rank": 26,
+      "rank": 29,
+      "title": "Disclosure Day",
+      "year": 2026,
+      "released": "2026-06-10",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.468,
+      "votes": 3285,
+      "popularity": 91.3835,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1275779
+      },
+      "posterPath": "/AnJ8IQJI23hNpYXVNaythu061Ru.jpg"
+    },
+    {
+      "rank": 30,
       "title": "The Whisper Man",
       "year": 2026,
       "released": "2026-08-27",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.796,
-      "votes": 630,
+      "rating": 6.799,
+      "votes": 633,
       "popularity": 92.0494,
       "score": null,
       "ids": {
@@ -587,67 +670,7 @@
       "posterPath": "/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg"
     },
     {
-      "rank": 27,
-      "title": "Avengers: Doomsday",
-      "year": 2026,
-      "released": "2026-12-16",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 41.7341,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1003596
-      },
-      "posterPath": "/jzPwsojjFStf5lR5Nm07w2hH56G.jpg"
-    },
-    {
-      "rank": 28,
-      "title": "Drive Through Fire",
-      "year": 2026,
-      "released": "2026-09-11",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.333,
-      "votes": 3,
-      "popularity": 5.4755,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1378742
-      },
-      "posterPath": "/jCZ9cJR8DY0sxSuwUX0tDQBtDAS.jpg"
-    },
-    {
-      "rank": 29,
-      "title": "Fall 2: Deadpoint",
-      "year": 2026,
-      "released": "2026-09-01",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.667,
-      "votes": 27,
-      "popularity": 71.5348,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1101412
-      },
-      "posterPath": "/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg"
-    },
-    {
-      "rank": 30,
+      "rank": 31,
       "title": "The End of Oak Street",
       "year": 2026,
       "released": "2026-08-12",
@@ -668,26 +691,6 @@
         "La fine di Oak Street"
       ],
       "posterPath": "/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg"
-    },
-    {
-      "rank": 31,
-      "title": "Minions & Monsters",
-      "year": 2026,
-      "released": "2026-06-24",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.556,
-      "votes": 1090,
-      "popularity": 123.8709,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1315772
-      },
-      "posterPath": "/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg"
     },
     {
       "rank": 32,
@@ -714,29 +717,66 @@
     },
     {
       "rank": 33,
-      "title": "Clash of the Thundermans",
+      "title": "La Vénus électrique",
       "year": 2026,
-      "released": "2026-09-03",
+      "released": "2026-05-12",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.74,
-      "votes": 50,
-      "popularity": 153.3774,
+      "rating": 7.27,
+      "votes": 89,
+      "popularity": 8.9652,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1506560
+        "tmdb": 1442669
       },
-      "aliases": [
-        "Scontro tra Thunderman"
-      ],
-      "posterPath": "/16oqRrWVzQm6qdGfBxvziZ2UiMT.jpg"
+      "posterPath": "/AggflwFPVo6RL7HDLUVnDmJZxCC.jpg"
     },
     {
       "rank": 34,
+      "title": "Fall 2: Deadpoint",
+      "year": 2026,
+      "released": "2026-09-01",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.667,
+      "votes": 27,
+      "popularity": 71.5348,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1101412
+      },
+      "posterPath": "/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg"
+    },
+    {
+      "rank": 35,
+      "title": "Avengers: Doomsday",
+      "year": 2026,
+      "released": "2026-12-16",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 41.7341,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1003596
+      },
+      "posterPath": "/jzPwsojjFStf5lR5Nm07w2hH56G.jpg"
+    },
+    {
+      "rank": 36,
       "title": "The Drama",
       "year": 2026,
       "released": "2026-04-01",
@@ -744,7 +784,7 @@
       "watchers": null,
       "plays": null,
       "rating": 6.912,
-      "votes": 1764,
+      "votes": 1765,
       "popularity": 34.3299,
       "score": null,
       "ids": {
@@ -759,7 +799,90 @@
       "posterPath": "/rnIOUhzwJDfgQakx8EjoNyItKgs.jpg"
     },
     {
-      "rank": 35,
+      "rank": 37,
+      "title": "Deep Water",
+      "year": 2026,
+      "released": "2026-04-30",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.107,
+      "votes": 486,
+      "popularity": 89.1318,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1127384
+      },
+      "aliases": [
+        "Deep Water - Incubo degli abissi"
+      ],
+      "posterPath": "/ZWHxL2ETItcZzeVsVfs6gv3SZ7.jpg"
+    },
+    {
+      "rank": 38,
+      "title": "Digger",
+      "year": 2026,
+      "released": "2026-09-30",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 18.5146,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1248832
+      },
+      "posterPath": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg"
+    },
+    {
+      "rank": 39,
+      "title": "Pinocchio: Unstrung",
+      "year": 2026,
+      "released": "2026-07-22",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.593,
+      "votes": 97,
+      "popularity": 111.3627,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1232569
+      },
+      "posterPath": "/eUJXk3bTvLBi5Zcb0BCedZU7lVL.jpg"
+    },
+    {
+      "rank": 40,
+      "title": "Lion Fist",
+      "year": 2026,
+      "released": "2026-09-10",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.3,
+      "votes": 3,
+      "popularity": 4.5455,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1340102
+      },
+      "posterPath": "/bnGo33Qjfg48C33H0fYA1n1LrYO.jpg"
+    },
+    {
+      "rank": 41,
       "title": "Once Upon a Time in the Middle East",
       "year": 2026,
       "released": "2026-08-08",
@@ -782,50 +905,7 @@
       "posterPath": "/wAuGgXjA7GV8NrKfmUKl2AP8vqG.jpg"
     },
     {
-      "rank": 36,
-      "title": "Disclosure Day",
-      "year": 2026,
-      "released": "2026-06-10",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.468,
-      "votes": 3282,
-      "popularity": 91.3835,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1275779
-      },
-      "posterPath": "/AnJ8IQJI23hNpYXVNaythu061Ru.jpg"
-    },
-    {
-      "rank": 37,
-      "title": "Colony",
-      "year": 2026,
-      "released": "2026-05-21",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.074,
-      "votes": 773,
-      "popularity": 400.7837,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1375646
-      },
-      "aliases": [
-        "군체"
-      ],
-      "posterPath": "/tN799oUR0f1gUKDYdMNrDaY7I51.jpg"
-    },
-    {
-      "rank": 38,
+      "rank": 42,
       "title": "Hot Spot",
       "year": 2026,
       "released": "2026-08-21",
@@ -845,124 +925,50 @@
       "posterPath": "/42egzT6e4CIEdrEo4Xc31DKyGjA.jpg"
     },
     {
-      "rank": 39,
-      "title": "Evil Dead Burn",
-      "year": 2026,
-      "released": "2026-07-07",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.7,
-      "votes": 1500,
-      "popularity": 53.2657,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1212763
-      },
-      "posterPath": "/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg"
-    },
-    {
-      "rank": 40,
-      "title": "Just Play Dead",
-      "year": 2026,
-      "released": "2026-08-28",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.051,
-      "votes": 39,
-      "popularity": 42.3399,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1480574
-      },
-      "posterPath": "/glALx6QaIgw1u4joXsnfHTjWi6D.jpg"
-    },
-    {
-      "rank": 41,
-      "title": "Digger",
-      "year": 2026,
-      "released": "2026-09-30",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 18.5146,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1248832
-      },
-      "posterPath": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg"
-    },
-    {
-      "rank": 42,
-      "title": "Pinocchio: Unstrung",
-      "year": 2026,
-      "released": "2026-07-22",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.593,
-      "votes": 97,
-      "popularity": 111.3627,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1232569
-      },
-      "posterPath": "/eUJXk3bTvLBi5Zcb0BCedZU7lVL.jpg"
-    },
-    {
       "rank": 43,
-      "title": "In the Grey",
+      "title": "Insidious: Out of the Further",
       "year": 2026,
-      "released": "2026-05-13",
+      "released": "2026-08-19",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.58,
-      "votes": 946,
-      "popularity": 48.5177,
+      "rating": 6.5,
+      "votes": 148,
+      "popularity": 44.8206,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1122573
+        "tmdb": 1291595
       },
-      "posterPath": "/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg"
+      "aliases": [
+        "Insidious - Fuori dall’Altrove"
+      ],
+      "posterPath": "/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg"
     },
     {
       "rank": 44,
-      "title": "The Uprising",
+      "title": "The Mandalorian and Grogu",
       "year": 2026,
-      "released": "2026-09-10",
+      "released": "2026-05-20",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.2,
-      "votes": 8,
-      "popularity": 27.5041,
+      "rating": 7.5,
+      "votes": 1593,
+      "popularity": 81.2985,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 977942
+        "tmdb": 1228710
       },
-      "posterPath": "/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg"
+      "aliases": [
+        "Star Wars: The Mandalorian and Grogu"
+      ],
+      "posterPath": "/uwMKWjcNID0D9jjplsjkQS2OrB4.jpg"
     },
     {
       "rank": 45,
@@ -986,92 +992,89 @@
     },
     {
       "rank": 46,
-      "title": "The Mandalorian and Grogu",
+      "title": "In the Grey",
       "year": 2026,
-      "released": "2026-05-20",
+      "released": "2026-05-13",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.486,
-      "votes": 1591,
-      "popularity": 81.2985,
+      "rating": 7.581,
+      "votes": 948,
+      "popularity": 48.5177,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1228710
+        "tmdb": 1122573
       },
-      "aliases": [
-        "Star Wars: The Mandalorian and Grogu"
-      ],
-      "posterPath": "/uwMKWjcNID0D9jjplsjkQS2OrB4.jpg"
+      "posterPath": "/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg"
     },
     {
       "rank": 47,
-      "title": "Tuner",
+      "title": "Masters of the Universe",
+      "year": 2026,
+      "released": "2026-06-03",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.13,
+      "votes": 2103,
+      "popularity": 54.9106,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 454639
+      },
+      "posterPath": "/oRuyGUHdoaQxWP3SDfafGkStxTC.jpg"
+    },
+    {
+      "rank": 48,
+      "title": "Colony",
       "year": 2026,
       "released": "2026-05-21",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.594,
-      "votes": 418,
-      "popularity": 19.4399,
+      "rating": 8.074,
+      "votes": 773,
+      "popularity": 400.7837,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1340206
+        "tmdb": 1375646
       },
       "aliases": [
-        "Tuner - L’accordatore"
+        "군체"
       ],
-      "posterPath": "/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg"
-    },
-    {
-      "rank": 48,
-      "title": "The Last Assassins",
-      "year": 2026,
-      "released": "2026-08-11",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 5.2,
-      "votes": 5,
-      "popularity": 3.4962,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1641580
-      },
-      "posterPath": "/dCEvwyR3XlTos78iHZzPa8a3urg.jpg"
+      "posterPath": "/tN799oUR0f1gUKDYdMNrDaY7I51.jpg"
     },
     {
       "rank": 49,
-      "title": "Insidious: Out of the Further",
+      "title": "Clash of the Thundermans",
       "year": 2026,
-      "released": "2026-08-19",
+      "released": "2026-09-03",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.476,
-      "votes": 147,
-      "popularity": 44.8206,
+      "rating": 6.74,
+      "votes": 50,
+      "popularity": 153.3774,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1291595
+        "tmdb": 1506560
       },
       "aliases": [
-        "Insidious - Fuori dall’Altrove"
+        "Scontro tra Thunderman"
       ],
-      "posterPath": "/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg"
+      "posterPath": "/16oqRrWVzQm6qdGfBxvziZ2UiMT.jpg"
     },
     {
       "rank": 50,
@@ -1118,49 +1121,264 @@
     },
     {
       "rank": 52,
-      "title": "Masters of the Universe",
+      "title": "Scary Movie",
       "year": 2026,
       "released": "2026-06-03",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 7.131,
-      "votes": 2102,
-      "popularity": 54.9106,
+      "rating": 6.393,
+      "votes": 1866,
+      "popularity": 70.9018,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 454639
+        "tmdb": 1273221
       },
-      "posterPath": "/oRuyGUHdoaQxWP3SDfafGkStxTC.jpg"
+      "posterPath": "/znHT8peERZRWG1ME3r0Db0EV8k8.jpg"
     },
     {
       "rank": 53,
-      "title": "Cosmic Princess Kaguya!",
+      "title": "Possible Love",
       "year": 2026,
-      "released": "2026-01-22",
+      "released": "2026-09-23",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.1,
-      "votes": 113,
-      "popularity": 12.4342,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 26.5696,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1575337
+        "tmdb": 1483525
       },
       "aliases": [
-        "超かぐや姫！"
+        "가능한 사랑"
       ],
-      "posterPath": "/9I9cM38gecZcwJ0C6r0cwfvtPJP.jpg"
+      "posterPath": "/dLz9yHeLw4x4sD0WTSNi7HuK2ke.jpg"
     },
     {
       "rank": 54,
+      "title": "Pressure",
+      "year": 2026,
+      "released": "2026-05-28",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.7,
+      "votes": 378,
+      "popularity": 24.4617,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1318413
+      },
+      "aliases": [
+        "Pressure - La decisione che cambiò la storia"
+      ],
+      "posterPath": "/gFjEggtrejCN79r6SXRjM269OtG.jpg"
+    },
+    {
+      "rank": 55,
+      "title": "The Uprising",
+      "year": 2026,
+      "released": "2026-09-10",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.2,
+      "votes": 8,
+      "popularity": 27.5041,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 977942
+      },
+      "posterPath": "/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg"
+    },
+    {
+      "rank": 56,
+      "title": "Dirty Games",
+      "year": 2026,
+      "released": "2026-08-13",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 4.5,
+      "votes": 2,
+      "popularity": 1.1079,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1748677
+      },
+      "posterPath": "/4fGPBV5sexQVYL9ViNbfLrPbTyD.jpg"
+    },
+    {
+      "rank": 57,
+      "title": "Forgotten Island",
+      "year": 2026,
+      "released": "2026-09-16",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 9.0,
+      "votes": 2,
+      "popularity": 19.853,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1465063
+      },
+      "aliases": [
+        "L'isola dei ricordi"
+      ],
+      "posterPath": "/Lr0Ng7Gg02RW1AyfYEL6P0WUvd.jpg"
+    },
+    {
+      "rank": 58,
+      "title": "Evil Dead Burn",
+      "year": 2026,
+      "released": "2026-07-07",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.7,
+      "votes": 1502,
+      "popularity": 53.2657,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1212763
+      },
+      "aliases": [
+        "La casa - Il rogo del Male"
+      ],
+      "posterPath": "/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg"
+    },
+    {
+      "rank": 59,
+      "title": "Wild Horse Nine",
+      "year": 2026,
+      "released": "2026-11-04",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 6.9238,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 891621
+      },
+      "posterPath": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg"
+    },
+    {
+      "rank": 60,
+      "title": "Sheep in the Box",
+      "year": 2026,
+      "released": "2026-05-29",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.4,
+      "votes": 21,
+      "popularity": 9.6429,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1553969
+      },
+      "aliases": [
+        "箱の中の羊"
+      ],
+      "posterPath": "/sxAwnj01pLfDBTA4WobJtJw7y9q.jpg"
+    },
+    {
+      "rank": 61,
+      "title": "Mortal Kombat II",
+      "year": 2026,
+      "released": "2026-05-06",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.821,
+      "votes": 2561,
+      "popularity": 41.4872,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 931285
+      },
+      "posterPath": "/hwRdDFIhaEmpRgoki805YvyyjZf.jpg"
+    },
+    {
+      "rank": 62,
+      "title": "Band of Brothers: Legacy",
+      "year": 2026,
+      "released": "2026-09-09",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 9.0,
+      "votes": 5,
+      "popularity": 18.0998,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1762506
+      },
+      "posterPath": "/n29MsV1m2OCbDp6PLeHxziOVOLG.jpg"
+    },
+    {
+      "rank": 63,
+      "title": "The Furious",
+      "year": 2026,
+      "released": "2026-06-10",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.185,
+      "votes": 710,
+      "popularity": 40.6873,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1280738
+      },
+      "aliases": [
+        "火遮眼"
+      ],
+      "posterPath": "/zP19YO60jwEsfKd5Qf1UvA5uJu8.jpg"
+    },
+    {
+      "rank": 64,
       "title": "Brothers Under Fire",
       "year": 2026,
       "released": "2026-04-15",
@@ -1180,7 +1398,607 @@
       "posterPath": "/e5EKqk9V7N3w0WvYFhl6wSVrMp0.jpg"
     },
     {
-      "rank": 55,
+      "rank": 65,
+      "title": "Batman: Knightfall Part 1: Knightfall",
+      "year": 2026,
+      "released": "2026-06-23",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 9.171,
+      "votes": 289,
+      "popularity": 114.7291,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1560520
+      },
+      "posterPath": "/360qdtu2hLnqMu8SVHMywn420w1.jpg"
+    },
+    {
+      "rank": 66,
+      "title": "Just Play Dead",
+      "year": 2026,
+      "released": "2026-08-28",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.051,
+      "votes": 39,
+      "popularity": 42.3399,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1480574
+      },
+      "posterPath": "/glALx6QaIgw1u4joXsnfHTjWi6D.jpg"
+    },
+    {
+      "rank": 67,
+      "title": "Bleach: Thousand-Year Blood War - The Calamity",
+      "year": 2026,
+      "released": "2026-06-25",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.833,
+      "votes": 12,
+      "popularity": 6.4887,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1669841
+      },
+      "posterPath": "/tEaeXZZO7SEcDr6yRP31UrrxcX0.jpg"
+    },
+    {
+      "rank": 68,
+      "title": "Passenger",
+      "year": 2026,
+      "released": "2026-05-20",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.3,
+      "votes": 856,
+      "popularity": 25.018,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1368314
+      },
+      "posterPath": "/svrAzMTif4OmIjGJzC0W92d5O1o.jpg"
+    },
+    {
+      "rank": 69,
+      "title": "Primetime",
+      "year": 2026,
+      "released": "2026-09-23",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 13.3897,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1375441
+      },
+      "posterPath": "/lmrulvLbmaejTix1YaMxo1oGhH1.jpg"
+    },
+    {
+      "rank": 70,
+      "title": "NAZA",
+      "year": 2026,
+      "released": "2026-09-10",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.5,
+      "votes": 2,
+      "popularity": 8.2496,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1755291
+      },
+      "posterPath": "/aXlTjDmbYVNjGWt256MWeYVKFN.jpg"
+    },
+    {
+      "rank": 71,
+      "title": "The Last Assassins",
+      "year": 2026,
+      "released": "2026-08-11",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 5.2,
+      "votes": 5,
+      "popularity": 3.4962,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1641580
+      },
+      "posterPath": "/dCEvwyR3XlTos78iHZzPa8a3urg.jpg"
+    },
+    {
+      "rank": 72,
+      "title": "Flies",
+      "year": 2026,
+      "released": "2026-07-01",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.857,
+      "votes": 7,
+      "popularity": 7.5122,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1437703
+      },
+      "aliases": [
+        "Moscas"
+      ],
+      "posterPath": "/8msXampT9kNOyyKaWkfGZ0bZIzR.jpg"
+    },
+    {
+      "rank": 73,
+      "title": "Beast",
+      "year": 2026,
+      "released": "2026-04-10",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.472,
+      "votes": 180,
+      "popularity": 19.1313,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1292415
+      },
+      "posterPath": "/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg"
+    },
+    {
+      "rank": 74,
+      "title": "Avatar: Fire and Ash",
+      "year": 2025,
+      "released": "2025-12-17",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.646,
+      "votes": 4304,
+      "popularity": 64.4395,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 83533
+      },
+      "aliases": [
+        "Avatar: Fuoco e cenere"
+      ],
+      "posterPath": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg"
+    },
+    {
+      "rank": 75,
+      "title": "公开便所THE ANIMATION Slave",
+      "year": null,
+      "released": null,
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 3.4869,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1757397
+      }
+    },
+    {
+      "rank": 76,
+      "title": "Avatar Aang: The Last Airbender",
+      "year": 2026,
+      "released": "2026-07-24",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 9.148,
+      "votes": 1113,
+      "popularity": 91.1521,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 980431
+      },
+      "posterPath": "/3sgnSfNT27Bx5O5ukr7B26mhEQq.jpg"
+    },
+    {
+      "rank": 77,
+      "title": "The Last House",
+      "year": 2026,
+      "released": "2026-08-06",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.874,
+      "votes": 1314,
+      "popularity": 45.6563,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1284041
+      },
+      "posterPath": "/6JU7E8Vv2M11egkctWVOScxWR75.jpg"
+    },
+    {
+      "rank": 78,
+      "title": "The Dog Stars",
+      "year": 2026,
+      "released": "2026-08-26",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.6,
+      "votes": 249,
+      "popularity": 46.2158,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1384216
+      },
+      "posterPath": "/A7i16oDi03qrKep5pBfuTWNUTb.jpg"
+    },
+    {
+      "rank": 79,
+      "title": "Dune: Part Three",
+      "year": 2026,
+      "released": "2026-12-15",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 16.4656,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1170608
+      },
+      "posterPath": "/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg"
+    },
+    {
+      "rank": 80,
+      "title": "Night of the Zoopocalypse",
+      "year": 2025,
+      "released": "2025-01-23",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.743,
+      "votes": 101,
+      "popularity": 16.0751,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1205229
+      },
+      "posterPath": "/nCejOVZcOxKS27nnbh28NKXOdXF.jpg"
+    },
+    {
+      "rank": 81,
+      "title": "Tarung: Unforgiven",
+      "year": 2026,
+      "released": "2026-05-07",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.2,
+      "votes": 4,
+      "popularity": 31.3129,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1608445
+      },
+      "posterPath": "/v9ZtOlIJ3HS49UMtS4eli3WMenT.jpg"
+    },
+    {
+      "rank": 82,
+      "title": "Superman",
+      "year": 2025,
+      "released": "2025-07-09",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.325,
+      "votes": 5429,
+      "popularity": 34.1292,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1061474
+      },
+      "posterPath": "/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg"
+    },
+    {
+      "rank": 83,
+      "title": "The Devil Wears Prada 2",
+      "year": 2026,
+      "released": "2026-04-29",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.046,
+      "votes": 2310,
+      "popularity": 47.9618,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1314481
+      },
+      "aliases": [
+        "Il diavolo veste Prada 2"
+      ],
+      "posterPath": "/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg"
+    },
+    {
+      "rank": 84,
+      "title": "Alpha",
+      "year": 2026,
+      "released": "2026-07-02",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 4.783,
+      "votes": 23,
+      "popularity": 15.5358,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1122030
+      },
+      "aliases": [
+        "अल्फा"
+      ],
+      "posterPath": "/bPtRt3ajQ0EkyeQ1O6iJwAIi9Py.jpg"
+    },
+    {
+      "rank": 85,
+      "title": "Hummingbird Heroes",
+      "year": 2026,
+      "released": "2026-09-12",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.0,
+      "votes": 1,
+      "popularity": 1.8488,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1765955
+      },
+      "aliases": [
+        "蜂鸟行动"
+      ],
+      "posterPath": "/1B2F7DtiHnp3uxV5ITwwQBBrXOn.jpg"
+    },
+    {
+      "rank": 86,
+      "title": "LEGO Star Wars: The Mandalorian",
+      "year": 2026,
+      "released": "2026-09-02",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.9,
+      "votes": 23,
+      "popularity": 42.7364,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1731694
+      },
+      "posterPath": "/x3HEvYXWOW6WHqsHmg2MUVy3SLm.jpg"
+    },
+    {
+      "rank": 87,
+      "title": "Magudam",
+      "year": 2026,
+      "released": "2026-08-14",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 3.9356,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1506833
+      },
+      "aliases": [
+        "மகுடம்"
+      ],
+      "posterPath": "/uPsJfQHRw5QiwQqOoOQWkfBmnhE.jpg"
+    },
+    {
+      "rank": 88,
+      "title": "Michael",
+      "year": 2026,
+      "released": "2026-04-22",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.642,
+      "votes": 4320,
+      "popularity": 55.5532,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 936075
+      },
+      "posterPath": "/dueFqKLvjftnELZaGYwY7xinfaI.jpg"
+    },
+    {
+      "rank": 89,
+      "title": "By Any Means",
+      "year": 2026,
+      "released": "2026-09-02",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.1,
+      "votes": 15,
+      "popularity": 29.347,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1380417
+      },
+      "posterPath": "/f4hdIed8vh10O8TkQ1CkHS8MQ3G.jpg"
+    },
+    {
+      "rank": 90,
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "year": 2026,
+      "released": "2026-08-06",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.676,
+      "votes": 104,
+      "popularity": 12.3124,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1240889
+      },
+      "posterPath": "/nLsFnXifieSTqSeWxjXSS8RvaUZ.jpg"
+    },
+    {
+      "rank": 91,
+      "title": "Melaleuca",
+      "year": 2026,
+      "released": "2026-05-01",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 2.7269,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1366544
+      },
+      "posterPath": "/66dP68aqZSD36SjisSd6fUjj0pM.jpg"
+    },
+    {
+      "rank": 92,
+      "title": "The Secret Woman",
+      "year": 2026,
+      "released": "2026-08-28",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 6.196,
+      "votes": 92,
+      "popularity": 37.2094,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1631807
+      },
+      "aliases": [
+        "Den hemmelige kvinde"
+      ],
+      "posterPath": "/5FC5vUHFz0fbJOd0bhyzJpCSLrc.jpg"
+    },
+    {
+      "rank": 93,
+      "title": "The Weight",
+      "year": 2026,
+      "released": "2026-09-16",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 7.5,
+      "votes": 2,
+      "popularity": 10.381,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1433583
+      },
+      "posterPath": "/8i5iZV50CoEtmDCFM7RSxCkpE8h.jpg"
+    },
+    {
+      "rank": 94,
       "title": "The Super Mario Galaxy Movie",
       "year": 2026,
       "released": "2026-04-01",
@@ -1204,958 +2022,130 @@
       "posterPath": "/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg"
     },
     {
-      "rank": 56,
-      "title": "Haiwaan",
+      "rank": 95,
+      "title": "Killer Whale",
       "year": 2026,
-      "released": "2026-09-11",
+      "released": "2026-01-16",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 5.401,
+      "votes": 162,
+      "popularity": 12.0997,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1412598
+      },
+      "posterPath": "/xC6zdIoIHjhOIFmjNyGgtzhuhiF.jpg"
+    },
+    {
+      "rank": 96,
+      "title": "Butterfly Effect: Azzam",
+      "year": 2026,
+      "released": "2026-07-23",
       "firstAired": null,
       "watchers": null,
       "plays": null,
       "rating": 0.0,
       "votes": null,
-      "popularity": 6.3675,
+      "popularity": 2.4347,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1475799
+        "tmdb": 1671183
       },
       "aliases": [
-        "हैवान"
+        "أثر الفراشة: عزام"
       ],
-      "posterPath": "/ykXYDPPvoPhTaBeQ90OibCaCOWX.jpg"
+      "posterPath": "/crB4LgDosfPJygP5N8p91R5949s.jpg"
     },
     {
-      "rank": 57,
-      "title": "Sheep in the Box",
+      "rank": 97,
+      "title": "The Death of Robin Hood",
       "year": 2026,
-      "released": "2026-05-29",
+      "released": "2026-06-18",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.4,
-      "votes": 21,
-      "popularity": 9.6429,
+      "rating": 6.2,
+      "votes": 297,
+      "popularity": 66.6797,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1553969
+        "tmdb": 1284465
+      },
+      "posterPath": "/13MmRwmG5NmaMfU8qNrtgGXisiD.jpg"
+    },
+    {
+      "rank": 98,
+      "title": "Facing El Chapo",
+      "year": 2026,
+      "released": "2026-08-21",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.816,
+      "votes": 628,
+      "popularity": 125.4522,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1621552
       },
       "aliases": [
-        "箱の中の羊"
+        "La captura"
       ],
-      "posterPath": "/sxAwnj01pLfDBTA4WobJtJw7y9q.jpg"
+      "posterPath": "/alpf5v4UqSFawPmG9RX03Or4BDk.jpg"
     },
     {
-      "rank": 58,
-      "title": "The Furious",
-      "year": 2026,
-      "released": "2026-06-10",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.185,
-      "votes": 710,
-      "popularity": 40.6873,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1280738
-      },
-      "aliases": [
-        "火遮眼"
-      ],
-      "posterPath": "/zP19YO60jwEsfKd5Qf1UvA5uJu8.jpg"
-    },
-    {
-      "rank": 59,
-      "title": "Lion Fist",
-      "year": 2026,
-      "released": "2026-09-10",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.333,
-      "votes": 3,
-      "popularity": 4.5455,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1340102
-      },
-      "posterPath": "/tV0Ue3pVxlMokK27dIOivGHlY6g.jpg"
-    },
-    {
-      "rank": 60,
-      "title": "Scary Movie",
-      "year": 2026,
-      "released": "2026-06-03",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.393,
-      "votes": 1866,
-      "popularity": 70.9018,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1273221
-      },
-      "posterPath": "/znHT8peERZRWG1ME3r0Db0EV8k8.jpg"
-    },
-    {
-      "rank": 61,
-      "title": "Avatar: Fire and Ash",
-      "year": 2025,
-      "released": "2025-12-17",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.646,
-      "votes": 4303,
-      "popularity": 64.4395,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 83533
-      },
-      "aliases": [
-        "Avatar: Fuoco e cenere"
-      ],
-      "posterPath": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg"
-    },
-    {
-      "rank": 62,
-      "title": "The Devil Wears Prada 2",
-      "year": 2026,
-      "released": "2026-04-29",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.046,
-      "votes": 2310,
-      "popularity": 47.9618,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1314481
-      },
-      "aliases": [
-        "Il diavolo veste Prada 2"
-      ],
-      "posterPath": "/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg"
-    },
-    {
-      "rank": 63,
-      "title": "The Weight",
-      "year": 2026,
-      "released": "2026-09-16",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.5,
-      "votes": 2,
-      "popularity": 10.381,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1433583
-      },
-      "posterPath": "/8i5iZV50CoEtmDCFM7RSxCkpE8h.jpg"
-    },
-    {
-      "rank": 64,
-      "title": "Fuze",
-      "year": 2026,
-      "released": "2026-03-23",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.168,
-      "votes": 391,
-      "popularity": 24.5959,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1242265
-      },
-      "aliases": [
-        "Fuze - Conto alla rovescia"
-      ],
-      "posterPath": "/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg"
-    },
-    {
-      "rank": 65,
-      "title": "Forgotten Island",
-      "year": 2026,
-      "released": "2026-09-16",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 9.0,
-      "votes": 2,
-      "popularity": 19.853,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1465063
-      },
-      "aliases": [
-        "L'isola dei ricordi"
-      ],
-      "posterPath": "/Lr0Ng7Gg02RW1AyfYEL6P0WUvd.jpg"
-    },
-    {
-      "rank": 66,
-      "title": "Primetime",
-      "year": 2026,
-      "released": "2026-09-23",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 13.3897,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1375441
-      },
-      "posterPath": "/lmrulvLbmaejTix1YaMxo1oGhH1.jpg"
-    },
-    {
-      "rank": 67,
-      "title": "Leviticus",
-      "year": 2026,
-      "released": "2026-06-17",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.744,
-      "votes": 492,
-      "popularity": 38.6814,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1564614
-      },
-      "posterPath": "/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg"
-    },
-    {
-      "rank": 68,
-      "title": "Avatar Aang: The Last Airbender",
+      "rank": 99,
+      "title": "On the Sea",
       "year": 2026,
       "released": "2026-07-24",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 9.151,
-      "votes": 1112,
-      "popularity": 91.1521,
+      "rating": 7.1,
+      "votes": 9,
+      "popularity": 16.8131,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 980431
+        "tmdb": 1507796
       },
-      "posterPath": "/3sgnSfNT27Bx5O5ukr7B26mhEQq.jpg"
-    },
-    {
-      "rank": 69,
-      "title": "Batman: Knightfall Part 1: Knightfall",
-      "year": 2026,
-      "released": "2026-06-23",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 9.171,
-      "votes": 289,
-      "popularity": 114.7291,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1560520
-      },
-      "posterPath": "/360qdtu2hLnqMu8SVHMywn420w1.jpg"
-    },
-    {
-      "rank": 70,
-      "title": "Hummingbird Heroes",
-      "year": 2026,
-      "released": "2026-09-12",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.0,
-      "votes": 1,
-      "popularity": 1.8488,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1765955
-      },
-      "aliases": [
-        "蜂鸟行动"
-      ],
-      "posterPath": "/1B2F7DtiHnp3uxV5ITwwQBBrXOn.jpg"
-    },
-    {
-      "rank": 71,
-      "title": "公开便所THE ANIMATION Slave",
-      "year": null,
-      "released": null,
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 3.4869,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1757397
-      }
-    },
-    {
-      "rank": 72,
-      "title": "Scream 7",
-      "year": 2026,
-      "released": "2026-02-25",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.234,
-      "votes": 1269,
-      "popularity": 25.7685,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1159559
-      },
-      "posterPath": "/jjyuk0edLiW8vOSnlfwWCCLpbh5.jpg"
-    },
-    {
-      "rank": 73,
-      "title": "Band of Brothers: Legacy",
-      "year": 2026,
-      "released": "2026-09-09",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 9.0,
-      "votes": 5,
-      "popularity": 18.0998,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1762506
-      },
-      "posterPath": "/n29MsV1m2OCbDp6PLeHxziOVOLG.jpg"
-    },
-    {
-      "rank": 74,
-      "title": "The Last House",
-      "year": 2026,
-      "released": "2026-08-06",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.874,
-      "votes": 1314,
-      "popularity": 45.6563,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1284041
-      },
-      "posterPath": "/6JU7E8Vv2M11egkctWVOScxWR75.jpg"
-    },
-    {
-      "rank": 75,
-      "title": "Possible Love",
-      "year": 2026,
-      "released": "2026-09-23",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 26.5696,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1483525
-      },
-      "aliases": [
-        "가능한 사랑"
-      ],
-      "posterPath": "/dLz9yHeLw4x4sD0WTSNi7HuK2ke.jpg"
-    },
-    {
-      "rank": 76,
-      "title": "The Secret Woman",
-      "year": 2026,
-      "released": "2026-08-28",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.273,
-      "votes": 88,
-      "popularity": 37.2094,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1631807
-      },
-      "aliases": [
-        "La donna senza passato",
-        "Den hemmelige kvinde"
-      ],
-      "posterPath": "/5FC5vUHFz0fbJOd0bhyzJpCSLrc.jpg"
-    },
-    {
-      "rank": 77,
-      "title": "Dirty Games",
-      "year": 2026,
-      "released": "2026-08-13",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 4.5,
-      "votes": 2,
-      "popularity": 1.1079,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1748677
-      },
-      "posterPath": "/4fGPBV5sexQVYL9ViNbfLrPbTyD.jpg"
-    },
-    {
-      "rank": 78,
-      "title": "Salmokji: Whispering Water",
-      "year": 2026,
-      "released": "2026-04-08",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.0,
-      "votes": 27,
-      "popularity": 8.8958,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1461254
-      },
-      "aliases": [
-        "살목지"
-      ],
-      "posterPath": "/bOl0rJ86WWxVYlQlGttHhHuYiPQ.jpg"
-    },
-    {
-      "rank": 79,
-      "title": "Passenger",
-      "year": 2026,
-      "released": "2026-05-20",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.308,
-      "votes": 856,
-      "popularity": 25.018,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1368314
-      },
-      "posterPath": "/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg"
-    },
-    {
-      "rank": 80,
-      "title": "Heart of the Beast",
-      "year": 2026,
-      "released": "2026-09-19",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 15.6774,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1263337
-      },
-      "posterPath": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg"
-    },
-    {
-      "rank": 81,
-      "title": "The Dog Stars",
-      "year": 2026,
-      "released": "2026-08-26",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.6,
-      "votes": 249,
-      "popularity": 46.2158,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1384216
-      },
-      "posterPath": "/A7i16oDi03qrKep5pBfuTWNUTb.jpg"
-    },
-    {
-      "rank": 82,
-      "title": "LEGO Star Wars: The Mandalorian",
-      "year": 2026,
-      "released": "2026-09-02",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 6.9,
-      "votes": 23,
-      "popularity": 42.7364,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1731694
-      },
-      "posterPath": "/x3HEvYXWOW6WHqsHmg2MUVy3SLm.jpg"
-    },
-    {
-      "rank": 83,
-      "title": "Superman",
-      "year": 2025,
-      "released": "2025-07-09",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.325,
-      "votes": 5428,
-      "popularity": 34.1292,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1061474
-      },
-      "posterPath": "/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg"
-    },
-    {
-      "rank": 84,
-      "title": "Oasis: Don't Look Back in Anger",
-      "year": 2026,
-      "released": "2026-09-09",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.2,
-      "votes": 14,
-      "popularity": 11.3072,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1447853
-      },
-      "posterPath": "/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg"
-    },
-    {
-      "rank": 85,
-      "title": "Alpha",
-      "year": 2026,
-      "released": "2026-07-02",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 4.783,
-      "votes": 23,
-      "popularity": 15.5358,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1122030
-      },
-      "aliases": [
-        "अल्फा"
-      ],
-      "posterPath": "/bPtRt3ajQ0EkyeQ1O6iJwAIi9Py.jpg"
-    },
-    {
-      "rank": 86,
-      "title": "Wild Horse Nine",
-      "year": 2026,
-      "released": "2026-11-04",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 6.9238,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 891621
-      },
-      "posterPath": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg"
-    },
-    {
-      "rank": 87,
-      "title": "Woman Unknown",
-      "year": 2027,
-      "released": "2027-02-04",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 4.8009,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1511780
-      },
-      "aliases": [
-        "Kvinde ukendt"
-      ],
-      "posterPath": "/ly8Zf4McOMane0caBwnmuft6TTM.jpg"
-    },
-    {
-      "rank": 88,
-      "title": "Ice Cream Man",
-      "year": 2026,
-      "released": "2026-08-03",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 4.366,
-      "votes": 56,
-      "popularity": 14.7057,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1477712
-      },
-      "posterPath": "/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg"
-    },
-    {
-      "rank": 89,
-      "title": "Magudam",
-      "year": 2026,
-      "released": "2026-08-14",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 3.9356,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1506833
-      },
-      "aliases": [
-        "மகுடம்"
-      ],
-      "posterPath": "/uPsJfQHRw5QiwQqOoOQWkfBmnhE.jpg"
-    },
-    {
-      "rank": 90,
-      "title": "DC",
-      "year": 2026,
-      "released": "2026-08-07",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.8,
-      "votes": 18,
-      "popularity": 18.9835,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1479832
-      },
-      "aliases": [
-        "டிசி"
-      ],
-      "posterPath": "/cB6ZAWK70cR5HVnGK6BaCr8W4FH.jpg"
-    },
-    {
-      "rank": 91,
-      "title": "Mortal Kombat II",
-      "year": 2026,
-      "released": "2026-05-06",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.822,
-      "votes": 2560,
-      "popularity": 41.4872,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 931285
-      },
-      "posterPath": "/hwRdDFIhaEmpRgoki805YvyyjZf.jpg"
-    },
-    {
-      "rank": 92,
-      "title": "Dune: Part Three",
-      "year": 2026,
-      "released": "2026-12-15",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 16.4656,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1170608
-      },
-      "aliases": [
-        "Dune - Parte tre"
-      ],
-      "posterPath": "/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg"
-    },
-    {
-      "rank": 93,
-      "title": "Ryan Garcia vs. Conor Benn",
-      "year": 2026,
-      "released": "2026-09-12",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 1.877,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1732360
-      },
-      "posterPath": "/gKIO9NdMqkpRyBeKQ8bnvezuBtE.jpg"
-    },
-    {
-      "rank": 94,
-      "title": "Bleach: Thousand-Year Blood War - The Calamity",
-      "year": 2026,
-      "released": "2026-06-25",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.833,
-      "votes": 12,
-      "popularity": 6.4887,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1669841
-      },
-      "posterPath": "/tEaeXZZO7SEcDr6yRP31UrrxcX0.jpg"
-    },
-    {
-      "rank": 95,
-      "title": "NAZA",
-      "year": 2026,
-      "released": "2026-09-10",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.5,
-      "votes": 2,
-      "popularity": 8.2496,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1755291
-      },
-      "posterPath": "/aXlTjDmbYVNjGWt256MWeYVKFN.jpg"
-    },
-    {
-      "rank": 96,
-      "title": "The Sheep Detectives",
-      "year": 2026,
-      "released": "2026-04-30",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.939,
-      "votes": 1635,
-      "popularity": 30.3443,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1301421
-      },
-      "posterPath": "/iKy5460GdsoknM8ppmGlJbKxAKa.jpg"
-    },
-    {
-      "rank": 97,
-      "title": "The Odyssey",
-      "year": 2026,
-      "released": "2026-07-03",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 4.003,
-      "votes": 536,
-      "popularity": 48.4614,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1698863
-      },
-      "posterPath": "/b0z3ViIC5AkbJoqxmTpqyjgmoJs.jpg"
-    },
-    {
-      "rank": 98,
-      "title": "Gandhari",
-      "year": 2026,
-      "released": "2026-09-03",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 5.063,
-      "votes": 8,
-      "popularity": 47.0341,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1355228
-      },
-      "aliases": [
-        "गांधारी"
-      ],
-      "posterPath": "/aF3IhwS1mrVfvM9OMXmTaXAT0l8.jpg"
-    },
-    {
-      "rank": 99,
-      "title": "Beast",
-      "year": 2026,
-      "released": "2026-04-10",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 7.472,
-      "votes": 180,
-      "popularity": 19.1313,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1292415
-      },
-      "posterPath": "/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg"
+      "posterPath": "/9dZj1TDR2TlSdWjnzGI87jbZSts.jpg"
     },
     {
       "rank": 100,
-      "title": "Flies",
+      "title": "Normal",
       "year": 2026,
-      "released": "2026-07-01",
+      "released": "2026-04-16",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 6.857,
-      "votes": 7,
-      "popularity": 7.5122,
+      "rating": 7.272,
+      "votes": 573,
+      "popularity": 17.678,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1437703
+        "tmdb": 1242332
       },
-      "aliases": [
-        "Moscas"
-      ],
-      "posterPath": "/8msXampT9kNOyyKaWkfGZ0bZIzR.jpg"
+      "posterPath": "/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg"
     }
   ]
 }
