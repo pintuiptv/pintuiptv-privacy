@@ -15,7 +15,7 @@
   },
   "mediaType": "movie",
   "section": "top_rated",
-  "generatedAt": "2026-10-10T12:47:19Z",
+  "generatedAt": "2026-10-10T18:42:30Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 86400,
   "itemCount": 100,
@@ -503,8 +503,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.5,
-      "votes": 21456,
+      "rating": 8.49,
+      "votes": 21457,
       "popularity": 34.14,
       "score": null,
       "ids": {
@@ -527,7 +527,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.49,
-      "votes": 41431,
+      "votes": 41434,
       "popularity": 64.9027,
       "score": null,
       "ids": {
@@ -546,7 +546,7 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.489,
+      "rating": 8.5,
       "votes": 13078,
       "popularity": 32.1807,
       "score": null,
@@ -570,7 +570,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.48,
-      "votes": 31053,
+      "votes": 31055,
       "popularity": 43.7152,
       "score": null,
       "ids": {
@@ -583,6 +583,29 @@
     },
     {
       "rank": 26,
+      "title": "The Good, the Bad and the Ugly",
+      "year": 1966,
+      "released": "1966-12-23",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.5,
+      "votes": 10023,
+      "popularity": 30.9775,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 429
+      },
+      "aliases": [
+        "Il buono, il brutto, il cattivo"
+      ],
+      "posterPath": "/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg"
+    },
+    {
+      "rank": 27,
       "title": "Harakiri",
       "year": 1962,
       "released": "1962-09-15",
@@ -605,29 +628,6 @@
       "posterPath": "/5konZnIbcAxZjP616Cz5o9bKEfW.jpg"
     },
     {
-      "rank": 27,
-      "title": "The Good, the Bad and the Ugly",
-      "year": 1966,
-      "released": "1966-12-23",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.469,
-      "votes": 10023,
-      "popularity": 30.9775,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 429
-      },
-      "aliases": [
-        "Il buono, il brutto, il cattivo"
-      ],
-      "posterPath": "/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg"
-    },
-    {
       "rank": 28,
       "title": "Forrest Gump",
       "year": 1994,
@@ -636,7 +636,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.461,
-      "votes": 30620,
+      "votes": 30622,
       "popularity": 39.0853,
       "score": null,
       "ids": {
@@ -645,7 +645,7 @@
         "imdb": null,
         "tmdb": 13
       },
-      "posterPath": "/pplybKImR7LKzSVzRylK6Cl4dzm.jpg"
+      "posterPath": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg"
     },
     {
       "rank": 29,
@@ -655,7 +655,7 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.453,
+      "rating": 8.5,
       "votes": 4405,
       "popularity": 21.7097,
       "score": null,
@@ -697,52 +697,6 @@
     },
     {
       "rank": 31,
-      "title": "GoodFellas",
-      "year": 1990,
-      "released": "1990-09-12",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.45,
-      "votes": 14856,
-      "popularity": 28.7588,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 769
-      },
-      "aliases": [
-        "Quei bravi ragazzi"
-      ],
-      "posterPath": "/9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg"
-    },
-    {
-      "rank": 32,
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "year": 2001,
-      "released": "2001-12-18",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.4,
-      "votes": 28545,
-      "popularity": 49.7272,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 120
-      },
-      "aliases": [
-        "Il Signore degli Anelli - La Compagnia dell'Anello"
-      ],
-      "posterPath": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
-    },
-    {
-      "rank": 33,
       "title": "Impossible Things",
       "year": 2021,
       "released": "2021-06-17",
@@ -765,7 +719,30 @@
       "posterPath": "/t2Ew8NZ8Ci2kqmoecZUNQUFDJnQ.jpg"
     },
     {
-      "rank": 34,
+      "rank": 32,
+      "title": "GoodFellas",
+      "year": 1990,
+      "released": "1990-09-12",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.45,
+      "votes": 14857,
+      "popularity": 28.7588,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 769
+      },
+      "aliases": [
+        "Quei bravi ragazzi"
+      ],
+      "posterPath": "/9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg"
+    },
+    {
+      "rank": 33,
       "title": "¿Quieres ser mi hijo?",
       "year": 2023,
       "released": "2023-09-21",
@@ -785,6 +762,29 @@
       "posterPath": "/6PQJsmuvSMZQMmlJfTpjIkrizUh.jpg"
     },
     {
+      "rank": 34,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "released": "2001-12-18",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.4,
+      "votes": 28546,
+      "popularity": 49.7272,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 120
+      },
+      "aliases": [
+        "Il Signore degli Anelli - La Compagnia dell'Anello"
+      ],
+      "posterPath": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+    },
+    {
       "rank": 35,
       "title": "Fight Club",
       "year": 1999,
@@ -793,7 +793,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.438,
-      "votes": 32997,
+      "votes": 32999,
       "popularity": 42.4981,
       "score": null,
       "ids": {
@@ -813,7 +813,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.436,
-      "votes": 14300,
+      "votes": 14302,
       "popularity": 24.3588,
       "score": null,
       "ids": {
@@ -835,7 +835,7 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.431,
+      "rating": 8.4,
       "votes": 5009,
       "popularity": 15.2973,
       "score": null,
@@ -858,8 +858,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.431,
-      "votes": 24725,
+      "rating": 8.4,
+      "votes": 24726,
       "popularity": 34.7694,
       "score": null,
       "ids": {
@@ -882,7 +882,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.425,
-      "votes": 8507,
+      "votes": 8508,
       "popularity": 22.1052,
       "score": null,
       "ids": {
@@ -971,8 +971,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.4,
-      "votes": 11321,
+      "rating": 8.405,
+      "votes": 11324,
       "popularity": 23.3157,
       "score": null,
       "ids": {
@@ -994,8 +994,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.404,
-      "votes": 11841,
+      "rating": 8.4,
+      "votes": 11843,
       "popularity": 19.5382,
       "score": null,
       "ids": {
@@ -1087,8 +1087,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.392,
-      "votes": 18954,
+      "rating": 8.4,
+      "votes": 18955,
       "popularity": 19.1817,
       "score": null,
       "ids": {
@@ -1111,7 +1111,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.4,
-      "votes": 11546,
+      "votes": 11548,
       "popularity": 44.1189,
       "score": null,
       "ids": {
@@ -1134,8 +1134,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.386,
-      "votes": 959,
+      "rating": 8.384,
+      "votes": 960,
       "popularity": 15.3438,
       "score": null,
       "ids": {
@@ -1157,8 +1157,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.4,
-      "votes": 23941,
+      "rating": 8.382,
+      "votes": 23945,
       "popularity": 36.1505,
       "score": null,
       "ids": {
@@ -1245,7 +1245,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.4,
-      "votes": 17200,
+      "votes": 17202,
       "popularity": 39.9818,
       "score": null,
       "ids": {
@@ -1265,7 +1265,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.373,
-      "votes": 40385,
+      "votes": 40388,
       "popularity": 51.3614,
       "score": null,
       "ids": {
@@ -1285,7 +1285,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.37,
-      "votes": 10512,
+      "votes": 10513,
       "popularity": 24.7875,
       "score": null,
       "ids": {
@@ -1308,7 +1308,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.4,
-      "votes": 6256,
+      "votes": 6257,
       "popularity": 25.3687,
       "score": null,
       "ids": {
@@ -1330,8 +1330,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.374,
-      "votes": 4692,
+      "rating": 8.376,
+      "votes": 4732,
       "popularity": 942.3201,
       "score": null,
       "ids": {
@@ -1351,7 +1351,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.351,
-      "votes": 9380,
+      "votes": 9382,
       "popularity": 51.8443,
       "score": null,
       "ids": {
@@ -1370,8 +1370,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.3,
-      "votes": 18625,
+      "rating": 8.345,
+      "votes": 18626,
       "popularity": 8.3616,
       "score": null,
       "ids": {
@@ -1433,8 +1433,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.3,
-      "votes": 7408,
+      "rating": 8.333,
+      "votes": 7410,
       "popularity": 15.6182,
       "score": null,
       "ids": {
@@ -1476,8 +1476,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.3,
-      "votes": 22533,
+      "rating": 8.331,
+      "votes": 22536,
       "popularity": 39.615,
       "score": null,
       "ids": {
@@ -1499,8 +1499,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.322,
-      "votes": 974,
+      "rating": 8.325,
+      "votes": 977,
       "popularity": 17.6387,
       "score": null,
       "ids": {
@@ -1516,14 +1516,34 @@
     },
     {
       "rank": 68,
+      "title": "American History X",
+      "year": 1998,
+      "released": "1998-07-01",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.322,
+      "votes": 13000,
+      "popularity": 19.6392,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 73
+      },
+      "posterPath": "/x2drgoXYZ8484lqyDj7L1CEVR4T.jpg"
+    },
+    {
+      "rank": 69,
       "title": "Princess Mononoke",
       "year": 1997,
       "released": "1997-07-12",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.3,
-      "votes": 9364,
+      "rating": 8.321,
+      "votes": 9366,
       "popularity": 24.3091,
       "score": null,
       "ids": {
@@ -1538,26 +1558,6 @@
       "posterPath": "/cMYCDADoLKLbB83g4WnJegaZimC.jpg"
     },
     {
-      "rank": 69,
-      "title": "American History X",
-      "year": 1998,
-      "released": "1998-07-01",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.322,
-      "votes": 12996,
-      "popularity": 19.6392,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 73
-      },
-      "posterPath": "/x2drgoXYZ8484lqyDj7L1CEVR4T.jpg"
-    },
-    {
       "rank": 70,
       "title": "The Shadow's Edge",
       "year": 2025,
@@ -1565,7 +1565,7 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.315,
+      "rating": 8.3,
       "votes": 1513,
       "popularity": 52.4996,
       "score": null,
@@ -1583,29 +1583,6 @@
     },
     {
       "rank": 71,
-      "title": "The Wild Robot",
-      "year": 2024,
-      "released": "2024-09-12",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.3,
-      "votes": 6703,
-      "popularity": 58.3474,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1184918
-      },
-      "aliases": [
-        "Il robot selvaggio"
-      ],
-      "posterPath": "/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg"
-    },
-    {
-      "rank": 72,
       "title": "Ikiru",
       "year": 1952,
       "released": "1952-10-09",
@@ -1627,6 +1604,29 @@
         "生きる"
       ],
       "posterPath": "/dgNTS4EQDDVfkzJI5msKuHu2Ei3.jpg"
+    },
+    {
+      "rank": 72,
+      "title": "The Wild Robot",
+      "year": 2024,
+      "released": "2024-09-12",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.3,
+      "votes": 6704,
+      "popularity": 58.3474,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1184918
+      },
+      "aliases": [
+        "Il robot selvaggio"
+      ],
+      "posterPath": "/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg"
     },
     {
       "rank": 73,
@@ -1660,8 +1660,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.3,
-      "votes": 3389,
+      "rating": 8.302,
+      "votes": 3390,
       "popularity": 21.9038,
       "score": null,
       "ids": {
@@ -1677,49 +1677,6 @@
     },
     {
       "rank": 75,
-      "title": "Runner",
-      "year": 2026,
-      "released": "2026-09-07",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.292,
-      "votes": 452,
-      "popularity": 252.7218,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1377237
-      },
-      "aliases": [
-        "The Rush - Corsa contro il tempo"
-      ],
-      "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg"
-    },
-    {
-      "rank": 76,
-      "title": "Toy Story 5",
-      "year": 2026,
-      "released": "2026-06-17",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.3,
-      "votes": 2542,
-      "popularity": 151.0495,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1084244
-      },
-      "posterPath": "/sfQtVlIHljToOwYjhe21KPGzZWK.jpg"
-    },
-    {
-      "rank": 77,
       "title": "Violet Evergarden: The Movie",
       "year": 2020,
       "released": "2020-09-18",
@@ -1743,15 +1700,15 @@
       "posterPath": "/bajajkoErDst0JxdFyBkABiF9rW.jpg"
     },
     {
-      "rank": 78,
+      "rank": 76,
       "title": "Dead Poets Society",
       "year": 1989,
       "released": "1989-06-02",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.3,
-      "votes": 13033,
+      "rating": 8.295,
+      "votes": 13035,
       "popularity": 28.0144,
       "score": null,
       "ids": {
@@ -1766,6 +1723,49 @@
       "posterPath": "/tNvKkSnnn4Z6RCBThyK1gfCSSvv.jpg"
     },
     {
+      "rank": 77,
+      "title": "Toy Story 5",
+      "year": 2026,
+      "released": "2026-06-17",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.294,
+      "votes": 2549,
+      "popularity": 151.0495,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1084244
+      },
+      "posterPath": "/sfQtVlIHljToOwYjhe21KPGzZWK.jpg"
+    },
+    {
+      "rank": 78,
+      "title": "Runner",
+      "year": 2026,
+      "released": "2026-09-07",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.296,
+      "votes": 453,
+      "popularity": 252.7218,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1377237
+      },
+      "aliases": [
+        "The Rush - Corsa contro il tempo"
+      ],
+      "posterPath": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg"
+    },
+    {
       "rank": 79,
       "title": "Léon: The Professional",
       "year": 1994,
@@ -1773,8 +1773,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.3,
-      "votes": 16625,
+      "rating": 8.289,
+      "votes": 16628,
       "popularity": 30.0375,
       "score": null,
       "ids": {
@@ -1790,6 +1790,30 @@
     },
     {
       "rank": 80,
+      "title": "Out of the Clear Blue Sky",
+      "year": 2019,
+      "released": "2019-12-24",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.286,
+      "votes": 395,
+      "popularity": 4.0916,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 654299
+      },
+      "aliases": [
+        "Come caduto dal cielo",
+        "Como caído del cielo"
+      ],
+      "posterPath": "/o9cSEHrXzPOO4OIoT9yrdxc216w.jpg"
+    },
+    {
+      "rank": 81,
       "title": "Dedicated to my ex",
       "year": 2019,
       "released": "2019-11-01",
@@ -1812,7 +1836,7 @@
       "posterPath": "/xc4bTXVwYNXi10jG9dwcaYt5IpU.jpg"
     },
     {
-      "rank": 81,
+      "rank": 82,
       "title": "The Great Dictator",
       "year": 1940,
       "released": "1940-10-15",
@@ -1835,7 +1859,7 @@
       "posterPath": "/nhMXB8GTdswYMCL9nepDZymJCOr.jpg"
     },
     {
-      "rank": 82,
+      "rank": 83,
       "title": "Modern Times",
       "year": 1936,
       "released": "1936-02-05",
@@ -1858,7 +1882,7 @@
       "posterPath": "/AthaPakkuCLROdKxtRbKWclkDBK.jpg"
     },
     {
-      "rank": 83,
+      "rank": 84,
       "title": "The Quintessential Quintuplets Movie",
       "year": 2022,
       "released": "2022-05-20",
@@ -1879,30 +1903,6 @@
         "映画 五等分の花嫁"
       ],
       "posterPath": "/sg7klpt1xwK1IJirBI9EHaqQwJ5.jpg"
-    },
-    {
-      "rank": 84,
-      "title": "Out of the Clear Blue Sky",
-      "year": 2019,
-      "released": "2019-12-24",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.286,
-      "votes": 395,
-      "popularity": 4.0916,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 654299
-      },
-      "aliases": [
-        "Come caduto dal cielo",
-        "Como caído del cielo"
-      ],
-      "posterPath": "/o9cSEHrXzPOO4OIoT9yrdxc216w.jpg"
     },
     {
       "rank": 85,
@@ -1959,8 +1959,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.3,
-      "votes": 5094,
+      "rating": 8.278,
+      "votes": 5096,
       "popularity": 21.3357,
       "score": null,
       "ids": {
@@ -1982,8 +1982,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.3,
-      "votes": 3051,
+      "rating": 8.274,
+      "votes": 3052,
       "popularity": 13.2285,
       "score": null,
       "ids": {
@@ -1999,6 +1999,30 @@
     },
     {
       "rank": 89,
+      "title": "The Intouchables",
+      "year": 2011,
+      "released": "2011-11-02",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.272,
+      "votes": 18914,
+      "popularity": 22.6716,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 77338
+      },
+      "aliases": [
+        "Quasi amici - Intouchables",
+        "Intouchables"
+      ],
+      "posterPath": "/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg"
+    },
+    {
+      "rank": 90,
       "title": "I Swear",
       "year": 2025,
       "released": "2025-09-22",
@@ -2018,30 +2042,6 @@
       "posterPath": "/vUwyhNWBKkSwK8ELvEeBRwV724h.jpg"
     },
     {
-      "rank": 90,
-      "title": "The Intouchables",
-      "year": 2011,
-      "released": "2011-11-02",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.272,
-      "votes": 18913,
-      "popularity": 22.6716,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 77338
-      },
-      "aliases": [
-        "Quasi amici - Intouchables",
-        "Intouchables"
-      ],
-      "posterPath": "/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg"
-    },
-    {
       "rank": 91,
       "title": "Once Upon a Time in the West",
       "year": 1968,
@@ -2050,7 +2050,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.263,
-      "votes": 5080,
+      "votes": 5082,
       "popularity": 18.8756,
       "score": null,
       "ids": {
@@ -2096,7 +2096,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.261,
-      "votes": 28918,
+      "votes": 28920,
       "popularity": 47.6602,
       "score": null,
       "ids": {
@@ -2119,7 +2119,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.259,
-      "votes": 9443,
+      "votes": 9446,
       "popularity": 23.8881,
       "score": null,
       "ids": {
@@ -2163,7 +2163,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.252,
-      "votes": 2313,
+      "votes": 2314,
       "popularity": 35.046,
       "score": null,
       "ids": {
@@ -2202,8 +2202,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.3,
-      "votes": 3402,
+      "rating": 8.251,
+      "votes": 3403,
       "popularity": 11.5071,
       "score": null,
       "ids": {
@@ -2248,8 +2248,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.251,
-      "votes": 20242,
+      "rating": 8.2,
+      "votes": 20244,
       "popularity": 41.7509,
       "score": null,
       "ids": {
