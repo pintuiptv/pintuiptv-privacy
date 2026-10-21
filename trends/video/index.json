@@ -7,36 +7,28 @@
   "providersUsed": [
     "tmdb"
   ],
-  "refreshStatus": "success",
+  "refreshStatus": "stale_cache",
   "movieSections": 6,
   "seriesSections": 6,
-  "generatedAt": "2026-10-21T12:06:31Z",
-  "lastCheckedAt": "2026-10-21T12:06:31Z",
-  "lastSuccessfulRefreshAt": "2026-10-21T12:06:31Z",
-  "lastContentUpdateAt": "2026-10-21T12:06:31Z",
+  "generatedAt": "2026-10-21T15:39:48Z",
+  "lastCheckedAt": "2026-10-21T15:39:48Z",
+  "lastSuccessfulRefreshAt": "2026-10-21T15:39:48Z",
+  "lastContentUpdateAt": "2026-10-21T15:39:48Z",
   "minimumAppSchemaVersion": 1,
   "movies": [
-    {
-      "section": "trending",
-      "path": "movies/trending.json",
-      "rankingType": "pintu_composite",
-      "provider": "tmdb",
-      "ttlSeconds": 43200,
-      "itemCount": 100
-    },
-    {
-      "section": "popular",
-      "path": "movies/popular.json",
-      "rankingType": "pintu_composite",
-      "provider": "tmdb",
-      "ttlSeconds": 43200,
-      "itemCount": 100
-    },
     {
       "section": "top_rated",
       "path": "movies/top_rated.json",
       "rankingType": "pintu_composite",
       "provider": "tmdb",
+      "ttlSeconds": 86400,
+      "itemCount": 100
+    },
+    {
+      "section": "movies_of_the_year",
+      "path": "movies/movies_of_the_year.json",
+      "rankingType": "pintu_composite",
+      "provider": "trakt",
       "ttlSeconds": 86400,
       "itemCount": 100
     },
@@ -49,11 +41,11 @@
       "itemCount": 100
     },
     {
-      "section": "movies_of_the_year",
-      "path": "movies/movies_of_the_year.json",
+      "section": "trending",
+      "path": "movies/trending.json",
       "rankingType": "pintu_composite",
-      "provider": "trakt",
-      "ttlSeconds": 86400,
+      "provider": "tmdb",
+      "ttlSeconds": 43200,
       "itemCount": 100
     },
     {
@@ -61,6 +53,14 @@
       "path": "movies/new_releases.json",
       "rankingType": "pintu_composite",
       "provider": "trakt",
+      "ttlSeconds": 43200,
+      "itemCount": 100
+    },
+    {
+      "section": "popular",
+      "path": "movies/popular.json",
+      "rankingType": "pintu_composite",
+      "provider": "tmdb",
       "ttlSeconds": 43200,
       "itemCount": 100
     }
