@@ -15,7 +15,7 @@
   },
   "mediaType": "movie",
   "section": "top_rated",
-  "generatedAt": "2026-10-27T12:30:09Z",
+  "generatedAt": "2026-10-27T16:03:24Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 86400,
   "itemCount": 100,
@@ -188,7 +188,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.688,
-      "votes": 23858,
+      "votes": 23859,
       "popularity": 52.7644,
       "score": null,
       "ids": {
@@ -210,8 +210,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.634,
-      "votes": 8552,
+      "rating": 8.633,
+      "votes": 8554,
       "popularity": 200.1628,
       "score": null,
       "ids": {
@@ -253,7 +253,7 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.6,
+      "rating": 8.598,
       "votes": 4632,
       "popularity": 41.3413,
       "score": null,
@@ -274,7 +274,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.576,
-      "votes": 10532,
+      "votes": 10533,
       "popularity": 30.387,
       "score": null,
       "ids": {
@@ -297,7 +297,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.572,
-      "votes": 14526,
+      "votes": 14527,
       "popularity": 33.5176,
       "score": null,
       "ids": {
@@ -319,7 +319,7 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.569,
+      "rating": 8.6,
       "votes": 18107,
       "popularity": 37.7033,
       "score": null,
@@ -386,7 +386,7 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.539,
+      "rating": 8.5,
       "votes": 37098,
       "popularity": 59.1302,
       "score": null,
@@ -410,7 +410,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.536,
-      "votes": 19127,
+      "votes": 19128,
       "popularity": 53.1262,
       "score": null,
       "ids": {
@@ -497,13 +497,33 @@
     },
     {
       "rank": 22,
+      "title": "Interstellar",
+      "year": 2014,
+      "released": "2014-11-04",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.493,
+      "votes": 41665,
+      "popularity": 76.2201,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 157336
+      },
+      "posterPath": "/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg"
+    },
+    {
+      "rank": 23,
       "title": "Your Name.",
       "year": 2016,
       "released": "2016-07-01",
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.5,
+      "rating": 8.492,
       "votes": 13145,
       "popularity": 35.4755,
       "score": null,
@@ -519,26 +539,6 @@
       "posterPath": "/vfJFJPepRKapMd5G2ro7klIRysq.jpg"
     },
     {
-      "rank": 23,
-      "title": "Interstellar",
-      "year": 2014,
-      "released": "2014-11-04",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.493,
-      "votes": 41664,
-      "popularity": 76.2201,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 157336
-      },
-      "posterPath": "/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg"
-    },
-    {
       "rank": 24,
       "title": "Parasite",
       "year": 2019,
@@ -547,7 +547,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.489,
-      "votes": 21585,
+      "votes": 21587,
       "popularity": 42.5485,
       "score": null,
       "ids": {
@@ -569,8 +569,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.5,
-      "votes": 31192,
+      "rating": 8.481,
+      "votes": 31194,
       "popularity": 40.7984,
       "score": null,
       "ids": {
@@ -583,26 +583,6 @@
     },
     {
       "rank": 26,
-      "title": "Spider-Man: Brand New Day",
-      "year": 2026,
-      "released": "2026-07-29",
-      "firstAired": null,
-      "watchers": null,
-      "plays": null,
-      "rating": 8.471,
-      "votes": 6216,
-      "popularity": 556.9527,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 969681
-      },
-      "posterPath": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg"
-    },
-    {
-      "rank": 27,
       "title": "Harakiri",
       "year": 1962,
       "released": "1962-09-15",
@@ -625,6 +605,26 @@
       "posterPath": "/5konZnIbcAxZjP616Cz5o9bKEfW.jpg"
     },
     {
+      "rank": 27,
+      "title": "Spider-Man: Brand New Day",
+      "year": 2026,
+      "released": "2026-07-29",
+      "firstAired": null,
+      "watchers": null,
+      "plays": null,
+      "rating": 8.471,
+      "votes": 6222,
+      "popularity": 556.9527,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 969681
+      },
+      "posterPath": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg"
+    },
+    {
       "rank": 28,
       "title": "The Good, the Bad and the Ugly",
       "year": 1966,
@@ -633,7 +633,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.469,
-      "votes": 10084,
+      "votes": 10085,
       "popularity": 24.8202,
       "score": null,
       "ids": {
@@ -656,7 +656,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.462,
-      "votes": 30755,
+      "votes": 30757,
       "popularity": 42.552,
       "score": null,
       "ids": {
@@ -746,8 +746,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.5,
-      "votes": 14948,
+      "rating": 8.451,
+      "votes": 14949,
       "popularity": 29.053,
       "score": null,
       "ids": {
@@ -770,7 +770,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.448,
-      "votes": 28692,
+      "votes": 28695,
       "popularity": 61.5492,
       "score": null,
       "ids": {
@@ -813,7 +813,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.438,
-      "votes": 33144,
+      "votes": 33146,
       "popularity": 42.3436,
       "score": null,
       "ids": {
@@ -855,8 +855,8 @@
       "firstAired": null,
       "watchers": null,
       "plays": null,
-      "rating": 8.4,
-      "votes": 5030,
+      "rating": 8.432,
+      "votes": 5031,
       "popularity": 14.0545,
       "score": null,
       "ids": {
@@ -879,7 +879,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.432,
-      "votes": 24840,
+      "votes": 24841,
       "popularity": 42.4979,
       "score": null,
       "ids": {
@@ -1786,6 +1786,9 @@
         "imdb": null,
         "tmdb": 1317149
       },
+      "aliases": [
+        "I Swear - È più forte di me"
+      ],
       "posterPath": "/vUwyhNWBKkSwK8ELvEeBRwV724h.jpg"
     },
     {
