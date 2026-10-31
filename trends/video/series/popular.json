@@ -15,7 +15,7 @@
   },
   "mediaType": "show",
   "section": "popular",
-  "generatedAt": "2026-10-31T18:38:29Z",
+  "generatedAt": "2026-10-31T20:18:40Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 43200,
   "itemCount": 100,
@@ -28,7 +28,7 @@
       "firstAired": "1999-09-20",
       "watchers": null,
       "plays": null,
-      "rating": 8.0,
+      "rating": 7.962,
       "votes": 4396,
       "popularity": 9334.9923,
       "score": null,
@@ -45,6 +45,29 @@
     },
     {
       "rank": 2,
+      "title": "Family Guy",
+      "year": 1999,
+      "released": null,
+      "firstAired": "1999-01-31",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.412,
+      "votes": 5176,
+      "popularity": 8313.9017,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1434
+      },
+      "aliases": [
+        "I Griffin"
+      ],
+      "posterPath": "/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg"
+    },
+    {
+      "rank": 3,
       "title": "Criminal Minds",
       "year": 2005,
       "released": null,
@@ -64,29 +87,6 @@
       "posterPath": "/hWSb4UnIjlTvnvrP98NbFSO60HA.jpg"
     },
     {
-      "rank": 3,
-      "title": "Family Guy",
-      "year": 1999,
-      "released": null,
-      "firstAired": "1999-01-31",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.412,
-      "votes": 5177,
-      "popularity": 8313.9017,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1434
-      },
-      "aliases": [
-        "I Griffin"
-      ],
-      "posterPath": "/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg"
-    },
-    {
       "rank": 4,
       "title": "The Simpsons",
       "year": 1989,
@@ -95,7 +95,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.027,
-      "votes": 11127,
+      "votes": 11125,
       "popularity": 8214.9932,
       "score": null,
       "ids": {
@@ -118,7 +118,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.317,
-      "votes": 8797,
+      "votes": 8793,
       "popularity": 8110.1574,
       "score": null,
       "ids": {
@@ -131,6 +131,126 @@
     },
     {
       "rank": 6,
+      "title": "Grey's Anatomy",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-03-27",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.203,
+      "votes": 11113,
+      "popularity": 6283.6341,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1416
+      },
+      "posterPath": "/gO8Fo47KV1opiutRDdBS5jclTQB.jpg"
+    },
+    {
+      "rank": 7,
+      "title": "How I Met Your Mother",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-09-19",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.112,
+      "votes": 6037,
+      "popularity": 6701.006,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1100
+      },
+      "posterPath": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg"
+    },
+    {
+      "rank": 8,
+      "title": "The Mentalist",
+      "year": 2008,
+      "released": null,
+      "firstAired": "2008-09-23",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.4,
+      "votes": 4922,
+      "popularity": 6472.4479,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 5920
+      },
+      "posterPath": "/acYXu4KaDj1NIkMgObnhe4C4a0T.jpg"
+    },
+    {
+      "rank": 9,
+      "title": "Friends",
+      "year": 1994,
+      "released": null,
+      "firstAired": "1994-09-22",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.408,
+      "votes": 9533,
+      "popularity": 4338.1614,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1668
+      },
+      "posterPath": "/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
+    },
+    {
+      "rank": 10,
+      "title": "The Summer I Turned Pretty",
+      "year": 2022,
+      "released": null,
+      "firstAired": "2022-06-16",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.059,
+      "votes": 1156,
+      "popularity": 4095.8058,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 194766
+      },
+      "posterPath": "/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg"
+    },
+    {
+      "rank": 11,
+      "title": "Baywatch",
+      "year": 1989,
+      "released": null,
+      "firstAired": "1989-04-23",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.963,
+      "votes": 574,
+      "popularity": 4206.61,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 4386
+      },
+      "posterPath": "/34t8WxHn1OcIVpcTxmjYmjX9tE4.jpg"
+    },
+    {
+      "rank": 12,
       "title": "The Office",
       "year": 2005,
       "released": null,
@@ -138,7 +258,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.584,
-      "votes": 5652,
+      "votes": 5650,
       "popularity": 7283.3463,
       "score": null,
       "ids": {
@@ -153,27 +273,47 @@
       "posterPath": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg"
     },
     {
-      "rank": 7,
-      "title": "How I Met Your Mother",
-      "year": 2005,
+      "rank": 13,
+      "title": "Malcolm in the Middle",
+      "year": 2000,
       "released": null,
-      "firstAired": "2005-09-19",
+      "firstAired": "2000-01-09",
       "watchers": null,
       "plays": null,
-      "rating": 8.112,
-      "votes": 6039,
-      "popularity": 6701.006,
+      "rating": 8.465,
+      "votes": 5028,
+      "popularity": 3543.8815,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1100
+        "tmdb": 2004
       },
-      "posterPath": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg"
+      "posterPath": "/ckLLIsNy3Z0Go1PYHA2PHzVymUA.jpg"
     },
     {
-      "rank": 8,
+      "rank": 14,
+      "title": "Girlfriends",
+      "year": 2000,
+      "released": null,
+      "firstAired": "2000-09-11",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.3,
+      "votes": 48,
+      "popularity": 2796.9517,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 2398
+      },
+      "posterPath": "/buFnsyWEg4pPR7dco5Vbsm6HCIY.jpg"
+    },
+    {
+      "rank": 15,
       "title": "The Vampire Diaries",
       "year": 2009,
       "released": null,
@@ -181,7 +321,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.3,
-      "votes": 9821,
+      "votes": 9820,
       "popularity": 6653.1087,
       "score": null,
       "ids": {
@@ -193,15 +333,35 @@
       "posterPath": "/gbp4zM0FE0n23X4UFY5EBlacrog.jpg"
     },
     {
-      "rank": 9,
+      "rank": 16,
+      "title": "The Flash",
+      "year": 2014,
+      "released": null,
+      "firstAired": "2014-10-07",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.741,
+      "votes": 11834,
+      "popularity": 6502.8816,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 60735
+      },
+      "posterPath": "/yZevl2vHQgmosfwUdVNzviIfaWS.jpg"
+    },
+    {
+      "rank": 17,
       "title": "House",
       "year": 2004,
       "released": null,
       "firstAired": "2004-11-16",
       "watchers": null,
       "plays": null,
-      "rating": 8.6,
-      "votes": 7993,
+      "rating": 8.562,
+      "votes": 7990,
       "popularity": 6532.6307,
       "score": null,
       "ids": {
@@ -216,55 +376,55 @@
       "posterPath": "/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg"
     },
     {
-      "rank": 10,
-      "title": "The Flash",
-      "year": 2014,
+      "rank": 18,
+      "title": "The Crown",
+      "year": 2016,
       "released": null,
-      "firstAired": "2014-10-07",
+      "firstAired": "2016-11-04",
       "watchers": null,
       "plays": null,
-      "rating": 7.741,
-      "votes": 11836,
-      "popularity": 6502.8816,
+      "rating": 8.182,
+      "votes": 2470,
+      "popularity": 3105.2443,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 60735
+        "tmdb": 65494
       },
-      "posterPath": "/yZevl2vHQgmosfwUdVNzviIfaWS.jpg"
+      "posterPath": "/1M876KPjulVwppEpldhdc8V4o68.jpg"
     },
     {
-      "rank": 11,
-      "title": "The Mentalist",
-      "year": 2008,
+      "rank": 19,
+      "title": "Medium",
+      "year": 2005,
       "released": null,
-      "firstAired": "2008-09-23",
+      "firstAired": "2005-01-03",
       "watchers": null,
       "plays": null,
-      "rating": 8.4,
-      "votes": 4923,
-      "popularity": 6472.4479,
+      "rating": 7.456,
+      "votes": 595,
+      "popularity": 3047.3162,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 5920
+        "tmdb": 36
       },
-      "posterPath": "/acYXu4KaDj1NIkMgObnhe4C4a0T.jpg"
+      "posterPath": "/6tOxspW2MbbAQ0s3jtfs8QATcx.jpg"
     },
     {
-      "rank": 12,
+      "rank": 20,
       "title": "Modern Family",
       "year": 2009,
       "released": null,
       "firstAired": "2009-09-23",
       "watchers": null,
       "plays": null,
-      "rating": 7.911,
-      "votes": 3590,
+      "rating": 7.91,
+      "votes": 3589,
       "popularity": 6290.9471,
       "score": null,
       "ids": {
@@ -274,175 +434,6 @@
         "tmdb": 1421
       },
       "posterPath": "/k5Qg5rgPoKdh3yTJJrLtyoyYGwC.jpg"
-    },
-    {
-      "rank": 13,
-      "title": "Grey's Anatomy",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2005-03-27",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.203,
-      "votes": 11114,
-      "popularity": 6283.6341,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1416
-      },
-      "posterPath": "/gO8Fo47KV1opiutRDdBS5jclTQB.jpg"
-    },
-    {
-      "rank": 14,
-      "title": "Seinfeld",
-      "year": 1989,
-      "released": null,
-      "firstAired": "1989-07-05",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.249,
-      "votes": 2497,
-      "popularity": 5888.5865,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1400
-      },
-      "posterPath": "/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg"
-    },
-    {
-      "rank": 15,
-      "title": "Vikings",
-      "year": 2013,
-      "released": null,
-      "firstAired": "2013-03-03",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.104,
-      "votes": 7978,
-      "popularity": 5651.5852,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 44217
-      },
-      "posterPath": "/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg"
-    },
-    {
-      "rank": 16,
-      "title": "The 100",
-      "year": 2014,
-      "released": null,
-      "firstAired": "2014-03-19",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.878,
-      "votes": 8850,
-      "popularity": 5316.0386,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 48866
-      },
-      "posterPath": "/wHIMMLFsk32wIzDmawWkYVbxFCS.jpg"
-    },
-    {
-      "rank": 17,
-      "title": "Monk",
-      "year": 2002,
-      "released": null,
-      "firstAired": "2002-07-12",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.936,
-      "votes": 1339,
-      "popularity": 5256.1291,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1695
-      },
-      "aliases": [
-        "Detective Monk"
-      ],
-      "posterPath": "/3axGMbUecXXOPSeG47v2i9wK5y5.jpg"
-    },
-    {
-      "rank": 18,
-      "title": "Columbo",
-      "year": 1971,
-      "released": null,
-      "firstAired": "1971-09-15",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.058,
-      "votes": 881,
-      "popularity": 5250.3447,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 873
-      },
-      "aliases": [
-        "Colombo"
-      ],
-      "posterPath": "/2JCD8vab3fircOU8cM2HJCxfv4I.jpg"
-    },
-    {
-      "rank": 19,
-      "title": "The Legend of Korra",
-      "year": 2012,
-      "released": null,
-      "firstAired": "2012-04-14",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.222,
-      "votes": 2473,
-      "popularity": 5186.1407,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 33880
-      },
-      "aliases": [
-        "La leggenda di Korra"
-      ],
-      "posterPath": "/dZgYvSfuh1YHDrJuILlVQ5oA2hF.jpg"
-    },
-    {
-      "rank": 20,
-      "title": "True Detective",
-      "year": 2014,
-      "released": null,
-      "firstAired": "2014-01-12",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.295,
-      "votes": 4459,
-      "popularity": 5163.9673,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 46648
-      },
-      "posterPath": "/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg"
     },
     {
       "rank": 21,
@@ -549,46 +540,6 @@
     },
     {
       "rank": 26,
-      "title": "Friends",
-      "year": 1994,
-      "released": null,
-      "firstAired": "1994-09-22",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.408,
-      "votes": 9534,
-      "popularity": 4338.1614,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1668
-      },
-      "posterPath": "/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
-    },
-    {
-      "rank": 27,
-      "title": "Baywatch",
-      "year": 1989,
-      "released": null,
-      "firstAired": "1989-04-23",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.963,
-      "votes": 574,
-      "popularity": 4206.61,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 4386
-      },
-      "posterPath": "/34t8WxHn1OcIVpcTxmjYmjX9tE4.jpg"
-    },
-    {
-      "rank": 28,
       "title": "The Last Kingdom",
       "year": 2015,
       "released": null,
@@ -608,7 +559,7 @@
       "posterPath": "/8eJf0hxgIhE6QSxbtuNCekTddy1.jpg"
     },
     {
-      "rank": 29,
+      "rank": 27,
       "title": "The Magicians",
       "year": 2015,
       "released": null,
@@ -628,30 +579,7 @@
       "posterPath": "/A66dZN98BPEYeFQAhNdNCIXa57d.jpg"
     },
     {
-      "rank": 30,
-      "title": "The Summer I Turned Pretty",
-      "year": 2022,
-      "released": null,
-      "firstAired": "2022-06-16",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.059,
-      "votes": 1156,
-      "popularity": 4095.8058,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 194766
-      },
-      "aliases": [
-        "L'estate nei tuoi occhi"
-      ],
-      "posterPath": "/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg"
-    },
-    {
-      "rank": 31,
+      "rank": 28,
       "title": "Kuruluş Osman",
       "year": 2019,
       "released": null,
@@ -671,30 +599,7 @@
       "posterPath": "/tu4BWsGFHcYDWulZwHxylA91vo0.jpg"
     },
     {
-      "rank": 32,
-      "title": "Malcolm in the Middle",
-      "year": 2000,
-      "released": null,
-      "firstAired": "2000-01-09",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.465,
-      "votes": 5028,
-      "popularity": 3543.8815,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 2004
-      },
-      "aliases": [
-        "Malcolm"
-      ],
-      "posterPath": "/ckLLIsNy3Z0Go1PYHA2PHzVymUA.jpg"
-    },
-    {
-      "rank": 33,
+      "rank": 29,
       "title": "Mob Psycho 100",
       "year": 2016,
       "released": null,
@@ -717,7 +622,7 @@
       "posterPath": "/vR7hwaGQ0ySRoq1WobiNRaPs4WO.jpg"
     },
     {
-      "rank": 34,
+      "rank": 30,
       "title": "The Librarians",
       "year": 2014,
       "released": null,
@@ -737,7 +642,7 @@
       "posterPath": "/jnEzRcKFqaSXLAP87gVKTXawwGg.jpg"
     },
     {
-      "rank": 35,
+      "rank": 31,
       "title": "Beverly Hills, 90210",
       "year": 1990,
       "released": null,
@@ -760,7 +665,7 @@
       "posterPath": "/b7BYfkhu653D894krwGO1ysIKTf.jpg"
     },
     {
-      "rank": 36,
+      "rank": 32,
       "title": "Doctor-X: Surgeon Michiko Daimon",
       "year": 2012,
       "released": null,
@@ -783,7 +688,7 @@
       "posterPath": "/kgA1JQ5szdoUF5X5y9TgTBILJeU.jpg"
     },
     {
-      "rank": 37,
+      "rank": 33,
       "title": "WWE NXT",
       "year": 2010,
       "released": null,
@@ -803,27 +708,7 @@
       "posterPath": "/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg"
     },
     {
-      "rank": 38,
-      "title": "The Crown",
-      "year": 2016,
-      "released": null,
-      "firstAired": "2016-11-04",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.182,
-      "votes": 2470,
-      "popularity": 3105.2443,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 65494
-      },
-      "posterPath": "/1M876KPjulVwppEpldhdc8V4o68.jpg"
-    },
-    {
-      "rank": 39,
+      "rank": 34,
       "title": "La Casa de los Famosos México",
       "year": 2023,
       "released": null,
@@ -843,27 +728,7 @@
       "posterPath": "/dZMPtV6pTyaD89Sc339vCbrU38n.jpg"
     },
     {
-      "rank": 40,
-      "title": "Medium",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2005-01-03",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.459,
-      "votes": 596,
-      "popularity": 3047.3162,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 36
-      },
-      "posterPath": "/6tOxspW2MbbAQ0s3jtfs8QATcx.jpg"
-    },
-    {
-      "rank": 41,
+      "rank": 35,
       "title": "Airwolf",
       "year": 1984,
       "released": null,
@@ -883,7 +748,7 @@
       "posterPath": "/4PAN7zPqmR9b73een97WkxqCTQN.jpg"
     },
     {
-      "rank": 42,
+      "rank": 36,
       "title": "The Love Boat",
       "year": 1977,
       "released": null,
@@ -906,27 +771,7 @@
       "posterPath": "/fnsnazlj2bt3Fuj0pJ7wBPmuMLO.jpg"
     },
     {
-      "rank": 43,
-      "title": "Girlfriends",
-      "year": 2000,
-      "released": null,
-      "firstAired": "2000-09-11",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.3,
-      "votes": 48,
-      "popularity": 2796.9517,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 2398
-      },
-      "posterPath": "/buFnsyWEg4pPR7dco5Vbsm6HCIY.jpg"
-    },
-    {
-      "rank": 44,
+      "rank": 37,
       "title": "Wakfu",
       "year": 2008,
       "released": null,
@@ -946,7 +791,7 @@
       "posterPath": "/nA8Z1fq3OTE2IrM8BiWxlPmrCpU.jpg"
     },
     {
-      "rank": 45,
+      "rank": 38,
       "title": "Campus Beats",
       "year": 2023,
       "released": null,
@@ -966,7 +811,7 @@
       "posterPath": "/fQgRGizqI0IXvGggqqmiehimkEM.jpg"
     },
     {
-      "rank": 46,
+      "rank": 39,
       "title": "Magnum P.I.",
       "year": 2018,
       "released": null,
@@ -986,7 +831,7 @@
       "posterPath": "/hN7DKusbmKPqSZnMG5hemioMAiE.jpg"
     },
     {
-      "rank": 47,
+      "rank": 40,
       "title": "Wandance",
       "year": 2025,
       "released": null,
@@ -1010,7 +855,7 @@
       "posterPath": "/tb09vxLJ5yf7pMbmWqRvWE6bL5y.jpg"
     },
     {
-      "rank": 48,
+      "rank": 41,
       "title": "Felicity",
       "year": 1998,
       "released": null,
@@ -1030,7 +875,7 @@
       "posterPath": "/i6gZ7fVpLBK3l5FkxCzMtEtT7Bz.jpg"
     },
     {
-      "rank": 49,
+      "rank": 42,
       "title": "Person of Interest",
       "year": 2011,
       "released": null,
@@ -1050,7 +895,7 @@
       "posterPath": "/f8aIvYk5h7Z8EP3dinCmVgQFYow.jpg"
     },
     {
-      "rank": 50,
+      "rank": 43,
       "title": "Arthur",
       "year": 1996,
       "released": null,
@@ -1070,7 +915,7 @@
       "posterPath": "/nYN8okmcsmhd4bGVcqifZ5OCumB.jpg"
     },
     {
-      "rank": 51,
+      "rank": 44,
       "title": "MINDHUNTER",
       "year": 2017,
       "released": null,
@@ -1090,7 +935,7 @@
       "posterPath": "/fbKE87mojpIETWepSbD5Qt741fp.jpg"
     },
     {
-      "rank": 52,
+      "rank": 45,
       "title": "The Bill",
       "year": 1984,
       "released": null,
@@ -1110,7 +955,7 @@
       "posterPath": "/bMd4T647b9YdkbQvULyndBNV8uL.jpg"
     },
     {
-      "rank": 53,
+      "rank": 46,
       "title": "Lucha Underground",
       "year": 2014,
       "released": null,
@@ -1130,7 +975,7 @@
       "posterPath": "/by1AztJ9I1gjWKPL3XdYxiFOU5T.jpg"
     },
     {
-      "rank": 54,
+      "rank": 47,
       "title": "Deep Waters",
       "year": 2022,
       "released": null,
@@ -1153,7 +998,7 @@
       "posterPath": "/1nmKI8MWPC5Q0yOryKTpF89dikP.jpg"
     },
     {
-      "rank": 55,
+      "rank": 48,
       "title": "Love Between Lines",
       "year": 2026,
       "released": null,
@@ -1176,7 +1021,7 @@
       "posterPath": "/3jlaQYWWZgmLQMIsQ7uZid99Mlo.jpg"
     },
     {
-      "rank": 56,
+      "rank": 49,
       "title": "Moesha",
       "year": 1996,
       "released": null,
@@ -1196,7 +1041,7 @@
       "posterPath": "/uOTVIUWWuORHpakT5FtOXLEbAvF.jpg"
     },
     {
-      "rank": 57,
+      "rank": 50,
       "title": "Strong Girl Bong-soon",
       "year": 2017,
       "released": null,
@@ -1220,7 +1065,7 @@
       "posterPath": "/sPdS6oUdXfBNGKROE5RY5s5laqx.jpg"
     },
     {
-      "rank": 58,
+      "rank": 51,
       "title": "Cococinel",
       "year": 1992,
       "released": null,
@@ -1240,7 +1085,7 @@
       "posterPath": "/x0F2gqQgOEcwfj5hGFMC53C0hZ4.jpg"
     },
     {
-      "rank": 59,
+      "rank": 52,
       "title": "Lovely Horribly",
       "year": 2018,
       "released": null,
@@ -1263,7 +1108,7 @@
       "posterPath": "/z4H7HDScnXW270yFqjk7aGquNml.jpg"
     },
     {
-      "rank": 60,
+      "rank": 53,
       "title": "Raw",
       "year": 1993,
       "released": null,
@@ -1283,27 +1128,90 @@
       "posterPath": "/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg"
     },
     {
-      "rank": 61,
-      "title": "Ally McBeal",
-      "year": 1997,
+      "rank": 54,
+      "title": "Vikram On Duty",
+      "year": 2026,
       "released": null,
-      "firstAired": "1997-09-08",
+      "firstAired": "2026-03-06",
       "watchers": null,
       "plays": null,
-      "rating": 6.547,
-      "votes": 395,
-      "popularity": 305.6336,
+      "rating": 0.0,
+      "votes": null,
+      "popularity": 711.2493,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 1480
+        "tmdb": 315887
       },
-      "posterPath": "/weS8htxS2j0EQ6jorK3WOR1dZpH.jpg"
+      "posterPath": "/rx7WfinVmSkKbhaxw5oYHU9e5uI.jpg"
     },
     {
-      "rank": 62,
+      "rank": 55,
+      "title": "What We Do in the Shadows",
+      "year": 2019,
+      "released": null,
+      "firstAired": "2019-03-27",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.0,
+      "votes": 1089,
+      "popularity": 688.8104,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 83631
+      },
+      "posterPath": "/wa3ZQE9kLnqwN3vQ0NNjg1NPsCa.jpg"
+    },
+    {
+      "rank": 56,
+      "title": "Black Kite",
+      "year": 2013,
+      "released": null,
+      "firstAired": "2013-01-13",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.5,
+      "votes": 6,
+      "popularity": 617.8149,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 70282
+      },
+      "aliases": [
+        "とんび"
+      ],
+      "posterPath": "/y7SBOoSfgCqnkjUGSDNgaNRoCIn.jpg"
+    },
+    {
+      "rank": 57,
+      "title": "Hello, Larry",
+      "year": 1979,
+      "released": null,
+      "firstAired": "1979-01-26",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.0,
+      "votes": 4,
+      "popularity": 519.0824,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 9751
+      },
+      "posterPath": "/g7xV1bo5j1qgJtMegNiPxwZk1HJ.jpg"
+    },
+    {
+      "rank": 58,
       "title": "Watch What Happens Live with Andy Cohen",
       "year": 2009,
       "released": null,
@@ -1323,30 +1231,7 @@
       "posterPath": "/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg"
     },
     {
-      "rank": 63,
-      "title": "Chicago Typewriter",
-      "year": 2017,
-      "released": null,
-      "firstAired": "2017-04-07",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.9,
-      "votes": 49,
-      "popularity": 277.9487,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 70528
-      },
-      "aliases": [
-        "시카고 타자기"
-      ],
-      "posterPath": "/1FLgKAjoa4dY3z31nTjZj3Dgr6q.jpg"
-    },
-    {
-      "rank": 64,
+      "rank": 59,
       "title": "Running Man",
       "year": 2010,
       "released": null,
@@ -1369,7 +1254,7 @@
       "posterPath": "/2Wmmu1MkqxJ48J7aySET9EKEjXz.jpg"
     },
     {
-      "rank": 65,
+      "rank": 60,
       "title": "Come Home Love: Lo and Behold",
       "year": 2017,
       "released": null,
@@ -1392,7 +1277,27 @@
       "posterPath": "/lgD4j9gUGmMckZpWWRJjorWqGVT.jpg"
     },
     {
-      "rank": 66,
+      "rank": 61,
+      "title": "Luther",
+      "year": 2010,
+      "released": null,
+      "firstAired": "2010-05-04",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.847,
+      "votes": 1277,
+      "popularity": 378.054,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1426
+      },
+      "posterPath": "/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg"
+    },
+    {
+      "rank": 62,
       "title": "The Tonight Show Starring Johnny Carson",
       "year": 1962,
       "released": null,
@@ -1412,7 +1317,7 @@
       "posterPath": "/uSvET5YUvHNDIeoCpErrbSmasFb.jpg"
     },
     {
-      "rank": 67,
+      "rank": 63,
       "title": "The Tonight Show Starring Jimmy Fallon",
       "year": 2014,
       "released": null,
@@ -1432,15 +1337,15 @@
       "posterPath": "/1N4o5PmmqhlVDrcdJ2RlCFWbLGX.jpg"
     },
     {
-      "rank": 68,
+      "rank": 64,
       "title": "MobLand",
       "year": 2025,
       "released": null,
       "firstAired": "2025-03-30",
       "watchers": null,
       "plays": null,
-      "rating": 8.6,
-      "votes": 1131,
+      "rating": 8.604,
+      "votes": 1135,
       "popularity": 314.0953,
       "score": null,
       "ids": {
@@ -1452,7 +1357,47 @@
       "posterPath": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg"
     },
     {
-      "rank": 69,
+      "rank": 65,
+      "title": "Ally McBeal",
+      "year": 1997,
+      "released": null,
+      "firstAired": "1997-09-08",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.547,
+      "votes": 395,
+      "popularity": 305.6336,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1480
+      },
+      "posterPath": "/weS8htxS2j0EQ6jorK3WOR1dZpH.jpg"
+    },
+    {
+      "rank": 66,
+      "title": "Tagesschau",
+      "year": 1952,
+      "released": null,
+      "firstAired": "1952-12-26",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.8,
+      "votes": 256,
+      "popularity": 303.1472,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 94722
+      },
+      "posterPath": "/7dFZJ2ZJJdcmkp05B9NWlqTJ5tq.jpg"
+    },
+    {
+      "rank": 67,
       "title": "NCIS",
       "year": 2003,
       "released": null,
@@ -1475,15 +1420,15 @@
       "posterPath": "/y4fGncqELtnvRQuwSpuH8LncZqU.jpg"
     },
     {
-      "rank": 70,
+      "rank": 68,
       "title": "Doraemon",
       "year": 2005,
       "released": null,
       "firstAired": "2005-04-22",
       "watchers": null,
       "plays": null,
-      "rating": 8.104,
-      "votes": 256,
+      "rating": 8.099,
+      "votes": 258,
       "popularity": 278.8509,
       "score": null,
       "ids": {
@@ -1498,44 +1443,90 @@
       "posterPath": "/9ZN1P32SHviL3SV51qLivxycvcx.jpg"
     },
     {
-      "rank": 71,
-      "title": "Tagesschau",
-      "year": 1952,
+      "rank": 69,
+      "title": "Chicago Typewriter",
+      "year": 2017,
       "released": null,
-      "firstAired": "1952-12-26",
+      "firstAired": "2017-04-07",
       "watchers": null,
       "plays": null,
-      "rating": 6.8,
-      "votes": 256,
-      "popularity": 303.1472,
+      "rating": 7.9,
+      "votes": 49,
+      "popularity": 277.9487,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 94722
+        "tmdb": 70528
       },
-      "posterPath": "/7dFZJ2ZJJdcmkp05B9NWlqTJ5tq.jpg"
+      "aliases": [
+        "시카고 타자기"
+      ],
+      "posterPath": "/1FLgKAjoa4dY3z31nTjZj3Dgr6q.jpg"
+    },
+    {
+      "rank": 70,
+      "title": "VisionQuest",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-10-13",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.6,
+      "votes": 231,
+      "popularity": 277.2611,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 213375
+      },
+      "posterPath": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg"
+    },
+    {
+      "rank": 71,
+      "title": "C.I.D.",
+      "year": 1998,
+      "released": null,
+      "firstAired": "1998-01-21",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.6,
+      "votes": 33,
+      "popularity": 275.8573,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 15226
+      },
+      "aliases": [
+        "सीआईडी"
+      ],
+      "posterPath": "/3UymnlLfLMKxG8OcFhSnAlnhQfZ.jpg"
     },
     {
       "rank": 72,
-      "title": "Vikram On Duty",
-      "year": 2026,
+      "title": "The Daily Show",
+      "year": 1996,
       "released": null,
-      "firstAired": "2026-03-06",
+      "firstAired": "1996-07-22",
       "watchers": null,
       "plays": null,
-      "rating": 0.0,
-      "votes": null,
-      "popularity": 711.2493,
+      "rating": 6.4,
+      "votes": 673,
+      "popularity": 274.0495,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 315887
+        "tmdb": 2224
       },
-      "posterPath": "/rx7WfinVmSkKbhaxw5oYHU9e5uI.jpg"
+      "posterPath": "/ixcfyK7it6FjRM36Te4OdblAq4X.jpg"
     },
     {
       "rank": 73,
@@ -1579,98 +1570,13 @@
         "tmdb": 72879
       },
       "aliases": [
+        "Tomorrow Is Ours - Il domani è nostro",
         "Demain nous appartient"
       ],
       "posterPath": "/n6LIjlzlTFbowOik0EghVJUTysA.jpg"
     },
     {
       "rank": 75,
-      "title": "VisionQuest",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-10-13",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.7,
-      "votes": 230,
-      "popularity": 277.2611,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 213375
-      },
-      "posterPath": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg"
-    },
-    {
-      "rank": 76,
-      "title": "Hello, Larry",
-      "year": 1979,
-      "released": null,
-      "firstAired": "1979-01-26",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.0,
-      "votes": 4,
-      "popularity": 519.0824,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 9751
-      },
-      "posterPath": "/g7xV1bo5j1qgJtMegNiPxwZk1HJ.jpg"
-    },
-    {
-      "rank": 77,
-      "title": "Black Kite",
-      "year": 2013,
-      "released": null,
-      "firstAired": "2013-01-13",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.5,
-      "votes": 6,
-      "popularity": 617.8149,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 70282
-      },
-      "aliases": [
-        "とんび"
-      ],
-      "posterPath": "/y7SBOoSfgCqnkjUGSDNgaNRoCIn.jpg"
-    },
-    {
-      "rank": 78,
-      "title": "C.I.D.",
-      "year": 1998,
-      "released": null,
-      "firstAired": "1998-01-21",
-      "watchers": null,
-      "plays": null,
-      "rating": 5.6,
-      "votes": 33,
-      "popularity": 275.8573,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 15226
-      },
-      "aliases": [
-        "सीआईडी"
-      ],
-      "posterPath": "/3UymnlLfLMKxG8OcFhSnAlnhQfZ.jpg"
-    },
-    {
-      "rank": 79,
       "title": "Late Night with Seth Meyers",
       "year": 2014,
       "released": null,
@@ -1690,7 +1596,7 @@
       "posterPath": "/u0ttHM5ZQCvnfL0lkueEgS4h2nI.jpg"
     },
     {
-      "rank": 80,
+      "rank": 76,
       "title": "Young Hearts",
       "year": 1995,
       "released": null,
@@ -1713,7 +1619,7 @@
       "posterPath": "/bF24r2FxsjzgkJcrbBU8RC9JVoU.jpg"
     },
     {
-      "rank": 81,
+      "rank": 77,
       "title": "Goede Tijden, Slechte Tijden",
       "year": 1990,
       "released": null,
@@ -1733,7 +1639,7 @@
       "posterPath": "/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg"
     },
     {
-      "rank": 82,
+      "rank": 78,
       "title": "The Late Show with Stephen Colbert",
       "year": 2015,
       "released": null,
@@ -1753,7 +1659,7 @@
       "posterPath": "/9jkThAGYj2yp8jsS6Nriy5mzKFT.jpg"
     },
     {
-      "rank": 83,
+      "rank": 79,
       "title": "Reacher",
       "year": 2022,
       "released": null,
@@ -1773,7 +1679,7 @@
       "posterPath": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
     },
     {
-      "rank": 84,
+      "rank": 80,
       "title": "Late Show with David Letterman",
       "year": 1993,
       "released": null,
@@ -1793,7 +1699,7 @@
       "posterPath": "/fTBC5EpsgKmli9VQcJMtqQ08Qj4.jpg"
     },
     {
-      "rank": 85,
+      "rank": 81,
       "title": "Tulsa King",
       "year": 2022,
       "released": null,
@@ -1813,7 +1719,7 @@
       "posterPath": "/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg"
     },
     {
-      "rank": 86,
+      "rank": 82,
       "title": "Binnelanders",
       "year": 2005,
       "released": null,
@@ -1833,7 +1739,7 @@
       "posterPath": "/3bzECfllho8PphdYujLUIuhncJD.jpg"
     },
     {
-      "rank": 87,
+      "rank": 83,
       "title": "Breaking Bad",
       "year": 2008,
       "released": null,
@@ -1853,7 +1759,7 @@
       "posterPath": "/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg"
     },
     {
-      "rank": 88,
+      "rank": 84,
       "title": "South Park",
       "year": 1997,
       "released": null,
@@ -1873,7 +1779,7 @@
       "posterPath": "/k7n2EVge7G77eMr3brztRGG1fFU.jpg"
     },
     {
-      "rank": 89,
+      "rank": 85,
       "title": "Sturm der Liebe",
       "year": 2005,
       "released": null,
@@ -1896,7 +1802,7 @@
       "posterPath": "/jfFNydakwvbeACEwSd2Gh8UWtba.jpg"
     },
     {
-      "rank": 90,
+      "rank": 86,
       "title": "Coronation Street",
       "year": 1960,
       "released": null,
@@ -1916,7 +1822,7 @@
       "posterPath": "/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg"
     },
     {
-      "rank": 91,
+      "rank": 87,
       "title": "Kamen Rider",
       "year": 1971,
       "released": null,
@@ -1939,7 +1845,7 @@
       "posterPath": "/2DIBDFHiKQawz4WPsYekl9DHwyA.jpg"
     },
     {
-      "rank": 92,
+      "rank": 88,
       "title": "Bleach",
       "year": 2004,
       "released": null,
@@ -1962,7 +1868,7 @@
       "posterPath": "/2EewmxXe72ogD0EaWM8gqa0ccIw.jpg"
     },
     {
-      "rank": 93,
+      "rank": 89,
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "released": null,
@@ -1985,7 +1891,7 @@
       "posterPath": "/i5hmoRjHNWady4AtAGICTUXknKH.jpg"
     },
     {
-      "rank": 94,
+      "rank": 90,
       "title": "The Rookie",
       "year": 2018,
       "released": null,
@@ -2005,7 +1911,7 @@
       "posterPath": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg"
     },
     {
-      "rank": 95,
+      "rank": 91,
       "title": "Ici tout commence",
       "year": 2020,
       "released": null,
@@ -2025,7 +1931,7 @@
       "posterPath": "/umIMGX0BucQ0AFFd3NYrOaV1lMY.jpg"
     },
     {
-      "rank": 96,
+      "rank": 92,
       "title": "Slow Horses",
       "year": 2022,
       "released": null,
@@ -2045,7 +1951,7 @@
       "posterPath": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg"
     },
     {
-      "rank": 97,
+      "rank": 93,
       "title": "The Terminal List",
       "year": 2022,
       "released": null,
@@ -2068,7 +1974,7 @@
       "posterPath": "/xyFAzP7RKK8cARCSalIZ9A9T0jV.jpg"
     },
     {
-      "rank": 98,
+      "rank": 94,
       "title": "Lupin",
       "year": 2021,
       "released": null,
@@ -2088,7 +1994,7 @@
       "posterPath": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg"
     },
     {
-      "rank": 99,
+      "rank": 95,
       "title": "American Dad!",
       "year": 2005,
       "released": null,
@@ -2108,7 +2014,7 @@
       "posterPath": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg"
     },
     {
-      "rank": 100,
+      "rank": 96,
       "title": "The Kelly Clarkson Show",
       "year": 2019,
       "released": null,
@@ -2126,6 +2032,89 @@
         "tmdb": 82873
       },
       "posterPath": "/sBix25bie9UQFzbarN51DpFO5ky.jpg"
+    },
+    {
+      "rank": 97,
+      "title": "Chibi Maruko-chan",
+      "year": 1990,
+      "released": null,
+      "firstAired": "1990-01-07",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.76,
+      "votes": 25,
+      "popularity": 178.7669,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 57775
+      },
+      "aliases": [
+        "ちびまる子ちゃん"
+      ],
+      "posterPath": "/bfn54AAMuh47IFqeoco0jgeVH1a.jpg"
+    },
+    {
+      "rank": 98,
+      "title": "DAS!",
+      "year": 1991,
+      "released": null,
+      "firstAired": "1991-01-02",
+      "watchers": null,
+      "plays": null,
+      "rating": 4.7,
+      "votes": 6,
+      "popularity": 177.405,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 62992
+      },
+      "posterPath": "/yMg0l6hxCnR94Fcl1F1IEkmG26V.jpg"
+    },
+    {
+      "rank": 99,
+      "title": "Good Mythical Morning",
+      "year": 2012,
+      "released": null,
+      "firstAired": "2012-01-09",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.9,
+      "votes": 96,
+      "popularity": 177.0711,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 65701
+      },
+      "posterPath": "/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg"
+    },
+    {
+      "rank": 100,
+      "title": "Shameless",
+      "year": 2011,
+      "released": null,
+      "firstAired": "2011-01-09",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.166,
+      "votes": 3569,
+      "popularity": 175.8555,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 34307
+      },
+      "posterPath": "/Yi3WVT6hOkPahOwwvmLmif1jhs.jpg"
     }
   ]
 }
