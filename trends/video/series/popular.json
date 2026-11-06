@@ -15,7 +15,7 @@
   },
   "mediaType": "show",
   "section": "popular",
-  "generatedAt": "2026-11-06T20:28:26Z",
+  "generatedAt": "2026-11-06T21:46:11Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 43200,
   "itemCount": 100,
@@ -931,7 +931,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.406,
-      "votes": 9559,
+      "votes": 9561,
       "popularity": 1057.3147,
       "score": null,
       "ids": {
@@ -970,8 +970,8 @@
       "firstAired": "2016-07-12",
       "watchers": null,
       "plays": null,
-      "rating": 8.49,
-      "votes": 1406,
+      "rating": 8.485,
+      "votes": 1407,
       "popularity": 1014.0184,
       "score": null,
       "ids": {
@@ -1056,8 +1056,8 @@
       "firstAired": "2026-03-06",
       "watchers": null,
       "plays": null,
-      "rating": 0.0,
-      "votes": null,
+      "rating": 1.0,
+      "votes": 1,
       "popularity": 785.9868,
       "score": null,
       "ids": {
@@ -1262,8 +1262,8 @@
       "firstAired": "2010-07-11",
       "watchers": null,
       "plays": null,
-      "rating": 8.2,
-      "votes": 224,
+      "rating": 8.191,
+      "votes": 225,
       "popularity": 436.6172,
       "score": null,
       "ids": {
@@ -1698,6 +1698,66 @@
     },
     {
       "rank": 81,
+      "title": "Binnelanders",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-10-13",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.5,
+      "votes": 112,
+      "popularity": 257.8225,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 206559
+      },
+      "posterPath": "/3bzECfllho8PphdYujLUIuhncJD.jpg"
+    },
+    {
+      "rank": 82,
+      "title": "Baywatch",
+      "year": 1989,
+      "released": null,
+      "firstAired": "1989-04-23",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.954,
+      "votes": 579,
+      "popularity": 257.6479,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 4386
+      },
+      "posterPath": "/34t8WxHn1OcIVpcTxmjYmjX9tE4.jpg"
+    },
+    {
+      "rank": 83,
+      "title": "Late Show with David Letterman",
+      "year": 1993,
+      "released": null,
+      "firstAired": "1993-08-30",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.457,
+      "votes": 176,
+      "popularity": 257.4211,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 498
+      },
+      "posterPath": "/fTBC5EpsgKmli9VQcJMtqQ08Qj4.jpg"
+    },
+    {
+      "rank": 84,
       "title": "The Late Show with Stephen Colbert",
       "year": 2015,
       "released": null,
@@ -1717,7 +1777,27 @@
       "posterPath": "/9jkThAGYj2yp8jsS6Nriy5mzKFT.jpg"
     },
     {
-      "rank": 82,
+      "rank": 85,
+      "title": "VisionQuest",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-10-13",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.6,
+      "votes": 268,
+      "popularity": 253.0572,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 213375
+      },
+      "posterPath": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg"
+    },
+    {
+      "rank": 86,
       "title": "Goede Tijden, Slechte Tijden",
       "year": 1990,
       "released": null,
@@ -1737,15 +1817,38 @@
       "posterPath": "/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg"
     },
     {
-      "rank": 83,
+      "rank": 87,
+      "title": "C.I.D.",
+      "year": 1998,
+      "released": null,
+      "firstAired": "1998-01-21",
+      "watchers": null,
+      "plays": null,
+      "rating": 5.471,
+      "votes": 34,
+      "popularity": 239.2293,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 15226
+      },
+      "aliases": [
+        "सीआईडी"
+      ],
+      "posterPath": "/3UymnlLfLMKxG8OcFhSnAlnhQfZ.jpg"
+    },
+    {
+      "rank": 88,
       "title": "Tulsa King",
       "year": 2022,
       "released": null,
       "firstAired": "2022-11-13",
       "watchers": null,
       "plays": null,
-      "rating": 8.3,
-      "votes": 2915,
+      "rating": 8.314,
+      "votes": 2917,
       "popularity": 227.3063,
       "score": null,
       "ids": {
@@ -1757,7 +1860,7 @@
       "posterPath": "/y13WOeZ2rz2Ezpws0RJ0I8sQpG4.jpg"
     },
     {
-      "rank": 84,
+      "rank": 89,
       "title": "Law & Order",
       "year": 1990,
       "released": null,
@@ -1780,14 +1883,14 @@
       "posterPath": "/hmd2tEtjolLWpNLCTvXS2PO5VCi.jpg"
     },
     {
-      "rank": 85,
+      "rank": 90,
       "title": "One Piece",
       "year": 1999,
       "released": null,
       "firstAired": "1999-10-20",
       "watchers": null,
       "plays": null,
-      "rating": 8.756,
+      "rating": 8.8,
       "votes": 5633,
       "popularity": 224.2444,
       "score": null,
@@ -1803,47 +1906,7 @@
       "posterPath": "/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg"
     },
     {
-      "rank": 86,
-      "title": "The Amazing World of Gumball",
-      "year": 2011,
-      "released": null,
-      "firstAired": "2011-05-03",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.536,
-      "votes": 1827,
-      "popularity": 152.4498,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 37606
-      },
-      "posterPath": "/VYnnyA2hyxi3VUPgCA71mMtt69.jpg"
-    },
-    {
-      "rank": 87,
-      "title": "Reacher",
-      "year": 2022,
-      "released": null,
-      "firstAired": "2022-02-03",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.13,
-      "votes": 3578,
-      "popularity": 208.8118,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 108978
-      },
-      "posterPath": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
-    },
-    {
-      "rank": 88,
+      "rank": 91,
       "title": "Tomorrow Is Ours",
       "year": 2017,
       "released": null,
@@ -1867,50 +1930,93 @@
       "posterPath": "/n6LIjlzlTFbowOik0EghVJUTysA.jpg"
     },
     {
-      "rank": 89,
-      "title": "South Park",
-      "year": 1997,
+      "rank": 92,
+      "title": "Deep Waters",
+      "year": 2022,
       "released": null,
-      "firstAired": "1997-08-13",
+      "firstAired": "2022-10-03",
       "watchers": null,
       "plays": null,
-      "rating": 8.333,
-      "votes": 5253,
-      "popularity": 185.2404,
+      "rating": 8.2,
+      "votes": 4,
+      "popularity": 215.1008,
       "score": null,
       "ids": {
         "trakt": null,
         "slug": null,
         "imdb": null,
-        "tmdb": 2190
-      },
-      "posterPath": "/k7n2EVge7G77eMr3brztRGG1fFU.jpg"
-    },
-    {
-      "rank": 90,
-      "title": "Kamen Rider",
-      "year": 1971,
-      "released": null,
-      "firstAired": "1971-04-03",
-      "watchers": null,
-      "plays": null,
-      "rating": 6.495,
-      "votes": 110,
-      "popularity": 196.1066,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 2661
+        "tmdb": 231962
       },
       "aliases": [
-        "仮面ライダー"
+        "Diepe Waters"
       ],
-      "posterPath": "/2DIBDFHiKQawz4WPsYekl9DHwyA.jpg"
+      "posterPath": "/1nmKI8MWPC5Q0yOryKTpF89dikP.jpg"
     },
     {
-      "rank": 91,
+      "rank": 93,
+      "title": "Reacher",
+      "year": 2022,
+      "released": null,
+      "firstAired": "2022-02-03",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.13,
+      "votes": 3578,
+      "popularity": 208.8118,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 108978
+      },
+      "posterPath": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
+    },
+    {
+      "rank": 94,
+      "title": "MINDHUNTER",
+      "year": 2017,
+      "released": null,
+      "firstAired": "2017-10-13",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.15,
+      "votes": 3196,
+      "popularity": 201.7893,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 67744
+      },
+      "posterPath": "/fbKE87mojpIETWepSbD5Qt741fp.jpg"
+    },
+    {
+      "rank": 95,
+      "title": "The Summer I Turned Pretty",
+      "year": 2022,
+      "released": null,
+      "firstAired": "2022-06-16",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.1,
+      "votes": 1157,
+      "popularity": 200.7559,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 194766
+      },
+      "aliases": [
+        "L'estate nei tuoi occhi"
+      ],
+      "posterPath": "/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg"
+    },
+    {
+      "rank": 96,
       "title": "Coronation Street",
       "year": 1960,
       "released": null,
@@ -1930,7 +2036,7 @@
       "posterPath": "/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg"
     },
     {
-      "rank": 92,
+      "rank": 97,
       "title": "Sturm der Liebe",
       "year": 2005,
       "released": null,
@@ -1953,7 +2059,50 @@
       "posterPath": "/jfFNydakwvbeACEwSd2Gh8UWtba.jpg"
     },
     {
-      "rank": 93,
+      "rank": 98,
+      "title": "Kamen Rider",
+      "year": 1971,
+      "released": null,
+      "firstAired": "1971-04-03",
+      "watchers": null,
+      "plays": null,
+      "rating": 6.495,
+      "votes": 110,
+      "popularity": 196.1066,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 2661
+      },
+      "aliases": [
+        "仮面ライダー"
+      ],
+      "posterPath": "/2DIBDFHiKQawz4WPsYekl9DHwyA.jpg"
+    },
+    {
+      "rank": 99,
+      "title": "American Dad!",
+      "year": 2005,
+      "released": null,
+      "firstAired": "2005-02-06",
+      "watchers": null,
+      "plays": null,
+      "rating": 7.023,
+      "votes": 2484,
+      "popularity": 195.9296,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 1433
+      },
+      "posterPath": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg"
+    },
+    {
+      "rank": 100,
       "title": "Chibi Maruko-chan",
       "year": 1990,
       "released": null,
@@ -1974,148 +2123,6 @@
         "ちびまる子ちゃん"
       ],
       "posterPath": "/bfn54AAMuh47IFqeoco0jgeVH1a.jpg"
-    },
-    {
-      "rank": 94,
-      "title": "ZIBB",
-      "year": 2003,
-      "released": null,
-      "firstAired": "2003-11-10",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.0,
-      "votes": 1,
-      "popularity": 184.7706,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 265167
-      }
-    },
-    {
-      "rank": 95,
-      "title": "American Dad!",
-      "year": 2005,
-      "released": null,
-      "firstAired": "2005-02-06",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.023,
-      "votes": 2484,
-      "popularity": 195.9296,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1433
-      },
-      "posterPath": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg"
-    },
-    {
-      "rank": 96,
-      "title": "DAS!",
-      "year": 1991,
-      "released": null,
-      "firstAired": "1991-01-02",
-      "watchers": null,
-      "plays": null,
-      "rating": 4.7,
-      "votes": 6,
-      "popularity": 183.2421,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 62992
-      },
-      "posterPath": "/yMg0l6hxCnR94Fcl1F1IEkmG26V.jpg"
-    },
-    {
-      "rank": 97,
-      "title": "CSI: Crime Scene Investigation",
-      "year": 2000,
-      "released": null,
-      "firstAired": "2000-10-06",
-      "watchers": null,
-      "plays": null,
-      "rating": 7.6,
-      "votes": 1446,
-      "popularity": 184.4057,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 1431
-      },
-      "posterPath": "/i5hmoRjHNWady4AtAGICTUXknKH.jpg"
-    },
-    {
-      "rank": 98,
-      "title": "7de Laan",
-      "year": 2000,
-      "released": null,
-      "firstAired": "2000-04-04",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.3,
-      "votes": 3,
-      "popularity": 180.8078,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 17887
-      },
-      "posterPath": "/vQcC4Kcx0ZEXxmj0gUrfkFR14LU.jpg"
-    },
-    {
-      "rank": 99,
-      "title": "The Rookie",
-      "year": 2018,
-      "released": null,
-      "firstAired": "2018-10-16",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.536,
-      "votes": 3601,
-      "popularity": 178.2769,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 79744
-      },
-      "posterPath": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg"
-    },
-    {
-      "rank": 100,
-      "title": "Bleach",
-      "year": 2004,
-      "released": null,
-      "firstAired": "2004-10-05",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.353,
-      "votes": 2332,
-      "popularity": 167.8417,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 30984
-      },
-      "aliases": [
-        "BLEACH"
-      ],
-      "posterPath": "/2EewmxXe72ogD0EaWM8gqa0ccIw.jpg"
     }
   ]
 }
