@@ -15,7 +15,7 @@
   },
   "mediaType": "show",
   "section": "top_rated",
-  "generatedAt": "2026-11-11T14:36:44Z",
+  "generatedAt": "2026-11-11T18:08:28Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 86400,
   "itemCount": 100,
@@ -51,8 +51,8 @@
       "firstAired": "2026-06-05",
       "watchers": null,
       "plays": null,
-      "rating": 9.354,
-      "votes": 1015,
+      "rating": 9.353,
+      "votes": 1016,
       "popularity": 33.9552,
       "score": null,
       "ids": {
@@ -116,7 +116,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.959,
-      "votes": 19090,
+      "votes": 19093,
       "popularity": 159.5285,
       "score": null,
       "ids": {
@@ -152,26 +152,6 @@
     },
     {
       "rank": 7,
-      "title": "Off Campus",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-05-13",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.848,
-      "votes": 907,
-      "popularity": 38.6488,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 273240
-      },
-      "posterPath": "/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg"
-    },
-    {
-      "rank": 8,
       "title": "The Chosen",
       "year": 2019,
       "released": null,
@@ -191,7 +171,7 @@
       "posterPath": "/nr0r7YTn1l84KLG1iCSO5ofHTvO.jpg"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "The Good Bad Mother",
       "year": 2023,
       "released": null,
@@ -215,7 +195,51 @@
       "posterPath": "/m3xAWhl5Au7EYm6d2EQ26lPjuQF.jpg"
     },
     {
+      "rank": 9,
+      "title": "Off Campus",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-13",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.8,
+      "votes": 907,
+      "popularity": 38.6488,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 273240
+      },
+      "posterPath": "/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg"
+    },
+    {
       "rank": 10,
+      "title": "Frieren: Beyond Journey's End",
+      "year": 2023,
+      "released": null,
+      "firstAired": "2023-09-29",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.826,
+      "votes": 1024,
+      "popularity": 58.9367,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 209867
+      },
+      "aliases": [
+        "Frieren - Oltre la Fine del Viaggio",
+        "葬送のフリーレン"
+      ],
+      "posterPath": "/dqZENchTd7lp5zht7BdlqM7RBhD.jpg"
+    },
+    {
+      "rank": 11,
       "title": "The Polygamist",
       "year": 2026,
       "released": null,
@@ -238,54 +262,7 @@
       "posterPath": "/vamznpYBCI9n7VhrI3mxuzff7XP.jpg"
     },
     {
-      "rank": 11,
-      "title": "Frieren: Beyond Journey's End",
-      "year": 2023,
-      "released": null,
-      "firstAired": "2023-09-29",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.825,
-      "votes": 1023,
-      "popularity": 58.9367,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 209867
-      },
-      "aliases": [
-        "Frieren - Oltre la Fine del Viaggio",
-        "葬送のフリーレン"
-      ],
-      "posterPath": "/dqZENchTd7lp5zht7BdlqM7RBhD.jpg"
-    },
-    {
       "rank": 12,
-      "title": "Wizards Beyond Waverly Place",
-      "year": 2024,
-      "released": null,
-      "firstAired": "2024-10-29",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.8,
-      "votes": 209,
-      "popularity": 15.598,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 245026
-      },
-      "aliases": [
-        "I maghi di Waverly: Ritorno a  Waverly Place"
-      ],
-      "posterPath": "/5hrBpjFzIqmN9k7QxEC610gwZGw.jpg"
-    },
-    {
-      "rank": 13,
       "title": "When Life Gives You Tangerines",
       "year": 2025,
       "released": null,
@@ -307,6 +284,29 @@
         "폭싹 속았수다"
       ],
       "posterPath": "/1VC3sEFxYXYDqQUCAnvWfUsYg1s.jpg"
+    },
+    {
+      "rank": 13,
+      "title": "Wizards Beyond Waverly Place",
+      "year": 2024,
+      "released": null,
+      "firstAired": "2024-10-29",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.8,
+      "votes": 209,
+      "popularity": 15.598,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 245026
+      },
+      "aliases": [
+        "I maghi di Waverly: Ritorno a  Waverly Place"
+      ],
+      "posterPath": "/5hrBpjFzIqmN9k7QxEC610gwZGw.jpg"
     },
     {
       "rank": 14,
@@ -356,6 +356,29 @@
     },
     {
       "rank": 16,
+      "title": "One Piece",
+      "year": 1999,
+      "released": null,
+      "firstAired": "1999-10-20",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.757,
+      "votes": 5644,
+      "popularity": 261.1267,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 37854
+      },
+      "aliases": [
+        "ワンピース"
+      ],
+      "posterPath": "/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg"
+    },
+    {
+      "rank": 17,
       "title": "Takopi's Original Sin",
       "year": 2025,
       "released": null,
@@ -378,53 +401,7 @@
       "posterPath": "/xPXDVhVKt0XM34ihoUVMHtLYTw8.jpg"
     },
     {
-      "rank": 17,
-      "title": "One Piece",
-      "year": 1999,
-      "released": null,
-      "firstAired": "1999-10-20",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.8,
-      "votes": 5643,
-      "popularity": 261.1267,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 37854
-      },
-      "aliases": [
-        "ワンピース"
-      ],
-      "posterPath": "/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg"
-    },
-    {
       "rank": 18,
-      "title": "The WONDERfools",
-      "year": 2026,
-      "released": null,
-      "firstAired": "2026-05-15",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.743,
-      "votes": 288,
-      "popularity": 14.3014,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 259837
-      },
-      "aliases": [
-        "원더풀스"
-      ],
-      "posterPath": "/jj7AYkz2OLRDL1wfJmjTXyWQ5I4.jpg"
-    },
-    {
-      "rank": 19,
       "title": "Arcane",
       "year": 2021,
       "released": null,
@@ -444,6 +421,29 @@
       "posterPath": "/87C0wecB8bHb1PsrKBI4kJiEkgV.jpg"
     },
     {
+      "rank": 19,
+      "title": "The WONDERfools",
+      "year": 2026,
+      "released": null,
+      "firstAired": "2026-05-15",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.744,
+      "votes": 289,
+      "popularity": 14.3014,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 259837
+      },
+      "aliases": [
+        "원더풀스"
+      ],
+      "posterPath": "/jj7AYkz2OLRDL1wfJmjTXyWQ5I4.jpg"
+    },
+    {
       "rank": 20,
       "title": "Chernobyl",
       "year": 2019,
@@ -452,7 +452,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.731,
-      "votes": 8525,
+      "votes": 8526,
       "popularity": 27.1539,
       "score": null,
       "ids": {
@@ -977,6 +977,26 @@
     },
     {
       "rank": 44,
+      "title": "MobLand",
+      "year": 2025,
+      "released": null,
+      "firstAired": "2025-03-30",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.645,
+      "votes": 1211,
+      "popularity": 371.6593,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 247718
+      },
+      "posterPath": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg"
+    },
+    {
+      "rank": 45,
       "title": "Planet Earth",
       "year": 2006,
       "released": null,
@@ -999,7 +1019,7 @@
       "posterPath": "/bNcNxUtZ520d5de5s78onoiSiwQ.jpg"
     },
     {
-      "rank": 45,
+      "rank": 46,
       "title": "Primal",
       "year": 2019,
       "released": null,
@@ -1019,7 +1039,7 @@
       "posterPath": "/mf12pRakr3eYdJtv6klQtoznnbU.jpg"
     },
     {
-      "rank": 46,
+      "rank": 47,
       "title": "Desafío Champions Sendokai",
       "year": 2013,
       "released": null,
@@ -1037,26 +1057,6 @@
         "tmdb": 80040
       },
       "posterPath": "/8dBMIQ2r8FdLABrZeGklAUAUYCH.jpg"
-    },
-    {
-      "rank": 47,
-      "title": "MobLand",
-      "year": 2025,
-      "released": null,
-      "firstAired": "2025-03-30",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.645,
-      "votes": 1208,
-      "popularity": 371.6593,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 247718
-      },
-      "posterPath": "/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg"
     },
     {
       "rank": 48,
@@ -1318,6 +1318,26 @@
     },
     {
       "rank": 60,
+      "title": "Wizards of Waverly Place",
+      "year": 2007,
+      "released": null,
+      "firstAired": "2007-10-12",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.62,
+      "votes": 1220,
+      "popularity": 28.2595,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 3498
+      },
+      "posterPath": "/spVI8Zns4Ep30zzxcoO7f7nwfck.jpg"
+    },
+    {
+      "rank": 61,
       "title": "Guardian: The Lonely and Great God",
       "year": 2016,
       "released": null,
@@ -1341,7 +1361,7 @@
       "posterPath": "/sPkxHNw5BFvuCFGWw825TS7n6X3.jpg"
     },
     {
-      "rank": 61,
+      "rank": 62,
       "title": "Ranma ½",
       "year": 1989,
       "released": null,
@@ -1364,7 +1384,7 @@
       "posterPath": "/qb1R5iLZcjIgdDIfXFQXmJadQPI.jpg"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "title": "Amphibia",
       "year": 2019,
       "released": null,
@@ -1387,7 +1407,7 @@
       "posterPath": "/bFCgv9iWZECWSDxNQYc9soqvwjx.jpg"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "title": "Death Note",
       "year": 2006,
       "released": null,
@@ -1410,7 +1430,7 @@
       "posterPath": "/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "title": "Band of Brothers",
       "year": 2001,
       "released": null,
@@ -1433,7 +1453,7 @@
       "posterPath": "/eLdcio9HBKzsdIJGeD80oObDfkr.jpg"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "title": "Haikyu!!",
       "year": 2014,
       "released": null,
@@ -1457,7 +1477,7 @@
       "posterPath": "/8WEr48swcqe89Zsy5sdrGCASlIg.jpg"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "title": "Bon Appétit, Your Majesty",
       "year": 2025,
       "released": null,
@@ -1481,7 +1501,7 @@
       "posterPath": "/exUXEOierAwZ597010TLQka9TFy.jpg"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "title": "Cardcaptor Sakura",
       "year": 1998,
       "released": null,
@@ -1505,7 +1525,7 @@
       "posterPath": "/dj0uI34MOkZMTE233tfRebs0YYx.jpg"
     },
     {
-      "rank": 68,
+      "rank": 69,
       "title": "Crystal Lake",
       "year": 2026,
       "released": null,
@@ -1525,7 +1545,7 @@
       "posterPath": "/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "title": "I Am Not an Animal",
       "year": 2004,
       "released": null,
@@ -1545,7 +1565,7 @@
       "posterPath": "/zXhtWhYtlJVyyp5MdT7ggMJn5si.jpg"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "title": "My Hero Academia",
       "year": 2016,
       "released": null,
@@ -1568,7 +1588,7 @@
       "posterPath": "/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "title": "Merlí",
       "year": 2015,
       "released": null,
@@ -1588,7 +1608,7 @@
       "posterPath": "/wQaGnuwIHhmB1jgY6CM3rJgScYR.jpg"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "title": "Navillera",
       "year": 2021,
       "released": null,
@@ -1611,7 +1631,7 @@
       "posterPath": "/pBd6pEhszsWk95TrUqo4bdXhH8T.jpg"
     },
     {
-      "rank": 73,
+      "rank": 74,
       "title": "Zoids: Chaotic Century",
       "year": 1999,
       "released": null,
@@ -1635,7 +1655,7 @@
       "posterPath": "/aVGuBvoBr9ujme4uUkAIRYk5vlt.jpg"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "title": "The Dangers in My Heart",
       "year": 2023,
       "released": null,
@@ -1658,7 +1678,7 @@
       "posterPath": "/bC8Bx0VHLZzvPCXzuDnvTIbzVIU.jpg"
     },
     {
-      "rank": 75,
+      "rank": 76,
       "title": "Scissor Seven",
       "year": 2018,
       "released": null,
@@ -1681,7 +1701,7 @@
       "posterPath": "/mSLSrOndwNoompAARPHBaxF2E6E.jpg"
     },
     {
-      "rank": 76,
+      "rank": 77,
       "title": "Batman: The Animated Series",
       "year": 1992,
       "released": null,
@@ -1701,7 +1721,7 @@
       "posterPath": "/lBomQFW1vlm1yUYMNSbFZ45R4Ox.jpg"
     },
     {
-      "rank": 77,
+      "rank": 78,
       "title": "Boris",
       "year": 2007,
       "released": null,
@@ -1721,7 +1741,7 @@
       "posterPath": "/iR7ufink0F23Wx19SetKaYqhjAZ.jpg"
     },
     {
-      "rank": 78,
+      "rank": 79,
       "title": "Lovely Runner",
       "year": 2024,
       "released": null,
@@ -1744,7 +1764,7 @@
       "posterPath": "/adcdNzLJ8LOjWJjNFrapXGzFco3.jpg"
     },
     {
-      "rank": 79,
+      "rank": 80,
       "title": "Alchemy of Souls",
       "year": 2022,
       "released": null,
@@ -1767,15 +1787,15 @@
       "posterPath": "/gvOZN1NlAoL8iz9ghpES1zWA3w3.jpg"
     },
     {
-      "rank": 80,
+      "rank": 81,
       "title": "The Office",
       "year": 2005,
       "released": null,
       "firstAired": "2005-03-24",
       "watchers": null,
       "plays": null,
-      "rating": 8.582,
-      "votes": 5693,
+      "rating": 8.6,
+      "votes": 5695,
       "popularity": 1045.6783,
       "score": null,
       "ids": {
@@ -1790,7 +1810,7 @@
       "posterPath": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg"
     },
     {
-      "rank": 81,
+      "rank": 82,
       "title": "The Originals",
       "year": 2013,
       "released": null,
@@ -1810,26 +1830,6 @@
       "posterPath": "/keJOhJXGiLL54EW6QocbyvQGquA.jpg"
     },
     {
-      "rank": 82,
-      "title": "Robotech",
-      "year": 1985,
-      "released": null,
-      "firstAired": "1985-03-04",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.579,
-      "votes": 392,
-      "popularity": 15.4583,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 2192
-      },
-      "posterPath": "/f3SIr4To9Tuie4I9D2U41XsIbpC.jpg"
-    },
-    {
       "rank": 83,
       "title": "Bluey",
       "year": 2018,
@@ -1837,7 +1837,7 @@
       "firstAired": "2018-10-01",
       "watchers": null,
       "plays": null,
-      "rating": 8.6,
+      "rating": 8.579,
       "votes": 759,
       "popularity": 45.8458,
       "score": null,
@@ -1871,6 +1871,26 @@
     },
     {
       "rank": 85,
+      "title": "Robotech",
+      "year": 1985,
+      "released": null,
+      "firstAired": "1985-03-04",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.579,
+      "votes": 392,
+      "popularity": 15.4583,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 2192
+      },
+      "posterPath": "/f3SIr4To9Tuie4I9D2U41XsIbpC.jpg"
+    },
+    {
+      "rank": 86,
       "title": "The Judge from Hell",
       "year": 2024,
       "released": null,
@@ -1894,7 +1914,7 @@
       "posterPath": "/9vhLHbUiiP9HiXfJw5OUC7KoaJG.jpg"
     },
     {
-      "rank": 86,
+      "rank": 87,
       "title": "JUJUTSU KAISEN",
       "year": 2020,
       "released": null,
@@ -1918,7 +1938,7 @@
       "posterPath": "/6qQzMJG27XOJsyAEEIisoJB45j2.jpg"
     },
     {
-      "rank": 87,
+      "rank": 88,
       "title": "Toilet-Bound Hanako-kun",
       "year": 2020,
       "released": null,
@@ -1942,7 +1962,7 @@
       "posterPath": "/h1X1G8Q9Ba9Vy1YIgXHduenP8nv.jpg"
     },
     {
-      "rank": 88,
+      "rank": 89,
       "title": "Over the Garden Wall",
       "year": 2014,
       "released": null,
@@ -1965,7 +1985,7 @@
       "posterPath": "/m3lU8n7WxzMecxKZcqhq5y5ESy.jpg"
     },
     {
-      "rank": 89,
+      "rank": 90,
       "title": "Your Lie in April",
       "year": 2014,
       "released": null,
@@ -1989,7 +2009,7 @@
       "posterPath": "/92P9cD5uOzLVgx0QDTnwkXffjEG.jpg"
     },
     {
-      "rank": 90,
+      "rank": 91,
       "title": "InuYasha",
       "year": 2000,
       "released": null,
@@ -2012,7 +2032,7 @@
       "posterPath": "/rQHTNaynedeKurm0sNOsbAZg2oe.jpg"
     },
     {
-      "rank": 91,
+      "rank": 92,
       "title": "Big Time Rush",
       "year": 2009,
       "released": null,
@@ -2032,15 +2052,15 @@
       "posterPath": "/34y5JjZYj2paoxA0RXEppU5LRpb.jpg"
     },
     {
-      "rank": 92,
+      "rank": 93,
       "title": "House",
       "year": 2004,
       "released": null,
       "firstAired": "2004-11-16",
       "watchers": null,
       "plays": null,
-      "rating": 8.56,
-      "votes": 8025,
+      "rating": 8.559,
+      "votes": 8026,
       "popularity": 992.9341,
       "score": null,
       "ids": {
@@ -2055,26 +2075,6 @@
       "posterPath": "/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg"
     },
     {
-      "rank": 93,
-      "title": "Dexter: Resurrection",
-      "year": 2025,
-      "released": null,
-      "firstAired": "2025-07-13",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.559,
-      "votes": 750,
-      "popularity": 96.1596,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 259909
-      },
-      "posterPath": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg"
-    },
-    {
       "rank": 94,
       "title": "Neon Genesis Evangelion",
       "year": 1995,
@@ -2083,7 +2083,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.56,
-      "votes": 2206,
+      "votes": 2207,
       "popularity": 28.4873,
       "score": null,
       "ids": {
@@ -2099,6 +2099,26 @@
     },
     {
       "rank": 95,
+      "title": "Dexter: Resurrection",
+      "year": 2025,
+      "released": null,
+      "firstAired": "2025-07-13",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.6,
+      "votes": 750,
+      "popularity": 96.1596,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 259909
+      },
+      "posterPath": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg"
+    },
+    {
+      "rank": 96,
       "title": "Banana Fish",
       "year": 2018,
       "released": null,
@@ -2119,26 +2139,6 @@
         "BANANA FISH"
       ],
       "posterPath": "/d2TW5Rtd0uCasHlQygsDfWCROl2.jpg"
-    },
-    {
-      "rank": 96,
-      "title": "Heartstopper",
-      "year": 2022,
-      "released": null,
-      "firstAired": "2022-04-22",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.553,
-      "votes": 1793,
-      "popularity": 12.8008,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 124834
-      },
-      "posterPath": "/dQc0QbDiHjGmWxTfKtBgYtS4bj5.jpg"
     },
     {
       "rank": 97,
@@ -2185,6 +2185,30 @@
     },
     {
       "rank": 99,
+      "title": "JoJo's Bizarre Adventure",
+      "year": 2012,
+      "released": null,
+      "firstAired": "2012-10-06",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.554,
+      "votes": 1707,
+      "popularity": 81.9401,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 45790
+      },
+      "aliases": [
+        "Le bizzarre avventure di JoJo",
+        "ジョジョの奇妙な冒険"
+      ],
+      "posterPath": "/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg"
+    },
+    {
+      "rank": 100,
       "title": "Digimon Tamers",
       "year": 2001,
       "released": null,
@@ -2205,29 +2229,6 @@
         "デジモンテイマーズ"
       ],
       "posterPath": "/r8MYNECZkwprDATctOc8rDFQ8at.jpg"
-    },
-    {
-      "rank": 100,
-      "title": "The Boy's Word: Blood on the Asphalt",
-      "year": 2023,
-      "released": null,
-      "firstAired": "2023-11-09",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.6,
-      "votes": 233,
-      "popularity": 8.0043,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 234763
-      },
-      "aliases": [
-        "The Boy's Word :Blood on the Asphalt"
-      ],
-      "posterPath": "/jAJJzSYo3tlWhDd43XP67ovSu1q.jpg"
     }
   ]
 }
