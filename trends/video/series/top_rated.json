@@ -15,7 +15,7 @@
   },
   "mediaType": "show",
   "section": "top_rated",
-  "generatedAt": "2026-11-21T17:46:49Z",
+  "generatedAt": "2026-11-21T20:35:32Z",
   "sourceUpdatedAt": null,
   "ttlSeconds": 86400,
   "itemCount": 100,
@@ -116,7 +116,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.959,
-      "votes": 19162,
+      "votes": 19165,
       "popularity": 130.9825,
       "score": null,
       "ids": {
@@ -175,6 +175,26 @@
     },
     {
       "rank": 8,
+      "title": "The Chosen",
+      "year": 2019,
+      "released": null,
+      "firstAired": "2019-04-21",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.9,
+      "votes": 1079,
+      "popularity": 119.3917,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 85077
+      },
+      "posterPath": "/nr0r7YTn1l84KLG1iCSO5ofHTvO.jpg"
+    },
+    {
+      "rank": 9,
       "title": "The Good Bad Mother",
       "year": 2023,
       "released": null,
@@ -198,26 +218,6 @@
       "posterPath": "/m3xAWhl5Au7EYm6d2EQ26lPjuQF.jpg"
     },
     {
-      "rank": 9,
-      "title": "The Chosen",
-      "year": 2019,
-      "released": null,
-      "firstAired": "2019-04-21",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.859,
-      "votes": 1079,
-      "popularity": 119.3917,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 85077
-      },
-      "posterPath": "/nr0r7YTn1l84KLG1iCSO5ofHTvO.jpg"
-    },
-    {
       "rank": 10,
       "title": "Off Campus",
       "year": 2026,
@@ -225,7 +225,7 @@
       "firstAired": "2026-05-13",
       "watchers": null,
       "plays": null,
-      "rating": 8.838,
+      "rating": 8.8,
       "votes": 923,
       "popularity": 38.6073,
       "score": null,
@@ -362,8 +362,8 @@
       "firstAired": "2005-02-21",
       "watchers": null,
       "plays": null,
-      "rating": 8.787,
-      "votes": 5244,
+      "rating": 8.788,
+      "votes": 5245,
       "popularity": 28.1765,
       "score": null,
       "ids": {
@@ -386,7 +386,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.755,
-      "votes": 5661,
+      "votes": 5662,
       "popularity": 349.8739,
       "score": null,
       "ids": {
@@ -408,8 +408,8 @@
       "firstAired": "2025-06-28",
       "watchers": null,
       "plays": null,
-      "rating": 8.753,
-      "votes": 223,
+      "rating": 8.759,
+      "votes": 224,
       "popularity": 9.6151,
       "score": null,
       "ids": {
@@ -431,7 +431,7 @@
       "firstAired": "2021-11-06",
       "watchers": null,
       "plays": null,
-      "rating": 8.748,
+      "rating": 8.7,
       "votes": 6339,
       "popularity": 47.3766,
       "score": null,
@@ -1411,29 +1411,6 @@
     },
     {
       "rank": 64,
-      "title": "Amphibia",
-      "year": 2019,
-      "released": null,
-      "firstAired": "2019-06-17",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.612,
-      "votes": 374,
-      "popularity": 27.478,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 85349
-      },
-      "aliases": [
-        "Anfibia"
-      ],
-      "posterPath": "/bFCgv9iWZECWSDxNQYc9soqvwjx.jpg"
-    },
-    {
-      "rank": 65,
       "title": "Death Note",
       "year": 2006,
       "released": null,
@@ -1441,7 +1418,7 @@
       "watchers": null,
       "plays": null,
       "rating": 8.615,
-      "votes": 5281,
+      "votes": 5282,
       "popularity": 40.3766,
       "score": null,
       "ids": {
@@ -1456,7 +1433,7 @@
       "posterPath": "/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg"
     },
     {
-      "rank": 66,
+      "rank": 65,
       "title": "Band of Brothers",
       "year": 2001,
       "released": null,
@@ -1477,6 +1454,29 @@
         "Band of Brothers - Fratelli al fronte"
       ],
       "posterPath": "/eLdcio9HBKzsdIJGeD80oObDfkr.jpg"
+    },
+    {
+      "rank": 66,
+      "title": "Amphibia",
+      "year": 2019,
+      "released": null,
+      "firstAired": "2019-06-17",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.612,
+      "votes": 374,
+      "popularity": 27.478,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 85349
+      },
+      "aliases": [
+        "Anfibia"
+      ],
+      "posterPath": "/bFCgv9iWZECWSDxNQYc9soqvwjx.jpg"
     },
     {
       "rank": 67,
@@ -1558,8 +1558,8 @@
       "firstAired": "2023-04-02",
       "watchers": null,
       "plays": null,
-      "rating": 8.603,
-      "votes": 276,
+      "rating": 8.608,
+      "votes": 277,
       "popularity": 20.1196,
       "score": null,
       "ids": {
@@ -1684,29 +1684,6 @@
     },
     {
       "rank": 76,
-      "title": "Scissor Seven",
-      "year": 2018,
-      "released": null,
-      "firstAired": "2018-04-25",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.592,
-      "votes": 800,
-      "popularity": 15.7573,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 79141
-      },
-      "aliases": [
-        "刺客伍六七"
-      ],
-      "posterPath": "/mSLSrOndwNoompAARPHBaxF2E6E.jpg"
-    },
-    {
-      "rank": 77,
       "title": "Batman: The Animated Series",
       "year": 1992,
       "released": null,
@@ -1724,6 +1701,29 @@
         "tmdb": 2098
       },
       "posterPath": "/lBomQFW1vlm1yUYMNSbFZ45R4Ox.jpg"
+    },
+    {
+      "rank": 77,
+      "title": "Scissor Seven",
+      "year": 2018,
+      "released": null,
+      "firstAired": "2018-04-25",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.59,
+      "votes": 801,
+      "popularity": 15.7573,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 79141
+      },
+      "aliases": [
+        "刺客伍六七"
+      ],
+      "posterPath": "/mSLSrOndwNoompAARPHBaxF2E6E.jpg"
     },
     {
       "rank": 78,
@@ -1750,26 +1750,6 @@
     },
     {
       "rank": 79,
-      "title": "Boris",
-      "year": 2007,
-      "released": null,
-      "firstAired": "2007-04-16",
-      "watchers": null,
-      "plays": null,
-      "rating": 8.583,
-      "votes": 259,
-      "popularity": 12.1039,
-      "score": null,
-      "ids": {
-        "trakt": null,
-        "slug": null,
-        "imdb": null,
-        "tmdb": 36189
-      },
-      "posterPath": "/iR7ufink0F23Wx19SetKaYqhjAZ.jpg"
-    },
-    {
-      "rank": 80,
       "title": "Zoids: Chaotic Century",
       "year": 1999,
       "released": null,
@@ -1791,6 +1771,26 @@
         "ゾイド"
       ],
       "posterPath": "/aVGuBvoBr9ujme4uUkAIRYk5vlt.jpg"
+    },
+    {
+      "rank": 80,
+      "title": "Boris",
+      "year": 2007,
+      "released": null,
+      "firstAired": "2007-04-16",
+      "watchers": null,
+      "plays": null,
+      "rating": 8.583,
+      "votes": 259,
+      "popularity": 12.1039,
+      "score": null,
+      "ids": {
+        "trakt": null,
+        "slug": null,
+        "imdb": null,
+        "tmdb": 36189
+      },
+      "posterPath": "/iR7ufink0F23Wx19SetKaYqhjAZ.jpg"
     },
     {
       "rank": 81,
